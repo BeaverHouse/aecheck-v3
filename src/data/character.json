@@ -1,0 +1,8244 @@
+[
+	{
+		"id": 1,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			2,
+			3
+		],
+		"dungeon_drop": [],
+		"year": "2018/05/31"
+	},
+	{
+		"id": 2,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			1
+		],
+		"change": [
+			3
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2018/05/31"
+	},
+	{
+		"id": 3,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			2
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/01/30"
+	},
+	{
+		"id": 4,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			6,
+			303
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 5,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			4
+		],
+		"change": [
+			6,
+			303
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 6,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			303
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/04/12"
+	},
+	{
+		"id": 7,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			8,
+			9
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 8,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			7
+		],
+		"change": [
+			9
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 9,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			8
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2017/12/31"
+	},
+	{
+		"id": 10,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			12,
+			13,
+			313
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 11,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			10
+		],
+		"change": [
+			12,
+			13,
+			313
+		],
+		"dungeon_drop": [
+			3,
+			204,
+			205
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 12,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			313
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/04/12"
+	},
+	{
+		"id": 13,
+		"code": 101040171,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p025",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/12/31"
+	},
+	{
+		"id": 14,
+		"code": 101000061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p022",
+			"personality.p049",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			15
+		],
+		"dungeon_drop": [],
+		"year": "2019/11/08"
+	},
+	{
+		"id": 15,
+		"code": 101000061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p022",
+			"personality.p049",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			14
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/11/08"
+	},
+	{
+		"id": 16,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			17,
+			18
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/04"
+	},
+	{
+		"id": 17,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			16
+		],
+		"change": [
+			18
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2017/07/04"
+	},
+	{
+		"id": 18,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			16,
+			17
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/06/13"
+	},
+	{
+		"id": 19,
+		"code": 101000111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p022",
+			"personality.p025",
+			"personality.p039",
+			"personality.p043",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			20
+		],
+		"dungeon_drop": [],
+		"year": "2022/02/22"
+	},
+	{
+		"id": 20,
+		"code": 101000111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p022",
+			"personality.p025",
+			"personality.p039",
+			"personality.p043",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			19
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/02/22"
+	},
+	{
+		"id": 21,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			22,
+			23
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/04"
+	},
+	{
+		"id": 22,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			21
+		],
+		"change": [
+			23
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2017/07/04"
+	},
+	{
+		"id": 23,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			22
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/06/13"
+	},
+	{
+		"id": 24,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			25,
+			326
+		],
+		"dungeon_drop": [],
+		"year": "2021/02/25"
+	},
+	{
+		"id": 25,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			24
+		],
+		"change": [
+			326
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2021/02/25"
+	},
+	{
+		"id": 26,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			27,
+			28
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/14"
+	},
+	{
+		"id": 27,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			26
+		],
+		"change": [
+			28
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2018/08/14"
+	},
+	{
+		"id": 28,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			27
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/11/10"
+	},
+	{
+		"id": 29,
+		"code": 101000191,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p065",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			30
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 30,
+		"code": 101000191,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p065",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/06/24"
+	},
+	{
+		"id": 31,
+		"code": 101000201,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p023",
+			"personality.p050",
+			"personality.p063",
+			"personality.p065",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			32
+		],
+		"dungeon_drop": [],
+		"year": "2017/08/08"
+	},
+	{
+		"id": 32,
+		"code": 101000201,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p023",
+			"personality.p050",
+			"personality.p063",
+			"personality.p065",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			31
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/08/30"
+	},
+	{
+		"id": 33,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			34,
+			35
+		],
+		"dungeon_drop": [],
+		"year": "2017/11/15"
+	},
+	{
+		"id": 34,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			33
+		],
+		"change": [
+			35
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/11/15"
+	},
+	{
+		"id": 35,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			34
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/12/12"
+	},
+	{
+		"id": 36,
+		"code": 101000231,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			37
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 37,
+		"code": 101000231,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			36
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2018/03/15"
+	},
+	{
+		"id": 38,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			39,
+			40
+		],
+		"dungeon_drop": [],
+		"year": "2019/01/30"
+	},
+	{
+		"id": 39,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			38
+		],
+		"change": [
+			40
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2019/01/30"
+	},
+	{
+		"id": 40,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			39
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/07/16"
+	},
+	{
+		"id": 41,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42,
+			43,
+			327
+		],
+		"dungeon_drop": [],
+		"year": "2019/05/17"
+	},
+	{
+		"id": 42,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			41
+		],
+		"change": [
+			43,
+			327
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2019/05/17"
+	},
+	{
+		"id": 43,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 44,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			45,
+			46
+		],
+		"dungeon_drop": [],
+		"year": "2020/09/10"
+	},
+	{
+		"id": 45,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			44
+		],
+		"change": [
+			46
+		],
+		"dungeon_drop": [],
+		"year": "2020/09/10"
+	},
+	{
+		"id": 46,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			44,
+			45
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/03/11"
+	},
+	{
+		"id": 47,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			48,
+			291
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/24"
+	},
+	{
+		"id": 48,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			47
+		],
+		"change": [
+			291
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2021/12/24"
+	},
+	{
+		"id": 49,
+		"code": 101000281,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p037",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			50
+		],
+		"dungeon_drop": [],
+		"year": "2022/02/10"
+	},
+	{
+		"id": 50,
+		"code": 101000281,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p037",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			49
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2022/02/10"
+	},
+	{
+		"id": 51,
+		"code": 101000291,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/01/28"
+	},
+	{
+		"id": 52,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			53,
+			54
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/10"
+	},
+	{
+		"id": 53,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			52
+		],
+		"change": [
+			54
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/05/10"
+	},
+	{
+		"id": 54,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			53
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/12/31"
+	},
+	{
+		"id": 55,
+		"code": 101010031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p033",
+			"personality.p039",
+			"personality.p043",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			56
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 56,
+		"code": 101010031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p033",
+			"personality.p039",
+			"personality.p043",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/04/30"
+	},
+	{
+		"id": 57,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			59,
+			60
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/22"
+	},
+	{
+		"id": 58,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			57
+		],
+		"change": [
+			59,
+			60
+		],
+		"dungeon_drop": [
+			100
+		],
+		"year": "2017/12/22"
+	},
+	{
+		"id": 59,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			60
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/11/20"
+	},
+	{
+		"id": 60,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p006",
+			"personality.p014",
+			"personality.p020",
+			"personality.p070",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			59
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/04/12"
+	},
+	{
+		"id": 61,
+		"code": 101010051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p063",
+			"personality.p070",
+			"personality.p075",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			62
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/26"
+	},
+	{
+		"id": 62,
+		"code": 101010051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p011",
+			"personality.p063",
+			"personality.p070",
+			"personality.p075",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			61
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/26"
+	},
+	{
+		"id": 63,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			64,
+			65
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/20"
+	},
+	{
+		"id": 64,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			63
+		],
+		"change": [
+			65
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/10/20"
+	},
+	{
+		"id": 65,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			64
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/05/30"
+	},
+	{
+		"id": 66,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			67,
+			68,
+			311
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 67,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			66
+		],
+		"change": [
+			68,
+			311
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 68,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			67
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/02/27"
+	},
+	{
+		"id": 69,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			70,
+			282
+		],
+		"dungeon_drop": [],
+		"year": "2020/02/13"
+	},
+	{
+		"id": 70,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			69
+		],
+		"change": [
+			282
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2020/02/13"
+	},
+	{
+		"id": 71,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			72,
+			266
+		],
+		"dungeon_drop": [],
+		"year": "2019/12/26"
+	},
+	{
+		"id": 72,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			71
+		],
+		"change": [
+			266
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2019/12/26"
+	},
+	{
+		"id": 73,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74,
+			75
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/12"
+	},
+	{
+		"id": 74,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			73
+		],
+		"change": [
+			75
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/04/12"
+	},
+	{
+		"id": 75,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/03/11"
+	},
+	{
+		"id": 76,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			77
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/24"
+	},
+	{
+		"id": 77,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			76
+		],
+		"change": [
+			268
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/05/24"
+	},
+	{
+		"id": 78,
+		"code": 101020021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p061",
+			"personality.p075",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			79
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 79,
+		"code": 101020021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p061",
+			"personality.p075",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/08/08"
+	},
+	{
+		"id": 80,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			81,
+			82,
+			269
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 81,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			80
+		],
+		"change": [
+			82,
+			269
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 82,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			81
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/06/28"
+	},
+	{
+		"id": 83,
+		"code": 101020041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p059",
+			"personality.p061",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			84
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 84,
+		"code": 101020041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p059",
+			"personality.p061",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/02/22"
+	},
+	{
+		"id": 85,
+		"code": 101020051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			86
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 86,
+		"code": 101020051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p012",
+			"personality.p061",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/01/17"
+	},
+	{
+		"id": 87,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			89,
+			90,
+			91
+		],
+		"dungeon_drop": [],
+		"year": "2017/06/15"
+	},
+	{
+		"id": 88,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			87
+		],
+		"change": [
+			89,
+			90,
+			91
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2017/06/15"
+	},
+	{
+		"id": 89,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			90
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/03/15"
+	},
+	{
+		"id": 90,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			89
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/10/14"
+	},
+	{
+		"id": 91,
+		"code": 101020141,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			88
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/10/28"
+	},
+	{
+		"id": 92,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			94,
+			95,
+			287
+		],
+		"dungeon_drop": [],
+		"year": "2018/02/20"
+	},
+	{
+		"id": 93,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			92
+		],
+		"change": [
+			94,
+			95,
+			287
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2018/02/20"
+	},
+	{
+		"id": 94,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			95
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/05/29"
+	},
+	{
+		"id": 95,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			94
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/04/14"
+	},
+	{
+		"id": 96,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			97,
+			98
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/27"
+	},
+	{
+		"id": 97,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			96
+		],
+		"change": [
+			98
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2018/04/27"
+	},
+	{
+		"id": 98,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			97
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/10/31"
+	},
+	{
+		"id": 99,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			100,
+			101
+		],
+		"dungeon_drop": [],
+		"year": "2018/12/31"
+	},
+	{
+		"id": 100,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			99
+		],
+		"change": [
+			101
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2018/12/31"
+	},
+	{
+		"id": 101,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			100
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/01/14"
+	},
+	{
+		"id": 102,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			103,
+			104
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/29"
+	},
+	{
+		"id": 103,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			102
+		],
+		"change": [
+			104
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2020/04/29"
+	},
+	{
+		"id": 104,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			103
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/06/10"
+	},
+	{
+		"id": 105,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			106,
+			293
+		],
+		"dungeon_drop": [],
+		"year": "2020/07/03"
+	},
+	{
+		"id": 106,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			105
+		],
+		"change": [
+			293
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2020/07/03"
+	},
+	{
+		"id": 107,
+		"code": 101020131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p012",
+			"personality.p072",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			108
+		],
+		"dungeon_drop": [],
+		"year": "2021/02/09"
+	},
+	{
+		"id": 108,
+		"code": 101020131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p012",
+			"personality.p072",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			107
+		],
+		"change": [],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2021/02/09"
+	},
+	{
+		"id": 109,
+		"code": 101020151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p056",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			110
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/24"
+	},
+	{
+		"id": 110,
+		"code": 101020151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p056",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			109
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/24"
+	},
+	{
+		"id": 111,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			113,
+			114
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/20"
+	},
+	{
+		"id": 112,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			111
+		],
+		"change": [
+			113,
+			114
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2017/07/20"
+	},
+	{
+		"id": 113,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			114
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/02/14"
+	},
+	{
+		"id": 114,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			113
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/08/30"
+	},
+	{
+		"id": 115,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			116,
+			117
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/06"
+	},
+	{
+		"id": 116,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			115
+		],
+		"change": [
+			117
+		],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2018/04/06"
+	},
+	{
+		"id": 117,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			116
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/11/29"
+	},
+	{
+		"id": 118,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119,
+			120,
+			318
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/21"
+	},
+	{
+		"id": 119,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			118
+		],
+		"change": [
+			120,
+			318
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2018/08/21"
+	},
+	{
+		"id": 120,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/09/10"
+	},
+	{
+		"id": 121,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			122,
+			123
+		],
+		"dungeon_drop": [],
+		"year": "2019/02/27"
+	},
+	{
+		"id": 122,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			121
+		],
+		"change": [
+			123
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2019/02/27"
+	},
+	{
+		"id": 123,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			122
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/03/30"
+	},
+	{
+		"id": 124,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			125,
+			126
+		],
+		"dungeon_drop": [],
+		"year": "2019/07/22"
+	},
+	{
+		"id": 125,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			124
+		],
+		"change": [
+			126
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2019/07/22"
+	},
+	{
+		"id": 126,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			125
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/08/19"
+	},
+	{
+		"id": 127,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			128,
+			129
+		],
+		"dungeon_drop": [],
+		"year": "2020/01/16"
+	},
+	{
+		"id": 128,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			127
+		],
+		"change": [
+			129
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2020/01/16"
+	},
+	{
+		"id": 129,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			128
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/09/15"
+	},
+	{
+		"id": 130,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			131,
+			284
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/14"
+	},
+	{
+		"id": 131,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			130
+		],
+		"change": [
+			284
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2021/04/14"
+	},
+	{
+		"id": 132,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			133,
+			334
+		],
+		"dungeon_drop": [],
+		"year": "2022/04/12"
+	},
+	{
+		"id": 133,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			132
+		],
+		"change": [
+			334
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2022/04/12"
+	},
+	{
+		"id": 134,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			136,
+			137,
+			138
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 135,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			134
+		],
+		"change": [
+			136,
+			137,
+			138
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 136,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			137
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2017/11/24"
+	},
+	{
+		"id": 137,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			136
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/01/28"
+	},
+	{
+		"id": 138,
+		"code": 101030161,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			135
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/11/30"
+	},
+	{
+		"id": 139,
+		"code": 101040051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"personality.p089",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			140
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 140,
+		"code": 101040051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"personality.p089",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/04/12"
+	},
+	{
+		"id": 141,
+		"code": 101040071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p039",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			142
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/12"
+	},
+	{
+		"id": 142,
+		"code": 101040071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p039",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			141
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/04/12"
+	},
+	{
+		"id": 143,
+		"code": 101040081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p020",
+			"personality.p050",
+			"personality.p065",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			144
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 144,
+		"code": 101040081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p020",
+			"personality.p050",
+			"personality.p065",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			143
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/07/29"
+	},
+	{
+		"id": 145,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			146,
+			147
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/05"
+	},
+	{
+		"id": 146,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			145
+		],
+		"change": [
+			147
+		],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2017/10/05"
+	},
+	{
+		"id": 147,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			146
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/09/06"
+	},
+	{
+		"id": 148,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			149,
+			150
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/12"
+	},
+	{
+		"id": 149,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			148
+		],
+		"change": [
+			150
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/12/12"
+	},
+	{
+		"id": 150,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			149
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/07/30"
+	},
+	{
+		"id": 151,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			152,
+			153,
+			294
+		],
+		"dungeon_drop": [],
+		"year": "2019/04/12"
+	},
+	{
+		"id": 152,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			151
+		],
+		"change": [
+			153,
+			294
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2019/04/12"
+	},
+	{
+		"id": 153,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			152
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/10/29"
+	},
+	{
+		"id": 154,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			155,
+			156
+		],
+		"dungeon_drop": [],
+		"year": "2019/11/15"
+	},
+	{
+		"id": 155,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			154
+		],
+		"change": [
+			156
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2019/11/15"
+	},
+	{
+		"id": 156,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			155
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/01/28"
+	},
+	{
+		"id": 157,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			158,
+			159
+		],
+		"dungeon_drop": [],
+		"year": "2020/10/15"
+	},
+	{
+		"id": 158,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			157
+		],
+		"change": [
+			159
+		],
+		"dungeon_drop": [
+			3,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/10/15"
+	},
+	{
+		"id": 159,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			158
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/03/18"
+	},
+	{
+		"id": 160,
+		"code": 101040141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p014",
+			"personality.p021",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			161
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/03"
+	},
+	{
+		"id": 161,
+		"code": 101040141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p014",
+			"personality.p021",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			160
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2020/12/03"
+	},
+	{
+		"id": 162,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			163,
+			292
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/27"
+	},
+	{
+		"id": 163,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			162
+		],
+		"change": [
+			292
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2021/04/27"
+	},
+	{
+		"id": 164,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			165,
+			166
+		],
+		"dungeon_drop": [],
+		"year": "2018/03/30"
+	},
+	{
+		"id": 165,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			164
+		],
+		"change": [
+			166
+		],
+		"dungeon_drop": [
+			101
+		],
+		"year": "2018/03/30"
+	},
+	{
+		"id": 166,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			165
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/03/30"
+	},
+	{
+		"id": 167,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			168,
+			169
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/24"
+	},
+	{
+		"id": 168,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			167
+		],
+		"change": [
+			169
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2017/05/24"
+	},
+	{
+		"id": 169,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			168
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/09/13"
+	},
+	{
+		"id": 170,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			172,
+			281
+		],
+		"dungeon_drop": [],
+		"year": "2018/01/29"
+	},
+	{
+		"id": 171,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			170
+		],
+		"change": [
+			172,
+			281
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2018/01/29"
+	},
+	{
+		"id": 172,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			281
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/07/01"
+	},
+	{
+		"id": 173,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			174,
+			175,
+			304
+		],
+		"dungeon_drop": [],
+		"year": "2018/10/25"
+	},
+	{
+		"id": 174,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			173
+		],
+		"change": [
+			175,
+			304
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2018/10/25"
+	},
+	{
+		"id": 175,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			174
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/08/27"
+	},
+	{
+		"id": 176,
+		"code": 101050101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p015",
+			"personality.p039",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/04/12"
+	},
+	{
+		"id": 177,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			178,
+			179,
+			319
+		],
+		"dungeon_drop": [],
+		"year": "2019/08/21"
+	},
+	{
+		"id": 178,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			177
+		],
+		"change": [
+			179,
+			319
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2019/08/21"
+	},
+	{
+		"id": 179,
+		"code": 101050151,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p006",
+			"personality.p015",
+			"personality.p025",
+			"personality.p066",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			178
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/01/14"
+	},
+	{
+		"id": 180,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			181,
+			182
+		],
+		"dungeon_drop": [],
+		"year": "2020/05/14"
+	},
+	{
+		"id": 181,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			180
+		],
+		"change": [
+			182
+		],
+		"dungeon_drop": [
+			3,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/05/14"
+	},
+	{
+		"id": 182,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			181
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 183,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			184,
+			275
+		],
+		"dungeon_drop": [],
+		"year": "2020/06/16"
+	},
+	{
+		"id": 184,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			183
+		],
+		"change": [
+			275
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2020/06/16"
+	},
+	{
+		"id": 185,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			186,
+			317
+		],
+		"dungeon_drop": [],
+		"year": "2021/07/29"
+	},
+	{
+		"id": 186,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			185
+		],
+		"change": [
+			317
+		],
+		"dungeon_drop": [
+			2,
+			103
+		],
+		"year": "2021/07/29"
+	},
+	{
+		"id": 187,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			188,
+			189
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 188,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			187
+		],
+		"change": [
+			189
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/04/12"
+	},
+	{
+		"id": 189,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			188
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/03/28"
+	},
+	{
+		"id": 190,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			191,
+			310
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/05"
+	},
+	{
+		"id": 191,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			190
+		],
+		"change": [
+			310
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2017/10/05"
+	},
+	{
+		"id": 192,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			194,
+			324
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/22"
+	},
+	{
+		"id": 193,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			192
+		],
+		"change": [
+			194,
+			324
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/12/22"
+	},
+	{
+		"id": 194,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			324
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/10/01"
+	},
+	{
+		"id": 195,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			196,
+			197,
+			305
+		],
+		"dungeon_drop": [],
+		"year": "2018/07/24"
+	},
+	{
+		"id": 196,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			195
+		],
+		"change": [
+			197,
+			305
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			9
+		],
+		"year": "2018/07/24"
+	},
+	{
+		"id": 197,
+		"code": 101060141,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p007",
+			"personality.p016",
+			"personality.p025",
+			"personality.p083",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			196
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/11/16"
+	},
+	{
+		"id": 198,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			199,
+			200
+		],
+		"dungeon_drop": [],
+		"year": "2018/12/25"
+	},
+	{
+		"id": 199,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			198
+		],
+		"change": [
+			200
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2018/12/25"
+	},
+	{
+		"id": 200,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			199
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/03/25"
+	},
+	{
+		"id": 201,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			202,
+			312
+		],
+		"dungeon_drop": [],
+		"year": "2019/03/14"
+	},
+	{
+		"id": 202,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			201
+		],
+		"change": [
+			312
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2019/03/14"
+	},
+	{
+		"id": 203,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p031",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			204,
+			205
+		],
+		"dungeon_drop": [],
+		"year": "2020/03/12"
+	},
+	{
+		"id": 204,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p031",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			203
+		],
+		"change": [
+			205
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2020/03/12"
+	},
+	{
+		"id": 205,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p031",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			204
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/07/16"
+	},
+	{
+		"id": 206,
+		"code": 101070011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p027",
+			"personality.p028",
+			"personality.p078",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			207
+		],
+		"dungeon_drop": [],
+		"year": "2021/03/25"
+	},
+	{
+		"id": 207,
+		"code": 101070011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p027",
+			"personality.p028",
+			"personality.p078",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			206
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/03/25"
+	},
+	{
+		"id": 208,
+		"code": 101070031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p043",
+			"personality.p052",
+			"personality.p060",
+			"personality.p071",
+			"personality.p078",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			209
+		],
+		"dungeon_drop": [],
+		"year": "2021/06/10"
+	},
+	{
+		"id": 209,
+		"code": 101070031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p043",
+			"personality.p052",
+			"personality.p060",
+			"personality.p071",
+			"personality.p078",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			208
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/06/10"
+	},
+	{
+		"id": 210,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p031",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			211,
+			212
+		],
+		"dungeon_drop": [],
+		"year": "2017/08/08"
+	},
+	{
+		"id": 211,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p017",
+			"personality.p031",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			210
+		],
+		"change": [
+			212
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/08/08"
+	},
+	{
+		"id": 212,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p031",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			211
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/09/24"
+	},
+	{
+		"id": 213,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			215,
+			216
+		],
+		"dungeon_drop": [],
+		"year": "2017/09/14"
+	},
+	{
+		"id": 214,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			213
+		],
+		"change": [
+			215,
+			216
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2017/09/14"
+	},
+	{
+		"id": 215,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			216
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/12/13"
+	},
+	{
+		"id": 216,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p006",
+			"personality.p016",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			215
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2020/12/31"
+	},
+	{
+		"id": 217,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			218,
+			283
+		],
+		"dungeon_drop": [],
+		"year": "2018/11/29"
+	},
+	{
+		"id": 218,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			217
+		],
+		"change": [
+			283
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2018/11/29"
+	},
+	{
+		"id": 219,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220,
+			221,
+			333
+		],
+		"dungeon_drop": [],
+		"year": "2019/09/18"
+	},
+	{
+		"id": 220,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			219
+		],
+		"change": [
+			221,
+			333
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2019/09/18"
+	},
+	{
+		"id": 221,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/05/13"
+	},
+	{
+		"id": 222,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			223,
+			270
+		],
+		"dungeon_drop": [],
+		"year": "2020/08/13"
+	},
+	{
+		"id": 223,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			222
+		],
+		"change": [
+			270
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2020/08/13"
+	},
+	{
+		"id": 224,
+		"code": 101070111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p030",
+			"personality.p082",
+			"personality.p087",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			225
+		],
+		"dungeon_drop": [],
+		"year": "2021/09/30"
+	},
+	{
+		"id": 225,
+		"code": 101070111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p030",
+			"personality.p082",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			224
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2021/09/30"
+	},
+	{
+		"id": 226,
+		"code": 101070121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p024",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			325
+		],
+		"dungeon_drop": [],
+		"year": "2022/04/12"
+	},
+	{
+		"id": 227,
+		"code": 101110041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p016",
+			"personality.p061",
+			"personality.p085",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/08/08"
+	},
+	{
+		"id": 228,
+		"code": 101140021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p021",
+			"personality.p077",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			229
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/26"
+	},
+	{
+		"id": 229,
+		"code": 101140021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p021",
+			"personality.p077",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			228
+		],
+		"change": [],
+		"dungeon_drop": [
+			102
+		],
+		"year": "2020/12/26"
+	},
+	{
+		"id": 230,
+		"code": 101400011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/10/29"
+	},
+	{
+		"id": 231,
+		"code": 101400071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p045",
+			"personality.p053",
+			"personality.p067",
+			"personality.p083",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/10/29"
+	},
+	{
+		"id": 232,
+		"code": 101410011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p043",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			233
+		],
+		"dungeon_drop": [],
+		"year": "2019/12/12"
+	},
+	{
+		"id": 233,
+		"code": 101410011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p043",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			232
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/12/12"
+	},
+	{
+		"id": 234,
+		"code": 101420011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p053",
+			"personality.p060",
+			"personality.p063",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/12/12"
+	},
+	{
+		"id": 235,
+		"code": 101430011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			236
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 236,
+		"code": 101430011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			235
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 237,
+		"code": 101430021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			238
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 238,
+		"code": 101430021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			237
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 239,
+		"code": 101430031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p002",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			240
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 240,
+		"code": 101430031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p002",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			239
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 241,
+		"code": 101430041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			242
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 242,
+		"code": 101430041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			241
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17"
+	},
+	{
+		"id": 243,
+		"code": 101440011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p054",
+			"personality.p081",
+			"personality.p099",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			244
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 244,
+		"code": 101440011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p054",
+			"personality.p081",
+			"personality.p099",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			243
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 245,
+		"code": 101440021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p054",
+			"personality.p081",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			246
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 246,
+		"code": 101440021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p054",
+			"personality.p081",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			245
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 247,
+		"code": 101440031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p054",
+			"personality.p099",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			248
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 248,
+		"code": 101440031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p054",
+			"personality.p099",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			247
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09"
+	},
+	{
+		"id": 249,
+		"code": 101800041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p035",
+			"personality.p064",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			250
+		],
+		"dungeon_drop": [],
+		"year": "2018/06/28"
+	},
+	{
+		"id": 250,
+		"code": 101800041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p035",
+			"personality.p064",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			249
+		],
+		"change": [],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2018/06/28"
+	},
+	{
+		"id": 251,
+		"code": 101800052,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p045",
+			"personality.p072",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			252
+		],
+		"dungeon_drop": [],
+		"year": "2018/11/29"
+	},
+	{
+		"id": 252,
+		"code": 101800052,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p045",
+			"personality.p072",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			251
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2018/11/29"
+	},
+	{
+		"id": 253,
+		"code": 101800111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p015",
+			"personality.p020",
+			"personality.p022",
+			"personality.p035",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/08/08"
+	},
+	{
+		"id": 254,
+		"code": 101910011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p037",
+			"personality.p044",
+			"personality.p046",
+			"personality.p052",
+			"personality.p057",
+			"personality.p081",
+			"personality.p091",
+			"personality.p099",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			255
+		],
+		"dungeon_drop": [],
+		"year": "2017/11/24"
+	},
+	{
+		"id": 255,
+		"code": 101910011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p037",
+			"personality.p044",
+			"personality.p046",
+			"personality.p052",
+			"personality.p057",
+			"personality.p081",
+			"personality.p091",
+			"personality.p099",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			254
+		],
+		"change": [],
+		"dungeon_drop": [
+			7,
+			300
+		],
+		"year": "2017/11/24"
+	},
+	{
+		"id": 256,
+		"code": 101900011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p034",
+			"personality.p052",
+			"personality.p088",
+			"personality.p095",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			257
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/14"
+	},
+	{
+		"id": 257,
+		"code": 101900011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p034",
+			"personality.p052",
+			"personality.p088",
+			"personality.p095",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			256
+		],
+		"change": [],
+		"dungeon_drop": [
+			300
+		],
+		"year": "2021/04/14"
+	},
+	{
+		"id": 258,
+		"code": 101920011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			259
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/21"
+	},
+	{
+		"id": 259,
+		"code": 101920011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			258
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2018/08/21"
+	},
+	{
+		"id": 260,
+		"code": 101030141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p023",
+			"personality.p029",
+			"personality.p031",
+			"personality.p059",
+			"personality.p090",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			261
+		],
+		"dungeon_drop": [],
+		"year": "2020/03/12"
+	},
+	{
+		"id": 261,
+		"code": 101030141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p023",
+			"personality.p029",
+			"personality.p031",
+			"personality.p059",
+			"personality.p090",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			260
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/03/12"
+	},
+	{
+		"id": 262,
+		"code": 101960011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p034",
+			"personality.p055",
+			"personality.p058",
+			"personality.p071",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			263
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/27"
+	},
+	{
+		"id": 263,
+		"code": 101960011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p034",
+			"personality.p055",
+			"personality.p058",
+			"personality.p071",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			262
+		],
+		"change": [],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2018/04/27"
+	},
+	{
+		"id": 264,
+		"code": 101970011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p066",
+			"personality.p078",
+			"personality.p093",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			265
+		],
+		"dungeon_drop": [],
+		"year": "2019/02/27"
+	},
+	{
+		"id": 265,
+		"code": 101970011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p066",
+			"personality.p078",
+			"personality.p093",
+			"personality.p095",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			264
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2019/02/27"
+	},
+	{
+		"id": 266,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			72
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/04/27"
+	},
+	{
+		"id": 267,
+		"code": 101440051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p010",
+			"personality.p054",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/04/27"
+	},
+	{
+		"id": 268,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			76,
+			77
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/05/12"
+	},
+	{
+		"id": 269,
+		"code": 101000301,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p033",
+			"personality.p061",
+			"personality.p095",
+			"personality.p100",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			81
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/05/12"
+	},
+	{
+		"id": 270,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			223
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/05/26"
+	},
+	{
+		"id": 271,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			272
+		],
+		"dungeon_drop": [],
+		"year": "2022/06/09"
+	},
+	{
+		"id": 272,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			271
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2022/06/09"
+	},
+	{
+		"id": 273,
+		"code": 101000101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p049",
+			"personality.p095",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			274
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 274,
+		"code": 101000101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p049",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			273
+		],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/06/23"
+	},
+	{
+		"id": 275,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			184
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/07/07"
+	},
+	{
+		"id": 276,
+		"code": 101060151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/07/07"
+	},
+	{
+		"id": 277,
+		"code": 101000311,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p010",
+			"personality.p042",
+			"personality.p047",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			278
+		],
+		"dungeon_drop": [],
+		"year": "2022/07/28"
+	},
+	{
+		"id": 278,
+		"code": 101000311,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p010",
+			"personality.p042",
+			"personality.p047",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			277
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/07/28"
+	},
+	{
+		"id": 279,
+		"code": 101040021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p048",
+			"personality.p070",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			280
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 280,
+		"code": 101040021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p048",
+			"personality.p070",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/07/28"
+	},
+	{
+		"id": 281,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			172
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/08/09"
+	},
+	{
+		"id": 282,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			70
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/08/25"
+	},
+	{
+		"id": 283,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			218
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/09/08"
+	},
+	{
+		"id": 284,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			131
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/09/21"
+	},
+	{
+		"id": 285,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			286
+		],
+		"dungeon_drop": [],
+		"year": "2022/10/06"
+	},
+	{
+		"id": 286,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			285
+		],
+		"change": [
+			316
+		],
+		"dungeon_drop": [],
+		"year": "2022/10/06"
+	},
+	{
+		"id": 287,
+		"code": 101040181,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p020",
+			"personality.p033",
+			"personality.p036",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			93
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/10/06"
+	},
+	{
+		"id": 288,
+		"code": 101010131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p067",
+			"personality.p094",
+			"personality.p096",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			289
+		],
+		"dungeon_drop": [],
+		"year": "2022/11/01"
+	},
+	{
+		"id": 289,
+		"code": 101010131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p067",
+			"personality.p094",
+			"personality.p096",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			288
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2022/11/01"
+	},
+	{
+		"id": 290,
+		"code": 101060161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p024",
+			"personality.p043",
+			"personality.p052",
+			"personality.p083",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/11/01"
+	},
+	{
+		"id": 291,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			48
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/11/11"
+	},
+	{
+		"id": 292,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			163
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/11/24"
+	},
+	{
+		"id": 293,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			106
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/12/06"
+	},
+	{
+		"id": 294,
+		"code": 101010141,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p039",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			152
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 295,
+		"code": 101450011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			296
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 296,
+		"code": 101450011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			295
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 297,
+		"code": 101450021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p030",
+			"personality.p044",
+			"personality.p068",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			298
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 298,
+		"code": 101450021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p030",
+			"personality.p044",
+			"personality.p068",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			297
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 299,
+		"code": 101450031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p045",
+			"personality.p063",
+			"personality.p068",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			300
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 300,
+		"code": 101450031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p045",
+			"personality.p063",
+			"personality.p068",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			299
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 301,
+		"code": 101450041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p044",
+			"personality.p047",
+			"personality.p067",
+			"personality.p068",
+			"personality.p083",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			302
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 302,
+		"code": 101450041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p044",
+			"personality.p047",
+			"personality.p067",
+			"personality.p068",
+			"personality.p083",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			301
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20"
+	},
+	{
+		"id": 303,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p016",
+			"personality.p027",
+			"personality.p095",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			6
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/12/30"
+	},
+	{
+		"id": 304,
+		"code": 101040191,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			174
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/01/12"
+	},
+	{
+		"id": 305,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			196
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/01/26"
+	},
+	{
+		"id": 306,
+		"code": 101000321,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p082",
+			"personality.p083",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			307
+		],
+		"dungeon_drop": [],
+		"year": "2023/02/09"
+	},
+	{
+		"id": 307,
+		"code": 101000321,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p082",
+			"personality.p083",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			306
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2023/02/09"
+	},
+	{
+		"id": 308,
+		"code": 101000331,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p005",
+			"personality.p010",
+			"personality.p032",
+			"personality.p093",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			309
+		],
+		"dungeon_drop": [],
+		"year": "2023/02/28"
+	},
+	{
+		"id": 309,
+		"code": 101000331,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p005",
+			"personality.p010",
+			"personality.p032",
+			"personality.p093",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			308
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2023/02/28"
+	},
+	{
+		"id": 310,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			190,
+			191
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/03/16"
+	},
+	{
+		"id": 311,
+		"code": 101010151,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p030",
+			"personality.p063",
+			"personality.p093",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			67
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/03/16"
+	},
+	{
+		"id": 312,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			202
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/03/30"
+	},
+	{
+		"id": 313,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p017",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			12
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/04/12"
+	},
+	{
+		"id": 314,
+		"code": 101020161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p058",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			315
+		],
+		"dungeon_drop": [],
+		"year": "2023/04/12"
+	},
+	{
+		"id": 315,
+		"code": 101020161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p058",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			314
+		],
+		"change": [],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2023/04/12"
+	},
+	{
+		"id": 316,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			285,
+			286
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/04/12"
+	},
+	{
+		"id": 317,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			186
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/04/27"
+	},
+	{
+		"id": 318,
+		"code": 101030181,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p045",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/05/11"
+	},
+	{
+		"id": 319,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			178
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/05/25"
+	},
+	{
+		"id": 320,
+		"code": 101030021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p003",
+			"personality.p013",
+			"personality.p057",
+			"personality.p075",
+			"personality.p097",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			321
+		],
+		"dungeon_drop": [],
+		"year": "2023/06/08"
+	},
+	{
+		"id": 321,
+		"code": 101030021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p003",
+			"personality.p013",
+			"personality.p057",
+			"personality.p075",
+			"personality.p097",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			320
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/06/08"
+	},
+	{
+		"id": 322,
+		"code": 101010161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p031",
+			"personality.p033",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			323
+		],
+		"dungeon_drop": [],
+		"year": "2023/06/08"
+	},
+	{
+		"id": 323,
+		"code": 101010161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p031",
+			"personality.p033",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			322
+		],
+		"change": [],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2023/06/08"
+	},
+	{
+		"id": 324,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			194
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/06/22"
+	},
+	{
+		"id": 325,
+		"code": 101070121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p024",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			226
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/07/06"
+	},
+	{
+		"id": 326,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			25
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/07/06"
+	},
+	{
+		"id": 327,
+		"code": 101000351,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p035",
+			"personality.p042",
+			"personality.p082",
+			"personality.p087",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/07/20"
+	},
+	{
+		"id": 328,
+		"code": 101050031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p042",
+			"personality.p047",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			329
+		],
+		"dungeon_drop": [],
+		"year": null
+	},
+	{
+		"id": 329,
+		"code": 101050031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p042",
+			"personality.p047",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/08/03"
+	},
+	{
+		"id": 330,
+		"code": 101000341,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p010",
+			"personality.p094",
+			"personality.p101",
+			"personality.p102",
+			"personality.p103",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/08/24"
+	},
+	{
+		"id": 331,
+		"code": 101070131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p078",
+			"personality.p094",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			332
+		],
+		"dungeon_drop": [],
+		"year": "2023/08/24"
+	},
+	{
+		"id": 332,
+		"code": 101070131,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p078",
+			"personality.p094",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			331
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2023/08/24"
+	},
+	{
+		"id": 333,
+		"code": 101000361,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p023",
+			"personality.p061",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/09/07"
+	},
+	{
+		"id": 334,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			133
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/09/21"
+	},
+	{
+		"id": 1000,
+		"code": 101060061,
+		"tags": [
+			"personality.p003",
+			"personality.p016",
+			"personality.p056",
+			"personality.p089"
+		]
+	},
+	{
+		"id": 1001,
+		"code": 101030011,
+		"tags": [
+			"personality.p004",
+			"personality.p013",
+			"personality.p086"
+		]
+	},
+	{
+		"id": 1002,
+		"code": 101000151,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p055"
+		]
+	},
+	{
+		"id": 1003,
+		"code": 101800063,
+		"tags": [
+			"personality.p004",
+			"personality.p014",
+			"personality.p072",
+			"personality.p074",
+			"personality.p075",
+			"personality.p083"
+		]
+	},
+	{
+		"id": 1004,
+		"code": 101030051,
+		"tags": [
+			"personality.p003",
+			"personality.p013",
+			"personality.p045",
+			"personality.p075",
+			"personality.p082"
+		]
+	},
+	{
+		"id": 1005,
+		"code": 101000071,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p043",
+			"personality.p057",
+			"personality.p093"
+		]
+	},
+	{
+		"id": 1006,
+		"code": 101040011,
+		"tags": [
+			"personality.p004",
+			"personality.p014",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1007,
+		"code": 101070021,
+		"tags": [
+			"personality.p001",
+			"personality.p017",
+			"personality.p034",
+			"personality.p078",
+			"personality.p079",
+			"personality.p090"
+		]
+	},
+	{
+		"id": 1008,
+		"code": 101030081,
+		"tags": [
+			"personality.p004",
+			"personality.p013",
+			"personality.p029",
+			"personality.p057"
+		]
+	},
+	{
+		"id": 1009,
+		"code": 101050041,
+		"tags": [
+			"personality.p003",
+			"personality.p015",
+			"personality.p052",
+			"personality.p057"
+		]
+	},
+	{
+		"id": 1010,
+		"code": 101030031,
+		"tags": [
+			"personality.p002",
+			"personality.p013",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1011,
+		"code": 101060071,
+		"tags": [
+			"personality.p002",
+			"personality.p016",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1012,
+		"code": 101000211,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p057",
+			"personality.p093"
+		]
+	},
+	{
+		"id": 1013,
+		"code": 101070071,
+		"tags": [
+			"personality.p003",
+			"personality.p017",
+			"personality.p038",
+			"personality.p071",
+			"personality.p078"
+		]
+	},
+	{
+		"id": 1014,
+		"code": 101040041,
+		"tags": [
+			"personality.p002",
+			"personality.p014",
+			"personality.p031",
+			"personality.p052",
+			"personality.p078"
+		]
+	},
+	{
+		"id": 1015,
+		"code": 101010021,
+		"tags": [
+			"personality.p004",
+			"personality.p011",
+			"personality.p021",
+			"personality.p070"
+		]
+	},
+	{
+		"id": 1016,
+		"code": 101000161,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p057"
+		]
+	},
+	{
+		"id": 1017,
+		"code": 101010061,
+		"tags": [
+			"personality.p004",
+			"personality.p011",
+			"personality.p027"
+		]
+	},
+	{
+		"id": 1018,
+		"code": 101030041,
+		"tags": [
+			"personality.p001",
+			"personality.p013",
+			"personality.p082",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1019,
+		"code": 101030061,
+		"tags": [
+			"personality.p003",
+			"personality.p013",
+			"personality.p043",
+			"personality.p075",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1020,
+		"code": 101050071,
+		"tags": [
+			"personality.p003",
+			"personality.p015",
+			"personality.p022",
+			"personality.p042"
+		]
+	},
+	{
+		"id": 1021,
+		"code": 101060021,
+		"tags": [
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1022,
+		"code": 101060051,
+		"tags": [
+			"personality.p001",
+			"personality.p016",
+			"personality.p033"
+		]
+	},
+	{
+		"id": 1023,
+		"code": 101000021,
+		"tags": [
+			"personality.p004",
+			"personality.p010",
+			"personality.p038",
+			"personality.p045",
+			"personality.p063"
+		]
+	},
+	{
+		"id": 1024,
+		"code": 101050051,
+		"tags": [
+			"personality.p002",
+			"personality.p015",
+			"personality.p025",
+			"personality.p066",
+			"personality.p075",
+			"personality.p096"
+		]
+	}
+]

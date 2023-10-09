@@ -1,0 +1,197 @@
+[
+	{
+		"name": "펠미나",
+		"tag": "personality.p038",
+		"condition": "condition.getextra"
+	},
+	{
+		"name": "프레메아",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "노나",
+		"tag": "personality.p020",
+		"condition": "condition.apocrypha1"
+	},
+	{
+		"name": "듀이",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "듀이",
+		"tag": "personality.p033",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "비아카",
+		"tag": "personality.p045",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "비아카",
+		"tag": "personality.p075",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "클로드",
+		"tag": "personality.p037",
+		"condition": "condition.getextra"
+	},
+	{
+		"name": "이프",
+		"tag": "personality.p082",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "이프",
+		"tag": "personality.p076",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "검은 옷의 칼잡이",
+		"tag": "personality.p026",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "이스카",
+		"tag": "personality.p073",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "이스카",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "나기",
+		"tag": "personality.p020",
+		"condition": "condition.getextra"
+	},
+	{
+		"name": "키쿄",
+		"tag": "personality.p074",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "하디",
+		"tag": "personality.p056",
+		"condition": "condition.mythos2event"
+	},
+	{
+		"name": "클라르테",
+		"tag": "personality.p088",
+		"condition": "condition.mythos1"
+	},
+	{
+		"name": "메리나",
+		"tag": "personality.p020",
+		"condition": "condition.mythos1"
+	},
+	{
+		"name": "빅트",
+		"tag": "personality.p047",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "아나벨",
+		"tag": "personality.p074",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "렌리",
+		"tag": "personality.p043",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "엘가",
+		"tag": "personality.p095",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "세티",
+		"tag": "personality.p043",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "루이나",
+		"tag": "personality.p043",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "라클레어",
+		"tag": "personality.p030",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "시구레",
+		"tag": "personality.p051",
+		"condition": "condition.swordtrain"
+	},
+	{
+		"name": "시온",
+		"tag": "personality.p051",
+		"condition": "condition.swordtrain"
+	},
+	{
+		"name": "길드너",
+		"tag": "personality.p064",
+		"condition": "condition.mainstory"
+	},
+	{
+		"name": "이스카",
+		"tag": "personality.p026",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "셀리느",
+		"tag": "personality.p075",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "세빈",
+		"tag": "personality.p025",
+		"condition": "condition.encounter"
+	},
+	{
+		"name": "듀나리스",
+		"tag": "personality.p087",
+		"condition": "condition.ensemble2"
+	},
+	{
+		"name": "큐리오",
+		"tag": "personality.p026",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "큐리오",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "수제트",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	},
+	{
+		"name": "로키드",
+		"tag": "personality.p035",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "브리아",
+		"tag": "personality.p021",
+		"condition": "condition.get5star"
+	},
+	{
+		"name": "프레메아",
+		"tag": "personality.p034",
+		"condition": "condition.getanother"
+	},
+	{
+		"name": "로벨라",
+		"tag": "personality.p025",
+		"condition": "condition.mythos2"
+	}
+]
