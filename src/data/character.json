@@ -4,7 +4,7 @@
 		"code": 101000011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -28,7 +28,7 @@
 		"code": 101000011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p010",
@@ -55,7 +55,7 @@
 		"code": 101000011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -80,7 +80,7 @@
 		"code": 101000031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -103,7 +103,7 @@
 		"code": 101000031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p010",
@@ -129,7 +129,7 @@
 		"code": 101000031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p010",
@@ -153,7 +153,7 @@
 		"code": 101000041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -175,7 +175,7 @@
 		"code": 101000041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p002",
 			"personality.p010",
@@ -200,7 +200,7 @@
 		"code": 101000041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p010",
@@ -223,7 +223,7 @@
 		"code": 101000051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -248,7 +248,7 @@
 		"code": 101000051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p004",
 			"personality.p010",
@@ -278,7 +278,7 @@
 		"code": 101000051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p010",
@@ -303,7 +303,7 @@
 		"code": 101040171,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -325,7 +325,7 @@
 		"code": 101000061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -347,7 +347,7 @@
 		"code": 101000061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -369,7 +369,7 @@
 		"code": 101000081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -390,7 +390,7 @@
 		"code": 101000081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step2",
 			"personality.p001",
 			"personality.p010",
@@ -414,7 +414,7 @@
 		"code": 101000081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -435,7 +435,7 @@
 		"code": 101000111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -458,7 +458,7 @@
 		"code": 101000111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -481,7 +481,7 @@
 		"code": 101000121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -504,7 +504,7 @@
 		"code": 101000121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p010",
@@ -530,7 +530,7 @@
 		"code": 101000121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -554,7 +554,7 @@
 		"code": 101000141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -576,7 +576,7 @@
 		"code": 101000141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -601,7 +601,7 @@
 		"code": 101000171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -623,7 +623,7 @@
 		"code": 101000171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p010",
@@ -648,7 +648,7 @@
 		"code": 101000171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -671,7 +671,7 @@
 		"code": 101000191,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -691,7 +691,7 @@
 		"code": 101000191,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -711,7 +711,7 @@
 		"code": 101000201,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -734,7 +734,7 @@
 		"code": 101000201,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -757,7 +757,7 @@
 		"code": 101000221,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -778,7 +778,7 @@
 		"code": 101000221,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p004",
 			"personality.p010",
@@ -802,7 +802,7 @@
 		"code": 101000221,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -824,7 +824,7 @@
 		"code": 101000231,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -844,7 +844,7 @@
 		"code": 101000231,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -864,7 +864,7 @@
 		"code": 101000241,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -888,7 +888,7 @@
 		"code": 101000241,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p010",
@@ -919,7 +919,7 @@
 		"code": 101000241,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -944,7 +944,7 @@
 		"code": 101000251,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -969,7 +969,7 @@
 		"code": 101000251,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p010",
@@ -997,7 +997,7 @@
 		"code": 101000251,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -1022,7 +1022,7 @@
 		"code": 101000261,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p007",
@@ -1046,7 +1046,7 @@
 		"code": 101000261,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p007",
@@ -1071,7 +1071,7 @@
 		"code": 101000261,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p007",
@@ -1095,7 +1095,7 @@
 		"code": 101000271,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -1118,7 +1118,7 @@
 		"code": 101000271,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -1144,7 +1144,7 @@
 		"code": 101000281,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p007",
@@ -1165,7 +1165,7 @@
 		"code": 101000281,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p007",
@@ -1188,7 +1188,7 @@
 		"code": 101000291,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -1206,7 +1206,7 @@
 		"code": 101010011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -1230,7 +1230,7 @@
 		"code": 101010011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p011",
@@ -1257,7 +1257,7 @@
 		"code": 101010011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -1282,7 +1282,7 @@
 		"code": 101010031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -1305,7 +1305,7 @@
 		"code": 101010031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p011",
@@ -1328,7 +1328,7 @@
 		"code": 101010041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -1351,7 +1351,7 @@
 		"code": 101010041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -1377,7 +1377,7 @@
 		"code": 101010041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -1401,7 +1401,7 @@
 		"code": 101010041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p006",
@@ -1426,7 +1426,7 @@
 		"code": 101010051,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -1448,7 +1448,7 @@
 		"code": 101010051,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p011",
@@ -1470,7 +1470,7 @@
 		"code": 101010081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -1492,7 +1492,7 @@
 		"code": 101010081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p011",
@@ -1517,7 +1517,7 @@
 		"code": 101010081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -1540,7 +1540,7 @@
 		"code": 101010091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -1564,7 +1564,7 @@
 		"code": 101010091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p011",
@@ -1591,7 +1591,7 @@
 		"code": 101010091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -1615,7 +1615,7 @@
 		"code": 101010101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -1640,7 +1640,7 @@
 		"code": 101010101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -1668,7 +1668,7 @@
 		"code": 101010111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -1690,7 +1690,7 @@
 		"code": 101010111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -1715,7 +1715,7 @@
 		"code": 101010121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -1739,7 +1739,7 @@
 		"code": 101010121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -1770,7 +1770,7 @@
 		"code": 101010121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -1795,7 +1795,7 @@
 		"code": 101020011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -1817,7 +1817,7 @@
 		"code": 101020011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step2",
 			"personality.p003",
 			"personality.p012",
@@ -1843,7 +1843,7 @@
 		"code": 101020021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -1864,7 +1864,7 @@
 		"code": 101020021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -1885,7 +1885,7 @@
 		"code": 101020031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -1911,7 +1911,7 @@
 		"code": 101020031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p001",
 			"personality.p012",
@@ -1940,7 +1940,7 @@
 		"code": 101020031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p001",
@@ -1967,7 +1967,7 @@
 		"code": 101020041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p012",
@@ -1989,7 +1989,7 @@
 		"code": 101020041,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p012",
@@ -2011,7 +2011,7 @@
 		"code": 101020051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -2031,7 +2031,7 @@
 		"code": 101020051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p012",
@@ -2051,7 +2051,7 @@
 		"code": 101020071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -2078,7 +2078,7 @@
 		"code": 101020071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p012",
@@ -2110,7 +2110,7 @@
 		"code": 101020071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p012",
@@ -2137,7 +2137,7 @@
 		"code": 101020071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -2165,7 +2165,7 @@
 		"code": 101020141,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p005",
@@ -2189,7 +2189,7 @@
 		"code": 101020081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -2217,7 +2217,7 @@
 		"code": 101020081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p012",
@@ -2248,7 +2248,7 @@
 		"code": 101020081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -2276,7 +2276,7 @@
 		"code": 101020081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p015",
@@ -2304,7 +2304,7 @@
 		"code": 101020091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p004",
@@ -2328,7 +2328,7 @@
 		"code": 101020091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p004",
@@ -2355,7 +2355,7 @@
 		"code": 101020091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p012",
@@ -2379,7 +2379,7 @@
 		"code": 101020101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -2405,7 +2405,7 @@
 		"code": 101020101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p012",
@@ -2434,7 +2434,7 @@
 		"code": 101020101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -2461,7 +2461,7 @@
 		"code": 101020111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p006",
@@ -2484,7 +2484,7 @@
 		"code": 101020111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p006",
@@ -2510,7 +2510,7 @@
 		"code": 101020111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p006",
@@ -2534,7 +2534,7 @@
 		"code": 101020121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -2556,7 +2556,7 @@
 		"code": 101020121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -2581,7 +2581,7 @@
 		"code": 101020131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p007",
@@ -2602,7 +2602,7 @@
 		"code": 101020131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p007",
@@ -2625,7 +2625,7 @@
 		"code": 101020151,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p005",
@@ -2650,7 +2650,7 @@
 		"code": 101020151,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p005",
@@ -2675,7 +2675,7 @@
 		"code": 101030071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p013",
@@ -2699,7 +2699,7 @@
 		"code": 101030071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p004",
 			"personality.p013",
@@ -2726,7 +2726,7 @@
 		"code": 101030071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p013",
@@ -2751,7 +2751,7 @@
 		"code": 101030071,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p007",
@@ -2777,7 +2777,7 @@
 		"code": 101030091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p001",
@@ -2801,7 +2801,7 @@
 		"code": 101030091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p000",
 			"personality.p001",
@@ -2828,7 +2828,7 @@
 		"code": 101030091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p013",
@@ -2852,7 +2852,7 @@
 		"code": 101030101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p013",
@@ -2876,7 +2876,7 @@
 		"code": 101030101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p013",
@@ -2903,7 +2903,7 @@
 		"code": 101030101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p013",
@@ -2927,7 +2927,7 @@
 		"code": 101030111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -2948,7 +2948,7 @@
 		"code": 101030111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p013",
@@ -2972,7 +2972,7 @@
 		"code": 101030111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -2994,7 +2994,7 @@
 		"code": 101030121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p013",
@@ -3018,7 +3018,7 @@
 		"code": 101030121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p013",
@@ -3045,7 +3045,7 @@
 		"code": 101030121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p013",
@@ -3070,7 +3070,7 @@
 		"code": 101030131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -3093,7 +3093,7 @@
 		"code": 101030131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -3119,7 +3119,7 @@
 		"code": 101030131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -3143,7 +3143,7 @@
 		"code": 101030151,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p013",
@@ -3166,7 +3166,7 @@
 		"code": 101030151,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p013",
@@ -3192,7 +3192,7 @@
 		"code": 101030171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p006",
@@ -3214,7 +3214,7 @@
 		"code": 101030171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p006",
@@ -3239,7 +3239,7 @@
 		"code": 101040031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -3264,7 +3264,7 @@
 		"code": 101040031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p003",
 			"personality.p014",
@@ -3294,7 +3294,7 @@
 		"code": 101040031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p014",
@@ -3319,7 +3319,7 @@
 		"code": 101040031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p017",
@@ -3344,7 +3344,7 @@
 		"code": 101030161,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p013",
@@ -3368,7 +3368,7 @@
 		"code": 101040051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3389,7 +3389,7 @@
 		"code": 101040051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3410,7 +3410,7 @@
 		"code": 101040071,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p014",
@@ -3430,7 +3430,7 @@
 		"code": 101040071,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p014",
@@ -3450,7 +3450,7 @@
 		"code": 101040081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3472,7 +3472,7 @@
 		"code": 101040081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3494,7 +3494,7 @@
 		"code": 101040091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p014",
@@ -3517,7 +3517,7 @@
 		"code": 101040091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p014",
@@ -3543,7 +3543,7 @@
 		"code": 101040091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p014",
@@ -3567,7 +3567,7 @@
 		"code": 101040101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -3589,7 +3589,7 @@
 		"code": 101040101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p014",
@@ -3614,7 +3614,7 @@
 		"code": 101040101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -3637,7 +3637,7 @@
 		"code": 101040111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3659,7 +3659,7 @@
 		"code": 101040111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p014",
@@ -3684,7 +3684,7 @@
 		"code": 101040111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -3706,7 +3706,7 @@
 		"code": 101040121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -3728,7 +3728,7 @@
 		"code": 101040121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -3753,7 +3753,7 @@
 		"code": 101040121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p014",
@@ -3776,7 +3776,7 @@
 		"code": 101040131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p005",
@@ -3800,7 +3800,7 @@
 		"code": 101040131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p005",
@@ -3831,7 +3831,7 @@
 		"code": 101040131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p005",
@@ -3856,7 +3856,7 @@
 		"code": 101040141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p007",
@@ -3877,7 +3877,7 @@
 		"code": 101040141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p007",
@@ -3900,7 +3900,7 @@
 		"code": 101040161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -3923,7 +3923,7 @@
 		"code": 101040161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -3949,7 +3949,7 @@
 		"code": 101050021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -3970,7 +3970,7 @@
 		"code": 101050021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -3994,7 +3994,7 @@
 		"code": 101050021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -4016,7 +4016,7 @@
 		"code": 101050061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p015",
@@ -4039,7 +4039,7 @@
 		"code": 101050061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p002",
 			"personality.p015",
@@ -4065,7 +4065,7 @@
 		"code": 101050061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p015",
@@ -4089,7 +4089,7 @@
 		"code": 101050081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p015",
@@ -4114,7 +4114,7 @@
 		"code": 101050081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p015",
@@ -4142,7 +4142,7 @@
 		"code": 101050081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p015",
@@ -4168,7 +4168,7 @@
 		"code": 101050091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -4193,7 +4193,7 @@
 		"code": 101050091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p015",
@@ -4221,7 +4221,7 @@
 		"code": 101050091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -4246,7 +4246,7 @@
 		"code": 101050101,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p015",
@@ -4264,7 +4264,7 @@
 		"code": 101050111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -4288,7 +4288,7 @@
 		"code": 101050111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -4317,7 +4317,7 @@
 		"code": 101050151,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p006",
@@ -4341,7 +4341,7 @@
 		"code": 101050121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p007",
@@ -4366,7 +4366,7 @@
 		"code": 101050121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p007",
@@ -4398,7 +4398,7 @@
 		"code": 101050121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p007",
@@ -4424,7 +4424,7 @@
 		"code": 101050131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p015",
@@ -4446,7 +4446,7 @@
 		"code": 101050131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p015",
@@ -4471,7 +4471,7 @@
 		"code": 101050141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -4493,7 +4493,7 @@
 		"code": 101050141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -4519,7 +4519,7 @@
 		"code": 101060031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p016",
@@ -4541,7 +4541,7 @@
 		"code": 101060031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p004",
 			"personality.p016",
@@ -4566,7 +4566,7 @@
 		"code": 101060031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p016",
@@ -4589,7 +4589,7 @@
 		"code": 101060081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p016",
@@ -4612,7 +4612,7 @@
 		"code": 101060081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p016",
@@ -4638,7 +4638,7 @@
 		"code": 101060091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p016",
@@ -4663,7 +4663,7 @@
 		"code": 101060091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p016",
@@ -4691,7 +4691,7 @@
 		"code": 101060091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p016",
@@ -4717,7 +4717,7 @@
 		"code": 101060101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p016",
@@ -4743,7 +4743,7 @@
 		"code": 101060101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p016",
@@ -4774,7 +4774,7 @@
 		"code": 101060141,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p007",
@@ -4798,7 +4798,7 @@
 		"code": 101060111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p016",
@@ -4821,7 +4821,7 @@
 		"code": 101060111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p004",
 			"personality.p016",
@@ -4847,7 +4847,7 @@
 		"code": 101060111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p016",
@@ -4871,7 +4871,7 @@
 		"code": 101060121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -4894,7 +4894,7 @@
 		"code": 101060121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p001",
 			"personality.p016",
@@ -4920,7 +4920,7 @@
 		"code": 101060131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -4946,7 +4946,7 @@
 		"code": 101060131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -4975,7 +4975,7 @@
 		"code": 101060131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -5002,7 +5002,7 @@
 		"code": 101070011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p017",
@@ -5024,7 +5024,7 @@
 		"code": 101070011,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p017",
@@ -5046,7 +5046,7 @@
 		"code": 101070031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5070,7 +5070,7 @@
 		"code": 101070031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5094,7 +5094,7 @@
 		"code": 101070051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p017",
@@ -5119,7 +5119,7 @@
 		"code": 101070051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step2",
 			"personality.p001",
 			"personality.p017",
@@ -5147,7 +5147,7 @@
 		"code": 101070051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p017",
@@ -5173,7 +5173,7 @@
 		"code": 101070061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p017",
@@ -5200,7 +5200,7 @@
 		"code": 101070061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p017",
@@ -5234,7 +5234,7 @@
 		"code": 101070061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p002",
 			"personality.p017",
@@ -5262,7 +5262,7 @@
 		"code": 101070061,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p006",
@@ -5291,7 +5291,7 @@
 		"code": 101070081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -5315,7 +5315,7 @@
 		"code": 101070081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step1",
 			"personality.p003",
 			"personality.p017",
@@ -5342,7 +5342,7 @@
 		"code": 101070091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5366,7 +5366,7 @@
 		"code": 101070091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5393,7 +5393,7 @@
 		"code": 101070091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5417,7 +5417,7 @@
 		"code": 101070101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -5441,7 +5441,7 @@
 		"code": 101070101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -5468,7 +5468,7 @@
 		"code": 101070111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5490,7 +5490,7 @@
 		"code": 101070111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -5514,7 +5514,7 @@
 		"code": 101070121,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -5534,7 +5534,7 @@
 		"code": 101110041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p016",
 			"personality.p061",
@@ -5552,7 +5552,7 @@
 		"code": 101140021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -5573,7 +5573,7 @@
 		"code": 101140021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p014",
@@ -5596,7 +5596,7 @@
 		"code": 101400011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p006",
 			"personality.p017",
@@ -5616,7 +5616,7 @@
 		"code": 101400071,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -5637,7 +5637,7 @@
 		"code": 101410011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p011",
@@ -5660,7 +5660,7 @@
 		"code": 101410011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p011",
@@ -5683,7 +5683,7 @@
 		"code": 101420011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -5703,7 +5703,7 @@
 		"code": 101430011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p001",
@@ -5725,7 +5725,7 @@
 		"code": 101430011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p001",
@@ -5747,7 +5747,7 @@
 		"code": 101430021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -5768,7 +5768,7 @@
 		"code": 101430021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -5789,7 +5789,7 @@
 		"code": 101430031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p002",
@@ -5811,7 +5811,7 @@
 		"code": 101430031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p002",
@@ -5833,7 +5833,7 @@
 		"code": 101430041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -5854,7 +5854,7 @@
 		"code": 101430041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -5875,7 +5875,7 @@
 		"code": 101440011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p011",
@@ -5897,7 +5897,7 @@
 		"code": 101440011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p011",
@@ -5919,7 +5919,7 @@
 		"code": 101440021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -5940,7 +5940,7 @@
 		"code": 101440021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -5961,7 +5961,7 @@
 		"code": 101440031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -5983,7 +5983,7 @@
 		"code": 101440031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -6005,7 +6005,7 @@
 		"code": 101800041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6027,7 +6027,7 @@
 		"code": 101800041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6051,7 +6051,7 @@
 		"code": 101800052,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -6072,7 +6072,7 @@
 		"code": 101800052,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -6095,7 +6095,7 @@
 		"code": 101800111,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p015",
@@ -6115,7 +6115,7 @@
 		"code": 101910011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6142,7 +6142,7 @@
 		"code": 101910011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6172,7 +6172,7 @@
 		"code": 101900011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -6195,7 +6195,7 @@
 		"code": 101900011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -6220,7 +6220,7 @@
 		"code": 101920011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -6242,7 +6242,7 @@
 		"code": 101920011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p012",
@@ -6266,7 +6266,7 @@
 		"code": 101030141,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -6290,7 +6290,7 @@
 		"code": 101030141,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -6314,7 +6314,7 @@
 		"code": 101960011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p016",
@@ -6337,7 +6337,7 @@
 		"code": 101960011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p016",
@@ -6362,7 +6362,7 @@
 		"code": 101970011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -6385,7 +6385,7 @@
 		"code": 101970011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p017",
@@ -6410,7 +6410,7 @@
 		"code": 101010111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6433,7 +6433,7 @@
 		"code": 101440051,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p007",
 			"personality.p010",
@@ -6451,7 +6451,7 @@
 		"code": 101020011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -6474,7 +6474,7 @@
 		"code": 101000301,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
@@ -6499,7 +6499,7 @@
 		"code": 101070101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -6524,7 +6524,7 @@
 		"code": 101050171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p007",
 			"personality.p015",
@@ -6546,7 +6546,7 @@
 		"code": 101050171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p007",
 			"personality.p015",
@@ -6570,7 +6570,7 @@
 		"code": 101000101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -6591,7 +6591,7 @@
 		"code": 101000101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -6614,7 +6614,7 @@
 		"code": 101050131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p015",
@@ -6637,7 +6637,7 @@
 		"code": 101060151,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p016",
@@ -6654,7 +6654,7 @@
 		"code": 101000311,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p002",
@@ -6676,7 +6676,7 @@
 		"code": 101000311,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p002",
@@ -6698,7 +6698,7 @@
 		"code": 101040021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -6719,7 +6719,7 @@
 		"code": 101040021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -6740,7 +6740,7 @@
 		"code": 101050081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -6766,7 +6766,7 @@
 		"code": 101010101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p011",
@@ -6792,7 +6792,7 @@
 		"code": 101070081,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -6817,7 +6817,7 @@
 		"code": 101030151,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p013",
@@ -6841,7 +6841,7 @@
 		"code": 101050161,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p005",
@@ -6864,7 +6864,7 @@
 		"code": 101050161,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p005",
@@ -6889,7 +6889,7 @@
 		"code": 101040181,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p014",
@@ -6914,7 +6914,7 @@
 		"code": 101010131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6936,7 +6936,7 @@
 		"code": 101010131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -6960,7 +6960,7 @@
 		"code": 101060161,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -6981,7 +6981,7 @@
 		"code": 101000271,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -7005,7 +7005,7 @@
 		"code": 101040161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p014",
@@ -7029,7 +7029,7 @@
 		"code": 101020121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -7052,7 +7052,7 @@
 		"code": 101010141,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -7074,7 +7074,7 @@
 		"code": 101450011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -7095,7 +7095,7 @@
 		"code": 101450011,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p012",
@@ -7116,7 +7116,7 @@
 		"code": 101450021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -7138,7 +7138,7 @@
 		"code": 101450021,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -7160,7 +7160,7 @@
 		"code": 101450031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -7183,7 +7183,7 @@
 		"code": 101450031,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p011",
@@ -7206,7 +7206,7 @@
 		"code": 101450041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -7230,7 +7230,7 @@
 		"code": 101450041,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -7254,7 +7254,7 @@
 		"code": 101000031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p007",
 			"personality.p016",
@@ -7278,7 +7278,7 @@
 		"code": 101040191,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p014",
@@ -7303,7 +7303,7 @@
 		"code": 101060101,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p016",
@@ -7329,7 +7329,7 @@
 		"code": 101000321,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -7351,7 +7351,7 @@
 		"code": 101000321,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p005",
@@ -7375,7 +7375,7 @@
 		"code": 101000331,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p005",
 			"personality.p010",
@@ -7396,7 +7396,7 @@
 		"code": 101000331,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p005",
 			"personality.p010",
@@ -7419,7 +7419,7 @@
 		"code": 101060081,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p016",
@@ -7442,7 +7442,7 @@
 		"code": 101010151,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p011",
@@ -7466,7 +7466,7 @@
 		"code": 101060121,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p016",
@@ -7490,7 +7490,7 @@
 		"code": 101000051,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p005",
@@ -7516,7 +7516,7 @@
 		"code": 101020161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -7536,7 +7536,7 @@
 		"code": 101020161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p012",
@@ -7558,7 +7558,7 @@
 		"code": 101050161,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p005",
@@ -7582,7 +7582,7 @@
 		"code": 101050141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -7605,7 +7605,7 @@
 		"code": 101030181,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -7628,7 +7628,7 @@
 		"code": 101050111,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p015",
@@ -7652,7 +7652,7 @@
 		"code": 101030021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p003",
@@ -7675,7 +7675,7 @@
 		"code": 101030021,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p003",
@@ -7698,7 +7698,7 @@
 		"code": 101010161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -7719,7 +7719,7 @@
 		"code": 101010161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p011",
@@ -7742,7 +7742,7 @@
 		"code": 101060091,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
@@ -7768,7 +7768,7 @@
 		"code": 101070121,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p017",
@@ -7788,7 +7788,7 @@
 		"code": 101000141,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p010",
@@ -7811,7 +7811,7 @@
 		"code": 101000351,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p002",
 			"personality.p010",
@@ -7836,7 +7836,7 @@
 		"code": 101050031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -7857,7 +7857,7 @@
 		"code": 101050031,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p015",
@@ -7878,7 +7878,7 @@
 		"code": 101000341,
 		"tags": [
 			"alter.false",
-			"get.notfree",
+			"get.free",
 			"manifest.step0",
 			"personality.p006",
 			"personality.p010",
@@ -7899,7 +7899,7 @@
 		"code": 101070131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p006",
 			"personality.p017",
@@ -7920,7 +7920,7 @@
 		"code": 101070131,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p006",
 			"personality.p017",
@@ -7943,7 +7943,7 @@
 		"code": 101000361,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p004",
 			"personality.p010",
@@ -7966,7 +7966,7 @@
 		"code": 101030171,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p006",
@@ -7989,7 +7989,7 @@
 		"code": 101000161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p000",
 			"personality.p010",
@@ -8011,7 +8011,7 @@
 		"code": 101000161,
 		"tags": [
 			"alter.false",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p001",
 			"personality.p010",
