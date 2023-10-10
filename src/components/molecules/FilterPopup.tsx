@@ -1,6 +1,5 @@
 import React from 'react'
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import IconButton from '@mui/material/IconButton';
@@ -10,7 +9,9 @@ import Chip from '@mui/material/Chip';
 import useFilterStore from '../../store/useFilterStore';
 import { filterChipOptions } from '../../constant/fixedData';
 import PersonalitySelectBox from '../atoms/PersonalitySelectBox';
-import { personalities } from '../../constant/parseData';
+import Autocomplete from '@mui/material/Autocomplete';
+import { dungeons } from '../../constant/parseData';
+import TextField from '@mui/material/TextField';
 
 const style = {
     position: 'absolute' as 'absolute',
@@ -27,7 +28,11 @@ const style = {
     p: 1,
 };
 
-function FilterPopup() {
+interface FilterPopupInfo {
+    type: string;
+}
+
+const FilterPopup: React.FC<FilterPopupInfo> = ({ type }) => {
     const [open, setOpen] = React.useState(false);
     const {
         toggleTag,
@@ -36,6 +41,8 @@ function FilterPopup() {
         getTags,
         manifestTags,
         typeTags,
+        dungeon,
+        setDungeon
     } = useFilterStore()
     const { t } = useTranslation();
 
@@ -57,15 +64,54 @@ function FilterPopup() {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <Typography variant="h6" component="h2" sx={{ mb: 2, gridColumn: "span 2" }}>
+                    <Typography variant="h6" component="h2" sx={{ mb: 2, textAlign: "center", gridColumn: "span 2" }}>
                         Filter
                     </Typography>
 
-                    <Box sx={{ mb: 3, gridColumn: "span 2" }}>
-                        {filterChipOptions.style.map((options, idx) => (
+                    <Typography variant="subtitle2">
+                        {t("filter.style")}
+                    </Typography>
+                    <Box sx={{ mb: 1, gridColumn: "span 2" }}>
+                        {filterChipOptions.style.map((option, idx) => {
+                            if (["MANIFEST", "GRASTA"].includes(type) && option === "style.four") return null;
+                            return <Chip clickable key={idx} label={t(option)}
+                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                                variant={styleTags.includes(option) ? "filled" : "outlined"}
+                                onClick={() => toggleTag(option)}
+                                color='secondary'
+                            />
+                        })}
+                    </Box>
+
+                    <Typography variant="subtitle2">
+                        {t("filter.manifest")}
+                    </Typography>
+                    <Box sx={{ mb: 2, gridColumn: "span 2" }}>
+                        {filterChipOptions.manifest.map((option, idx) => {
+                            if (type === "MANIFEST" && option === "manifest.step0") return null;
+                            return <Chip clickable key={idx} label={t(option)}
+                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                                variant={manifestTags.includes(option) ? "filled" : "outlined"}
+                                onClick={() => toggleTag(option)}
+                                color='secondary'
+                            />
+                        })}
+                    </Box>
+                    <Box sx={{ mb: 1 }}>
+                        {filterChipOptions.type.map((options, idx) => (
                             <Chip clickable key={idx} label={t(options)}
                                 sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
-                                variant={styleTags.includes(options) ? "filled" : "outlined"}
+                                variant={typeTags.includes(options) ? "filled" : "outlined"}
+                                onClick={() => toggleTag(options)}
+                                color='secondary'
+                            />
+                        ))}
+                    </Box>
+                    <Box sx={{ mb: 1 }}>
+                        {filterChipOptions.get.map((options, idx) => (
+                            <Chip clickable key={idx} label={t(options)}
+                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                                variant={getTags.includes(options) ? "filled" : "outlined"}
                                 onClick={() => toggleTag(options)}
                                 color='secondary'
                             />
@@ -81,38 +127,34 @@ function FilterPopup() {
                             />
                         ))}
                     </Box>
-                    <Box sx={{ mb: 3, gridColumn: "span 2" }}>
-                        {filterChipOptions.manifest.map((options, idx) => (
-                            <Chip clickable key={idx} label={t(options)}
-                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
-                                variant={manifestTags.includes(options) ? "filled" : "outlined"}
-                                onClick={() => toggleTag(options)}
-                                color='secondary'
-                            />
-                        ))}
-                    </Box>
-                    <Box>
-                        {filterChipOptions.type.map((options, idx) => (
-                            <Chip clickable key={idx} label={t(options)}
-                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
-                                variant={typeTags.includes(options) ? "filled" : "outlined"}
-                                onClick={() => toggleTag(options)}
-                                color='secondary'
-                            />
-                        ))}
-                    </Box>
-                    <Box>
-                        {filterChipOptions.get.map((options, idx) => (
-                            <Chip clickable key={idx} label={t(options)}
-                                sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
-                                variant={getTags.includes(options) ? "filled" : "outlined"}
-                                onClick={() => toggleTag(options)}
-                                color='secondary'
-                            />
-                        ))}
-                    </Box>
                     <PersonalitySelectBox />
-
+                    {["GRASTA", "SEARCH"].includes(type) ? <>
+                        <Typography variant="subtitle2">
+                            {t("filter.dungeon")}
+                        </Typography>
+                        <Autocomplete
+                            sx={{ mt: 0.8, mb: 2, gridColumn: "span 2" }}
+                            options={dungeons}
+                            getOptionLabel={(opt) => t(opt)}
+                            value={dungeon}
+                            ChipProps={{
+                                color: "secondary",
+                                sx: {
+                                    fontWeight: 800
+                                }
+                            }}
+                            onChange={(_, value) => setDungeon(value)}
+                            renderInput={(params) => (
+                                <TextField
+                                    {...params}
+                                    size='small'
+                                    color='secondary'
+                                    variant="outlined"
+                                    label="Select"
+                                />
+                            )}
+                        />
+                    </> : null}
                 </Box>
             </Modal>
         </Box>

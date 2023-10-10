@@ -6,17 +6,36 @@ import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
+import { arrAllIncludes, arrOverlap } from '../../util/arrayUtil';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
 function CharacterCheckPage() {
 
-    const { searchWord } = useFilterStore()
+    const {
+        searchWord,
+        styleTags,
+        alterTags,
+        manifestTags,
+        typeTags,
+        getTags,
+        choosePersonalityTags,
+        essenTialPersonalityTags
+    } = useFilterStore()
     const { t } = useTranslation()
 
-    const filteredArr = characters.filter((c) => c.id < 1000)
-        .sort((c) => pickups.includes(c.id) ? -1 : 1)
+    const baseCharacters = characters.filter((c) => c.id < 1000);
+
+    const filteredArr = [
+        styleTags, alterTags, manifestTags, typeTags, getTags, choosePersonalityTags
+    ].reduce(
+        (prev, tags) => prev.filter((c) => arrOverlap(tags, c.tags)),
+        baseCharacters
+    ).filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
         .filter((c) => t(`c${c.code}`).includes(searchWord))
+        .sort((c) => pickups.includes(c.id) ? -1 : 1)
+
+
 
     return (
         <Box sx={{
@@ -26,7 +45,7 @@ function CharacterCheckPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox />
+            <FilterBox type="CHARACTER" />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

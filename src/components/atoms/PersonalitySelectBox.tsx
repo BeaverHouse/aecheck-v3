@@ -4,6 +4,7 @@ import Autocomplete from '@mui/material/Autocomplete';
 import { personalities } from '../../constant/parseData';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
+import Typography from '@mui/material/Typography';
 
 // https://github.com/i18next/react-i18next/issues/1543
 
@@ -18,9 +19,12 @@ const PersonalitySelectBox: React.FC = () => {
 
     return (
         <>
+            <Typography variant="subtitle2">
+                {t("filter.essentialpersonality")}
+            </Typography>
             <Autocomplete
                 multiple
-                sx={{ mt: 3, gridColumn: "span 2" }}
+                sx={{ mt: 0.8, mb: 2, gridColumn: "span 2" }}
                 options={personalities}
                 getOptionLabel={(opt) => t(opt)}
                 value={essenTialPersonalityTags}
@@ -42,9 +46,12 @@ const PersonalitySelectBox: React.FC = () => {
                     />
                 )}
             />
+            <Typography variant="subtitle2">
+                {t("filter.choosepersonality")}
+            </Typography>
             <Autocomplete
                 multiple
-                sx={{ mt: 3, gridColumn: "span 2" }}
+                sx={{ mt: 0.8, mb: 2, gridColumn: "span 2" }}
                 options={personalities}
                 getOptionLabel={(opt) => t(opt)}
                 value={choosePersonalityTags}

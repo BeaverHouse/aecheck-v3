@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { addOrRemove } from '../util/arrayUtil';
+import { persist, createJSONStorage } from 'zustand/middleware';
 
 interface FilterState {
     searchWord: string;
@@ -11,10 +12,12 @@ interface FilterState {
     essenTialPersonalityTags: Array<string>;
     choosePersonalityTags: Array<string>;
     invenTags: Array<string>;
+    dungeon: string | null;
     setSearch: (word: string) => void;
     toggleTag: (tag: string) => void;
     setPersonalities: (tags: Array<string>, essential: boolean) => void;
     removeFilter: () => void;
+    setDungeon: (word: string | null) => void;
 }
 
 const initialState = {
@@ -49,64 +52,75 @@ const initialState = {
         "inven.classchange",
         "inven.have",
     ],
+    dungeon: null,
 }
 
-const useFilterStore = create<FilterState>(
-    (set, get) => ({
-        ...initialState,
-        setSearch: (word) => set((state) => ({
-            ...state,
-            searchWord: word
-        })),
-        toggleTag: (tag) => {
-            const category = tag.split(".")[0];
-            let newState: FilterState | Partial<FilterState>;
-            switch (category) {
-                case "style":
-                    newState = { styleTags: addOrRemove(get().styleTags, tag) };
-                    break
-                case "alter":
-                    newState = { alterTags: addOrRemove(get().alterTags, tag) };
-                    break
-                case "get":
-                    newState = { getTags: addOrRemove(get().getTags, tag) };
-                    break
-                case "manifest":
-                    newState = { manifestTags: addOrRemove(get().manifestTags, tag) };
-                    break
-                case "type":
-                    newState = { typeTags: addOrRemove(get().typeTags, tag) };
-                    break
-                case "inven":
-                    newState = { invenTags: addOrRemove(get().invenTags, tag) };
-                    break
-                default:
-                    return
-            }
-            set((state) => ({
+const useFilterStore = create(
+    persist<FilterState>(
+        (set, get) => ({
+            ...initialState,
+            setSearch: (word) => set((state) => ({
                 ...state,
-                ...newState
+                searchWord: word
+            })),
+            toggleTag: (tag) => {
+                const category = tag.split(".")[0];
+                let newState: FilterState | Partial<FilterState>;
+                switch (category) {
+                    case "style":
+                        newState = { styleTags: addOrRemove(get().styleTags, tag) };
+                        break
+                    case "alter":
+                        newState = { alterTags: addOrRemove(get().alterTags, tag) };
+                        break
+                    case "get":
+                        newState = { getTags: addOrRemove(get().getTags, tag) };
+                        break
+                    case "manifest":
+                        newState = { manifestTags: addOrRemove(get().manifestTags, tag) };
+                        break
+                    case "type":
+                        newState = { typeTags: addOrRemove(get().typeTags, tag) };
+                        break
+                    case "inven":
+                        newState = { invenTags: addOrRemove(get().invenTags, tag) };
+                        break
+                    default:
+                        return
+                }
+                set((state) => ({
+                    ...state,
+                    ...newState
+                }))
+            },
+            setPersonalities: (tags, essential) => {
+                if (essential)
+                    set((state) => ({
+                        ...state,
+                        essenTialPersonalityTags: tags
+                    }))
+                else
+                    set((state) => ({
+                        ...state,
+                        choosePersonalityTags: tags
+                    }))
+            },
+            removeFilter: () => {
+                set((state) => ({
+                    ...state,
+                    ...initialState
+                }), true)
+            },
+            setDungeon: (word) => set((state) => ({
+                ...state,
+                dungeon: word
             }))
-        },
-        setPersonalities: (tags, essential) => {
-            if (essential)
-                set((state) => ({
-                    ...state,
-                    essenTialPersonalityTags: tags
-                }))
-            else
-                set((state) => ({
-                    ...state,
-                    choosePersonalityTags: tags
-                }))
-        },
-        removeFilter: () => {
-            set((state) => ({
-                ...state,
-                ...initialState
-            }), true)
+        }),
+        {
+            name: "AE_FILTER",
+            storage: createJSONStorage(() => localStorage),
         }
-    })
+    )
 );
 
 export default useFilterStore;

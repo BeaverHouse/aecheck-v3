@@ -13,6 +13,8 @@ import Box from '@mui/material/Box';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import CharacterCheck from '../atoms/CharacterCheck';
+import { new_manifests } from '../../constant/updates';
+import useTheme from '@mui/material/styles/useTheme';
 
 function CircularProgressWithLabel(
     props: CircularProgressProps & { value: number },
@@ -46,6 +48,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
 
     const { inven, manifest, addManifest, removeManifest } = useCheckStore();
     const { t } = useTranslation()
+    const theme = useTheme()
 
     const status = t(getManifestStatus(info, inven))
     const stepArr = info.tags.includes("manifest.step2") ? [0, 1, 2] : [0, 1]
@@ -59,7 +62,12 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
     }
 
     return (
-        <Card sx={{ display: 'flex', overflow: "unset", textAlign: "center" }}>
+        <Card sx={{
+            display: 'flex',
+            overflow: "unset",
+            textAlign: "center",
+            border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
+        }}>
             <CharacterCheck info={info} isCheck={false} />
             {status === "manifest.available"
                 ? <Box sx={{ display: 'flex', alignItems: "center", pl: 1, pr: 1 }}>

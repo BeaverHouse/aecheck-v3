@@ -6,3 +6,6 @@ export const characters = (charjson as Array<CharacterInfo>)
 
 const tags = Object.keys(kojson)
 export const personalities = tags.filter((t) => t.startsWith("personality."))
+
+export const dungeons = tags.filter((t) => t.startsWith("drop.dungeon"))
+    .sort((a, b) => parseInt(a.replace("drop.dungeon", "")) - parseInt(b.replace("drop.dungeon", "")))

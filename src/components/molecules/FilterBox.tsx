@@ -5,9 +5,10 @@ import Box from '@mui/material/Box';
 
 interface FilterBoxInfo {
     label?: string;
+    type: string;
 }
 
-const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름" }) => {
+const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type }) => {
     return (
         <Box
             sx={{
@@ -15,7 +16,7 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름" }) => {
                 alignItems: "center",
             }}
         >
-            <FilterPopup />
+            <FilterPopup type={type} />
             <SearchBox label={label} />
         </Box>
     )

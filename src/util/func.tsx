@@ -86,3 +86,7 @@ export const getGrastaStep = (info: CharacterInfo, grasta: Array<number>) => {
     if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000)
     else return 0
 }
+
+export const getPaddedNumber = (num: number, padLength: number) => {
+    return String(num).padStart(padLength, "0");
+}
