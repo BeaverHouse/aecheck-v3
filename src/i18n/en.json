@@ -387,7 +387,7 @@
 	"drop.dungeon205": "Iscariot",
 	"drop.dungeon300": "Underworld",
 	"get.free": "Free",
-	"get.notfree": "Not Free",
+	"get.notfree": "Encounter",
 	"manifest.step0": "No Manifest",
 	"manifest.step1": "Manifest",
 	"manifest.step2": "True Manifest",
@@ -496,5 +496,10 @@
 	"style.four": "4☆",
 	"style.normal": "NS",
 	"type.light": "Light",
-	"type.shadow": "Shadow"
+	"type.shadow": "Shadow",
+	"get.buddy2003": "Top of Nadara Volcano after Gariyu AS Enabled",
+	"get.buddy2004": "Vasu Mountains",
+	"get.buddy2005": "Main Story Part 3 Volume 1",
+	"get.buddy2007": "Astral Archive Recover Lv.10",
+	"get.buddy2010": "Main Story Part 3 Volume 2"
 }
