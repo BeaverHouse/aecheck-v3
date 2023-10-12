@@ -89,7 +89,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
             {styleIcon(info)}
             {statusIcon()}
             {manifestIcon()}
-            <ImageListItem component={"ul"} sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
+            <ImageListItem component={"div"} sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
                 <picture>
                     <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
                     <img
