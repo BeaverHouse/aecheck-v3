@@ -4,7 +4,7 @@ import { pickups } from '../../constant/updates';
 import { characters } from '../../constant/parseData';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
-import FilterBox from '../molecules/FilterBox';
+import FilterBox from '../organisms/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { arrAllIncludes, arrOverlap } from '../../util/arrayUtil';
 

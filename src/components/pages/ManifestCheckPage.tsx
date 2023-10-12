@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import Filterbox from '../molecules/FilterBox';
+import Filterbox from '../organisms/FilterBox';
 import { characters } from '../../constant/parseData';
 import { arrAllIncludes, arrOverlap } from '../../util/arrayUtil';
 import Box from '@mui/material/Box';

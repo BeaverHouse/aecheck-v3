@@ -7,10 +7,16 @@ import router from './router';
 import useConfigStore from './store/useConfigStore';
 import { darkPalette, lightPalette } from './constant/theme';
 import i18n from './i18n';
+import GlobalModal from './components/molecules/GlobalModal';
+import useModalStore from './store/useModalStore';
 
 function App() {
 
   const { theme, lang } = useConfigStore();
+
+  const {
+    modalInfo,
+  } = useModalStore()
   const selectedTheme = createTheme({
     palette: theme === "dark" ? darkPalette : lightPalette,
   });
@@ -22,6 +28,7 @@ function App() {
 
   return (
     <ThemeProvider theme={selectedTheme}>
+      <GlobalModal modalInfo={modalInfo} />
       <RouterProvider router={router} />
     </ThemeProvider>
   );

@@ -8,6 +8,7 @@ import { pickups } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import useModalStore from '../../store/useModalStore';
 
 interface CharacterCheckProps {
     info: CharacterInfo;
@@ -18,6 +19,9 @@ interface CharacterCheckProps {
 const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true }) => {
 
     const { addInven, removeInven, inven, grasta, manifest } = useCheckStore();
+    const {
+        setModal
+    } = useModalStore()
     const { t, i18n } = useTranslation()
     const theme = useTheme()
 
@@ -80,7 +84,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
                 cursor: "pointer",
                 position: "relative",
             }}
-            onClick={isCheck ? toggleInven : () => { }}
+            onClick={isCheck ? toggleInven : () => setModal(info)}
         >
             {styleIcon(info)}
             {statusIcon()}
@@ -88,6 +92,8 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
             <ImageListItem >
                 <img
                     src={`/image/data/${info.id}.png`}
+                    loading='lazy'
+                    decoding='async'
                     alt={name}
                     style={{
                         border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
