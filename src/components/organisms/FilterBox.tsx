@@ -24,6 +24,7 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type }) => {
             }}
         >
             <IconButton
+                aria-label="Filter Button"
                 onClick={() => setModal(type)}
                 sx={{
                     color: "white",

@@ -89,12 +89,14 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
             {styleIcon(info)}
             {statusIcon()}
             {manifestIcon()}
-            <ImageListItem sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
+            <ImageListItem component={"ul"} sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
                 <picture>
                     <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
                     <img
                         src={`/image/data/${info.id}.png`}
-                        alt={name}
+                        alt={`${name}_${info.id}`}
+                        width={79}
+                        height={80}
                         style={{
                             border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
                             borderRadius: "5px",

@@ -19,7 +19,7 @@ function ThemeButton() {
             alignItems: "center",
         }}>
             <LightModeIcon />
-            <Switch checked={theme === "dark"} onChange={handleTheme} />
+            <Switch aria-label='Theme Switch' checked={theme === "dark"} onChange={handleTheme} />
             <DarkModeIcon />
         </Box>
     )
