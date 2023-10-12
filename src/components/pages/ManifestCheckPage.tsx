@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import Filterbox from '../organisms/FilterBox';
 import { characters } from '../../constant/parseData';
-import { arrAllIncludes, arrOverlap } from '../../util/arrayUtil';
+import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
@@ -27,11 +27,12 @@ function ManifestCheckPage() {
     const baseCharacters = characters.filter((c) => arrOverlap(c.tags, ["manifest.step1", "manifest.step2"]))
 
     const filteredArr = [
-        styleTags, alterTags, manifestTags, typeTags, getTags, choosePersonalityTags
+        styleTags, alterTags, manifestTags, typeTags, getTags
     ].reduce(
-        (prev, tags) => prev.filter((c) => arrOverlap(tags, c.tags)),
+        (prev, tags) => filterVanilla((c) => arrOverlap(c.tags, tags), prev),
         baseCharacters
-    ).filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
+    ).filter((c) => choosePersonalityTags.length <= 0 || arrOverlap(c.tags, choosePersonalityTags))
+        .filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
         .filter((c) => t(`c${c.code}`).includes(searchWord))
         .sort((c) => new_manifests.includes(c.id) ? -1 : 1)
 

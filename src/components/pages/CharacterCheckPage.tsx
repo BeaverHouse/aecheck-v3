@@ -6,7 +6,7 @@ import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import FilterBox from '../organisms/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
-import { arrAllIncludes, arrOverlap } from '../../util/arrayUtil';
+import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -27,11 +27,12 @@ function CharacterCheckPage() {
     const baseCharacters = characters.filter((c) => c.id < 1000);
 
     const filteredArr = [
-        styleTags, alterTags, manifestTags, typeTags, getTags, choosePersonalityTags
+        styleTags, alterTags, manifestTags, typeTags, getTags
     ].reduce(
-        (prev, tags) => prev.filter((c) => arrOverlap(tags, c.tags)),
+        (prev, tags) => filterVanilla((c) => arrOverlap(c.tags, tags), prev),
         baseCharacters
-    ).filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
+    ).filter((c) => choosePersonalityTags.length <= 0 || arrOverlap(c.tags, choosePersonalityTags))
+        .filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
         .filter((c) => t(`c${c.code}`).includes(searchWord))
         .sort((c) => pickups.includes(c.id) ? -1 : 1)
 

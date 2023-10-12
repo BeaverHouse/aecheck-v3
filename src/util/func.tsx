@@ -32,7 +32,7 @@ export const getManifestStatus = (info: CharacterInfo, inven: Array<number>) => 
 
     // 2. AS/ES면 클체가능 여부에 따라 판정
     const styleTags = ["style.another", "style.extra"]
-    if (arrOverlap(styleTags, info.tags))
+    if (arrOverlap(info.tags, styleTags))
         return getCharacterStatus(info, inven) === "inven.classchange"
             ? "manifest.classchange"
             : "manifest.unavailable"
