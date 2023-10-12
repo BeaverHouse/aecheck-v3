@@ -89,21 +89,23 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
             {styleIcon(info)}
             {statusIcon()}
             {manifestIcon()}
-            <ImageListItem >
-                <img
-                    src={`/image/data/${info.id}.png`}
-                    loading='lazy'
-                    decoding='async'
-                    alt={name}
-                    style={{
-                        border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
-                        borderRadius: "5px",
-                        boxSizing: "border-box",
-                        pointerEvents: "none",
-                    }}
-                />
+            <ImageListItem sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
+                <picture>
+                    <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
+                    <img
+                        src={`/image/data/${info.id}.png`}
+                        alt={name}
+                        style={{
+                            border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
+                            borderRadius: "5px",
+                            width: 75,
+                            height: "auto",
+                            boxSizing: "border-box",
+                            pointerEvents: "none",
+                        }}
+                    />
+                </picture>
                 <ImageListItemBar subtitle={getShortName(name, i18n.language)} sx={{
-                    height: 22,
                     "& .MuiImageListItemBar-subtitle": {
                         textAlign: "center",
                         fontSize: "12px",
