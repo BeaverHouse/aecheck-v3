@@ -2,7 +2,6 @@ import React from 'react'
 import useCheckStore from '../../store/useCheckStore'
 import { useTranslation } from 'react-i18next';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import Paper from '@mui/material/Paper';
 import { getGrastaStep, getManifestStep, getShortName, grastaIcon, styleIcon } from '../../util/func';
 import { pickups } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
@@ -13,10 +12,11 @@ import useModalStore from '../../store/useModalStore';
 interface CharacterCheckProps {
     info: CharacterInfo;
     isCheck?: boolean;
+    disableBorder?: boolean;
 }
 
 // 캐릭터 체크 UI
-const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true }) => {
+const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, disableBorder = false }) => {
 
     const { addInven, removeInven, inven, grasta, manifest } = useCheckStore();
     const {
@@ -39,8 +39,10 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
                 bottom: -9,
                 left: -9,
                 zIndex: 10,
+                width: 25,
+                height: 25
             };
-            return <img src={`/image/icon/crown.png`} width={25} alt={`complete`} style={style} />
+            return <img src={`/image/icon/crown.png`} width={25} height={25} alt={`complete`} style={style} />
         }
     }
 
@@ -77,47 +79,48 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true })
         }
     }
     return (
-        <Paper
+        <ImageListItem
+            component={"div"}
+            onClick={isCheck ? toggleInven : () => setModal(info)}
             sx={{
+                maxHeight: 75,
                 minWidth: 75,
                 maxWidth: 75,
                 cursor: "pointer",
                 position: "relative",
-            }}
-            onClick={isCheck ? toggleInven : () => setModal(info)}
-        >
+            }}>
             {styleIcon(info)}
             {statusIcon()}
             {manifestIcon()}
-            <ImageListItem component={"div"} sx={{ maxHeight: 76, borderRadius: "4px", overflow: "hidden" }}>
-                <picture>
-                    <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
-                    <img
-                        src={`/image/data/${info.id}.png`}
-                        alt={`${name}_${info.id}`}
-                        width={79}
-                        height={80}
-                        style={{
-                            border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
-                            borderRadius: "5px",
-                            width: 75,
-                            height: "auto",
-                            boxSizing: "border-box",
-                            pointerEvents: "none",
-                        }}
-                    />
-                </picture>
-                <ImageListItemBar subtitle={getShortName(name, i18n.language)} sx={{
-                    "& .MuiImageListItemBar-subtitle": {
-                        textAlign: "center",
-                        fontSize: "12px",
-                    },
-                    ".MuiImageListItemBar-titleWrap": {
-                        padding: 0.5
-                    }
-                }} />
-            </ImageListItem>
-        </Paper>
+            <picture>
+                <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
+                <img
+                    src={`/image/data/${info.id}.png`}
+                    alt={`${name}_${info.id}`}
+                    width={80}
+                    height={80}
+                    style={{
+                        border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
+                        width: 75,
+                        height: 75,
+                        boxSizing: "border-box",
+                        pointerEvents: "none",
+                    }}
+                />
+            </picture>
+            <ImageListItemBar subtitle={getShortName(name, i18n.language)} sx={{
+                "& .MuiImageListItemBar-title": {
+                    display: "none"
+                },
+                "& .MuiImageListItemBar-subtitle": {
+                    textAlign: "center",
+                    fontSize: "12px",
+                },
+                ".MuiImageListItemBar-titleWrap": {
+                    padding: 0.5
+                }
+            }} />
+        </ImageListItem>
     )
 }
 

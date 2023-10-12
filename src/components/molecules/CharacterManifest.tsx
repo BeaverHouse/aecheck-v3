@@ -66,7 +66,8 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
             display: 'flex',
             overflow: "unset",
             textAlign: "center",
-            border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "",
+            border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
+            boxSizing: "border-box"
         }}>
             <CharacterCheck info={info} isCheck={false} />
             {status === "manifest.available"

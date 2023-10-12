@@ -56,13 +56,15 @@ export const styleIcon = (info: CharacterInfo) => {
         top: -6,
         left: -6,
         zIndex: 10,
+        width: 30,
+        height: 30
     }
     if (tags.includes("style.normal"))
-        return <img src='/image/icon/ns.png' width={30} alt={"ns"} style={style} />
+        return <img src='/image/icon/ns.png' width={30} height={30} alt={"ns"} style={style} />
     else if (tags.includes("style.another"))
-        return <img src='/image/icon/as.png' width={30} alt={"as"} style={style} />
+        return <img src='/image/icon/as.png' width={30} height={30} alt={"as"} style={style} />
     else if (tags.includes("style.extra"))
-        return <img src='/image/icon/es.png' width={30} alt={"es"} style={style} />
+        return <img src='/image/icon/es.png' width={30} height={30} alt={"es"} style={style} />
     return null
 }
 
@@ -72,8 +74,10 @@ export const grastaIcon = (step: number) => {
         top: -9,
         right: -9,
         zIndex: 10,
+        width: 37,
+        height: 37
     }
-    return <img src={`/image/icon/grasta${step}.png`} width={37} alt={`step${step}`} style={style} />
+    return <img src={`/image/icon/grasta${step}.png`} width={37} height={37} alt={`step${step}`} style={style} />
 }
 
 export const getManifestStep = (info: CharacterInfo, manifest: Array<number>) => {
