@@ -1,6 +1,5 @@
 import { characters } from "../constant/parseData";
-import { arrOverlap } from "./arrayUtil";
-import React from 'react'
+import { arrAllIncludes, arrOverlap } from "./arrayUtil";
 
 export const getShortName = (name: string, lang: string) => {
     const arr = name.split(" ")
@@ -49,37 +48,6 @@ export const getManifestStatus = (info: CharacterInfo, inven: Array<number>) => 
     }
 }
 
-export const styleIcon = (info: CharacterInfo) => {
-    const tags = info.tags;
-    const style: React.CSSProperties = {
-        position: "absolute",
-        top: -6,
-        left: -6,
-        zIndex: 10,
-        width: 30,
-        height: 30
-    }
-    if (tags.includes("style.normal"))
-        return <img src='/image/icon/ns.png' width={30} height={30} alt={"ns"} style={style} />
-    else if (tags.includes("style.another"))
-        return <img src='/image/icon/as.png' width={30} height={30} alt={"as"} style={style} />
-    else if (tags.includes("style.extra"))
-        return <img src='/image/icon/es.png' width={30} height={30} alt={"es"} style={style} />
-    return null
-}
-
-export const grastaIcon = (step: number) => {
-    const style: React.CSSProperties = {
-        position: "absolute",
-        top: -9,
-        right: -9,
-        zIndex: 10,
-        width: 37,
-        height: 37
-    }
-    return <img src={`/image/icon/grasta${step}.png`} width={37} height={37} alt={`step${step}`} style={style} />
-}
-
 export const getManifestStep = (info: CharacterInfo, manifest: Array<number>) => {
     const stepArr = manifest.filter((m) => m % 10000 === info.id)
     if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000)
@@ -93,4 +61,21 @@ export const getGrastaStep = (info: CharacterInfo, grasta: Array<number>) => {
 
 export const getPaddedNumber = (num: number, padLength: number) => {
     return String(num).padStart(padLength, "0");
+}
+
+export const commonFiltered = (
+    info: CharacterInfo,
+    styleTags: Array<string>,
+    alterTags: Array<string>,
+    manifestTags: Array<string>,
+    typeTags: Array<string>,
+    getTags: Array<string>,
+    choosePersonalityTags: Array<string>,
+    essenTialPersonalityTags: Array<string>
+) => {
+    for (const tags of [styleTags, alterTags, manifestTags, typeTags, getTags]) {
+        if (!arrOverlap(info.tags, tags)) return false
+    }
+    if (!arrAllIncludes(info.tags, essenTialPersonalityTags)) return false
+    return choosePersonalityTags.length <= 0 || arrOverlap(info.tags, choosePersonalityTags)
 }

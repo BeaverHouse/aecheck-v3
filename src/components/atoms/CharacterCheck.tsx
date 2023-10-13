@@ -2,7 +2,7 @@ import React from 'react'
 import useCheckStore from '../../store/useCheckStore'
 import { useTranslation } from 'react-i18next';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import { getGrastaStep, getManifestStep, getShortName, grastaIcon, styleIcon } from '../../util/func';
+import { getGrastaStep, getManifestStep, getShortName } from '../../util/func';
 import { pickups } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -64,6 +64,37 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
                 }}
             />
         }
+    }
+
+    const styleIcon = (info: CharacterInfo) => {
+        const tags = info.tags;
+        const style: React.CSSProperties = {
+            position: "absolute",
+            top: -6,
+            left: -6,
+            zIndex: 10,
+            width: 30,
+            height: 30
+        }
+        if (tags.includes("style.normal"))
+            return <img src='/image/icon/ns.png' width={30} height={30} alt={"ns"} style={style} />
+        else if (tags.includes("style.another"))
+            return <img src='/image/icon/as.png' width={30} height={30} alt={"as"} style={style} />
+        else if (tags.includes("style.extra"))
+            return <img src='/image/icon/es.png' width={30} height={30} alt={"es"} style={style} />
+        return null
+    }
+
+    const grastaIcon = (step: number) => {
+        const style: React.CSSProperties = {
+            position: "absolute",
+            top: -9,
+            right: -9,
+            zIndex: 10,
+            width: 37,
+            height: 37
+        }
+        return <img src={`/image/icon/grasta${step}.png`} width={37} height={37} alt={`step${step}`} style={style} />
     }
 
     const toggleInven = () => {
