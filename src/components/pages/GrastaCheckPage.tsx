@@ -5,8 +5,9 @@ import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
-import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
-import { getPaddedNumber } from '../../util/func';
+import { filterVanilla } from '../../util/arrayUtil';
+import { commonFiltered, getPaddedNumber } from '../../util/func';
+import { pickups } from '../../constant/updates';
 
 const CharacterGrasta = lazy(() => import("../molecules/CharacterGrasta"));
 
@@ -25,18 +26,26 @@ function GrastaCheckPage() {
     } = useFilterStore()
     const { t } = useTranslation()
 
-    const baseCharacters = characters.filter((c) => t(`book.char${c.id}`, "").length > 0);
+    const baseCharacters = characters.filter((c) => t(`book.char${c.id}`, "").length > 0)
+        .sort((c) => pickups.includes(c.id) ? -1 : 1);
 
-    const filteredArr = [
-        styleTags, alterTags, manifestTags, typeTags, getTags
-    ].reduce(
-        (prev, tags) => filterVanilla((c) => arrOverlap(c.tags, tags), prev),
+    const filteredArr = filterVanilla(
+        (info) => (
+            commonFiltered(
+                info,
+                styleTags,
+                alterTags,
+                manifestTags,
+                typeTags,
+                getTags,
+                choosePersonalityTags,
+                essenTialPersonalityTags
+            ) &&
+            (t(`c${info.code}`).includes(searchWord) || t(`book.char${info.id}`).includes(searchWord)) &&
+            (!dungeon || info.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
+        ),
         baseCharacters
-    ).filter((c) => choosePersonalityTags.length <= 0 || arrOverlap(c.tags, choosePersonalityTags))
-        .filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
-        .filter((c) => !dungeon || c.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
-        .filter((c) => t(`book.char${c.id}`, "").length > 0)
-        .filter((c) => t(`c${c.code}`).includes(searchWord) || t(`book.char${c.id}`).includes(searchWord))
+    )
 
     return (
         <Box sx={{

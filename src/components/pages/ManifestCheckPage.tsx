@@ -1,12 +1,13 @@
 import React, { lazy, Suspense } from 'react'
 import Filterbox from '../organisms/FilterBox';
 import { characters } from '../../constant/parseData';
-import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
+import { arrOverlap, filterVanilla } from '../../util/arrayUtil';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import { new_manifests } from '../../constant/updates';
+import { commonFiltered } from '../../util/func';
 
 const CharacterManifest = lazy(() => import("../molecules/CharacterManifest"));
 
@@ -25,16 +26,24 @@ function ManifestCheckPage() {
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => arrOverlap(c.tags, ["manifest.step1", "manifest.step2"]))
-
-    const filteredArr = [
-        styleTags, alterTags, manifestTags, typeTags, getTags
-    ].reduce(
-        (prev, tags) => filterVanilla((c) => arrOverlap(c.tags, tags), prev),
-        baseCharacters
-    ).filter((c) => choosePersonalityTags.length <= 0 || arrOverlap(c.tags, choosePersonalityTags))
-        .filter((c) => arrAllIncludes(c.tags, essenTialPersonalityTags))
-        .filter((c) => t(`c${c.code}`).includes(searchWord))
         .sort((c) => new_manifests.includes(c.id) ? -1 : 1)
+
+    const filteredArr = filterVanilla(
+        (info) => (
+            commonFiltered(
+                info,
+                styleTags,
+                alterTags,
+                manifestTags,
+                typeTags,
+                getTags,
+                choosePersonalityTags,
+                essenTialPersonalityTags
+            ) &&
+            t(`c${info.code}`).includes(searchWord)
+        ),
+        baseCharacters
+    )
 
     return (
         <Box sx={{
