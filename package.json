@@ -1,7 +1,7 @@
 {
   "name": "aecheck-ui-v3",
   "version": "0.1.0",
-  "homepage": "http://test.aecheck.com",
+  "homepage": "https://test.aecheck.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
