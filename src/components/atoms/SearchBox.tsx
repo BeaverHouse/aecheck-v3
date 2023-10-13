@@ -12,6 +12,7 @@ const SearchBox: React.FC<SearchBoxInfo> = ({ label }) => {
 
     return (
         <TextField
+            sx={{ m: 0.3 }}
             label={label}
             type="search"
             size="small"

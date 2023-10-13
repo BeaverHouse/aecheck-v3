@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import FilterBox from '../organisms/FilterBox';
+import FilterBox from '../molecules/FilterBox';
 import { characters } from '../../constant/parseData';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
@@ -55,7 +55,7 @@ function GrastaCheckPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox label="이름 or 직업서" type="GRASTA" />
+            <FilterBox label="이름 or 직업서" type="GRASTA" filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

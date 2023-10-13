@@ -4,7 +4,7 @@ import { pickups } from '../../constant/updates';
 import { characters } from '../../constant/parseData';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
-import FilterBox from '../organisms/FilterBox';
+import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
 import { commonFiltered } from '../../util/func';
@@ -53,7 +53,7 @@ function CharacterCheckPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox type="CHARACTER" />
+            <FilterBox type="CHARACTER" filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

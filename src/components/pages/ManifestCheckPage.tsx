@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import Filterbox from '../organisms/FilterBox';
+import Filterbox from '../molecules/FilterBox';
 import { characters } from '../../constant/parseData';
 import { arrOverlap, filterVanilla } from '../../util/arrayUtil';
 import Box from '@mui/material/Box';
@@ -53,7 +53,7 @@ function ManifestCheckPage() {
             alignItems: "center",
             justifyContent: "center",
         }}>
-            <Filterbox type="MANIFEST" />
+            <Filterbox type="MANIFEST" filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

@@ -6,11 +6,12 @@ import { useTranslation } from 'react-i18next';
 import Chip from '@mui/material/Chip';
 import useFilterStore from '../../store/useFilterStore';
 import { filterChipOptions } from '../../constant/fixedData';
-import PersonalitySelectBox from './PersonalitySelectBox';
+import PersonalitySelectBox from '../atoms/PersonalitySelectBox';
 import Autocomplete from '@mui/material/Autocomplete';
 import { dungeons } from '../../constant/parseData';
 import TextField from '@mui/material/TextField';
 import useModalStore from '../../store/useModalStore';
+import Button from '@mui/material/Button';
 
 const style = {
     position: 'absolute' as 'absolute',
@@ -40,7 +41,8 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
         manifestTags,
         typeTags,
         dungeon,
-        setDungeon
+        setDungeon,
+        removeFilter
     } = useFilterStore()
     const {
         modalInfo,
@@ -51,11 +53,10 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
     return (
         <Modal open={modalInfo === modalType} onClose={hideModal}>
             <Box sx={style}>
-                <Typography variant="h6" component="h2" sx={{ mb: 2, textAlign: "center", gridColumn: "span 2" }}>
+                <Typography variant="h6" component="h2" sx={{ textAlign: "center", gridColumn: "span 2" }}>
                     Filter
                 </Typography>
-
-                <Typography variant="subtitle2">
+                <Typography variant="subtitle2" sx={{ mt: 2 }}>
                     {t("filter.style")}
                 </Typography>
                 <Box sx={{ mb: 1, gridColumn: "span 2" }}>
@@ -142,6 +143,8 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                         )}
                     />
                 </> : null}
+                <br />
+                <Button variant="contained" color='warning' sx={{ gridColumn: "span 2" }} onClick={removeFilter}>FILTER CLEAR</Button>
             </Box>
         </Modal>
     )

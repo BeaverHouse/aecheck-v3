@@ -1,5 +1,5 @@
 import React from 'react'
-import FilterModal from '../atoms/FilterModal'
+import FilterModal from '../molecules/FilterModal'
 import CharacterModal from '../atoms/CharacterModal'
 import { isCharacterInfo } from '../../util/typecheck'
 
