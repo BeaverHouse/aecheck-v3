@@ -26,7 +26,11 @@ function ManifestCheckPage() {
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => arrOverlap(c.tags, ["manifest.step1", "manifest.step2"]))
-        .sort((c) => new_manifests.includes(c.id) ? -1 : 1)
+        .sort((a, b) => {
+            const a_pick = new_manifests.includes(a.id) ? -1 : 1
+            const b_pick = new_manifests.includes(b.id) ? -1 : 1
+            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+        });
 
     const filteredArr = filterVanilla(
         (info) => (

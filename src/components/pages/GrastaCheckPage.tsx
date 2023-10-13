@@ -27,7 +27,11 @@ function GrastaCheckPage() {
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => t(`book.char${c.id}`, "").length > 0)
-        .sort((c) => pickups.includes(c.id) ? -1 : 1);
+        .sort((a, b) => {
+            const a_pick = pickups.includes(a.id) ? -1 : 1
+            const b_pick = pickups.includes(b.id) ? -1 : 1
+            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+        });
 
     const filteredArr = filterVanilla(
         (info) => (
