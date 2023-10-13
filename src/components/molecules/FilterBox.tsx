@@ -7,6 +7,7 @@ import useModalStore from '../../store/useModalStore';
 import Button from '@mui/material/Button';
 import useCheckStore from '../../store/useCheckStore';
 import { useTranslation } from 'react-i18next';
+import { getManifestStatus } from '../../util/func';
 
 interface FilterBoxInfo {
     label?: string;
@@ -50,8 +51,11 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
         if (yn) {
             let newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
             filteredInfo.forEach((info) => {
-                const maxStep = info.tags.includes("manifest.step2") ? 2 : 1
-                newManifest.push(maxStep * 10000 + info.id)
+                const manifestStatus = getManifestStatus(info, inven)
+                if (manifestStatus === "manifest.available") {
+                    const maxStep = info.tags.includes("manifest.step2") ? 2 : 1
+                    newManifest.push(maxStep * 10000 + info.id)
+                }
             })
             setManifest(newManifest)
         }
