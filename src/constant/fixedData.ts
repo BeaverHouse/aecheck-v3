@@ -13,6 +13,17 @@ export const checkTabData: Array<TabInfo> = [
     },
 ]
 
+export const searchTabData: Array<TabInfo> = [
+    {
+        labelTag: "tab.character",
+        subpath: "character"
+    },
+    {
+        labelTag: "tab.buddy",
+        subpath: "buddy"
+    },
+]
+
 export const filterChipOptions = {
     style: [
         "style.four",
@@ -36,5 +47,10 @@ export const filterChipOptions = {
     type: [
         "type.light",
         "type.shadow",
+    ],
+    inven: [
+        "inven.nothave",
+        "inven.classchange",
+        "inven.have",
     ],
 }

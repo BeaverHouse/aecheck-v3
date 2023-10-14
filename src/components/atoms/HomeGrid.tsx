@@ -52,7 +52,7 @@ export default function HomeGrid() {
                     </Item>
                 </Grid>
                 <Grid xs={6}>
-                    <Item>
+                    <Item onClick={() => handleclick(`/search/character`)}>
                         <SearchIcon fontSize='large' />
                         {t("menu.search")}
                     </Item>

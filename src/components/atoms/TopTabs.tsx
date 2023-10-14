@@ -19,7 +19,8 @@ const TopTabs: React.FC<TabsInfo> = ({ basePath, tabs }) => {
     const { checkPath, changeCheckPath } = useConfigStore();
 
     const handleChange = (e: any, value: string) => {
-        changeCheckPath(value)
+        if (basePath === "/check")
+            changeCheckPath(value)
         navigate(`${basePath}/${value}`)
     }
 
