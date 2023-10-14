@@ -67,7 +67,8 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
     }
 
     const styleIcon = (info: CharacterInfo) => {
-        const tags = info.tags;
+        const styleTag = info.tags.find((t) => t.startsWith("style."));
+        if (styleTag === undefined || styleTag === "style.four") return null
         const style: React.CSSProperties = {
             position: "absolute",
             top: -6,
@@ -76,13 +77,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             width: 30,
             height: 30
         }
-        if (tags.includes("style.normal"))
-            return <img src='/image/icon/ns.png' width={30} height={30} alt={"ns"} style={style} />
-        else if (tags.includes("style.another"))
-            return <img src='/image/icon/as.png' width={30} height={30} alt={"as"} style={style} />
-        else if (tags.includes("style.extra"))
-            return <img src='/image/icon/es.png' width={30} height={30} alt={"es"} style={style} />
-        return null
+        return <img src={`/image/icon/${styleTag}.png`} width={30} height={30} alt={styleTag} style={style} />
     }
 
     const grastaIcon = (step: number) => {

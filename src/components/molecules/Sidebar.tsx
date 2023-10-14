@@ -20,6 +20,7 @@ import useFilterStore from '../../store/useFilterStore';
 import useConfigStore from '../../store/useConfigStore';
 import LanguageButton from '../atoms/LanguageButton';
 import HomeIcon from '@mui/icons-material/Home';
+import { checkTabData, searchTabData } from '../../constant/fixedData';
 
 function Sidebar() {
 
@@ -33,14 +34,14 @@ function Sidebar() {
 
 
     const handleCheckClick = (path: string) => {
-        changeCheckPath(path)
+        changeCheckPath(`/check/${path}`)
         if (!window.location.pathname.startsWith("/check")) removeFilter()
         navigate(`/check/${path}`);
     }
 
-    const handleSearchClick = () => {
+    const handleSearchClick = (path: string) => {
         if (!window.location.pathname.startsWith("/search")) removeFilter()
-        navigate(`/search`);
+        navigate(`/search/${path}`);
     }
 
     return (
@@ -87,39 +88,38 @@ function Sidebar() {
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
                             <ListItem disablePadding>
                                 <CheckCircleOutlineIcon sx={{ mr: 1 }} />
-                                <ListItemText primary={t("menu.check")} />
+                                <ListItemText primary={t("frontend.menu.check")} />
                             </ListItem>
-                            <ListItem disablePadding>
-                                <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleCheckClick("character")}>
-                                    <ListItemText primary={`- ${t("tab.character")}`} />
-                                </ListItemButton>
-                            </ListItem>
-                            <ListItem disablePadding>
-                                <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleCheckClick("manifest")}>
-                                    <ListItemText primary={`- ${t("manifest.step1")}`} />
-                                </ListItemButton>
-                            </ListItem>
-                            <ListItem disablePadding>
-                                <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleCheckClick("grasta")}>
-                                    <ListItemText primary={`- ${t("tab.grasta")}`} />
-                                </ListItemButton>
-                            </ListItem>
+                            {checkTabData.map((i) => (
+                                <ListItem disablePadding>
+                                    <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleCheckClick(i.subpath)}>
+                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    </ListItemButton>
+                                </ListItem>
+                            ))}
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
-                            <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => handleSearchClick()}>
+                            <ListItem disablePadding>
                                 <SearchIcon sx={{ mr: 1 }} />
-                                <ListItemText primary={t("menu.search")} />
-                            </ListItemButton>
+                                <ListItemText primary={t("frontend.menu.search")} />
+                            </ListItem>
+                            {searchTabData.map((i) => (
+                                <ListItem disablePadding>
+                                    <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleSearchClick(i.subpath)}>
+                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    </ListItemButton>
+                                </ListItem>
+                            ))}
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/analyze")}>
                                 <AssessmentIcon sx={{ mr: 1 }} />
-                                <ListItemText primary={t("menu.analyze")} />
+                                <ListItemText primary={t("frontend.menu.analyze")} />
                             </ListItemButton>
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/link")}>
                                 <LinkIcon sx={{ mr: 1 }} />
-                                <ListItemText primary={t("menu.link")} />
+                                <ListItemText primary={t("frontend.menu.link")} />
                             </ListItemButton>
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
                             <ListItemButton sx={{ height: 30, pl: 0 }}>
-                                <ListItemText primary={t("menu.loader")} />
+                                <ListItemText primary={t("frontend.menu.loader")} />
                             </ListItemButton>
                         </List>
                     </Box>

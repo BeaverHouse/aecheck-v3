@@ -34,6 +34,12 @@ export default function HomeGrid() {
     const { checkPath } = useConfigStore();
     const { removeFilter } = useFilterStore();
 
+    const checkRedirect = [
+        "/check/character",
+        "/check/manifest",
+        "/check/grasta",
+    ].includes(checkPath) ? checkPath : "/check/character"
+
     const handleclick = (path: string) => {
         removeFilter();
         navigate(path);
@@ -46,34 +52,34 @@ export default function HomeGrid() {
         }}>
             <Grid container spacing={1}>
                 <Grid xs={6}>
-                    <Item onClick={() => handleclick(`/check/${checkPath}`)}>
+                    <Item onClick={() => handleclick(checkRedirect)}>
                         <CheckCircleOutlineIcon fontSize="large" />
-                        {t("menu.check")}
+                        {t("frontend.menu.check")}
                     </Item>
                 </Grid>
                 <Grid xs={6}>
                     <Item onClick={() => handleclick(`/search/character`)}>
                         <SearchIcon fontSize='large' />
-                        {t("menu.search")}
+                        {t("frontend.menu.search")}
                     </Item>
                 </Grid>
                 <Grid xs={6}>
                     <Item>
                         <AssessmentIcon fontSize='large' />
-                        {t("menu.analyze")}
+                        {t("frontend.menu.analyze")}
                     </Item>
                 </Grid>
                 <Grid xs={6}>
                     <Item>
                         <LinkIcon fontSize='large' />
-                        {t("menu.link")}
+                        {t("frontend.menu.link")}
                     </Item>
                 </Grid>
                 <Grid xs={12}>
                     <Item sx={{
                         height: 50,
                     }}>
-                        {t("menu.loader")}
+                        {t("frontend.menu.loader")}
                     </Item>
                 </Grid>
             </Grid>

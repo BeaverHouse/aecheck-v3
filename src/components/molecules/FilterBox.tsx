@@ -32,7 +32,7 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
 
 
     const checkAllInven = () => {
-        const yn = window.confirm(t("message.character.checkall"))
+        const yn = window.confirm(t("frontend.message.character.checkall"))
         if (yn) {
             let newInven = inven
             filteredInfo.forEach((i) => newInven = newInven.concat([...(i.from || []), i.id]))
@@ -40,14 +40,14 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
         }
     }
     const clearAllInven = () => {
-        const yn = window.confirm(t("message.character.clearall"))
+        const yn = window.confirm(t("frontend.message.character.clearall"))
         if (yn) {
             const newInven = inven.filter((i) => !filteredInfo.map((info) => info.id).includes(i))
             setInven(newInven)
         }
     }
     const checkAllManifest = () => {
-        const yn = window.confirm(t("message.manifest.checkall"))
+        const yn = window.confirm(t("frontend.message.manifest.checkall"))
         if (yn) {
             let newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
             filteredInfo.forEach((info) => {
@@ -61,14 +61,14 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
         }
     }
     const clearAllManifest = () => {
-        const yn = window.confirm(t("message.manifest.clearall"))
+        const yn = window.confirm(t("frontend.message.manifest.clearall"))
         if (yn) {
             const newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
             setManifest(newManifest)
         }
     }
     const changeAllGrasta = (step: number) => {
-        const yn = window.confirm(t("message.grasta.checkall"))
+        const yn = window.confirm(t("frontend.message.grasta.changeall"))
         if (yn) {
             let newGrasta = grasta.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
             if (step > 0) {

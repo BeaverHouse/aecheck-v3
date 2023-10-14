@@ -15,7 +15,7 @@ const useConfigStore = create(
         (set, get) => ({
             theme: "dark",
             lang: "ko",
-            checkPath: "character",
+            checkPath: "/check/character",
             toggleTheme: (theme) => set((state) => ({
                 ...state,
                 theme: theme

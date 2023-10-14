@@ -20,7 +20,7 @@ const PersonalitySelectBox: React.FC = () => {
     return (
         <>
             <Typography variant="subtitle2">
-                {t("filter.essentialpersonality")}
+                {t("frontend.filter.essentialpersonality")}
             </Typography>
             <Autocomplete
                 multiple
@@ -47,7 +47,7 @@ const PersonalitySelectBox: React.FC = () => {
                 )}
             />
             <Typography variant="subtitle2">
-                {t("filter.choosepersonality")}
+                {t("frontend.filter.choosepersonality")}
             </Typography>
             <Autocomplete
                 multiple

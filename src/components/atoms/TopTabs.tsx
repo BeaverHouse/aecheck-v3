@@ -16,19 +16,19 @@ const TopTabs: React.FC<TabsInfo> = ({ basePath, tabs }) => {
 
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { checkPath, changeCheckPath } = useConfigStore();
+    const { changeCheckPath } = useConfigStore();
 
     const handleChange = (e: any, value: string) => {
         if (basePath === "/check")
             changeCheckPath(value)
-        navigate(`${basePath}/${value}`)
+        navigate(value)
     }
 
     return (
         isMobile ? null :
             <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Tabs
-                    value={checkPath}
+                    value={window.location.pathname}
                     onChange={handleChange}
                     sx={{
                         mt: 1,
@@ -39,7 +39,7 @@ const TopTabs: React.FC<TabsInfo> = ({ basePath, tabs }) => {
                     textColor='secondary'
                     indicatorColor='secondary'
                 >
-                    {tabs.map((tab) => <Tab key={tab.subpath} label={t(tab.labelTag)} value={tab.subpath} />)}
+                    {tabs.map((tab) => <Tab key={tab.subpath} label={t(tab.labelTag)} value={`${basePath}/${tab.subpath}`} />)}
                 </Tabs>
             </Box>
     )

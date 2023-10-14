@@ -1,6 +1,6 @@
 export const checkTabData: Array<TabInfo> = [
     {
-        labelTag: "tab.character",
+        labelTag: "frontend.tab.character",
         subpath: "character"
     },
     {
@@ -8,18 +8,18 @@ export const checkTabData: Array<TabInfo> = [
         subpath: "manifest"
     },
     {
-        labelTag: "tab.grasta",
+        labelTag: "frontend.tab.grasta",
         subpath: "grasta"
     },
 ]
 
 export const searchTabData: Array<TabInfo> = [
     {
-        labelTag: "tab.character",
+        labelTag: "frontend.tab.character",
         subpath: "character"
     },
     {
-        labelTag: "tab.buddy",
+        labelTag: "frontend.tab.buddy",
         subpath: "buddy"
     },
 ]
@@ -54,3 +54,6 @@ export const filterChipOptions = {
         "inven.have",
     ],
 }
+
+export const elements = [1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p00${a}`)
+export const weapons = [0, 1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p01${a}`)
