@@ -19,7 +19,7 @@ export const getCharacterStatus = (info: CharacterInfo, inven: Array<number>) =>
 
     // 2. 클체 목록 중에 있는지에 따라 분기처리
     const ccList = characters.filter((c) => inven.includes(c.id))
-        .map((c) => c.from).flat();
+        .map((c) => c.change).flat();
 
     if (ccList.includes(info.id)) return "inven.classchange"
     else return "inven.nothave"
@@ -71,7 +71,7 @@ export const commonFiltered = (
     typeTags: Array<string>,
     getTags: Array<string>,
     choosePersonalityTags: Array<string>,
-    essenTialPersonalityTags: Array<string>
+    essenTialPersonalityTags: Array<string>,
 ) => {
     for (const tags of [styleTags, alterTags, manifestTags, typeTags, getTags]) {
         if (!arrOverlap(info.tags, tags)) return false

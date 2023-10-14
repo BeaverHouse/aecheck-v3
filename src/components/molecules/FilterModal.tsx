@@ -40,6 +40,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
         getTags,
         manifestTags,
         typeTags,
+        invenTags,
         dungeon,
         setDungeon,
         removeFilter
@@ -84,6 +85,19 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                             color='secondary'
                         />
                     })}
+                </Box>
+                <Typography variant="subtitle2">
+                    {t("filter.inven")}
+                </Typography>
+                <Box sx={{ mb: 3, gridColumn: "span 2" }}>
+                    {filterChipOptions.inven.map((options, idx) => (
+                        <Chip clickable key={idx} label={t(options)}
+                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            variant={invenTags.includes(options) ? "filled" : "outlined"}
+                            onClick={() => toggleTag(options)}
+                            color='secondary'
+                        />
+                    ))}
                 </Box>
                 <Box sx={{ mb: 1 }}>
                     {filterChipOptions.type.map((options, idx) => (

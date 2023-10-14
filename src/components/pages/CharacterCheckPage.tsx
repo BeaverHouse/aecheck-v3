@@ -7,7 +7,8 @@ import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered } from '../../util/func';
+import { commonFiltered, getCharacterStatus } from '../../util/func';
+import useCheckStore from '../../store/useCheckStore';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -20,9 +21,11 @@ function CharacterCheckPage() {
         manifestTags,
         typeTags,
         getTags,
+        invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags
     } = useFilterStore()
+    const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => c.id < 1000)
@@ -44,7 +47,8 @@ function CharacterCheckPage() {
                 choosePersonalityTags,
                 essenTialPersonalityTags
             ) &&
-            t(`c${info.code}`).includes(searchWord)
+            t(`c${info.code}`).includes(searchWord) &&
+            invenTags.includes(getCharacterStatus(info, inven))
         ),
         baseCharacters
     )
