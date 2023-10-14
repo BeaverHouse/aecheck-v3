@@ -7,7 +7,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import { new_manifests } from '../../constant/updates';
-import { commonFiltered } from '../../util/func';
+import { commonFiltered, getCharacterStatus } from '../../util/func';
+import useCheckStore from '../../store/useCheckStore';
 
 const CharacterManifest = lazy(() => import("../molecules/CharacterManifest"));
 
@@ -20,9 +21,11 @@ function ManifestCheckPage() {
         manifestTags,
         typeTags,
         getTags,
+        invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags
     } = useFilterStore()
+    const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => arrOverlap(c.tags, ["manifest.step1", "manifest.step2"]))
@@ -44,6 +47,7 @@ function ManifestCheckPage() {
                 choosePersonalityTags,
                 essenTialPersonalityTags
             ) &&
+            invenTags.includes(getCharacterStatus(info, inven)) &&
             t(`c${info.code}`).includes(searchWord)
         ),
         baseCharacters

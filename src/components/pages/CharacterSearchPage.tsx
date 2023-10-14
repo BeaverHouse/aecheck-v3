@@ -7,7 +7,8 @@ import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered, getPaddedNumber } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
+import useCheckStore from '../../store/useCheckStore';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -20,10 +21,12 @@ function CharacterSearchPage() {
         manifestTags,
         typeTags,
         getTags,
+        invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags,
         dungeon
     } = useFilterStore()
+    const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => c.id < 1000)
@@ -46,6 +49,7 @@ function CharacterSearchPage() {
                 essenTialPersonalityTags
             ) &&
             (t(`c${info.code}`).includes(searchWord) || t(`book.char${info.id}`).includes(searchWord)) &&
+            invenTags.includes(getCharacterStatus(info, inven)) &&
             (!dungeon || info.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
         ),
         baseCharacters

@@ -6,8 +6,9 @@ import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import { filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered, getPaddedNumber } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
 import { pickups } from '../../constant/updates';
+import useCheckStore from '../../store/useCheckStore';
 
 const CharacterGrasta = lazy(() => import("../molecules/CharacterGrasta"));
 
@@ -20,10 +21,12 @@ function GrastaCheckPage() {
         manifestTags,
         typeTags,
         getTags,
+        invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags,
         dungeon
     } = useFilterStore()
+    const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((c) => t(`book.char${c.id}`, "").length > 0)
@@ -46,6 +49,7 @@ function GrastaCheckPage() {
                 essenTialPersonalityTags
             ) &&
             (t(`c${info.code}`).includes(searchWord) || t(`book.char${info.id}`).includes(searchWord)) &&
+            invenTags.includes(getCharacterStatus(info, inven)) &&
             (!dungeon || info.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
         ),
         baseCharacters
