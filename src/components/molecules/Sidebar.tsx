@@ -40,7 +40,7 @@ function Sidebar() {
     }
 
     const handleSearchClick = (path: string) => {
-        if (!window.location.pathname.startsWith("/search")) removeFilter()
+        if (window.location.pathname !== `/search/${path}`) removeFilter()
         navigate(`/search/${path}`);
     }
 

@@ -12,6 +12,7 @@ import Toolbar from '@mui/material/Toolbar';
 import ManifestCheckPage from "./components/pages/ManifestCheckPage";
 import GrastaCheckPage from "./components/pages/GrastaCheckPage";
 import CharacterSearchPage from "./components/pages/CharacterSearchPage";
+import BuddySearchPage from "./components/pages/BuddySearchPage";
 
 const router = createBrowserRouter([
     {
@@ -71,7 +72,7 @@ const router = createBrowserRouter([
                     },
                     {
                         path: "buddy",
-                        element: <p>준비중입니다.</p>,
+                        element: <BuddySearchPage />,
                     }
                 ]
             },

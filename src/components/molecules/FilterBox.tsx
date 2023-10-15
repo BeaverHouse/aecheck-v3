@@ -117,7 +117,7 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
                 flexWrap: "wrap"
             }}
         >
-            <IconButton
+            {type !== "BUDDY" ? <IconButton
                 aria-label="Filter Button"
                 onClick={() => setModal(type)}
                 sx={{
@@ -127,7 +127,7 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
                 }}
             >
                 <FilterAltIcon />
-            </IconButton>
+            </IconButton> : null}
             <SearchBox label={label} />
             <Box>
                 {Buttons()}

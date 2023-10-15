@@ -11,6 +11,15 @@ interface CharacterInfo {
     year?: string;
 }
 
+// buddy.json을 파싱할 때 사용하는 interface
+interface BuddyInfo {
+    id: number;
+    code: number;
+    link: Array<number>;
+    get: string;
+}
+
+// fixedData.ts의 탭 정보 파싱할 때 사용하는 interface
 interface TabInfo {
     subpath: string;
     labelTag: string;

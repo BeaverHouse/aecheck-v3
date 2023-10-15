@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import useConfigStore from '../../store/useConfigStore';
 import { isMobile } from 'react-device-detect';
+import useFilterStore from '../../store/useFilterStore';
 
 interface TabsInfo {
     basePath: string;
@@ -17,10 +18,12 @@ const TopTabs: React.FC<TabsInfo> = ({ basePath, tabs }) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
     const { changeCheckPath } = useConfigStore();
+    const { removeFilter } = useFilterStore();
 
     const handleChange = (e: any, value: string) => {
         if (basePath === "/check")
             changeCheckPath(value)
+        else if (window.location.pathname !== value) removeFilter()
         navigate(value)
     }
 
