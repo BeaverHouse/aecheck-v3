@@ -57,7 +57,6 @@ function GrastaCheckPage() {
 
     return (
         <Box sx={{
-            mt: 2,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -67,7 +66,7 @@ function GrastaCheckPage() {
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",
-                    maxWidth: "850px",
+                    maxWidth: "1150px",
                     display: "grid",
                     justifyContent: "center",
                     margin: 3,

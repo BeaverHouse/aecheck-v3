@@ -75,7 +75,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Typography variant="subtitle2">
                     {t("frontend.filter.manifest")}
                 </Typography>
-                <Box sx={{ mb: 2, gridColumn: "span 2" }}>
+                <Box sx={{ mb: 1, gridColumn: "span 2" }}>
                     {filterChipOptions.manifest.map((option, idx) => {
                         if (modalType === "MANIFEST" && option === "manifest.step0") return null;
                         return <Chip clickable key={idx} label={t(option)}
@@ -89,7 +89,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Typography variant="subtitle2">
                     {t("frontend.filter.inven")}
                 </Typography>
-                <Box sx={{ mb: 3, gridColumn: "span 2" }}>
+                <Box sx={{ mb: 1, gridColumn: "span 2" }}>
                     {filterChipOptions.inven.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
                             sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
@@ -99,6 +99,12 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                         />
                     ))}
                 </Box>
+                <Typography variant="subtitle2">
+                    {t("frontend.filter.type")}
+                </Typography>
+                <Typography variant="subtitle2">
+                    {t("frontend.filter.get")}
+                </Typography>
                 <Box sx={{ mb: 1 }}>
                     {filterChipOptions.type.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
@@ -119,6 +125,9 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                         />
                     ))}
                 </Box>
+                <Typography variant="subtitle2">
+                    {t("frontend.filter.alter")}
+                </Typography>
                 <Box sx={{ mb: 3, gridColumn: "span 2" }}>
                     {filterChipOptions.alter.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}

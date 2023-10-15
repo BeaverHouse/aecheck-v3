@@ -24,6 +24,21 @@ export const searchTabData: Array<TabInfo> = [
     },
 ]
 
+export const analyzeTabData: Array<TabInfo> = [
+    {
+        labelTag: "frontend.tab.stardream",
+        subpath: "stardream"
+    },
+    {
+        labelTag: "frontend.tab.whitekey",
+        subpath: "whitekey"
+    },
+    {
+        labelTag: "frontend.tab.legacy",
+        subpath: "legacy"
+    },
+]
+
 export const filterChipOptions = {
     style: [
         "style.four",
@@ -55,5 +70,5 @@ export const filterChipOptions = {
     ],
 }
 
-export const elements = [1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p00${a}`)
+export const elements = [0, 1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p00${a}`)
 export const weapons = [0, 1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p01${a}`)

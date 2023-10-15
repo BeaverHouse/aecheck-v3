@@ -5,17 +5,16 @@ import Modal from '@mui/material/Modal';
 import { useTranslation } from 'react-i18next';
 import Chip from '@mui/material/Chip';
 import dunJson from "../../data/dungeon.json";
-import useFilterStore from '../../store/useFilterStore';
-import { elements, filterChipOptions, weapons } from '../../constant/fixedData';
-import PersonalitySelectBox from './PersonalitySelectBox';
-import Autocomplete from '@mui/material/Autocomplete';
-import { dungeons } from '../../constant/parseData';
-import TextField from '@mui/material/TextField';
+import { elements, weapons } from '../../constant/fixedData';
 import useModalStore from '../../store/useModalStore';
-import { isTypeNode } from 'typescript';
-import { getPaddedNumber } from '../../util/func';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import ErrorIcon from '@mui/icons-material/Error';
+import CancelIcon from '@mui/icons-material/Cancel';
+import { getCharacterStatus, getGrastaStep, getManifestStep, getPaddedNumber } from '../../util/func';
 import IconButton from '@mui/material/IconButton';
 import { isMobile } from 'react-device-detect';
+import useCheckStore from '../../store/useCheckStore';
+import useTheme from '@mui/material/styles/useTheme';
 
 const style = {
     position: 'absolute' as 'absolute',
@@ -36,17 +35,43 @@ const style = {
 
 const CharacterModal: React.FC<CharacterInfo> = (info) => {
 
-
+    const { inven, grasta, manifest } = useCheckStore();
     const {
         modalInfo,
         hideModal
     } = useModalStore()
     const { t } = useTranslation();
+    const theme = useTheme()
 
     if (info.id >= 1000) return null;
 
     const styleTag = info.tags.find((t) => t.startsWith("style."));
     const bookName = t(`book.char${info.id}`, "N/A")
+
+    const currentInven = getCharacterStatus(info, inven)
+    const currentGrastaStep = getGrastaStep(info, grasta)
+    const currentManifestStep = getManifestStep(info, manifest)
+    const manifestConpleted = currentManifestStep > 0 && info.tags.includes(`manifest.step${currentManifestStep}`)
+
+    const invenIcon = () => {
+        const baseStyle = {
+            width: 28,
+            height: 28,
+            mr: 1,
+            backgroundColor: theme.palette.background.paper,
+            borderRadius: "100px",
+        }
+        switch (currentInven) {
+            case "inven.have":
+                return <CheckCircleIcon color="info" sx={baseStyle} />
+            case "inven.classchange":
+                return <ErrorIcon color='warning' sx={baseStyle} />
+            case "inven.nothave":
+                return <CancelIcon color='error' sx={baseStyle} />
+            default:
+                return null;
+        }
+    }
 
     return (
         <Modal open={(modalInfo as CharacterInfo).id === info.id} onClose={hideModal}>
@@ -71,9 +96,9 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     </picture>
                     <Box sx={{ flexGrow: 1, pl: 2 }}>
                         <Typography variant="subtitle2" component="h2">
-                            Char. Code : {info.code}
+                            C. Code: {info.code}
                             <br />
-                            Release : {info.year}
+                            Release: {info.year}
                         </Typography>
                     </Box>
                     <IconButton aria-label="fingerprint" color="success">
@@ -84,14 +109,42 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     display: "flex",
                     width: "100%",
                     alignItems: "center",
+                    mb: 1
+                }}>
+                    {invenIcon()}
+                    <Typography variant="subtitle2" component="h2">
+                        {t(currentInven)}
+                    </Typography>
+                </Box>
+                {manifestConpleted ? <Box sx={{
+                    display: "flex",
+                    width: "100%",
+                    alignItems: "center",
+                }}>
+                    <img src={`/image/icon/crown.png`} width={28} height={28} alt={`complete`}
+                        style={{
+                            width: 27,
+                            height: 27,
+                            marginRight: 8,
+                        }}
+                    />
+                    <Typography variant="subtitle2" component="h2">
+                        {t(`manifest.step${currentManifestStep}`)} Complete
+                    </Typography>
+                </Box> : null}
+                <Box sx={{
+                    display: "flex",
+                    width: "100%",
+                    alignItems: "center",
                     justifyContent: "center",
                     flexDirection: (isMobile ? "column" : "row"),
-                    mb: 2
+                    mb: 1,
+                    mt: 2
                 }}>
-                    <Typography variant="subtitle2" component="h2" sx={{ m: 1 }}>
+                    <Typography variant="subtitle2" component="h2" sx={{ m: 0.5 }}>
                         {t(`frontend.tag.element`)}
                     </Typography>
-                    <Box sx={{ flexGrow: 1 }}>
+                    <Box sx={{ flexGrow: 1, m: 0.5 }}>
                         {elements.filter((e) => info.tags.includes(e)).map((ele) => (
                             <img
                                 src={`/image/icon/${ele}.png`}
@@ -106,10 +159,10 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                             />
                         ))}
                     </Box>
-                    <Typography variant="subtitle2" component="h2" sx={{ m: 1 }}>
+                    <Typography variant="subtitle2" component="h2" sx={{ m: 0.5 }}>
                         {t(`frontend.tag.weapon`)}
                     </Typography>
-                    <Box sx={{ flexGrow: 1 }}>
+                    <Box sx={{ flexGrow: 1, m: 0.5 }}>
                         {weapons.filter((w) => info.tags.includes(w)).map((wea) => (
                             <img
                                 src={`/image/icon/${wea}.png`}
@@ -131,13 +184,13 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     alignItems: "center",
                     justifyContent: "center",
                     flexDirection: (isMobile ? "column" : "row"),
-                    mb: 2
+                    mb: 1
                 }}>
                     <Typography variant="subtitle2" component="h2" sx={{ m: 1 }}>
                         {t(`frontend.tag.personality`)}
                     </Typography>
                     <Box sx={{ flexGrow: 1, textAlign: "center" }}>
-                        {info.tags.filter((t) => t.startsWith("personality.")).map((tag) => (
+                        {info.tags.filter((t) => t.startsWith("personality.") && !t.endsWith("000")).map((tag) => (
                             <Chip label={t(tag)} size='small' color="default" sx={{ m: 0.2 }} />
                         ))}
                     </Box>
@@ -145,17 +198,30 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                 {bookName !== "N/A" ?
                     <Box sx={{ display: "flex", width: "100%", flexDirection: (isMobile ? "column" : "row"), alignItems: "center", mt: 2 }}>
                         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", mr: 1, ml: 1 }}>
-                            <img
-                                src={`/image/icon/book.png`}
-                                alt={"book"}
-                                width={50}
-                                height={50}
-                                style={{
-                                    width: 50,
-                                    height: 50,
-                                    pointerEvents: "none",
-                                }}
-                            />
+                            <Box>
+                                <img
+                                    src={`/image/icon/book.png`}
+                                    alt={"book"}
+                                    width={40}
+                                    height={40}
+                                    style={{
+                                        width: 40,
+                                        height: 40,
+                                        pointerEvents: "none",
+                                    }}
+                                />
+                                <img
+                                    src={`/image/icon/grasta${currentGrastaStep}.png`}
+                                    alt={"book"}
+                                    width={40}
+                                    height={40}
+                                    style={{
+                                        width: 40,
+                                        height: 40,
+                                        pointerEvents: "none",
+                                    }}
+                                />
+                            </Box>
                             <Typography variant="subtitle1" component="h2">
                                 {bookName}
                             </Typography>

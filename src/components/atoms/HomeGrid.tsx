@@ -31,7 +31,7 @@ export default function HomeGrid() {
 
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { checkPath } = useConfigStore();
+    const { checkPath, analyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
 
     const checkRedirect = [
@@ -39,6 +39,11 @@ export default function HomeGrid() {
         "/check/manifest",
         "/check/grasta",
     ].includes(checkPath) ? checkPath : "/check/character"
+    const analyzeRedirect = [
+        "/analyze/stardream",
+        "/analyze/whitekey",
+        "/analyze/legacy",
+    ].includes(analyzePath) ? analyzePath : "/analyze/stardream"
 
     const handleclick = (path: string) => {
         removeFilter();
@@ -64,7 +69,7 @@ export default function HomeGrid() {
                     </Item>
                 </Grid>
                 <Grid xs={6}>
-                    <Item>
+                    <Item onClick={() => handleclick(analyzeRedirect)}>
                         <AssessmentIcon fontSize='large' />
                         {t("frontend.menu.analyze")}
                     </Item>

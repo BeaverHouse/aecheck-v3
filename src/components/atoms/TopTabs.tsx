@@ -17,13 +17,15 @@ const TopTabs: React.FC<TabsInfo> = ({ basePath, tabs }) => {
 
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { changeCheckPath } = useConfigStore();
+    const { changeCheckPath, changeAnalyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
 
     const handleChange = (e: any, value: string) => {
         if (basePath === "/check")
             changeCheckPath(value)
-        else if (window.location.pathname !== value) removeFilter()
+        else if (basePath === "/analyze")
+            changeAnalyzePath(value)
+        if (basePath !== "/check" && window.location.pathname !== value) removeFilter()
         navigate(value)
     }
 

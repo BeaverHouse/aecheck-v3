@@ -9,6 +9,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
 import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
 import useCheckStore from '../../store/useCheckStore';
+import Chip from '@mui/material/Chip';
+import { filterChipOptions } from '../../constant/fixedData';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -55,30 +57,97 @@ function CharacterSearchPage() {
         baseCharacters
     )
 
+    const currentStyleFilters = filterChipOptions.style.filter((tag) => styleTags.includes(tag)).map((a) => t(a))
+    const currentManifestFilters = filterChipOptions.manifest.filter((tag) => manifestTags.includes(tag)).map((a) => t(a))
+    const currentInvenFilters = filterChipOptions.inven.filter((tag) => invenTags.includes(tag)).map((a) => t(a))
+    const currentTypeFilters = filterChipOptions.type.filter((tag) => typeTags.includes(tag)).map((a) => t(a))
+    const currentGetFilters = filterChipOptions.get.filter((tag) => getTags.includes(tag)).map((a) => t(a))
+    const currentAlterFilters = filterChipOptions.alter.filter((tag) => alterTags.includes(tag)).map((a) => t(a))
+
+    const ChipOptions = [
+        {
+            label: "frontend.filter.style",
+            value: currentStyleFilters,
+            isAll: currentStyleFilters.length === filterChipOptions.style.length
+        },
+        {
+            label: "frontend.filter.manifest",
+            value: currentManifestFilters,
+            isAll: currentManifestFilters.length === filterChipOptions.manifest.length
+        },
+        {
+            label: "frontend.filter.inven",
+            value: currentInvenFilters,
+            isAll: currentInvenFilters.length === filterChipOptions.inven.length
+        },
+        {
+            label: "frontend.filter.type",
+            value: currentTypeFilters,
+            isAll: currentTypeFilters.length === filterChipOptions.type.length
+        },
+        {
+            label: "frontend.filter.get",
+            value: currentGetFilters,
+            isAll: currentGetFilters.length === filterChipOptions.get.length
+        },
+        {
+            label: "frontend.filter.alter",
+            value: currentAlterFilters,
+            isAll: currentAlterFilters.length === filterChipOptions.alter.length
+        },
+        {
+            label: "frontend.filter.essentialpersonality",
+            value: essenTialPersonalityTags,
+            isAll: false
+        },
+        {
+            label: "frontend.filter.choosepersonality",
+            value: choosePersonalityTags,
+            isAll: false
+        },
+        {
+            label: "frontend.filter.dungeon",
+            value: dungeon ? [dungeon] : [],
+            isAll: false
+        },
+    ]
+
     return (
-        <Box sx={{
-            mt: 2,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center"
-        }}>
+        <>
             <FilterBox type="SEARCH" label='이름 or 직업서' filteredInfo={filteredArr} />
-            <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
-                <Box sx={{
-                    width: "98%",
-                    maxWidth: "1350px",
-                    display: "grid",
-                    justifyContent: "center",
-                    margin: 3,
-                    gridTemplateColumns: "repeat(auto-fill, 75px)",
-                    gap: 1.3,
-                }}>
-                    {filteredArr
-                        .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
+            <Box id='wrapper' sx={{
+                mt: 2,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center"
+            }}>
+                <Box sx={{ mt: 1, ml: 6, mr: 6 }}>
+                    {ChipOptions.map((opt) => {
+                        if (opt.value.length <= 0) return null;
+                        return <Chip
+                            size='small'
+                            sx={{ m: 0.2 }}
+                            label={`${t(opt.label)}: ${opt.isAll ? "ALL" : opt.value.map((o) => t(o))}`}
+                        />
+                    })}
                 </Box>
-            </Suspense>
-        </Box>
+                <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
+                    <Box sx={{
+                        width: "98%",
+                        maxWidth: "1350px",
+                        display: "grid",
+                        justifyContent: "center",
+                        margin: 2.5,
+                        gridTemplateColumns: "repeat(auto-fill, 75px)",
+                        gap: 1.3,
+                    }}>
+                        {filteredArr
+                            .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
+                    </Box>
+                </Suspense>
+            </Box>
+        </>
     )
 }
 

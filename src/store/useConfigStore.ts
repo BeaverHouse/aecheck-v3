@@ -5,9 +5,11 @@ interface ConfigState {
     theme: string;
     lang: string;
     checkPath: string;
+    analyzePath: string;
     toggleTheme: (theme: string) => void;
     changeLang: (lang: string) => void;
     changeCheckPath: (path: string) => void;
+    changeAnalyzePath: (path: string) => void;
 }
 
 const useConfigStore = create(
@@ -16,6 +18,7 @@ const useConfigStore = create(
             theme: "dark",
             lang: "ko",
             checkPath: "/check/character",
+            analyzePath: "/analyze/stardream",
             toggleTheme: (theme) => set((state) => ({
                 ...state,
                 theme: theme
@@ -27,6 +30,10 @@ const useConfigStore = create(
             changeCheckPath: (path) => set((state) => ({
                 ...state,
                 checkPath: path
+            })),
+            changeAnalyzePath: (path) => set((state) => ({
+                ...state,
+                analyzePath: path
             })),
         }),
         {

@@ -11,12 +11,18 @@ import useTheme from '@mui/material/styles/useTheme';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
+import useModalStore from '../../store/useModalStore';
+import { characters } from '../../constant/parseData';
 
 const BuddyInfo: React.FC<BuddyInfo> = (info) => {
 
     const { inven } = useCheckStore();
     const { t } = useTranslation()
     const theme = useTheme()
+    const {
+        setModal
+    } = useModalStore()
 
     const name = t(`bud${info.code}`);
     const checked = info.link.length > 0 && arrAllIncludes(inven, info.link)
@@ -99,9 +105,30 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
                     }
                 }} />
             </ImageListItem>
-            <Typography variant='subtitle2' sx={{ ml: 1, flexGrow: 1 }}>
-                {t(info.get)}
-            </Typography>
+            <Box sx={{ ml: 1, flexGrow: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>
+
+                {info.link.length > 0 ? <>
+                    {info.link.map((id) => (
+                        <picture onClick={() => setModal(characters.find((cha) => cha.id === id)!)}>
+                            <source srcSet={`/image/data/${id}.webp`} type="image/webp" />
+                            <img
+                                src={`/image/data/${id}.png`}
+                                alt={`link_${id}`}
+                                width={40}
+                                height={40}
+                                style={{
+                                    width: 40,
+                                    height: 40,
+                                    pointerEvents: "none",
+                                    border: `1px solid ${theme.palette.grey[400]}`
+                                }}
+                            />
+                        </picture>
+                    ))}
+                </> : <Typography variant='subtitle2' sx={{ m: 1 }}>
+                    {t(info.get)}
+                </Typography>}
+            </Box>
             <IconButton aria-label="fingerprint" color="success">
                 Link
             </IconButton>

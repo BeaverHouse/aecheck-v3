@@ -4,7 +4,7 @@ import CharacterCheckPage from "./components/pages/CharacterCheckPage";
 import { CssBaseline } from "@mui/material";
 import TopBar from "./components/organisms/TopBar";
 import TopTabs from "./components/atoms/TopTabs";
-import { checkTabData, searchTabData } from "./constant/fixedData";
+import { analyzeTabData, checkTabData, searchTabData } from "./constant/fixedData";
 import ScrollTop from "./components/atoms/ScrollToTop";
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -13,6 +13,9 @@ import ManifestCheckPage from "./components/pages/ManifestCheckPage";
 import GrastaCheckPage from "./components/pages/GrastaCheckPage";
 import CharacterSearchPage from "./components/pages/CharacterSearchPage";
 import BuddySearchPage from "./components/pages/BuddySearchPage";
+import StardreamAnalyzePage from "./components/pages/StardreamAnalyzePage";
+import WhitekeyAnalyzePage from "./components/pages/WhitekeyAnalyzePage";
+import LegacyAnalyzePage from "./components/pages/LegacyAnalyzePage";
 
 const router = createBrowserRouter([
     {
@@ -78,7 +81,26 @@ const router = createBrowserRouter([
             },
             {
                 path: "/analyze",
-                element: <p>준비중입니다.</p>,
+                element: (
+                    <>
+                        <TopTabs tabs={analyzeTabData} basePath="/analyze" />
+                        <Outlet />
+                    </>
+                ),
+                children: [
+                    {
+                        path: "stardream",
+                        element: <StardreamAnalyzePage />,
+                    },
+                    {
+                        path: "whitekey",
+                        element: <WhitekeyAnalyzePage />,
+                    },
+                    {
+                        path: "legacy",
+                        element: <LegacyAnalyzePage />,
+                    }
+                ]
             },
             {
                 path: "/link",

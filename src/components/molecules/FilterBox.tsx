@@ -113,6 +113,8 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
                 maxWidth: "600px",
                 display: "flex",
                 alignItems: "center",
+                margin: "0 auto",
+                mt: 2,
                 justifyContent: "center",
                 flexWrap: "wrap"
             }}

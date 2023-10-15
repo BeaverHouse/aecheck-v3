@@ -20,14 +20,14 @@ import useFilterStore from '../../store/useFilterStore';
 import useConfigStore from '../../store/useConfigStore';
 import LanguageButton from '../atoms/LanguageButton';
 import HomeIcon from '@mui/icons-material/Home';
-import { checkTabData, searchTabData } from '../../constant/fixedData';
+import { analyzeTabData, checkTabData, searchTabData } from '../../constant/fixedData';
 
 function Sidebar() {
 
     const [open, setOpen] = React.useState(false)
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { changeCheckPath } = useConfigStore();
+    const { changeCheckPath, changeAnalyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
 
     const anchor = isMobile ? "top" : "left"
@@ -42,6 +42,11 @@ function Sidebar() {
     const handleSearchClick = (path: string) => {
         if (window.location.pathname !== `/search/${path}`) removeFilter()
         navigate(`/search/${path}`);
+    }
+
+    const handleAnalyzeClick = (path: string) => {
+        changeAnalyzePath(`/analyze/${path}`)
+        navigate(`/analyze/${path}`);
     }
 
     return (
@@ -109,10 +114,17 @@ function Sidebar() {
                                     </ListItemButton>
                                 </ListItem>
                             ))}
-                            <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/analyze")}>
+                            <ListItem disablePadding>
                                 <AssessmentIcon sx={{ mr: 1 }} />
                                 <ListItemText primary={t("frontend.menu.analyze")} />
-                            </ListItemButton>
+                            </ListItem>
+                            {analyzeTabData.map((i) => (
+                                <ListItem disablePadding>
+                                    <ListItemButton sx={{ height: 30, pl: 3 }} onClick={() => handleAnalyzeClick(i.subpath)}>
+                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    </ListItemButton>
+                                </ListItem>
+                            ))}
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/link")}>
                                 <LinkIcon sx={{ mr: 1 }} />
                                 <ListItemText primary={t("frontend.menu.link")} />

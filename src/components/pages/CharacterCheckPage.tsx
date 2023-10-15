@@ -55,7 +55,6 @@ function CharacterCheckPage() {
 
     return (
         <Box sx={{
-            mt: 2,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",

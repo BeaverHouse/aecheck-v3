@@ -7,7 +7,6 @@ import FilterBox from '../molecules/FilterBox';
 import buddies from "../../data/buddy.json";
 import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
-import useCheckStore from '../../store/useCheckStore';
 
 const BuddyInfo = lazy(() => import("../atoms/BuddyInfo"));
 
@@ -16,7 +15,6 @@ function BuddySearchPage() {
     const {
         searchWord,
     } = useFilterStore()
-    const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseBuddies = buddies
@@ -35,7 +33,6 @@ function BuddySearchPage() {
 
     return (
         <Box sx={{
-            mt: 2,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
