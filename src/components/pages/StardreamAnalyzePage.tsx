@@ -71,7 +71,7 @@ function StardreamAnalyzePage() {
 
     return (
         <Box id="wrapper" sx={{
-            m: 2,
+            m: 0.5,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -103,12 +103,10 @@ function StardreamAnalyzePage() {
                         <AccordionDetails sx={{ p: 1 }}>
                             <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                                 <Box sx={{
-                                    width: "100%",
                                     display: "grid",
                                     gridTemplateColumns: "repeat(auto-fill, 75px)",
-                                    gap: 1.3,
-                                    mr: 2,
-                                    ml: 2,
+                                    justifyContent: "center",
+                                    gap: 1.1,
                                 }}>
                                     {opt.value
                                         .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}

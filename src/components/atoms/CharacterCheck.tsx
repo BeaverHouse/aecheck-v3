@@ -130,6 +130,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
                         width: 75,
                         height: 75,
                         boxSizing: "border-box",
+                        borderRadius: "3px",
                         pointerEvents: "none",
                     }}
                 />

@@ -83,7 +83,7 @@ function LegacyAnalyzePage() {
 
     return (
         <Box id="wrapper" sx={{
-            m: 2,
+            m: 0.5,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -101,7 +101,7 @@ function LegacyAnalyzePage() {
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography>{t(opt.label)}</Typography>
                         </AccordionSummary>
-                        <AccordionDetails sx={{ p: 1 }}>
+                        <AccordionDetails sx={{ p: 1, textAlign: "center" }}>
                             {opt.label === "frontend.analyze.owned" ?
                                 <Box sx={{
                                     m: 2, mt: 0,
@@ -116,17 +116,15 @@ function LegacyAnalyzePage() {
                             {opt.part.map((p) => {
                                 const filtered = opt.value.filter((val) => val.tags.includes(p))
                                 return filtered.length > 0 ? <>
-                                    <Typography variant='h6' sx={{ m: 2, mb: 1 }}>
+                                    <Typography variant='h6' sx={{ m: 1 }}>
                                         {t(p)} ({filtered.length})
                                     </Typography>
                                     <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                                         <Box sx={{
-                                            width: "100%",
                                             display: "grid",
                                             gridTemplateColumns: "repeat(auto-fill, 75px)",
-                                            gap: 1.3,
-                                            mr: 2,
-                                            ml: 2,
+                                            justifyContent: "center",
+                                            gap: 1.1,
                                         }}>
                                             {filtered
                                                 .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}

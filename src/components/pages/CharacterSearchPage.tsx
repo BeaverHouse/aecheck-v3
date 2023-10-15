@@ -11,6 +11,7 @@ import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/
 import useCheckStore from '../../store/useCheckStore';
 import Chip from '@mui/material/Chip';
 import { filterChipOptions } from '../../constant/fixedData';
+import { isMobile } from 'react-device-detect';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -122,7 +123,7 @@ function CharacterSearchPage() {
                 alignItems: "center",
                 justifyContent: "center"
             }}>
-                <Box sx={{ mt: 1, ml: 6, mr: 6 }}>
+                {!isMobile ? <Box sx={{ mt: 1, ml: 6, mr: 6 }}>
                     {ChipOptions.map((opt) => {
                         if (opt.value.length <= 0) return null;
                         return <Chip
@@ -131,7 +132,7 @@ function CharacterSearchPage() {
                             label={`${t(opt.label)}: ${opt.isAll ? "ALL" : opt.value.map((o) => t(o))}`}
                         />
                     })}
-                </Box>
+                </Box> : null}
                 <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                     <Box sx={{
                         width: "98%",
