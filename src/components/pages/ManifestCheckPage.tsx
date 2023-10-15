@@ -48,7 +48,7 @@ function ManifestCheckPage() {
                 essenTialPersonalityTags
             ) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&
-            t(`c${info.code}`).includes(searchWord)
+            t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase())
         ),
         baseCharacters
     )

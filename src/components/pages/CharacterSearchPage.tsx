@@ -48,7 +48,7 @@ function CharacterSearchPage() {
                 choosePersonalityTags,
                 essenTialPersonalityTags
             ) &&
-            (t(`c${info.code}`).includes(searchWord) || t(`book.char${info.id}`).includes(searchWord)) &&
+            (t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase()) || t(`book.char${info.id}`).toLowerCase().includes(searchWord.toLowerCase())) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&
             (!dungeon || info.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
         ),
@@ -63,7 +63,7 @@ function CharacterSearchPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox type="SEARCH" filteredInfo={filteredArr} />
+            <FilterBox type="SEARCH" label='이름 or 직업서' filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

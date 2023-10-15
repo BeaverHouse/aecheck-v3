@@ -28,7 +28,7 @@ function BuddySearchPage() {
 
     const filteredArr = filterVanilla(
         (info) => (
-            t(`bud${info.code}`).includes(searchWord)
+            t(`bud${info.code}`).toLowerCase().includes(searchWord.toLowerCase())
         ),
         baseBuddies
     )

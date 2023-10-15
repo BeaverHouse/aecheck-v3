@@ -48,7 +48,7 @@ function GrastaCheckPage() {
                 choosePersonalityTags,
                 essenTialPersonalityTags
             ) &&
-            (t(`c${info.code}`).includes(searchWord) || t(`book.char${info.id}`).includes(searchWord)) &&
+            (t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase()) || t(`book.char${info.id}`).toLowerCase().includes(searchWord.toLowerCase())) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&
             (!dungeon || info.dungeon_drop!.map((d) => `drop.dungeon${getPaddedNumber(d, 3)}`).includes(dungeon))
         ),

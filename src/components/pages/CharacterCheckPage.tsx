@@ -47,7 +47,7 @@ function CharacterCheckPage() {
                 choosePersonalityTags,
                 essenTialPersonalityTags
             ) &&
-            t(`c${info.code}`).includes(searchWord) &&
+            t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase()) &&
             invenTags.includes(getCharacterStatus(info, inven))
         ),
         baseCharacters
