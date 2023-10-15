@@ -9,6 +9,7 @@ import { darkPalette, lightPalette } from './constant/theme';
 import i18n from './i18n';
 import GlobalModal from './components/organisms/GlobalModal';
 import useModalStore from './store/useModalStore';
+import "./index.css"
 
 function App() {
 

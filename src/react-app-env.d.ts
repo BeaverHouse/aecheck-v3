@@ -24,3 +24,9 @@ interface TabInfo {
     subpath: string;
     labelTag: string;
 }
+
+interface CheckValueState {
+    inven: Array<number>;
+    manifest: Array<number>;
+    grasta: Array<number>;
+}

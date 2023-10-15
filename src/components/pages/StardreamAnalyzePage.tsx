@@ -12,21 +12,21 @@ import CircularProgress from '@mui/material/CircularProgress';
 import CharacterCheck from '../atoms/CharacterCheck';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
-import { arrOverlap } from '../../util/arrayUtil';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 function StardreamAnalyzePage() {
 
     const [Opened, setOpened] = React.useState([0, 1, 2, 3, 4, 5])
+    const [ShowRecentStyles, setShowRecentStyles] = React.useState(false)
     const { inven } = useCheckStore();
     const { t } = useTranslation()
 
-    const baseCharacters = characters.filter((info) =>
-        arrOverlap(info.tags, [
-            "style.normal",
-            "style.another",
-            "style.extra",
-        ]) &&
-        info.tags.includes("get.notfree")
+    const baseCharacters = characters.filter((info, idx) =>
+        info.tags.includes("get.notfree") &&
+        info.dungeon_drop!.filter((d) => ![100, 101].includes(d)).length > 0 &&
+        (!ShowRecentStyles || !characters.slice(idx + 1).map((c) => c.code).includes(info.code))
     ).sort((a, b) => dayjs(a.year!).isBefore(b.year!) ? 1 : -1)
 
     const firstOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) === "inven.nothave")
@@ -80,6 +80,17 @@ function StardreamAnalyzePage() {
             <Typography variant='h6' sx={{ mb: 1 }}>
                 {t("frontend.description.stardream")}
             </Typography>
+            <FormGroup>
+                <FormControlLabel control={
+                    <Checkbox
+                        checked={ShowRecentStyles}
+                        onChange={(_, checked) => setShowRecentStyles(checked)}
+                    />
+                } label={t("frontend.analyze.stardream.option")} />
+            </FormGroup>
+            {firstEnabled ? null : <Typography variant='h6'>
+                {t("frontend.description.secondoptionenabled")}
+            </Typography>}
             {CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{

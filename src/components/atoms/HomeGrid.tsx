@@ -11,6 +11,7 @@ import { useNavigate } from 'react-router-dom';
 import useConfigStore from '../../store/useConfigStore';
 import useFilterStore from '../../store/useFilterStore';
 import styled from '@mui/material/styles/styled';
+import useModalStore from '../../store/useModalStore';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.background.paper,
@@ -33,6 +34,7 @@ export default function HomeGrid() {
     const navigate = useNavigate();
     const { checkPath, analyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
+    const { setModal } = useModalStore()
 
     const checkRedirect = [
         "/check/character",
@@ -81,9 +83,11 @@ export default function HomeGrid() {
                     </Item>
                 </Grid>
                 <Grid xs={12}>
-                    <Item sx={{
-                        height: 50,
-                    }}>
+                    <Item onClick={() => setModal("DATALOADER")}
+                        sx={{
+                            height: 50,
+                        }}
+                    >
                         {t("frontend.menu.loader")}
                     </Item>
                 </Grid>

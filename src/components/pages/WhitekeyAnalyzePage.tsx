@@ -12,24 +12,26 @@ import CircularProgress from '@mui/material/CircularProgress';
 import CharacterCheck from '../atoms/CharacterCheck';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
-import { arrOverlap } from '../../util/arrayUtil';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 function WhitekeyAnalyzePage() {
 
     const [Opened, setOpened] = React.useState([0, 1, 2, 3, 4])
+    const [ShowNotOwned, setShowNotOwned] = React.useState(false)
     const { inven } = useCheckStore();
     const { t } = useTranslation()
 
     const baseCharacters = characters.filter((info) =>
-        arrOverlap(info.tags, [
-            "alter.true",
-            "style.another",
-            "style.extra",
-        ]) &&
-        info.tags.includes("get.notfree")
+        info.tags.includes("get.notfree") &&
+        info.dungeon_drop!.filter((d) => d >= 1000).length > 0
     ).sort((a, b) => dayjs(a.year!).isBefore(b.year!) ? 1 : -1)
 
     const firstOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) === "inven.classchange")
+    const secondOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) !== "inven.have")
+    const targetOptions = ShowNotOwned ? secondOptions : firstOptions
+
     const today = dayjs()
 
     const toggleOpened = (idx: number) => {
@@ -41,23 +43,23 @@ function WhitekeyAnalyzePage() {
     const CollapseOptions = [
         {
             label: "frontend.analyze.oneyear",
-            value: firstOptions.filter((info) => dayjs(info.year!).add(1, "year").isAfter(today)),
+            value: targetOptions.filter((info) => dayjs(info.year!).add(1, "year").isAfter(today)),
         },
         // {
         //     label: "frontend.analyze.havebuddy",
-        //     value: firstOptions.filter((info) => buddyCharacterIds.includes(info.id)),
+        //     value: targetOptions.filter((info) => buddyCharacterIds.includes(info.id)),
         // },
         {
             label: "frontend.analyze.alter",
-            value: firstOptions.filter((info) => info.tags.includes("alter.true")),
+            value: targetOptions.filter((info) => info.tags.includes("alter.true")),
         },
         {
             label: "frontend.analyze.extra",
-            value: firstOptions.filter((info) => info.tags.includes("style.extra")),
+            value: targetOptions.filter((info) => info.tags.includes("style.extra")),
         },
         {
             label: "frontend.analyze.another",
-            value: firstOptions.filter((info) => info.tags.includes("style.another")),
+            value: targetOptions.filter((info) => info.tags.includes("style.another")),
         },
     ]
 
@@ -72,6 +74,14 @@ function WhitekeyAnalyzePage() {
             <Typography variant='h6' sx={{ mb: 1 }}>
                 {t("frontend.description.whitekey")}
             </Typography>
+            <FormGroup>
+                <FormControlLabel control={
+                    <Checkbox
+                        checked={ShowNotOwned}
+                        onChange={(_, checked) => setShowNotOwned(checked)}
+                    />
+                } label={t("frontend.analyze.whitekey.option")} />
+            </FormGroup>
             {CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{

@@ -6,7 +6,6 @@ interface CheckState {
     inven: Array<number>;
     manifest: Array<number>;
     grasta: Array<number>;
-    buddy: Array<number>;
     addInven: (id: number) => void;
     removeInven: (id: number) => void;
     setInven: (inven: Array<number>) => void;
@@ -16,6 +15,7 @@ interface CheckState {
     addGrasta: (code: number) => void;
     removeGrasta: (id: number) => void;
     setGrasta: (grasta: Array<number>) => void;
+    loadSaveData: (data: CheckValueState) => void;
 }
 
 const useCheckStore = create(
@@ -24,7 +24,6 @@ const useCheckStore = create(
             inven: [],
             manifest: [],
             grasta: [],
-            buddy: [],
             addInven: (id) => set((state) => ({
                 ...state,
                 inven: cleanNumArr([...state.inven, id])
@@ -61,6 +60,13 @@ const useCheckStore = create(
                 ...state,
                 grasta: cleanNumArr(grasta)
             })),
+            loadSaveData: (data) => {
+                set({
+                    inven: cleanNumArr(data.inven || []),
+                    manifest: cleanNumArr((data.manifest || []).filter((i) => i >= 10000)),
+                    grasta: cleanNumArr((data.grasta || []).filter((i) => i >= 10000)),
+                })
+            },
         }),
         {
             name: "AE_CHECK",

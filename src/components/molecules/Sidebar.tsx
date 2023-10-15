@@ -21,6 +21,7 @@ import useConfigStore from '../../store/useConfigStore';
 import LanguageButton from '../atoms/LanguageButton';
 import HomeIcon from '@mui/icons-material/Home';
 import { analyzeTabData, checkTabData, searchTabData } from '../../constant/fixedData';
+import useModalStore from '../../store/useModalStore';
 
 function Sidebar() {
 
@@ -29,6 +30,7 @@ function Sidebar() {
     const navigate = useNavigate();
     const { changeCheckPath, changeAnalyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
+    const { setModal } = useModalStore()
 
     const anchor = isMobile ? "top" : "left"
 
@@ -130,7 +132,7 @@ function Sidebar() {
                                 <ListItemText primary={t("frontend.menu.link")} />
                             </ListItemButton>
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
-                            <ListItemButton sx={{ height: 30, pl: 0 }}>
+                            <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => setModal("DATALOADER")}>
                                 <ListItemText primary={t("frontend.menu.loader")} />
                             </ListItemButton>
                         </List>
