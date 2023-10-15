@@ -74,7 +74,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     }
 
     return (
-        <Modal open={(modalInfo as CharacterInfo).id === info.id} onClose={hideModal}>
+        <Modal open={(modalInfo as CharacterInfo).id === info.id} disableScrollLock={true} onClose={hideModal}>
             <Box sx={style}>
                 <Typography variant="h6" component="h2" sx={{ textAlign: "center", mb: 1 }}>
                     {t(`c${info.code}`)}({t(`${styleTag}`)})
