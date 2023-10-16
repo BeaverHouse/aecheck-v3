@@ -50,7 +50,7 @@ function WhitekeyAnalyzePage() {
         //     value: targetOptions.filter((info) => buddyCharacterIds.includes(info.id)),
         // },
         {
-            label: "frontend.analyze.alter",
+            label: "alter.true",
             value: targetOptions.filter((info) => info.tags.includes("alter.true")),
         },
         {
@@ -72,7 +72,7 @@ function WhitekeyAnalyzePage() {
             justifyContent: "center"
         }}>
             <Typography variant='h6' sx={{ mb: 1 }}>
-                {t("frontend.description.whitekey")}
+                {t("frontend.analyze.whitekey.description")}
             </Typography>
             <FormGroup>
                 <FormControlLabel control={
@@ -82,7 +82,7 @@ function WhitekeyAnalyzePage() {
                     />
                 } label={t("frontend.analyze.whitekey.option")} />
             </FormGroup>
-            {CollapseOptions.map((opt, idx) => (
+            {targetOptions.length > 0 ? CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{
                         width: "98%",
@@ -105,7 +105,9 @@ function WhitekeyAnalyzePage() {
                             </Suspense>
                         </AccordionDetails>
                     </Accordion> : null
-            ))}
+            )) : <Typography variant='h6'>
+                {t("frontend.analyze.whitekey.empty")}
+            </Typography>}
         </Box>
     )
 }

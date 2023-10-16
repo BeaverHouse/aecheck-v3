@@ -50,7 +50,7 @@ function LegacyAnalyzePage() {
 
     const CollapseOptions = [
         {
-            label: "frontend.analyze.notowned",
+            label: "frontend.analyze.legacy.notowned",
             value: notOwned,
             part: [
                 "get.notfree",
@@ -58,7 +58,7 @@ function LegacyAnalyzePage() {
             ]
         },
         {
-            label: "frontend.analyze.onlyfour",
+            label: "frontend.analyze.legacy.onlyfour",
             value: onlyFour,
             part: [
                 "get.notfree",
@@ -66,7 +66,7 @@ function LegacyAnalyzePage() {
             ]
         },
         {
-            label: "frontend.analyze.classchange",
+            label: "frontend.analyze.legacy.classchange",
             value: ccAvailable,
             part: [
                 "style.normal",
@@ -75,7 +75,7 @@ function LegacyAnalyzePage() {
             ]
         },
         {
-            label: "frontend.analyze.owned",
+            label: "frontend.analyze.legacy.owned",
             value: owned,
             part: WeaponSort ? weapons : elements
         },
@@ -90,7 +90,7 @@ function LegacyAnalyzePage() {
             justifyContent: "center"
         }}>
             <Typography variant='h6' sx={{ mb: 1 }}>
-                {t("frontend.description.legacy")}
+                {t("frontend.analyze.legacy.description")}
             </Typography>
             {CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?

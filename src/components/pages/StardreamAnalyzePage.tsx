@@ -52,7 +52,7 @@ function StardreamAnalyzePage() {
             value: targetOptions.filter((info) => buddyCharacterIds.includes(info.id)),
         },
         {
-            label: "frontend.analyze.alter",
+            label: "frontend.filter.alter",
             value: targetOptions.filter((info) => info.tags.includes("alter.true")),
         },
         {
@@ -78,7 +78,7 @@ function StardreamAnalyzePage() {
             justifyContent: "center"
         }}>
             <Typography variant='h6' sx={{ mb: 1 }}>
-                {t("frontend.description.stardream")}
+                {t("frontend.analyze.stardream.description")}
             </Typography>
             <FormGroup>
                 <FormControlLabel control={
@@ -89,9 +89,9 @@ function StardreamAnalyzePage() {
                 } label={t("frontend.analyze.stardream.option")} />
             </FormGroup>
             {firstEnabled ? null : <Typography variant='h6'>
-                {t("frontend.description.secondoptionenabled")}
+                {t("frontend.analyze.stardream.level1")}
             </Typography>}
-            {CollapseOptions.map((opt, idx) => (
+            {targetOptions.length > 0 ? CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{
                         width: "98%",
@@ -114,7 +114,9 @@ function StardreamAnalyzePage() {
                             </Suspense>
                         </AccordionDetails>
                     </Accordion> : null
-            ))}
+            )) : <Typography variant='h6'>
+                {t("frontend.analyze.stardream.level2")}
+            </Typography>}
         </Box>
     )
 }

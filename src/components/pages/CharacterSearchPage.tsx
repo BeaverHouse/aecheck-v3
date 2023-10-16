@@ -72,7 +72,7 @@ function CharacterSearchPage() {
             isAll: currentStyleFilters.length === filterChipOptions.style.length
         },
         {
-            label: "frontend.filter.manifest",
+            label: "manifest.step1",
             value: currentManifestFilters,
             isAll: currentManifestFilters.length === filterChipOptions.manifest.length
         },
@@ -107,7 +107,7 @@ function CharacterSearchPage() {
             isAll: false
         },
         {
-            label: "frontend.filter.dungeon",
+            label: "frontend.filter.bookdrop",
             value: dungeon ? [dungeon] : [],
             isAll: false
         },
@@ -115,7 +115,7 @@ function CharacterSearchPage() {
 
     return (
         <>
-            <FilterBox type="SEARCH" label='이름 or 직업서' filteredInfo={filteredArr} />
+            <FilterBox type="SEARCH" label={t("frontend.search.bookchar")} filteredInfo={filteredArr} />
             <Box id='wrapper' sx={{
                 mt: 2,
                 display: "flex",

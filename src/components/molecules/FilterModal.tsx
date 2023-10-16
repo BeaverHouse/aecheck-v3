@@ -73,7 +73,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 </Box>
 
                 <Typography variant="subtitle2">
-                    {t("frontend.filter.manifest")}
+                    {t("manifest.step1")}
                 </Typography>
                 <Box sx={{ mb: 1, gridColumn: "span 2" }}>
                     {filterChipOptions.manifest.map((option, idx) => {
@@ -141,7 +141,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <PersonalitySelectBox />
                 {["GRASTA", "SEARCH"].includes(modalType) ? <>
                     <Typography variant="subtitle2">
-                        {t("frontend.filter.dungeon")}
+                        {t("frontend.filter.bookdrop")}
                     </Typography>
                     <Autocomplete
                         sx={{ mt: 0.8, mb: 2, gridColumn: "span 2" }}

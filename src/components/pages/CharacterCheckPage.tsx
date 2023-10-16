@@ -60,7 +60,7 @@ function CharacterCheckPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox type="CHARACTER" filteredInfo={filteredArr} />
+            <FilterBox type="CHARACTER" filteredInfo={filteredArr} label={t("frontend.search.char")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",

@@ -62,7 +62,7 @@ function GrastaCheckPage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <FilterBox label="이름 or 직업서" type="GRASTA" filteredInfo={filteredArr} />
+            <FilterBox label={t("frontend.search.bookchar")} type="GRASTA" filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
                     width: "98%",
