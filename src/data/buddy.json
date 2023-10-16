@@ -5,7 +5,8 @@
 		"link": [
 			289
 		],
-		"get": "get.notfree"
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%C8%A5%E9"
 	},
 	{
 		"id": 2002,
@@ -13,25 +14,29 @@
 		"link": [
 			290
 		],
-		"get": "get.notfree"
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B3%A5%ED%A5%DC"
 	},
 	{
 		"id": 2003,
 		"code": 2000000003,
 		"link": [],
-		"get": "get.buddy2003"
+		"get": "get.buddy2003",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%BF%A5%DE%A5%F3%A5%C0%A1%BC"
 	},
 	{
 		"id": 2004,
 		"code": 2000000004,
 		"link": [],
-		"get": "get.buddy2004"
+		"get": "get.buddy2004",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%AF%A5%EC%A5%EC%CD%CD"
 	},
 	{
 		"id": 2005,
 		"code": 2000000005,
 		"link": [],
-		"get": "get.buddy2005"
+		"get": "get.buddy2005",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E2%A5%EB%A5%C7%A5%A3"
 	},
 	{
 		"id": 2006,
@@ -39,13 +44,15 @@
 		"link": [
 			309
 		],
-		"get": "get.notfree"
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%E5%A5%E2%A5%B9"
 	},
 	{
 		"id": 2007,
 		"code": 2000000007,
 		"link": [],
-		"get": "get.buddy2007"
+		"get": "get.buddy2007",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D4%A5%B9%A5%B1"
 	},
 	{
 		"id": 2008,
@@ -53,7 +60,8 @@
 		"link": [
 			318
 		],
-		"get": "get.notfree"
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%EC%A1%BC%A5%CE"
 	},
 	{
 		"id": 2009,
@@ -61,12 +69,14 @@
 		"link": [
 			332
 		],
-		"get": "get.notfree"
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%F3%A5%B9"
 	},
 	{
 		"id": 2010,
 		"code": 2000000010,
 		"link": [],
-		"get": "get.buddy2010"
+		"get": "get.buddy2010",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%E5%A5%A6%A5%AC"
 	}
 ]
