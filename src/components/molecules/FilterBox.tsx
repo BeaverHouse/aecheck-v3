@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import useCheckStore from '../../store/useCheckStore';
 import { useTranslation } from 'react-i18next';
 import { getManifestStatus } from '../../util/func';
+import Downloader from '../atoms/Downloader';
 
 interface FilterBoxInfo {
     label?: string;
@@ -101,6 +102,8 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
                         </Button>
                     ))}
                 </>
+            case "SEARCH":
+                return <Downloader tag='wrapper' />
             default:
                 return null
         }

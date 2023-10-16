@@ -3,6 +3,8 @@ import FilterModal from '../molecules/FilterModal'
 import CharacterModal from '../atoms/CharacterModal'
 import { isCharacterInfo } from '../../util/typecheck'
 import DataLoaderModal from '../atoms/DataLoaderModal'
+import Backdrop from '@mui/material/Backdrop'
+import CircularProgress from '@mui/material/CircularProgress'
 
 interface GlobalModalState {
     modalInfo: string | CharacterInfo | null
@@ -11,6 +13,14 @@ interface GlobalModalState {
 const GlobalModal: React.FC<GlobalModalState> = ({ modalInfo }) => {
     if (typeof modalInfo === "string") {
         if (modalInfo === "DATALOADER") return <DataLoaderModal />
+        else if (modalInfo === "LOADING") {
+            return <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={true}
+            >
+                <CircularProgress color="inherit" />
+            </Backdrop>
+        }
         return <FilterModal modalType={modalInfo} />
     } else if (isCharacterInfo(modalInfo)) {
         return <CharacterModal {...modalInfo} />

@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { elements, weapons } from '../../constant/fixedData';
 import Switch from '@mui/material/Switch';
+import Downloader from '../atoms/Downloader';
 
 function LegacyAnalyzePage() {
 
@@ -92,6 +93,7 @@ function LegacyAnalyzePage() {
             <Typography variant='h6' sx={{ mb: 1 }}>
                 {t("frontend.analyze.legacy.description")}
             </Typography>
+            <Downloader tag='wrapper' />
             {CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{

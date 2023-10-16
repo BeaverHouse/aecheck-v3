@@ -1,0 +1,64 @@
+import React from 'react'
+import html2canvas from 'html2canvas';
+import DownloadIcon from '@mui/icons-material/Download';
+import useTheme from '@mui/material/styles/useTheme';
+import Button from '@mui/material/Button';
+import useModalStore from '../../store/useModalStore';
+
+interface DownloaderProps {
+    tag: string;
+}
+
+/**
+ * Downloader
+ * 
+ * 특정 태그가 달린 div 영역을 이미지로 다운로드할 수 있게 합니다.
+ * 일부 기기에서 동작하지 않을 수도 있습니다.
+ * 
+ * @param tag
+ */
+const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
+
+    const theme = useTheme()
+    const { setModal, hideModal } = useModalStore()
+
+    const handleSaveClick = async () => {
+        const element = document.getElementById(tag)
+        if (!element) return;
+        setModal("LOADING")
+        try {
+            await html2canvas(element, {
+                allowTaint: true,
+                useCORS: true,
+                windowWidth: Math.max(element.clientWidth, 700),
+                backgroundColor: theme.palette.background.paper,
+                ignoreElements: (element) => element.id === "downloader",
+            }).then((canvas) => {
+                const dataUrl = canvas.toDataURL()
+                const link = document.createElement('a');
+                link.download = `${Date.now().toString()}.png`;
+                link.href = dataUrl;
+                link.click();
+            })
+        } finally {
+            hideModal()
+        }
+    }
+
+    return (
+        <Button
+            aria-label="Download Button"
+            id="downloader"
+            variant='contained'
+            color='secondary'
+            onClick={handleSaveClick}
+            sx={{ m: 0.5, mr: 2 }}
+            startIcon={<DownloadIcon />}
+        >
+            Download
+        </Button>
+    )
+}
+
+export default Downloader
+

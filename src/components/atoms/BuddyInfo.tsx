@@ -43,16 +43,14 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
             />
         } else if (!checked) return null;
         else {
-            return <CheckCircleIcon color="info"
-                sx={{
-                    width: 28,
-                    height: 28,
+            return <img src={`/image/icon/check.png`} width={25} height={25}
+                style={{
+                    width: 25,
+                    height: 25,
                     position: "absolute",
                     right: -5,
                     top: -5,
                     zIndex: 10,
-                    backgroundColor: theme.palette.background.paper,
-                    borderRadius: "100px",
                 }}
             />
         }

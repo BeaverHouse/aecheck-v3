@@ -1,7 +1,6 @@
 import React from 'react'
 import useCheckStore from '../../store/useCheckStore'
 import { useTranslation } from 'react-i18next';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { getGrastaStep, getManifestStep, getShortName } from '../../util/func';
 import { pickups } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
@@ -51,16 +50,14 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
         else if (currentGrastaStep > 0) {
             return grastaIcon(currentGrastaStep)
         } else {
-            return <CheckCircleIcon color="info"
-                sx={{
-                    width: 28,
-                    height: 28,
+            return <img src={`/image/icon/check.png`} width={25} height={25}
+                style={{
+                    width: 23,
+                    height: 23,
                     position: "absolute",
-                    right: -5,
-                    top: -5,
+                    right: -3,
+                    top: -3,
                     zIndex: 10,
-                    backgroundColor: theme.palette.background.paper,
-                    borderRadius: "100px",
                 }}
             />
         }

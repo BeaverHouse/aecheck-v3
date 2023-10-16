@@ -15,6 +15,7 @@ import { useTranslation } from 'react-i18next';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import Downloader from '../atoms/Downloader';
 
 function WhitekeyAnalyzePage() {
 
@@ -74,14 +75,17 @@ function WhitekeyAnalyzePage() {
             <Typography variant='h6' sx={{ mb: 1 }}>
                 {t("frontend.analyze.whitekey.description")}
             </Typography>
-            <FormGroup>
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={ShowNotOwned}
-                        onChange={(_, checked) => setShowNotOwned(checked)}
-                    />
-                } label={t("frontend.analyze.whitekey.option")} />
-            </FormGroup>
+            <Box sx={{ display: "flex" }}>
+                <Downloader tag='wrapper' />
+                <FormGroup>
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={ShowNotOwned}
+                            onChange={(_, checked) => setShowNotOwned(checked)}
+                        />
+                    } label={t("frontend.analyze.whitekey.option")} />
+                </FormGroup>
+            </Box>
             {targetOptions.length > 0 ? CollapseOptions.map((opt, idx) => (
                 opt.value.length > 0 ?
                     <Accordion expanded={Opened.includes(idx)} onChange={() => toggleOpened(idx)} sx={{

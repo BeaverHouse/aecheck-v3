@@ -15,6 +15,7 @@ import { useTranslation } from 'react-i18next';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import Downloader from '../atoms/Downloader';
 
 function StardreamAnalyzePage() {
 
@@ -80,14 +81,17 @@ function StardreamAnalyzePage() {
             <Typography variant='h6' sx={{ mb: 1 }}>
                 {t("frontend.analyze.stardream.description")}
             </Typography>
-            <FormGroup>
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={ShowRecentStyles}
-                        onChange={(_, checked) => setShowRecentStyles(checked)}
-                    />
-                } label={t("frontend.analyze.stardream.option")} />
-            </FormGroup>
+            <Box sx={{ display: "flex" }}>
+                <Downloader tag='wrapper' />
+                <FormGroup>
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={ShowRecentStyles}
+                            onChange={(_, checked) => setShowRecentStyles(checked)}
+                        />
+                    } label={t("frontend.analyze.stardream.option")} />
+                </FormGroup>
+            </Box>
             {firstEnabled ? null : <Typography variant='h6'>
                 {t("frontend.analyze.stardream.level1")}
             </Typography>}
