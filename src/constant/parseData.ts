@@ -12,3 +12,5 @@ export const dungeons = tags.filter((t) => t.startsWith("drop.dungeon") && !t.en
     .sort((a, b) => parseInt(a.replace("drop.dungeon", "")) - parseInt(b.replace("drop.dungeon", "")))
 
 export const buddyCharacterIds = budjson.map((b) => b.link).flat()
+
+export const totalCodes = Array.from(new Set(characters.map((c) => c.code)))

@@ -26,7 +26,7 @@ function StardreamAnalyzePage() {
 
     const baseCharacters = characters.filter((info, idx) =>
         info.tags.includes("get.notfree") &&
-        info.dungeon_drop!.filter((d) => ![100, 101].includes(d)).length > 0 &&
+        info.dungeon_drop!.filter((d) => ![100, 101, 102].includes(d)).length > 0 &&
         (!ShowRecentStyles || !characters.slice(idx + 1).map((c) => c.code).includes(info.code))
     ).sort((a, b) => dayjs(a.year!).isBefore(b.year!) ? 1 : -1)
 

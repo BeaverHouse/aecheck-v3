@@ -34,9 +34,9 @@ const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
                 backgroundColor: theme.palette.background.paper,
                 ignoreElements: (element) => element.id === "downloader",
             }).then((canvas) => {
-                const dataUrl = canvas.toDataURL()
+                const dataUrl = canvas.toDataURL("image/jpeg")
                 const link = document.createElement('a');
-                link.download = `${Date.now().toString()}.png`;
+                link.download = `${Date.now().toString()}.jpg`;
                 link.href = dataUrl;
                 link.click();
             })

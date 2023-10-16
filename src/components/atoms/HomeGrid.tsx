@@ -12,6 +12,8 @@ import useConfigStore from '../../store/useConfigStore';
 import useFilterStore from '../../store/useFilterStore';
 import styled from '@mui/material/styles/styled';
 import useModalStore from '../../store/useModalStore';
+import Typography from '@mui/material/Typography';
+import { totalCodes } from '../../constant/parseData';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.background.paper,
@@ -56,7 +58,12 @@ export default function HomeGrid() {
         <Box sx={{
             maxWidth: 400,
             margin: 2,
+            textAlign: "center"
         }}>
+            <Typography variant='h6' sx={{ mb: 2 }}>
+                {totalCodes.length + 23} Characters in Another Eden
+            </Typography>
+
             <Grid container spacing={1}>
                 <Grid xs={6}>
                     <Item onClick={() => handleclick(checkRedirect)}>
