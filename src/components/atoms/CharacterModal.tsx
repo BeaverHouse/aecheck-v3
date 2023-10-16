@@ -142,7 +142,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     mt: 2
                 }}>
                     <Typography variant="subtitle2" component="h2" sx={{ m: 0.5 }}>
-                        {t(`frontend.tag.element`)}
+                        {t(`frontend.word.element`)}
                     </Typography>
                     <Box sx={{ flexGrow: 1, m: 0.5 }}>
                         {elements.filter((e) => info.tags.includes(e)).map((ele) => (
@@ -160,7 +160,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                         ))}
                     </Box>
                     <Typography variant="subtitle2" component="h2" sx={{ m: 0.5 }}>
-                        {t(`frontend.tag.weapon`)}
+                        {t(`frontend.word.weapon`)}
                     </Typography>
                     <Box sx={{ flexGrow: 1, m: 0.5 }}>
                         {weapons.filter((w) => info.tags.includes(w)).map((wea) => (
@@ -187,7 +187,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     mb: 1
                 }}>
                     <Typography variant="subtitle2" component="h2" sx={{ m: 1 }}>
-                        {t(`frontend.tag.personality`)}
+                        {t(`frontend.word.personality`)}
                     </Typography>
                     <Box sx={{ flexGrow: 1, textAlign: "center" }}>
                         {info.tags.filter((t) => t.startsWith("personality.") && !t.endsWith("000")).map((tag) => (

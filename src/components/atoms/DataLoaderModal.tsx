@@ -75,7 +75,7 @@ function DataLoaderModal() {
                     {t("frontend.menu.loader")}
                 </Typography>
                 <Typography variant="subtitle2" sx={{ textAlign: "center", mb: 1 }}>
-                    {t("frontend.loader.description")}
+                    {t("frontend.menu.loader.description")}
                 </Typography>
                 <TextField
                     multiline
