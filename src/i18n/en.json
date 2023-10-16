@@ -543,5 +543,6 @@
 	"frontend.tab.legacy": "Legacy",
 	"frontend.search.char": "Character Name",
 	"frontend.search.bookchar": "Character or Memoir",
-	"frontend.search.buddy": "Buddy Name"
+	"frontend.search.buddy": "Buddy Name",
+	"frontend.search.fourcharacter": "4★ Characters w/ following personalities"
 }

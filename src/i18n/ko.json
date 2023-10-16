@@ -543,5 +543,6 @@
 	"frontend.tab.legacy": "이전 버전",
 	"frontend.search.char": "캐릭터 이름",
 	"frontend.search.bookchar": "캐릭터 또는 책 이름",
-	"frontend.search.buddy": "버디 이름"
+	"frontend.search.buddy": "버디 이름",
+	"frontend.search.fourcharacter": "선택한 특성을 가진 4성 캐릭터"
 }

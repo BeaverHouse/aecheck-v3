@@ -543,5 +543,6 @@
 	"frontend.tab.legacy": "以前バージョン",
 	"frontend.search.char": "キャラ名",
 	"frontend.search.bookchar": "キャラ or 記憶の書",
-	"frontend.search.buddy": "バディ名"
+	"frontend.search.buddy": "バディ名",
+	"frontend.search.fourcharacter": "選択したパーソナリティを持つ4★キャラ"
 }
