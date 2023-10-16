@@ -70,12 +70,13 @@ function WhitekeyAnalyzePage() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "center",
+            textAlign: "center"
         }}>
-            <Typography variant='h6' sx={{ mb: 1 }}>
+            <Typography variant='subtitle1' sx={{ m: 1 }}>
                 {t("frontend.analyze.whitekey.description")}
             </Typography>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Downloader tag='wrapper' />
                 <FormGroup>
                     <FormControlLabel control={
@@ -109,9 +110,12 @@ function WhitekeyAnalyzePage() {
                             </Suspense>
                         </AccordionDetails>
                     </Accordion> : null
-            )) : <Typography variant='h6'>
-                {t("frontend.analyze.whitekey.empty")}
-            </Typography>}
+            )) : <>
+                <img src='/image/happy.png' />
+                <Typography variant='h6' sx={{ m: 1 }}>
+                    {t("frontend.analyze.whitekey.empty")}
+                </Typography>
+            </>}
         </Box>
     )
 }

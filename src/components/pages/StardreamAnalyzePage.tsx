@@ -76,12 +76,13 @@ function StardreamAnalyzePage() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "center",
+            textAlign: "center"
         }}>
-            <Typography variant='h6' sx={{ mb: 1 }}>
+            <Typography variant='subtitle1' sx={{ m: 1 }}>
                 {t("frontend.analyze.stardream.description")}
             </Typography>
-            <Box sx={{ display: "flex" }}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Downloader tag='wrapper' />
                 <FormGroup>
                     <FormControlLabel control={
@@ -92,7 +93,7 @@ function StardreamAnalyzePage() {
                     } label={t("frontend.analyze.stardream.option")} />
                 </FormGroup>
             </Box>
-            {firstEnabled ? null : <Typography variant='h6'>
+            {firstEnabled || targetOptions.length === 0 ? null : <Typography variant='subtitle2' sx={{ mt: 1 }}>
                 {t("frontend.analyze.stardream.level1")}
             </Typography>}
             {targetOptions.length > 0 ? CollapseOptions.map((opt, idx) => (
@@ -118,9 +119,12 @@ function StardreamAnalyzePage() {
                             </Suspense>
                         </AccordionDetails>
                     </Accordion> : null
-            )) : <Typography variant='h6'>
-                {t("frontend.analyze.stardream.level2")}
-            </Typography>}
+            )) : <>
+                <img src='/image/happy.png' />
+                <Typography variant='h6' sx={{ m: 1 }}>
+                    {t("frontend.analyze.stardream.level2")}
+                </Typography>
+            </>}
         </Box>
     )
 }

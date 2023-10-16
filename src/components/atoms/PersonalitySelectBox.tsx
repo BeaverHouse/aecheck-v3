@@ -19,7 +19,7 @@ const PersonalitySelectBox: React.FC = () => {
 
     return (
         <>
-            <Typography variant="subtitle2">
+            <Typography variant="subtitle2" sx={{ gridColumn: "span 2" }}>
                 {t("frontend.filter.essentialpersonality")}
             </Typography>
             <Autocomplete
@@ -46,7 +46,7 @@ const PersonalitySelectBox: React.FC = () => {
                     />
                 )}
             />
-            <Typography variant="subtitle2">
+            <Typography variant="subtitle2" sx={{ gridColumn: "span 2" }}>
                 {t("frontend.filter.choosepersonality")}
             </Typography>
             <Autocomplete

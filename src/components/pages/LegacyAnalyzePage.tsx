@@ -90,7 +90,7 @@ function LegacyAnalyzePage() {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <Typography variant='h6' sx={{ mb: 1 }}>
+            <Typography variant='subtitle1' sx={{ m: 1 }}>
                 {t("frontend.analyze.legacy.description")}
             </Typography>
             <Downloader tag='wrapper' />
@@ -104,7 +104,7 @@ function LegacyAnalyzePage() {
                             <Typography>{t(opt.label)}</Typography>
                         </AccordionSummary>
                         <AccordionDetails sx={{ p: 1, textAlign: "center" }}>
-                            {opt.label === "frontend.analyze.owned" ?
+                            {opt.label === "frontend.analyze.legacy.owned" ?
                                 <Box sx={{
                                     m: 2, mt: 0,
                                     display: "flex",
@@ -118,7 +118,7 @@ function LegacyAnalyzePage() {
                             {opt.part.map((p) => {
                                 const filtered = opt.value.filter((val) => val.tags.includes(p))
                                 return filtered.length > 0 ? <>
-                                    <Typography variant='h6' sx={{ m: 1 }}>
+                                    <Typography variant='h6' sx={{ mt: 2, mb: 0.5 }}>
                                         {t(p)} ({filtered.length})
                                     </Typography>
                                     <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>

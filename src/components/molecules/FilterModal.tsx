@@ -24,6 +24,8 @@ const style = {
     boxShadow: 24,
     fontWeight: 800,
     display: "grid",
+    maxHeight: "80vh",
+    overflow: "auto",
     gridTemplateColumns: "1fr 1fr",
     p: 1,
 };

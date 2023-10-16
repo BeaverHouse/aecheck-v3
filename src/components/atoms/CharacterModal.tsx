@@ -43,15 +43,13 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     const { t } = useTranslation();
     const theme = useTheme()
 
-    if (info.id >= 1000) return null;
-
-    const styleTag = info.tags.find((t) => t.startsWith("style."));
+    const styleTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("style.")) : "style.four";
     const bookName = t(`book.char${info.id}`, "N/A")
 
     const currentInven = getCharacterStatus(info, inven)
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
-    const manifestConpleted = currentManifestStep > 0 && info.tags.includes(`manifest.step${currentManifestStep}`)
+    const manifestCompleted = currentManifestStep > 0 && info.tags.includes(`manifest.step${currentManifestStep}`)
 
     const invenIcon = () => {
         const baseStyle = {
@@ -105,7 +103,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                         Link
                     </IconButton>
                 </Box>
-                <Box sx={{
+                {info.id < 1000 ? <Box sx={{
                     display: "flex",
                     width: "100%",
                     alignItems: "center",
@@ -115,8 +113,8 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     <Typography variant="subtitle2" component="h2">
                         {t(currentInven)}
                     </Typography>
-                </Box>
-                {manifestConpleted ? <Box sx={{
+                </Box> : null}
+                {manifestCompleted ? <Box sx={{
                     display: "flex",
                     width: "100%",
                     alignItems: "center",
@@ -180,13 +178,14 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                 </Box>
                 <Box sx={{
                     display: "flex",
+                    wordBreak: "keep-all",
                     width: "100%",
                     alignItems: "center",
                     justifyContent: "center",
                     flexDirection: (isMobile ? "column" : "row"),
                     mb: 1
                 }}>
-                    <Typography variant="subtitle2" component="h2" sx={{ m: 1 }}>
+                    <Typography variant="subtitle2" component="h2" sx={{ m: 0.5 }}>
                         {t(`frontend.word.personality`)}
                     </Typography>
                     <Box sx={{ flexGrow: 1, textAlign: "center" }}>

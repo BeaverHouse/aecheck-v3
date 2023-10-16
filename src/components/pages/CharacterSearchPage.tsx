@@ -6,12 +6,13 @@ import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
-import { filterVanilla } from '../../util/arrayUtil';
+import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
 import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
 import useCheckStore from '../../store/useCheckStore';
 import Chip from '@mui/material/Chip';
 import { filterChipOptions } from '../../constant/fixedData';
 import { isMobile } from 'react-device-detect';
+import Divider from '@mui/material/Divider';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
 
@@ -113,6 +114,12 @@ function CharacterSearchPage() {
         },
     ]
 
+    const fourCharacters = characters.filter((info) => (
+        info.id >= 1000 &&
+        arrAllIncludes(info.tags, essenTialPersonalityTags) &&
+        (choosePersonalityTags.length <= 0 || arrOverlap(info.tags, choosePersonalityTags))
+    ))
+
     return (
         <>
             <FilterBox type="SEARCH" label={t("frontend.search.bookchar")} filteredInfo={filteredArr} />
@@ -147,6 +154,25 @@ function CharacterSearchPage() {
                             .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
                     </Box>
                 </Suspense>
+                {choosePersonalityTags.length + essenTialPersonalityTags.length > 0 && fourCharacters.length > 0 ? <>
+                    <Divider sx={{ color: (theme) => theme.palette.secondary.main }}>
+                        {t("frontend.search.fourcharacter")}
+                    </Divider>
+                    <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
+                        <Box sx={{
+                            width: "98%",
+                            maxWidth: "1350px",
+                            display: "grid",
+                            justifyContent: "center",
+                            margin: 2.5,
+                            gridTemplateColumns: "repeat(auto-fill, 75px)",
+                            gap: 1.3,
+                        }}>
+                            {fourCharacters
+                                .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
+                        </Box>
+                    </Suspense>
+                </> : null}
             </Box>
         </>
     )

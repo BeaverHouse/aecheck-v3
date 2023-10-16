@@ -52,10 +52,10 @@ const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
             variant='contained'
             color='secondary'
             onClick={handleSaveClick}
-            sx={{ m: 0.5, mr: 2 }}
+            sx={{ m: 1, mr: 2, ml: 2 }}
             startIcon={<DownloadIcon />}
         >
-            Download
+            Down
         </Button>
     )
 }
