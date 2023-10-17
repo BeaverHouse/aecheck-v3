@@ -17,7 +17,8 @@ const GlobalModal: React.FC<GlobalModalState> = ({ modalInfo }) => {
         hideModal,
     } = useModalStore()
 
-    const popModal = () => {
+    const popModal = (e: PopStateEvent) => {
+        e.preventDefault()
         if (modalInfo !== null) hideModal()
     }
 
