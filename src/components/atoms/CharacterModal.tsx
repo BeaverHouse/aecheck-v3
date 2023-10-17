@@ -117,9 +117,9 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                             Release: {info.year}
                         </Typography>
                     </Box>
-                    <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
+                    {info.seesaa ? <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
                         <OpenInNewIcon />
-                    </IconButton>
+                    </IconButton> : null}
                 </Box>
                 {info.id < 1000 ? <Box sx={{
                     display: "flex",

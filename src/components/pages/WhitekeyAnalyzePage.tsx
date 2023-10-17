@@ -81,6 +81,7 @@ function WhitekeyAnalyzePage() {
                 <FormGroup>
                     <FormControlLabel control={
                         <Checkbox
+                            color='secondary'
                             checked={ShowNotOwned}
                             onChange={(_, checked) => setShowNotOwned(checked)}
                         />

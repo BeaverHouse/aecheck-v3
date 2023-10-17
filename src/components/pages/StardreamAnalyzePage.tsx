@@ -87,6 +87,7 @@ function StardreamAnalyzePage() {
                 <FormGroup>
                     <FormControlLabel control={
                         <Checkbox
+                            color='secondary'
                             checked={ShowRecentStyles}
                             onChange={(_, checked) => setShowRecentStyles(checked)}
                         />
@@ -122,7 +123,7 @@ function StardreamAnalyzePage() {
             )) : <>
                 <img src='/image/happy.png' />
                 <Typography variant='h6' sx={{ m: 1 }}>
-                    {t("frontend.analyze.stardream.level2")}
+                    {t("frontend.analyze.whitekey.empty")}
                 </Typography>
             </>}
         </Box>

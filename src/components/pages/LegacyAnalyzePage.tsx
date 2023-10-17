@@ -111,7 +111,7 @@ function LegacyAnalyzePage() {
                                     alignItems: "center",
                                 }}>
                                     {t("frontend.analyze.legacy.sortelement")}
-                                    <Switch inputProps={{ "aria-label": 'Sort Switch' }} checked={WeaponSort} onChange={handleSort} />
+                                    <Switch inputProps={{ "aria-label": 'Sort Switch' }} color='secondary' checked={WeaponSort} onChange={handleSort} />
                                     {t("frontend.analyze.legacy.sortweapon")}
                                 </Box>
                                 : null}
