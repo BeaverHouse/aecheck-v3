@@ -15,6 +15,8 @@ import IconButton from '@mui/material/IconButton';
 import { isMobile } from 'react-device-detect';
 import useCheckStore from '../../store/useCheckStore';
 import useTheme from '@mui/material/styles/useTheme';
+import Avatar from '@mui/material/Avatar';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const style = {
     position: 'absolute' as 'absolute',
@@ -44,6 +46,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     const theme = useTheme()
 
     const styleTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("style.")) : "style.four";
+    const typeTag = info.tags.find((t) => t.startsWith("type."))
     const bookName = t(`book.char${info.id}`, "N/A")
 
     const currentInven = getCharacterStatus(info, inven)
@@ -74,9 +77,24 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     return (
         <Modal open={(modalInfo as CharacterInfo).id === info.id} disableScrollLock={true} onClose={hideModal}>
             <Box sx={style}>
-                <Typography variant="h6" component="h2" sx={{ textAlign: "center", mb: 1 }}>
-                    {t(`c${info.code}`)}({t(`${styleTag}`)})
-                </Typography>
+                <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mb: 1 }}>
+                    <Typography variant="h6" component="h2" sx={{ textAlign: "center", mr: 1, ml: 1 }}>
+                        {t(`c${info.code}`)}({t(`${styleTag}`)})
+                    </Typography>
+                    {typeTag ?
+                        <img
+                            src={`/image/icon/${typeTag}.png`}
+                            alt={typeTag}
+                            width={30}
+                            height={30}
+                            style={{
+                                width: 30,
+                                height: 30,
+                                pointerEvents: "none",
+                            }}
+                        />
+                        : null}
+                </Box>
                 <Box sx={{ display: "flex", width: "100%", alignItems: "center", mb: 3 }}>
                     <picture>
                         <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
@@ -99,8 +117,8 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                             Release: {info.year}
                         </Typography>
                     </Box>
-                    <IconButton aria-label="fingerprint" color="success">
-                        Link
+                    <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
+                        <OpenInNewIcon />
                     </IconButton>
                 </Box>
                 {info.id < 1000 ? <Box sx={{
@@ -227,16 +245,18 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                         </Box>
                         <Box sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
                             {dunJson.filter((d) => info.dungeon_drop!.includes(d.id)).map((dun) => (
-                                <Box sx={{ display: "flex", textAlign: "center" }}>
-                                    <Typography variant={dun.id > 1000 ? "h5" : "subtitle2"} sx={{ m: 1, flexGrow: 1 }}>
+                                <Box sx={{ display: "flex", textAlign: "center", alignItems: "center" }}>
+                                    <Typography variant={dun.id > 1000 ? "h5" : "subtitle2"} sx={{ flexGrow: 1 }}>
                                         {t(`drop.dungeon${getPaddedNumber(dun.id, 3)}`)}
                                     </Typography>
-                                    {dun.id < 1000 ? <>
-                                        <IconButton aria-label="fingerprint" color="success">
-                                            A
+                                    {dun.altema !== null ? <>
+                                        <IconButton aria-label="altema" href={dun.altema} target='_blank' rel='noreferrer'>
+                                            <Avatar src='/image/icon/altema.jpg' sx={{ width: 30, height: 30 }} />
                                         </IconButton>
-                                        <IconButton aria-label="fingerprint" color="success">
-                                            W
+                                    </> : null}
+                                    {dun.wiki !== null ? <>
+                                        <IconButton aria-label="wiki" href={dun.wiki} target='_blank' rel='noreferrer'>
+                                            <Avatar src='/image/icon/wiki.jpg' sx={{ width: 30, height: 30 }} />
                                         </IconButton>
                                     </> : null}
                                 </Box>

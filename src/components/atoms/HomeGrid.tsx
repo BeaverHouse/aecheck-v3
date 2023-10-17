@@ -60,8 +60,11 @@ export default function HomeGrid() {
             margin: 2,
             textAlign: "center"
         }}>
-            <Typography variant='h6' sx={{ mb: 2 }}>
-                {totalCodes.length + 23} Characters in Another Eden
+            <Typography variant='h6' sx={{ mb: 0.5 }}>
+                Total Characters : {totalCodes.length + 23}
+            </Typography>
+            <Typography variant='subtitle2' sx={{ mb: 2 }}>
+                ( {totalCodes.length} + 23 3☆{t("frontend.tab.character")} )
             </Typography>
 
             <Grid container spacing={1}>
@@ -84,7 +87,7 @@ export default function HomeGrid() {
                     </Item>
                 </Grid>
                 <Grid xs={6}>
-                    <Item>
+                    <Item onClick={() => handleclick(`/link`)}>
                         <LinkIcon fontSize='large' />
                         {t("frontend.menu.link")}
                     </Item>

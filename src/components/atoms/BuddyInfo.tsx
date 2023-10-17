@@ -1,6 +1,5 @@
 import React from 'react'
 import { arrAllIncludes } from '../../util/arrayUtil';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import useCheckStore from '../../store/useCheckStore';
 import { useTranslation } from 'react-i18next';
 import Card from '@mui/material/Card';
@@ -14,6 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
 import useModalStore from '../../store/useModalStore';
 import { characters } from '../../constant/parseData';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const BuddyInfo: React.FC<BuddyInfo> = (info) => {
 
@@ -44,6 +44,7 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
         } else if (!checked) return null;
         else {
             return <img src={`/image/icon/check.png`} width={25} height={25}
+                alt='check'
                 style={{
                     width: 25,
                     height: 25,
@@ -127,8 +128,8 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
                     {t(info.get)}
                 </Typography>}
             </Box>
-            <IconButton aria-label="fingerprint" color="success">
-                Link
+            <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
+                <OpenInNewIcon />
             </IconButton>
         </Card>
     )

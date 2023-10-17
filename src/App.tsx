@@ -20,6 +20,11 @@ function App() {
   } = useModalStore()
   const selectedTheme = createTheme({
     palette: theme === "dark" ? darkPalette : lightPalette,
+    typography: {
+      button: {
+        textTransform: 'none'
+      }
+    }
   });
 
   useEffect(() => {

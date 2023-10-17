@@ -16,6 +16,7 @@ import BuddySearchPage from "./components/pages/BuddySearchPage";
 import StardreamAnalyzePage from "./components/pages/StardreamAnalyzePage";
 import WhitekeyAnalyzePage from "./components/pages/WhitekeyAnalyzePage";
 import LegacyAnalyzePage from "./components/pages/LegacyAnalyzePage";
+import LinkPage from "./components/pages/LinkPage";
 
 const router = createBrowserRouter([
     {
@@ -104,7 +105,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/link",
-                element: <p>준비중입니다.</p>,
+                element: <LinkPage />,
             },
         ],
     },

@@ -23,7 +23,7 @@ export const lightPalette: PaletteOptions = {
         main: '#d4f2e3',
     },
     secondary: {
-        main: "#D6006E",
+        main: "#bd3ed6",
     },
     info: {
         main: "#50C878",
