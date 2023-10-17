@@ -5,12 +5,27 @@ import { isCharacterInfo } from '../../util/typecheck'
 import DataLoaderModal from '../atoms/DataLoaderModal'
 import Backdrop from '@mui/material/Backdrop'
 import CircularProgress from '@mui/material/CircularProgress'
+import useModalStore from '../../store/useModalStore'
 
 interface GlobalModalState {
     modalInfo: string | CharacterInfo | null
 }
 
 const GlobalModal: React.FC<GlobalModalState> = ({ modalInfo }) => {
+
+    const {
+        hideModal,
+    } = useModalStore()
+
+    const popModal = () => {
+        if (modalInfo !== null) hideModal()
+    }
+
+    React.useEffect(() => {
+        window.addEventListener("popstate", popModal);
+        return () => window.removeEventListener("popstate", popModal);
+    });
+
     if (typeof modalInfo === "string") {
         if (modalInfo === "DATALOADER") return <DataLoaderModal />
         else if (modalInfo === "LOADING") {
