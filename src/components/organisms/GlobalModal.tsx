@@ -19,15 +19,15 @@ const GlobalModal: React.FC<GlobalModalState> = ({ modalInfo }) => {
 
     const popModal = (e: PopStateEvent) => {
         e.preventDefault()
-        if (modalInfo !== null) hideModal()
+        if (modalInfo !== null) {
+            hideModal()
+            window.history.go(1)
+        }
     }
 
     React.useEffect(() => {
         window.addEventListener("popstate", popModal);
-        return () => {
-            window.history.go(1)
-            window.removeEventListener("popstate", popModal);
-        }
+        return () => window.removeEventListener("popstate", popModal);
     });
 
     if (typeof modalInfo === "string") {
