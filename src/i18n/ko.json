@@ -544,5 +544,7 @@
 	"frontend.search.char": "캐릭터 이름",
 	"frontend.search.bookchar": "캐릭터 또는 책 이름",
 	"frontend.search.buddy": "버디 이름",
-	"frontend.search.fourcharacter": "선택한 특성을 가진 4성 캐릭터"
+	"frontend.search.fourcharacter": "선택한 특성을 가진 4성 캐릭터",
+	"manifest.unavailable": "캐릭터를 보유하고 있지 않습니다.",
+	"manifest.classchange": "클래스 체인지가 필요합니다."
 }

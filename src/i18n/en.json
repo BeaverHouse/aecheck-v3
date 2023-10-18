@@ -544,5 +544,7 @@
 	"frontend.search.char": "Character Name",
 	"frontend.search.bookchar": "Character or Memoir",
 	"frontend.search.buddy": "Buddy Name",
-	"frontend.search.fourcharacter": "4★ Characters w/ following personalities"
+	"frontend.search.fourcharacter": "4★ Characters w/ following personalities",
+	"manifest.unavailable": "You don't have this character for now.",
+	"manifest.classchange": "Class Change is required to unlock manifest."
 }
