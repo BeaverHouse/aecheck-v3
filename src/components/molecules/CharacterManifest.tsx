@@ -90,7 +90,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
                         <Typography fontWeight={600}>{t(`manifest.step${currentStep}`)}</Typography>
                     </Box>
                 </Box>
-                : <Typography sx={{ ml: 1, display: "flex", alignItems: "center" }}>{status}</Typography>}
+                : <Typography sx={{ ml: 1, display: "flex", alignItems: "center" }} variant='subtitle2'>{status}</Typography>}
         </Card >
     )
 }
