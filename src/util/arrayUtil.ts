@@ -1,4 +1,4 @@
-export const cleanNumArr = (arr: Array<number>) => Array.from(new Set(arr)).sort((a, b) => a - b);
+export const cleanNumArr = (arr: Array<number>) => Array.from(new Set(arr.filter(a => a !== null))).sort((a, b) => a - b);
 
 export const arrOverlap = <T>(bigArr: Array<T>, smallArr: Array<T>): boolean => {
     if (smallArr.length === 0) return false

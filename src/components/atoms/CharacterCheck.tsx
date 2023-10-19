@@ -122,6 +122,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
                     alt={`${name}_${info.id}`}
                     width={80}
                     height={80}
+                    className={checked ? "" : "gray"}
                     style={{
                         border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
                         width: 75,

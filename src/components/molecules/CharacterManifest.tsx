@@ -52,13 +52,19 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
 
     const status = t(getManifestStatus(info, inven))
     const stepArr = info.tags.includes("manifest.step2") ? [0, 1, 2] : [0, 1]
+    const maxStep = stepArr[stepArr.length - 1]
 
     const currentStep = getManifestStep(info, manifest)
 
     const changeManifest = (step: number) => {
-        const changedStep = currentStep + step
-        if (changedStep <= 0) removeManifest(info.id)
-        else addManifest(changedStep * 10000 + info.id)
+        const changedStep = Math.min(currentStep, maxStep) + step
+        if (changedStep <= 0) {
+            removeManifest(info.id)
+            return
+        }
+        const finalStep = Math.min(changedStep, maxStep)
+        addManifest(finalStep * 10000 + info.id)
+        return
     }
 
     return (
@@ -72,7 +78,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
             <CharacterCheck info={info} isCheck={false} />
             {status === "manifest.available"
                 ? <Box sx={{ display: 'flex', alignItems: "center", pl: 1, pr: 1 }}>
-                    <CircularProgressWithLabel value={100 * currentStep / Math.max(...stepArr)} />
+                    <CircularProgressWithLabel value={100 * Math.min(currentStep, maxStep) / maxStep} />
                     <Box>
                         <ToggleButtonGroup
                             exclusive
@@ -87,7 +93,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
                                 <AddIcon />
                             </ToggleButton>
                         </ToggleButtonGroup>
-                        <Typography fontWeight={600}>{t(`manifest.step${currentStep}`)}</Typography>
+                        <Typography fontWeight={600}>{t(`manifest.step${Math.min(currentStep, maxStep)}`)}</Typography>
                     </Box>
                 </Box>
                 : <Typography sx={{ ml: 1, display: "flex", alignItems: "center" }} variant='subtitle2'>{status}</Typography>}
