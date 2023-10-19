@@ -27,11 +27,12 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
     const name = t(`c${info.code}`);
     const checked = inven.includes(info.id);
 
+    const manifestTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("manifest.")) : "manifest.step0";
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
 
     const manifestIcon = () => {
-        const manifestConpleted = currentManifestStep > 0 && info.tags.includes(`manifest.step${currentManifestStep}`)
+        const manifestConpleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", ""))
         if (manifestConpleted) {
             const style: React.CSSProperties = {
                 position: "absolute",

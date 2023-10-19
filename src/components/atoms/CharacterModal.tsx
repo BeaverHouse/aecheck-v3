@@ -46,13 +46,14 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     const theme = useTheme()
 
     const styleTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("style.")) : "style.four";
+    const manifestTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("manifest.")) : "manifest.step0";
     const typeTag = info.tags.find((t) => t.startsWith("type."))
     const bookName = t(`book.char${info.id}`, "N/A")
 
     const currentInven = getCharacterStatus(info, inven)
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
-    const manifestCompleted = currentManifestStep > 0 && info.tags.includes(`manifest.step${currentManifestStep}`)
+    const manifestCompleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", ""))
 
     const invenIcon = () => {
         const baseStyle = {
@@ -145,7 +146,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                         }}
                     />
                     <Typography variant="subtitle2" component="h2">
-                        {t(`manifest.step${currentManifestStep}`)} Complete
+                        {t(manifestTag!)} Complete
                     </Typography>
                 </Box> : null}
                 <Box sx={{
