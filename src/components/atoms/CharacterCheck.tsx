@@ -42,7 +42,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
                 width: 25,
                 height: 25
             };
-            return <img src={`/image/icon/crown.png`} width={25} height={25} alt={`complete`} style={style} />
+            return <img src={`/image/icon/crown.png`} width={25} height={25} alt='complete' style={style} />
         }
     }
 
@@ -52,6 +52,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             return grastaIcon(currentGrastaStep)
         } else {
             return <img src={`/image/icon/check.png`} width={25} height={25}
+                alt='check'
                 style={{
                     width: 23,
                     height: 23,
