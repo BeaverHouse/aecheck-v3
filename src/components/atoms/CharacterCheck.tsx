@@ -32,7 +32,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
     const currentManifestStep = getManifestStep(info, manifest)
 
     const manifestIcon = () => {
-        const manifestConpleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", ""))
+        const manifestConpleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", "")) && currentManifestStep > 0
         if (manifestConpleted) {
             const style: React.CSSProperties = {
                 position: "absolute",

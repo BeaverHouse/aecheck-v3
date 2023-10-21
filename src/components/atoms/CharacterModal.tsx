@@ -53,7 +53,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     const currentInven = getCharacterStatus(info, inven)
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
-    const manifestCompleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", ""))
+    const manifestCompleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", "")) && currentManifestStep > 0
 
     const invenIcon = () => {
         const baseStyle = {
