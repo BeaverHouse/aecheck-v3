@@ -11,6 +11,11 @@
     box-shadow: none !important;
 }
 
+.announce {
+    font-size: 14px;
+    text-align: left;
+}
+
 /* .gray {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);

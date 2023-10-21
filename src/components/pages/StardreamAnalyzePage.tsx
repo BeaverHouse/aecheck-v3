@@ -121,7 +121,7 @@ function StardreamAnalyzePage() {
                         </AccordionDetails>
                     </Accordion> : null
             )) : <>
-                <img src='/image/happy.png' />
+                <img src='/image/happy.png' alt='empty' />
                 <Typography variant='h6' sx={{ m: 1 }}>
                     {t("frontend.analyze.whitekey.empty")}
                 </Typography>
