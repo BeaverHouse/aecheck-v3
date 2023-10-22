@@ -79,13 +79,20 @@ function WhitekeyAnalyzePage() {
             <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Downloader tag='wrapper' />
                 <FormGroup>
-                    <FormControlLabel control={
-                        <Checkbox
-                            color='secondary'
-                            checked={ShowNotOwned}
-                            onChange={(_, checked) => setShowNotOwned(checked)}
-                        />
-                    } label={t("frontend.analyze.whitekey.option")} />
+                    <FormControlLabel
+                        control={
+                            <Checkbox
+                                color='secondary'
+                                checked={ShowNotOwned}
+                                onChange={(_, checked) => setShowNotOwned(checked)}
+                            />
+                        }
+                        label={
+                            <Typography variant='subtitle2'>
+                                {t("frontend.analyze.whitekey.option")}
+                            </Typography>
+                        }
+                    />
                 </FormGroup>
             </Box>
             {targetOptions.length > 0 ? CollapseOptions.map((opt, idx) => (

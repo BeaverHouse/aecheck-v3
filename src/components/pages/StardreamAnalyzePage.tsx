@@ -85,13 +85,20 @@ function StardreamAnalyzePage() {
             <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Downloader tag='wrapper' />
                 <FormGroup>
-                    <FormControlLabel control={
-                        <Checkbox
-                            color='secondary'
-                            checked={ShowRecentStyles}
-                            onChange={(_, checked) => setShowRecentStyles(checked)}
-                        />
-                    } label={t("frontend.analyze.stardream.option")} />
+                    <FormControlLabel
+                        control={
+                            <Checkbox
+                                color='secondary'
+                                checked={ShowRecentStyles}
+                                onChange={(_, checked) => setShowRecentStyles(checked)}
+                            />
+                        }
+                        label={
+                            <Typography variant='subtitle2'>
+                                {t("frontend.analyze.stardream.option")}
+                            </Typography>
+                        }
+                    />
                 </FormGroup>
             </Box>
             {firstEnabled || targetOptions.length === 0 ? null : <Typography variant='subtitle2' sx={{ mt: 1 }}>

@@ -2,8 +2,8 @@ import React from 'react'
 import html2canvas from 'html2canvas';
 import DownloadIcon from '@mui/icons-material/Download';
 import useTheme from '@mui/material/styles/useTheme';
-import Button from '@mui/material/Button';
 import useModalStore from '../../store/useModalStore';
+import Fab from '@mui/material/Fab';
 
 interface DownloaderProps {
     tag: string;
@@ -46,17 +46,16 @@ const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
     }
 
     return (
-        <Button
+        <Fab
             aria-label="Download Button"
             id="downloader"
-            variant='contained'
             color='secondary'
             onClick={handleSaveClick}
-            sx={{ m: 1, mr: 2, ml: 2 }}
-            startIcon={<DownloadIcon />}
+            size='small'
+            sx={{ m: 1, mr: 2, ml: 2, minWidth: 40 }}
         >
-            Down
-        </Button>
+            <DownloadIcon />
+        </Fab>
     )
 }
 
