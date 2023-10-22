@@ -154,7 +154,7 @@ function CharacterSearchPage() {
                             gridTemplateColumns: "repeat(auto-fill, 75px)",
                             gap: 2,
                         }}>
-                            {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
+                            {arr.map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
                         </Box> : null
                     ))}
                 </Suspense>
