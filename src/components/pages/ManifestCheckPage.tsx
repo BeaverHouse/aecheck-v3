@@ -63,13 +63,13 @@ function ManifestCheckPage() {
             <Filterbox type="MANIFEST" filteredInfo={filteredArr} label={t("frontend.search.char")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
-                    width: "98%",
+                    width: "99%",
                     maxWidth: "1150px",
                     display: "grid",
                     justifyContent: "center",
                     margin: 3,
                     gridTemplateColumns: "repeat(auto-fill, 270px)",
-                    gap: 1.3,
+                    gap: 2,
                 }}>
                     {filteredArr.map((c) => <CharacterManifest key={c.id} {...c} />)}
                 </Box>

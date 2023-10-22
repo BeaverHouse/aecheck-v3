@@ -65,13 +65,13 @@ function GrastaCheckPage() {
             <FilterBox label={t("frontend.search.bookchar")} type="GRASTA" filteredInfo={filteredArr} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
-                    width: "98%",
+                    width: "99%",
                     maxWidth: "1150px",
                     display: "grid",
                     justifyContent: "center",
                     margin: 3,
                     gridTemplateColumns: "repeat(auto-fill, 270px)",
-                    gap: 1.3,
+                    gap: 2,
                 }}>
                     {filteredArr.map((c) => <CharacterGrasta key={c.id} {...c} />)}
                 </Box>

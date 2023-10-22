@@ -41,13 +41,13 @@ function BuddySearchPage() {
             <FilterBox type="BUDDY" filteredInfo={[]} label={t("frontend.search.buddy")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
-                    width: "98%",
+                    width: "99%",
                     maxWidth: "1350px",
                     display: "grid",
                     justifyContent: "center",
                     margin: 3,
                     gridTemplateColumns: "repeat(auto-fill, 270px)",
-                    gap: 1.3,
+                    gap: 2,
                 }}>
                     {filteredArr
                         .map((c) => <BuddyInfo key={c.id} {...c} />)}

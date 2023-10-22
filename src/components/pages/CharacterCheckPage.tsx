@@ -63,13 +63,13 @@ function CharacterCheckPage() {
             <FilterBox type="CHARACTER" filteredInfo={filteredArr} label={t("frontend.search.char")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
                 <Box sx={{
-                    width: "98%",
+                    width: "99%",
                     maxWidth: "1350px",
                     display: "grid",
                     justifyContent: "center",
                     margin: 3,
                     gridTemplateColumns: "repeat(auto-fill, 75px)",
-                    gap: 1.3,
+                    gap: 2,
                 }}>
                     {filteredArr
                         .map((c) => <CharacterCheck key={c.id} info={c} />)}
