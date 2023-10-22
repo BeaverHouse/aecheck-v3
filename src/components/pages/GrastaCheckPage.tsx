@@ -63,7 +63,7 @@ function GrastaCheckPage() {
             justifyContent: "center"
         }}>
             <FilterBox label={t("frontend.search.bookchar")} type="GRASTA" filteredInfo={filteredArr} />
-            <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
+            <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                 <Box sx={{
                     width: "99%",
                     maxWidth: "1150px",

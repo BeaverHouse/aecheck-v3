@@ -61,7 +61,7 @@ function ManifestCheckPage() {
             justifyContent: "center",
         }}>
             <Filterbox type="MANIFEST" filteredInfo={filteredArr} label={t("frontend.search.char")} />
-            <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
+            <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                 <Box sx={{
                     width: "99%",
                     maxWidth: "1150px",

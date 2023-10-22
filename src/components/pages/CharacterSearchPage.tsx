@@ -143,19 +143,21 @@ function CharacterSearchPage() {
                         />
                     })}
                 </Box> : null}
-                {[encounterArr, freeArr].map((arr) => (
-                    arr.length > 0 ? <Box sx={{
-                        width: "99%",
-                        maxWidth: "1350px",
-                        display: "grid",
-                        justifyContent: "center",
-                        margin: 3,
-                        gridTemplateColumns: "repeat(auto-fill, 75px)",
-                        gap: 2,
-                    }}>
-                        {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
-                    </Box> : null
-                ))}
+                <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
+                    {[encounterArr, freeArr].map((arr) => (
+                        arr.length > 0 ? <Box sx={{
+                            width: "99%",
+                            maxWidth: "1350px",
+                            display: "grid",
+                            justifyContent: "center",
+                            margin: 3,
+                            gridTemplateColumns: "repeat(auto-fill, 75px)",
+                            gap: 2,
+                        }}>
+                            {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
+                        </Box> : null
+                    ))}
+                </Suspense>
                 {choosePersonalityTags.length + essenTialPersonalityTags.length > 0 && fourCharacters.length > 0 ? <>
                     <Divider sx={{ color: (theme) => theme.palette.secondary.main }}>
                         {t("frontend.search.fourcharacter")}

@@ -61,7 +61,7 @@ function CharacterCheckPage() {
             justifyContent: "center"
         }}>
             <FilterBox type="CHARACTER" filteredInfo={filteredArr} label={t("frontend.search.char")} />
-            <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
+            <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                 {[pickedArr, encounterArr, freeArr].map((arr) => (
                     arr.length > 0 ? <Box sx={{
                         width: "99%",

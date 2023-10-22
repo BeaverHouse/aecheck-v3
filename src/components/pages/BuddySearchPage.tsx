@@ -39,7 +39,7 @@ function BuddySearchPage() {
             justifyContent: "center"
         }}>
             <FilterBox type="BUDDY" filteredInfo={[]} label={t("frontend.search.buddy")} />
-            <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
+            <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                 <Box sx={{
                     width: "99%",
                     maxWidth: "1350px",
