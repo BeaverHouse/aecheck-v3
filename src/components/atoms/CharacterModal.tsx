@@ -65,7 +65,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
         }
         switch (currentInven) {
             case "inven.have":
-                return <CheckCircleIcon color="info" sx={baseStyle} />
+                return <CheckCircleIcon color="success" sx={baseStyle} />
             case "inven.classchange":
                 return <ErrorIcon color='warning' sx={baseStyle} />
             case "inven.nothave":

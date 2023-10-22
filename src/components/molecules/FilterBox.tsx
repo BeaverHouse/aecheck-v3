@@ -86,17 +86,17 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
             case "CHARACTER":
                 return <>
                     <Button variant="contained" color='secondary' sx={{ m: 0.5 }} onClick={clearAllInven}>Clear All</Button>
-                    <Button variant="contained" color='info' sx={{ m: 0.5 }} onClick={checkAllInven}>Check All</Button>
+                    <Button variant="contained" color='success' sx={{ m: 0.5 }} onClick={checkAllInven}>Check All</Button>
                 </>
             case "MANIFEST":
                 return <>
                     <Button variant="contained" color='secondary' sx={{ m: 0.5 }} onClick={clearAllManifest}>Clear All</Button>
-                    <Button variant="contained" color='info' sx={{ m: 0.5 }} onClick={checkAllManifest}>Check All</Button>
+                    <Button variant="contained" color='success' sx={{ m: 0.5 }} onClick={checkAllManifest}>Check All</Button>
                 </>
             case "GRASTA":
                 return <>
                     {[0, 1, 2].map((i) => (
-                        <Button variant="contained" color={i === 0 ? 'secondary' : "info"} sx={{ m: 0.3, pr: 1, pt: 0.5, pb: 0.5 }} onClick={() => changeAllGrasta(i)} key={i}>
+                        <Button variant="contained" color={i === 0 ? 'secondary' : 'success'} sx={{ m: 0.3, pr: 1, pt: 0.5, pb: 0.5 }} onClick={() => changeAllGrasta(i)} key={i}>
                             <b>ALL</b>
                             <img src={`/image/icon/grasta${i}.png`} alt={`${i}`} width={30} height={30} />
                         </Button>

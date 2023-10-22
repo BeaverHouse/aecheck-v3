@@ -12,7 +12,7 @@ function TopBar() {
     const navigate = useNavigate();
 
     return (
-        <AppBar sx={{ flexGrow: 1 }}>
+        <AppBar sx={{ flexGrow: 1 }} enableColorOnDark>
             <Toolbar>
                 <Sidebar />
                 <Typography

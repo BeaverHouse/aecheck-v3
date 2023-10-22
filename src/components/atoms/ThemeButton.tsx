@@ -19,7 +19,12 @@ function ThemeButton() {
             alignItems: "center",
         }}>
             <LightModeIcon />
-            <Switch inputProps={{ "aria-label": 'Theme Switch' }} checked={theme === "dark"} onChange={handleTheme} />
+            <Switch
+                inputProps={{ "aria-label": 'Theme Switch' }}
+                color="info"
+                checked={theme === "dark"}
+                onChange={handleTheme}
+            />
             <DarkModeIcon />
         </Box>
     )

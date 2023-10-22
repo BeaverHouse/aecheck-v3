@@ -29,7 +29,7 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
 
     const statusIcon = () => {
         if (info.link.length <= 0) {
-            return <Chip color="info"
+            return <Chip
                 sx={{
                     position: "absolute",
                     right: -3,
