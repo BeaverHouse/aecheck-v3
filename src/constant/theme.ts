@@ -16,7 +16,8 @@ export const darkPalette: PaletteOptions = {
         default: "#172119"
     },
     info: {
-        main: "#FFFFFF"
+        main: "#FFFFFF",
+        dark: "#000000"
     }
 }
 
@@ -35,4 +36,8 @@ export const lightPalette: PaletteOptions = {
         default: "#e9efea",
         paper: "#eef3ef"
     },
+    info: {
+        main: "#000000",
+        dark: "#FFFFFF"
+    }
 }

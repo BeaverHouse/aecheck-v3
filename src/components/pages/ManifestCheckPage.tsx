@@ -7,7 +7,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import { new_manifests } from '../../constant/updates';
-import { commonFiltered, getCharacterStatus } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getShortName } from '../../util/func';
 import useCheckStore from '../../store/useCheckStore';
 
 const CharacterManifest = lazy(() => import("../molecules/CharacterManifest"));
@@ -26,13 +26,13 @@ function ManifestCheckPage() {
         essenTialPersonalityTags
     } = useFilterStore()
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((c) => arrOverlap(c.tags, ["manifest.step1", "manifest.step2"]))
         .sort((a, b) => {
             const a_pick = new_manifests.includes(a.id) ? -1 : 1
             const b_pick = new_manifests.includes(b.id) ? -1 : 1
-            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+            return a_pick === b_pick ? getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)) : a_pick - b_pick
         });
 
     const filteredArr = filterVanilla(

@@ -6,7 +6,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
 import { useTranslation } from 'react-i18next';
 import { filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getPaddedNumber, getShortName } from '../../util/func';
 import { pickups } from '../../constant/updates';
 import useCheckStore from '../../store/useCheckStore';
 
@@ -27,13 +27,13 @@ function GrastaCheckPage() {
         dungeon
     } = useFilterStore()
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((c) => t(`book.char${c.id}`, "").length > 0)
         .sort((a, b) => {
             const a_pick = pickups.includes(a.id) ? -1 : 1
             const b_pick = pickups.includes(b.id) ? -1 : 1
-            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+            return a_pick === b_pick ? getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)) : a_pick - b_pick
         });
 
     const filteredArr = filterVanilla(

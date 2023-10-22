@@ -21,7 +21,7 @@ function BuddySearchPage() {
         .sort((a, b) => {
             const a_pick = new_buddies.includes(a.id) ? -1 : 1
             const b_pick = new_buddies.includes(b.id) ? -1 : 1
-            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+            return a_pick === b_pick ? t(`bud${a.code}`).localeCompare(t(`bud${b.code}`)) : a_pick - b_pick
         });
 
     const filteredArr = filterVanilla(
