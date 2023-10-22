@@ -2,7 +2,7 @@ export const pickups = [335, 336]
 export const new_manifests = [125]
 export const new_buddies = [2009, 2010]
 
-export const announceDate = "20231021"
+export const announceDate = "20231022"
 
 export const announceTitleKo = "사이트 테스트 중입니다."
 export const announceContentKo = <div className="announce">
@@ -13,11 +13,14 @@ export const announceContentKo = <div className="announce">
   오류가 있다면, 꼭 제보 부탁드립니다.
   <br />
   <br />
+  231022 : 여러 수정사항이 있습니다. 자세한 내용은 패치노트를 확인해 주세요.
+  <br />
+  <br />
   <a href="https://aecheck.tistory.com/category/%EC%A0%95%EB%B3%B4%2C%EB%AC%B8%EC%9D%98" target="_blank" rel="noreferrer">사이트 관련 정보 보러가기</a>
   <br />
   <a href="https://aecheck.tistory.com/9" target="_blank" rel="noreferrer">오류 제보</a>
   <br />
-  <a href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md" target="_blank" rel="noreferrer">패치 노트</a>
+  <a href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231022" target="_blank" rel="noreferrer">패치 노트</a>
 </div>
 
 export const announceTitleEN = "Site is under Testing"
@@ -29,9 +32,14 @@ export const announceContentEN = <div className="announce">
   Please contact if you find errors.
   <br />
   <br />
+  231022 : Patched some utilites & errors. Details are updated on patch note.
+  <br />
+  <br />
   <a href="https://github.com/BeaverHouse/aecheck-docs" target="_blank" rel="noreferrer">Docs</a>
   <br />
   <a href="https://github.com/BeaverHouse/aecheck-v3" target="_blank" rel="noreferrer">Github</a>
+  <br />
+  <a href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231022" target="_blank" rel="noreferrer">Patch Note</a>
   <br />
   <br />
   e-mail : haulrest@gmail.com
