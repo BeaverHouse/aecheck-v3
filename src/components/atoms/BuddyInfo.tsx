@@ -18,7 +18,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 const BuddyInfo: React.FC<BuddyInfo> = (info) => {
 
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
     const theme = useTheme()
     const {
         setModal
@@ -128,7 +128,7 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
                     {t(info.get)}
                 </Typography>}
             </Box>
-            <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
+            <IconButton aria-label="seesaa" href={i18n.language === "en" ? info.aewiki! : info.seesaa!} target='_blank' rel='noreferrer'>
                 <OpenInNewIcon />
             </IconButton>
         </Card>

@@ -9,7 +9,8 @@ interface CharacterInfo {
     change?: Array<number>;
     dungeon_drop?: Array<number>;
     year?: string;
-    seesaa: string;
+    seesaa?: string;
+    aewiki?: string;
 }
 
 // buddy.json을 파싱할 때 사용하는 interface
@@ -19,6 +20,7 @@ interface BuddyInfo {
     link: Array<number>;
     get: string;
     seesaa: string;
+    aewiki: string;
 }
 
 // fixedData.ts의 탭 정보 파싱할 때 사용하는 interface

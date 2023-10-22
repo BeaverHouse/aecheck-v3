@@ -42,7 +42,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
         modalInfo,
         hideModal
     } = useModalStore()
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const theme = useTheme()
 
     const styleTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("style.")) : "style.four";
@@ -118,7 +118,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                             Release: {info.year}
                         </Typography>
                     </Box>
-                    {info.seesaa ? <IconButton aria-label="seesaa" href={info.seesaa} target='_blank' rel='noreferrer'>
+                    {info.seesaa ? <IconButton aria-label="seesaa" href={i18n.language === "en" ? info.aewiki! : info.seesaa!} target='_blank' rel='noreferrer'>
                         <OpenInNewIcon />
                     </IconButton> : null}
                 </Box>
