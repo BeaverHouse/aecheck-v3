@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { arrAllIncludes, arrOverlap, filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered, getCharacterStatus, getPaddedNumber } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getPaddedNumber, getShortName } from '../../util/func';
 import useCheckStore from '../../store/useCheckStore';
 import Chip from '@mui/material/Chip';
 import { filterChipOptions } from '../../constant/fixedData';
@@ -31,13 +31,13 @@ function CharacterSearchPage() {
         dungeon
     } = useFilterStore()
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((c) => c.id < 1000)
         .sort((a, b) => {
             const a_pick = pickups.includes(a.id) ? -1 : 1
             const b_pick = pickups.includes(b.id) ? -1 : 1
-            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
+            return a_pick === b_pick ? getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)) : a_pick - b_pick
         });
 
     const filteredArr = filterVanilla(
@@ -120,6 +120,9 @@ function CharacterSearchPage() {
         (choosePersonalityTags.length <= 0 || arrOverlap(info.tags, choosePersonalityTags))
     ))
 
+    const encounterArr = filteredArr.filter((c) => c.tags.includes("get.notfree"))
+    const freeArr = filteredArr.filter((c) => c.tags.includes("get.free"))
+
     return (
         <>
             <FilterBox type="SEARCH" label={t("frontend.search.bookchar")} filteredInfo={filteredArr} />
@@ -140,20 +143,19 @@ function CharacterSearchPage() {
                         />
                     })}
                 </Box> : null}
-                <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
-                    <Box sx={{
+                {[encounterArr, freeArr].map((arr) => (
+                    arr.length > 0 ? <Box sx={{
                         width: "99%",
                         maxWidth: "1350px",
                         display: "grid",
                         justifyContent: "center",
-                        margin: 2.5,
+                        margin: 3,
                         gridTemplateColumns: "repeat(auto-fill, 75px)",
                         gap: 2,
                     }}>
-                        {filteredArr
-                            .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
-                    </Box>
-                </Suspense>
+                        {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
+                    </Box> : null
+                ))}
                 {choosePersonalityTags.length + essenTialPersonalityTags.length > 0 && fourCharacters.length > 0 ? <>
                     <Divider sx={{ color: (theme) => theme.palette.secondary.main }}>
                         {t("frontend.search.fourcharacter")}

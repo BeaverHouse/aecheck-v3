@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import FilterBox from '../molecules/FilterBox';
 import CircularProgress from '@mui/material/CircularProgress';
 import { filterVanilla } from '../../util/arrayUtil';
-import { commonFiltered, getCharacterStatus } from '../../util/func';
+import { commonFiltered, getCharacterStatus, getShortName } from '../../util/func';
 import useCheckStore from '../../store/useCheckStore';
 
 const CharacterCheck = lazy(() => import("../atoms/CharacterCheck"));
@@ -26,14 +26,10 @@ function CharacterCheckPage() {
         essenTialPersonalityTags
     } = useFilterStore()
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((c) => c.id < 1000)
-        .sort((a, b) => {
-            const a_pick = pickups.includes(a.id) ? -1 : 1
-            const b_pick = pickups.includes(b.id) ? -1 : 1
-            return a_pick === b_pick ? a.code - b.code : a_pick - b_pick
-        });
+        .sort((a, b) => getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)));
 
     const filteredArr = filterVanilla(
         (info) => (
@@ -53,6 +49,10 @@ function CharacterCheckPage() {
         baseCharacters
     )
 
+    const pickedArr = filteredArr.filter((c) => pickups.includes(c.id))
+    const encounterArr = filteredArr.filter((c) => c.tags.includes("get.notfree"))
+    const freeArr = filteredArr.filter((c) => c.tags.includes("get.free"))
+
     return (
         <Box sx={{
             display: "flex",
@@ -62,18 +62,19 @@ function CharacterCheckPage() {
         }}>
             <FilterBox type="CHARACTER" filteredInfo={filteredArr} label={t("frontend.search.char")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 6 }} />}>
-                <Box sx={{
-                    width: "99%",
-                    maxWidth: "1350px",
-                    display: "grid",
-                    justifyContent: "center",
-                    margin: 3,
-                    gridTemplateColumns: "repeat(auto-fill, 75px)",
-                    gap: 2,
-                }}>
-                    {filteredArr
-                        .map((c) => <CharacterCheck key={c.id} info={c} />)}
-                </Box>
+                {[pickedArr, encounterArr, freeArr].map((arr) => (
+                    arr.length > 0 ? <Box sx={{
+                        width: "99%",
+                        maxWidth: "1350px",
+                        display: "grid",
+                        justifyContent: "center",
+                        margin: 3,
+                        gridTemplateColumns: "repeat(auto-fill, 75px)",
+                        gap: 2,
+                    }}>
+                        {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
+                    </Box> : null
+                ))}
             </Suspense>
         </Box>
     )

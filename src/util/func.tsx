@@ -10,6 +10,8 @@ export const getShortName = (name: string, lang: string) => {
             return name.includes("(") ? arr[0] : arr[arr.length - 1]
         case "en":
             return name.includes("(") ? arr[0] : name
+        default:
+            return name
     }
 }
 
