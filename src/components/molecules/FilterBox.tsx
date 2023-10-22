@@ -9,6 +9,7 @@ import useCheckStore from '../../store/useCheckStore';
 import { useTranslation } from 'react-i18next';
 import { getManifestStatus } from '../../util/func';
 import Downloader from '../atoms/Downloader';
+import Swal from 'sweetalert2';
 
 interface FilterBoxInfo {
     label?: string;
@@ -33,52 +34,87 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
 
 
     const checkAllInven = () => {
-        const yn = window.confirm(t("frontend.message.character.checkall"))
-        if (yn) {
-            let newInven = inven
-            filteredInfo.forEach((i) => newInven = newInven.concat([...(i.from || []), i.id]))
-            setInven(newInven)
-        }
+        Swal.fire({
+            text: t("frontend.message.character.checkall"),
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let newInven = inven
+                filteredInfo.forEach((i) => newInven = newInven.concat([...(i.from || []), i.id]))
+                setInven(newInven)
+            }
+        })
     }
     const clearAllInven = () => {
-        const yn = window.confirm(t("frontend.message.character.clearall"))
-        if (yn) {
-            const newInven = inven.filter((i) => !filteredInfo.map((info) => info.id).includes(i))
-            setInven(newInven)
-        }
+        Swal.fire({
+            text: t("frontend.message.character.clearall"),
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                const newInven = inven.filter((i) => !filteredInfo.map((info) => info.id).includes(i))
+                setInven(newInven)
+            }
+        })
     }
     const checkAllManifest = () => {
-        const yn = window.confirm(t("frontend.message.manifest.checkall"))
-        if (yn) {
-            let newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
-            filteredInfo.forEach((info) => {
-                const manifestStatus = getManifestStatus(info, inven)
-                if (manifestStatus === "manifest.available") {
-                    const maxStep = info.tags.includes("manifest.step2") ? 2 : 1
-                    newManifest.push(maxStep * 10000 + info.id)
-                }
-            })
-            setManifest(newManifest)
-        }
+        Swal.fire({
+            text: t("frontend.message.manifest.checkall"),
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
+                filteredInfo.forEach((info) => {
+                    const manifestStatus = getManifestStatus(info, inven)
+                    if (manifestStatus === "manifest.available") {
+                        const maxStep = info.tags.includes("manifest.step2") ? 2 : 1
+                        newManifest.push(maxStep * 10000 + info.id)
+                    }
+                })
+                setManifest(newManifest)
+            }
+        })
     }
     const clearAllManifest = () => {
-        const yn = window.confirm(t("frontend.message.manifest.clearall"))
-        if (yn) {
-            const newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
-            setManifest(newManifest)
-        }
+        Swal.fire({
+            text: t("frontend.message.manifest.clearall"),
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                const newManifest = manifest.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
+                setManifest(newManifest)
+            }
+        })
     }
     const changeAllGrasta = (step: number) => {
-        const yn = window.confirm(t("frontend.message.grasta.changeall"))
-        if (yn) {
-            let newGrasta = grasta.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
-            if (step > 0) {
-                filteredInfo.forEach((info) => {
-                    newGrasta.push(step * 10000 + info.id)
-                })
+        Swal.fire({
+            text: t("frontend.message.grasta.changeall"),
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let newGrasta = grasta.filter((m) => !filteredInfo.map((info) => info.id).includes(m % 10000))
+                if (step > 0) {
+                    filteredInfo.forEach((info) => {
+                        newGrasta.push(step * 10000 + info.id)
+                    })
+                }
+                setGrasta(newGrasta)
             }
-            setGrasta(newGrasta)
-        }
+        })
     }
 
     const Buttons = () => {
