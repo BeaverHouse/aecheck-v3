@@ -14,6 +14,7 @@ import { useTranslation } from 'react-i18next';
 import { elements, weapons } from '../../constant/fixedData';
 import Switch from '@mui/material/Switch';
 import Downloader from '../atoms/Downloader';
+import { arrOverlap } from '../../util/arrayUtil';
 
 function LegacyAnalyzePage() {
 
@@ -25,9 +26,16 @@ function LegacyAnalyzePage() {
     const baseCharacters = characters.filter((info) => info.id < 1000)
         .sort((a, b) => getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)));
 
+    /**
+     * 1. 없어야 함
+     * 2. inven과 클체가능 목록이 겹치는 게 없어야 함
+     * 3. 본인 id 앞에 같은 code가 없을 경우만 표시
+     */
     const notOwned = baseCharacters
         .filter((info, idx) => getCharacterStatus(info, inven) === "inven.nothave"
-            && !baseCharacters.slice(0, idx).map((c) => c.code).includes(info.code))
+            && !arrOverlap(inven, info.change || [])
+            && !baseCharacters.slice(0, idx).map((c) => c.code).includes(info.code)
+        )
 
     const onlyFour = baseCharacters
         .filter((info) => getCharacterStatus(info, inven) === "inven.have"
