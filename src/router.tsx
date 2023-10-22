@@ -2,9 +2,8 @@ import { Outlet, createBrowserRouter } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import CharacterCheckPage from "./components/pages/CharacterCheckPage";
 import { CssBaseline } from "@mui/material";
-import TopBar from "./components/organisms/TopBar";
-import TopTabs from "./components/atoms/TopTabs";
-import { analyzeTabData, checkTabData, searchTabData } from "./constant/fixedData";
+import TopMenuSelect from "./components/atoms/TopMenuSelect";
+import { analyzeMenuData, checkMenuData, searchMenuData } from "./constant/fixedData";
 import ScrollTop from "./components/atoms/ScrollToTop";
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -17,6 +16,7 @@ import StardreamAnalyzePage from "./components/pages/StardreamAnalyzePage";
 import WhitekeyAnalyzePage from "./components/pages/WhitekeyAnalyzePage";
 import LegacyAnalyzePage from "./components/pages/LegacyAnalyzePage";
 import LinkPage from "./components/pages/LinkPage";
+import TopBar from "./components/organisms/TopBar";
 
 const router = createBrowserRouter([
     {
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
                 path: "/check",
                 element: (
                     <>
-                        <TopTabs tabs={checkTabData} basePath="/check" />
+                        <TopMenuSelect menus={checkMenuData} basePath="/check" />
                         <Outlet />
                     </>
                 ),
@@ -65,7 +65,7 @@ const router = createBrowserRouter([
                 path: "/search",
                 element: (
                     <>
-                        <TopTabs tabs={searchTabData} basePath="/search" />
+                        <TopMenuSelect menus={searchMenuData} basePath="/search" />
                         <Outlet />
                     </>
                 ),
@@ -84,7 +84,7 @@ const router = createBrowserRouter([
                 path: "/analyze",
                 element: (
                     <>
-                        <TopTabs tabs={analyzeTabData} basePath="/analyze" />
+                        <TopMenuSelect menus={analyzeMenuData} basePath="/analyze" />
                         <Outlet />
                     </>
                 ),

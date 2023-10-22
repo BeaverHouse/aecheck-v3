@@ -1,4 +1,4 @@
-export const checkTabData: Array<TabInfo> = [
+export const checkMenuData: Array<TabInfo> = [
     {
         labelTag: "frontend.tab.character",
         subpath: "character"
@@ -13,7 +13,7 @@ export const checkTabData: Array<TabInfo> = [
     },
 ]
 
-export const searchTabData: Array<TabInfo> = [
+export const searchMenuData: Array<TabInfo> = [
     {
         labelTag: "frontend.tab.character",
         subpath: "character"
@@ -24,7 +24,7 @@ export const searchTabData: Array<TabInfo> = [
     },
 ]
 
-export const analyzeTabData: Array<TabInfo> = [
+export const analyzeMenuData: Array<TabInfo> = [
     {
         labelTag: "frontend.tab.stardream",
         subpath: "stardream"

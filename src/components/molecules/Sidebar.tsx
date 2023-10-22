@@ -20,7 +20,7 @@ import useFilterStore from '../../store/useFilterStore';
 import useConfigStore from '../../store/useConfigStore';
 import LanguageButton from '../atoms/LanguageButton';
 import HomeIcon from '@mui/icons-material/Home';
-import { analyzeTabData, checkTabData, searchTabData } from '../../constant/fixedData';
+import { analyzeMenuData, checkMenuData, searchMenuData } from '../../constant/fixedData';
 import useModalStore from '../../store/useModalStore';
 
 function Sidebar() {
@@ -98,7 +98,7 @@ function Sidebar() {
                                     <ListItemText primary={t("frontend.menu.check")} />
                                 </Box>
                             </Divider>
-                            {checkTabData.map((i) => (
+                            {checkMenuData.map((i) => (
                                 <ListItem disablePadding>
                                     <ListItemButton sx={{ height: 30 }} onClick={() => handleCheckClick(i.subpath)}>
                                         <ListItemText primary={`- ${t(i.labelTag)}`} />
@@ -111,7 +111,7 @@ function Sidebar() {
                                     <ListItemText primary={t("frontend.menu.search")} />
                                 </Box>
                             </Divider>
-                            {searchTabData.map((i) => (
+                            {searchMenuData.map((i) => (
                                 <ListItem disablePadding>
                                     <ListItemButton sx={{ height: 30 }} onClick={() => handleSearchClick(i.subpath)}>
                                         <ListItemText primary={`- ${t(i.labelTag)}`} />
@@ -124,7 +124,7 @@ function Sidebar() {
                                     <ListItemText primary={t("frontend.menu.analyze")} />
                                 </Box>
                             </Divider>
-                            {analyzeTabData.map((i) => (
+                            {analyzeMenuData.map((i) => (
                                 <ListItem disablePadding>
                                     <ListItemButton sx={{ height: 30 }} onClick={() => handleAnalyzeClick(i.subpath)}>
                                         <ListItemText primary={`- ${t(i.labelTag)}`} />
