@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import useCheckStore from '../../store/useCheckStore';
 import { characters } from '../../constant/parseData';
-import { getCharacterStatus } from '../../util/func';
+import { getCharacterStatus, getShortName } from '../../util/func';
 import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -20,10 +20,10 @@ function LegacyAnalyzePage() {
     const [Opened, setOpened] = React.useState([0, 1, 2, 3])
     const [WeaponSort, setWeaponSort] = React.useState(true)
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((info) => info.id < 1000)
-        .sort((a, b) => a.code - b.code)
+        .sort((a, b) => getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)));
 
     const notOwned = baseCharacters
         .filter((info, idx) => getCharacterStatus(info, inven) === "inven.nothave"
