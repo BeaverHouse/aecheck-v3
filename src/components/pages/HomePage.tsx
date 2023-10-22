@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeGrid from '../atoms/HomeGrid'
 import Box from '@mui/material/Box';
+import LanguageButton from '../atoms/LanguageButton';
 
 function HomePage() {
     return (
@@ -12,6 +13,8 @@ function HomePage() {
             justifyContent: "center"
         }}>
             <HomeGrid />
+            <br />
+            <LanguageButton />
         </Box>
     )
 }
