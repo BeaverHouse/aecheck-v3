@@ -20,7 +20,7 @@ export const announceContentKo = <div className="announce">
   <br />
   <a href="https://aecheck.tistory.com/9" target="_blank" rel="noreferrer">오류 제보</a>
   <br />
-  <a href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231022" target="_blank" rel="noreferrer">패치 노트</a>
+  <a href="https://aecheck.tistory.com/45" target="_blank" rel="noreferrer">패치 노트</a>
 </div>
 
 export const announceTitleEN = "Site is under Testing"
