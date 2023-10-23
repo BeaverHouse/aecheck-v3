@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import useCheckStore from '../../store/useCheckStore';
 import { characters } from '../../constant/parseData';
-import { getCharacterStatus } from '../../util/func';
+import { getCharacterStatus, getShortName } from '../../util/func';
 import dayjs from 'dayjs';
 import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
@@ -22,12 +22,12 @@ function WhitekeyAnalyzePage() {
     const [Opened, setOpened] = React.useState([0, 1, 2, 3, 4])
     const [ShowNotOwned, setShowNotOwned] = React.useState(false)
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((info) =>
         info.tags.includes("get.notfree") &&
         info.dungeon_drop!.filter((d) => d >= 1000).length > 0
-    ).sort((a, b) => dayjs(a.year!).isBefore(b.year!) ? 1 : -1)
+    ).sort((a, b) => getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)))
 
     const firstOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) === "inven.classchange")
     const secondOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) !== "inven.have")

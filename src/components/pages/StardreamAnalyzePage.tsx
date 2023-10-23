@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import useCheckStore from '../../store/useCheckStore';
 import { buddyCharacterIds, characters } from '../../constant/parseData';
-import { getCharacterStatus } from '../../util/func';
+import { getCharacterStatus, getShortName } from '../../util/func';
 import dayjs from 'dayjs';
 import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
@@ -21,14 +21,16 @@ function StardreamAnalyzePage() {
 
     const [Opened, setOpened] = React.useState([0, 1, 2, 3, 4, 5])
     const [ShowRecentStyles, setShowRecentStyles] = React.useState(false)
+    const [ShowSevenPiece, setShowSevenPiece] = React.useState(false)
     const { inven } = useCheckStore();
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const baseCharacters = characters.filter((info, idx) =>
         info.tags.includes("get.notfree") &&
         info.dungeon_drop!.filter((d) => ![100, 101, 102].includes(d)).length > 0 &&
-        (!ShowRecentStyles || !characters.slice(idx + 1).map((c) => c.code).includes(info.code))
-    ).sort((a, b) => dayjs(a.year!).isBefore(b.year!) ? 1 : -1)
+        (!ShowRecentStyles || !characters.slice(idx + 1).map((c) => c.code).includes(info.code)) &&
+        (!ShowSevenPiece || dayjs(info.year!).day(1).add(3, "month").isBefore(dayjs()))
+    ).sort((a, b) => getShortName(t(`c${a.code}`), i18n.language).localeCompare(getShortName(t(`c${b.code}`), i18n.language)))
 
     const firstOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) === "inven.nothave")
     const secondOptions = baseCharacters.filter((info) => getCharacterStatus(info, inven) === "inven.classchange")
@@ -96,6 +98,20 @@ function StardreamAnalyzePage() {
                         label={
                             <Typography variant='subtitle2'>
                                 {t("frontend.analyze.stardream.option")}
+                            </Typography>
+                        }
+                    />
+                    <FormControlLabel
+                        control={
+                            <Checkbox
+                                color='secondary'
+                                checked={ShowSevenPiece}
+                                onChange={(_, checked) => setShowSevenPiece(checked)}
+                            />
+                        }
+                        label={
+                            <Typography variant='subtitle2'>
+                                {t("frontend.analyze.stardream.seven")}
                             </Typography>
                         }
                     />
