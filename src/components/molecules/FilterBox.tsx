@@ -163,7 +163,9 @@ const FilterBox: React.FC<FilterBoxInfo> = ({ label = "이름", type, filteredIn
                 onClick={() => setModal(type)}
                 sx={{
                     color: "white",
-                    m: 0.3,
+                    m: 0.5,
+                    width: 40,
+                    height: 40,
                     bgcolor: 'text.secondary',
                 }}
             >

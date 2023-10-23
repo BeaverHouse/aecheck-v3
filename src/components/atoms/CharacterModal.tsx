@@ -30,7 +30,7 @@ const style = {
     fontWeight: 800,
     display: "flex",
     flexDirection: "column",
-    maxHeight: "80vh",
+    maxHeight: "75vh",
     overflowY: "auto",
     p: 1.5,
 };
