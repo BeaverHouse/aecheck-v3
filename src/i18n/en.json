@@ -391,6 +391,7 @@
 	"frontend.analyze.stardream.level1": "All Characters are CC Available, so it's showing CC Recommendation.",
 	"frontend.analyze.stardream.level2": "YOU HAVE ALL CHARACTERS!",
 	"frontend.analyze.stardream.option": "Show recent style only",
+	"frontend.analyze.stardream.seven": "Exclude characters released within 3 month",
 	"frontend.analyze.whitekey.description": "Recommendation for Treatise, Codex and Opus.",
 	"frontend.analyze.whitekey.empty": "No characters to show",
 	"frontend.analyze.whitekey.option": "Show not owned characters too",
