@@ -58,7 +58,7 @@ function Sidebar() {
                 edge="start"
                 color="inherit"
                 aria-label="menu"
-                sx={{ mr: 1 }}
+                sx={{ minWidth: 40, ml: 0 }}
                 onClick={() => setOpen(true)}
             >
                 <MenuIcon />

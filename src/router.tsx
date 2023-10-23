@@ -2,8 +2,6 @@ import { Outlet, createBrowserRouter } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import CharacterCheckPage from "./components/pages/CharacterCheckPage";
 import { CssBaseline } from "@mui/material";
-import TopMenuSelect from "./components/atoms/TopMenuSelect";
-import { analyzeMenuData, checkMenuData, searchMenuData } from "./constant/fixedData";
 import ScrollTop from "./components/atoms/ScrollToTop";
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -24,7 +22,7 @@ const router = createBrowserRouter([
             <>
                 <CssBaseline />
                 <TopBar />
-                <Toolbar id="back-to-top-anchor" />
+                <Toolbar id="back-to-top-anchor" sx={{ height: 95 }} />
                 <Outlet />
                 <ScrollTop>
                     <Fab size="small" color="secondary" aria-label="scroll back to top">
@@ -40,12 +38,6 @@ const router = createBrowserRouter([
             },
             {
                 path: "/check",
-                element: (
-                    <>
-                        <TopMenuSelect menus={checkMenuData} basePath="/check" />
-                        <Outlet />
-                    </>
-                ),
                 children: [
                     {
                         path: "character",
@@ -63,12 +55,6 @@ const router = createBrowserRouter([
             },
             {
                 path: "/search",
-                element: (
-                    <>
-                        <TopMenuSelect menus={searchMenuData} basePath="/search" />
-                        <Outlet />
-                    </>
-                ),
                 children: [
                     {
                         path: "character",
@@ -82,12 +68,6 @@ const router = createBrowserRouter([
             },
             {
                 path: "/analyze",
-                element: (
-                    <>
-                        <TopMenuSelect menus={analyzeMenuData} basePath="/analyze" />
-                        <Outlet />
-                    </>
-                ),
                 children: [
                     {
                         path: "stardream",
