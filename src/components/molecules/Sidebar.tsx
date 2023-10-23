@@ -100,7 +100,7 @@ function Sidebar() {
                             </Divider>
                             {checkMenuData.map((i) => (
                                 <ListItemButton sx={{ height: 30 }} onClick={() => handleCheckClick(i.subpath)}>
-                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    <ListItemText primary={t(i.labelTag)} />
                                 </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5 }}>
@@ -111,7 +111,7 @@ function Sidebar() {
                             </Divider>
                             {searchMenuData.map((i) => (
                                 <ListItemButton sx={{ height: 30 }} onClick={() => handleSearchClick(i.subpath)}>
-                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    <ListItemText primary={t(i.labelTag)} />
                                 </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5 }}>
@@ -122,7 +122,7 @@ function Sidebar() {
                             </Divider>
                             {analyzeMenuData.map((i) => (
                                 <ListItemButton sx={{ height: 30 }} onClick={() => handleAnalyzeClick(i.subpath)}>
-                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                    <ListItemText primary={t(i.labelTag)} />
                                 </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
