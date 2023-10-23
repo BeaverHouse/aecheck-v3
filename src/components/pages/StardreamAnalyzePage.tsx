@@ -86,7 +86,7 @@ function StardreamAnalyzePage() {
             </Typography>
             <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Downloader tag='wrapper' />
-                <FormGroup>
+                <FormGroup sx={{ ml: 1 }}>
                     <FormControlLabel
                         control={
                             <Checkbox

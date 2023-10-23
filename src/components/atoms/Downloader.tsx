@@ -52,7 +52,7 @@ const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
             color='secondary'
             onClick={handleSaveClick}
             size='small'
-            sx={{ m: 0.5, mr: 1, ml: 2 }}
+            sx={{ m: 0.5, mr: 1, ml: 2, minWidth: 40, minHeight: 40 }}
         >
             <DownloadIcon />
         </Fab>

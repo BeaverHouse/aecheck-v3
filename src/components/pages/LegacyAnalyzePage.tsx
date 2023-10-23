@@ -93,12 +93,14 @@ function LegacyAnalyzePage() {
     return (
         <Box id="wrapper" sx={{
             m: 0.5,
+            mt: 1.5,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "center",
+            gap: 1,
         }}>
-            <Typography variant='subtitle1' sx={{ m: 1 }}>
+            <Typography variant='subtitle1'>
                 {t("frontend.analyze.legacy.description")}
             </Typography>
             <Downloader tag='wrapper' />
