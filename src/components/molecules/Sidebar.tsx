@@ -3,16 +3,16 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import CancelIcon from '@mui/icons-material/Cancel';
 import SearchIcon from '@mui/icons-material/Search';
 import AssessmentIcon from '@mui/icons-material/Assessment';
 import LinkIcon from '@mui/icons-material/Link';
 import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
+import SaveIcon from '@mui/icons-material/Save';
 import MenuIcon from '@mui/icons-material/Menu';
-import { isMobile } from 'react-device-detect';
 import { useTranslation } from 'react-i18next';
 import { Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
@@ -31,9 +31,6 @@ function Sidebar() {
     const { changeCheckPath, changeAnalyzePath } = useConfigStore();
     const { removeFilter } = useFilterStore();
     const { setModal } = useModalStore()
-
-    const anchor = isMobile ? "top" : "left"
-
 
     const handleCheckClick = (path: string) => {
         changeCheckPath(`/check/${path}`)
@@ -64,7 +61,7 @@ function Sidebar() {
                 <MenuIcon />
             </IconButton>
             <Drawer
-                anchor={anchor}
+                anchor={"left"}
                 open={open}
                 onClose={() => setOpen(false)}
             >
@@ -77,16 +74,19 @@ function Sidebar() {
                     }}
                 >
                     <Box
-                        sx={{ width: anchor === 'top' ? '100%' : 250, padding: 1.5 }}
+                        sx={{ width: 220, padding: 1.5 }}
                         role="menubar"
                         textAlign={"center"}
                         onClick={() => setOpen(false)}
                         onKeyDown={() => setOpen(false)}
                     >
-                        {isMobile ? null : <>
-                            <Typography variant={"h5"}>AE Check</Typography>
-                            <Divider sx={{ mt: 1.5, mb: 0.5 }} />
-                        </>}
+                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                            <Typography variant="h6">AE Check</Typography>
+                            <IconButton onClick={() => setOpen(false)}>
+                                <CancelIcon />
+                            </IconButton>
+                        </Box>
+                        <Divider sx={{ mt: 1, mb: 0.5 }} />
                         <List>
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/")}>
                                 <HomeIcon sx={{ mr: 1 }} />
@@ -99,11 +99,9 @@ function Sidebar() {
                                 </Box>
                             </Divider>
                             {checkMenuData.map((i) => (
-                                <ListItem disablePadding>
-                                    <ListItemButton sx={{ height: 30 }} onClick={() => handleCheckClick(i.subpath)}>
-                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
-                                    </ListItemButton>
-                                </ListItem>
+                                <ListItemButton sx={{ height: 30 }} onClick={() => handleCheckClick(i.subpath)}>
+                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5 }}>
                                 <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -112,11 +110,9 @@ function Sidebar() {
                                 </Box>
                             </Divider>
                             {searchMenuData.map((i) => (
-                                <ListItem disablePadding>
-                                    <ListItemButton sx={{ height: 30 }} onClick={() => handleSearchClick(i.subpath)}>
-                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
-                                    </ListItemButton>
-                                </ListItem>
+                                <ListItemButton sx={{ height: 30 }} onClick={() => handleSearchClick(i.subpath)}>
+                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5 }}>
                                 <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -125,19 +121,17 @@ function Sidebar() {
                                 </Box>
                             </Divider>
                             {analyzeMenuData.map((i) => (
-                                <ListItem disablePadding>
-                                    <ListItemButton sx={{ height: 30 }} onClick={() => handleAnalyzeClick(i.subpath)}>
-                                        <ListItemText primary={`- ${t(i.labelTag)}`} />
-                                    </ListItemButton>
-                                </ListItem>
+                                <ListItemButton sx={{ height: 30 }} onClick={() => handleAnalyzeClick(i.subpath)}>
+                                    <ListItemText primary={`- ${t(i.labelTag)}`} />
+                                </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5, mb: 1.5 }} />
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => navigate("/link")}>
                                 <LinkIcon sx={{ mr: 1 }} />
                                 <ListItemText primary={t("frontend.menu.link")} />
                             </ListItemButton>
-                            <Divider sx={{ mt: 1.5, mb: 1.5 }} />
                             <ListItemButton sx={{ height: 30, pl: 0 }} onClick={() => setModal("DATALOADER")}>
+                                <SaveIcon sx={{ mr: 1 }} />
                                 <ListItemText primary={t("frontend.menu.loader")} />
                             </ListItemButton>
                         </List>
