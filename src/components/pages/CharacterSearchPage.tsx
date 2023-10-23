@@ -170,7 +170,7 @@ function CharacterSearchPage() {
                             justifyContent: "center",
                             margin: 2.5,
                             gridTemplateColumns: "repeat(auto-fill, 75px)",
-                            gap: 1.3,
+                            gap: 2,
                         }}>
                             {fourCharacters
                                 .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}

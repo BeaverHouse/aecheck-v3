@@ -119,7 +119,7 @@ function StardreamAnalyzePage() {
                                     display: "grid",
                                     gridTemplateColumns: "repeat(auto-fill, 75px)",
                                     justifyContent: "center",
-                                    gap: 1.1,
+                                    gap: 2,
                                 }}>
                                     {opt.value
                                         .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}

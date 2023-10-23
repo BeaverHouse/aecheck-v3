@@ -36,11 +36,11 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
         if (manifestConpleted) {
             const style: React.CSSProperties = {
                 position: "absolute",
-                bottom: -9,
-                left: -9,
+                bottom: -8,
+                left: -8,
                 zIndex: 10,
-                width: 25,
-                height: 25
+                width: 23,
+                height: 23
             };
             return <img src={`/image/icon/crown.png`} width={25} height={25} alt='complete' style={style} />
         }
@@ -54,11 +54,11 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             return <img src={`/image/icon/check.png`} width={25} height={25}
                 alt='check'
                 style={{
-                    width: 23,
-                    height: 23,
+                    width: 21,
+                    height: 21,
                     position: "absolute",
-                    right: -3,
-                    top: -3,
+                    right: -5,
+                    top: -5,
                     zIndex: 10,
                 }}
             />
@@ -70,11 +70,11 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
         if (styleTag === undefined || styleTag === "style.four") return null
         const style: React.CSSProperties = {
             position: "absolute",
-            top: -6,
-            left: -6,
+            top: -7,
+            left: -7,
             zIndex: 10,
-            width: 30,
-            height: 30
+            width: 27,
+            height: 27
         }
         return <img src={`/image/icon/${styleTag}.png`} width={30} height={30} alt={styleTag} style={style} />
     }
@@ -82,11 +82,11 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
     const grastaIcon = (step: number) => {
         const style: React.CSSProperties = {
             position: "absolute",
-            top: -9,
-            right: -9,
+            top: -11,
+            right: -11,
             zIndex: 10,
-            width: 37,
-            height: 37
+            width: 33,
+            height: 33
         }
         return <img src={`/image/icon/grasta${step}.png`} width={37} height={37} alt={`step${step}`} style={style} />
     }
