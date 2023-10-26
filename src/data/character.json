@@ -12,6 +12,7 @@
 			"personality.p033",
 			"personality.p057",
 			"personality.p059",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -38,6 +39,7 @@
 			"personality.p033",
 			"personality.p057",
 			"personality.p059",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -67,6 +69,7 @@
 			"personality.p033",
 			"personality.p057",
 			"personality.p059",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -92,6 +95,7 @@
 			"personality.p010",
 			"personality.p027",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -117,6 +121,7 @@
 			"personality.p010",
 			"personality.p027",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -145,6 +150,7 @@
 			"personality.p010",
 			"personality.p027",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -171,6 +177,7 @@
 			"personality.p010",
 			"personality.p039",
 			"personality.p048",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -195,6 +202,7 @@
 			"personality.p010",
 			"personality.p039",
 			"personality.p048",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -222,6 +230,7 @@
 			"personality.p010",
 			"personality.p039",
 			"personality.p048",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -248,6 +257,7 @@
 			"personality.p055",
 			"personality.p076",
 			"personality.p080",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -275,6 +285,7 @@
 			"personality.p055",
 			"personality.p076",
 			"personality.p080",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -307,6 +318,7 @@
 			"personality.p055",
 			"personality.p076",
 			"personality.p080",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -332,6 +344,7 @@
 			"personality.p004",
 			"personality.p014",
 			"personality.p025",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -358,6 +371,7 @@
 			"personality.p022",
 			"personality.p049",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -382,6 +396,7 @@
 			"personality.p022",
 			"personality.p049",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -404,6 +419,7 @@
 			"personality.p001",
 			"personality.p010",
 			"personality.p037",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -427,6 +443,7 @@
 			"personality.p001",
 			"personality.p010",
 			"personality.p037",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -453,6 +470,7 @@
 			"personality.p001",
 			"personality.p010",
 			"personality.p037",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -479,6 +497,7 @@
 			"personality.p025",
 			"personality.p039",
 			"personality.p043",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -504,6 +523,7 @@
 			"personality.p025",
 			"personality.p039",
 			"personality.p043",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -528,6 +548,7 @@
 			"personality.p027",
 			"personality.p032",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -553,6 +574,7 @@
 			"personality.p027",
 			"personality.p032",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -581,6 +603,7 @@
 			"personality.p027",
 			"personality.p032",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -606,6 +629,7 @@
 			"personality.p010",
 			"personality.p032",
 			"personality.p039",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -630,6 +654,7 @@
 			"personality.p010",
 			"personality.p032",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -657,6 +682,7 @@
 			"personality.p010",
 			"personality.p021",
 			"personality.p060",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -681,6 +707,7 @@
 			"personality.p010",
 			"personality.p021",
 			"personality.p060",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -708,6 +735,7 @@
 			"personality.p010",
 			"personality.p021",
 			"personality.p060",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -732,6 +760,7 @@
 			"personality.p004",
 			"personality.p010",
 			"personality.p065",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -754,6 +783,7 @@
 			"personality.p004",
 			"personality.p010",
 			"personality.p065",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -779,6 +809,7 @@
 			"personality.p050",
 			"personality.p063",
 			"personality.p065",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -804,6 +835,7 @@
 			"personality.p050",
 			"personality.p063",
 			"personality.p065",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -826,6 +858,7 @@
 			"personality.p004",
 			"personality.p010",
 			"personality.p035",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -849,6 +882,7 @@
 			"personality.p004",
 			"personality.p010",
 			"personality.p035",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -875,6 +909,7 @@
 			"personality.p004",
 			"personality.p010",
 			"personality.p035",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -899,6 +934,7 @@
 			"personality.p002",
 			"personality.p010",
 			"personality.p039",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -921,6 +957,7 @@
 			"personality.p002",
 			"personality.p010",
 			"personality.p039",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -946,6 +983,7 @@
 			"personality.p028",
 			"personality.p069",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -972,6 +1010,7 @@
 			"personality.p028",
 			"personality.p069",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -1005,6 +1044,7 @@
 			"personality.p028",
 			"personality.p069",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -1032,6 +1072,7 @@
 			"personality.p049",
 			"personality.p080",
 			"personality.p087",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -1059,6 +1100,7 @@
 			"personality.p049",
 			"personality.p080",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -1089,6 +1131,7 @@
 			"personality.p049",
 			"personality.p080",
 			"personality.p087",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -1116,6 +1159,7 @@
 			"personality.p028",
 			"personality.p063",
 			"personality.p088",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -1142,6 +1186,7 @@
 			"personality.p028",
 			"personality.p063",
 			"personality.p088",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -1169,6 +1214,7 @@
 			"personality.p028",
 			"personality.p063",
 			"personality.p088",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -1194,6 +1240,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1219,6 +1266,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1246,6 +1294,7 @@
 			"personality.p007",
 			"personality.p010",
 			"personality.p037",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1269,6 +1318,7 @@
 			"personality.p007",
 			"personality.p010",
 			"personality.p037",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1293,6 +1343,7 @@
 			"personality.p002",
 			"personality.p010",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1316,6 +1367,7 @@
 			"personality.p062",
 			"personality.p070",
 			"personality.p074",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1342,6 +1394,7 @@
 			"personality.p062",
 			"personality.p070",
 			"personality.p074",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1371,6 +1424,7 @@
 			"personality.p062",
 			"personality.p070",
 			"personality.p074",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -1398,6 +1452,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p043",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -1423,6 +1478,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p043",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -1446,6 +1502,7 @@
 			"personality.p011",
 			"personality.p020",
 			"personality.p070",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1471,6 +1528,7 @@
 			"personality.p011",
 			"personality.p020",
 			"personality.p070",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1499,6 +1557,7 @@
 			"personality.p011",
 			"personality.p020",
 			"personality.p070",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -1526,6 +1585,7 @@
 			"personality.p014",
 			"personality.p020",
 			"personality.p070",
+			"staralign.false",
 			"style.extra",
 			"type.light"
 		],
@@ -1553,6 +1613,7 @@
 			"personality.p063",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -1577,6 +1638,7 @@
 			"personality.p063",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -1600,6 +1662,7 @@
 			"personality.p011",
 			"personality.p047",
 			"personality.p060",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1624,6 +1687,7 @@
 			"personality.p011",
 			"personality.p047",
 			"personality.p060",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1651,6 +1715,7 @@
 			"personality.p011",
 			"personality.p047",
 			"personality.p060",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -1677,6 +1742,7 @@
 			"personality.p029",
 			"personality.p093",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1703,6 +1769,7 @@
 			"personality.p029",
 			"personality.p093",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1732,6 +1799,7 @@
 			"personality.p029",
 			"personality.p093",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -1760,6 +1828,7 @@
 			"personality.p029",
 			"personality.p033",
 			"personality.p090",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1787,6 +1856,7 @@
 			"personality.p029",
 			"personality.p033",
 			"personality.p090",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1814,6 +1884,7 @@
 			"personality.p011",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1838,6 +1909,7 @@
 			"personality.p011",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -1867,6 +1939,7 @@
 			"personality.p027",
 			"personality.p028",
 			"personality.p056",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -1893,6 +1966,7 @@
 			"personality.p027",
 			"personality.p028",
 			"personality.p056",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -1926,6 +2000,7 @@
 			"personality.p027",
 			"personality.p028",
 			"personality.p056",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -1952,6 +2027,7 @@
 			"personality.p056",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -1976,6 +2052,7 @@
 			"personality.p056",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -2003,6 +2080,7 @@
 			"personality.p012",
 			"personality.p061",
 			"personality.p075",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2026,6 +2104,7 @@
 			"personality.p012",
 			"personality.p061",
 			"personality.p075",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -2052,6 +2131,7 @@
 			"personality.p074",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2080,6 +2160,7 @@
 			"personality.p074",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -2112,6 +2193,7 @@
 			"personality.p074",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -2138,6 +2220,7 @@
 			"personality.p059",
 			"personality.p061",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2162,6 +2245,7 @@
 			"personality.p059",
 			"personality.p061",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -2184,6 +2268,7 @@
 			"personality.p001",
 			"personality.p012",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2206,6 +2291,7 @@
 			"personality.p001",
 			"personality.p012",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -2232,6 +2318,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p073",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2261,6 +2348,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p073",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -2295,6 +2383,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p073",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -2325,6 +2414,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p073",
+			"staralign.false",
 			"style.extra",
 			"type.light"
 		],
@@ -2352,6 +2442,7 @@
 			"personality.p012",
 			"personality.p025",
 			"personality.p026",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2381,6 +2472,7 @@
 			"personality.p047",
 			"personality.p058",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2411,6 +2503,7 @@
 			"personality.p047",
 			"personality.p058",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2444,6 +2537,7 @@
 			"personality.p047",
 			"personality.p058",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -2474,6 +2568,7 @@
 			"personality.p047",
 			"personality.p058",
 			"personality.p061",
+			"staralign.false",
 			"style.extra",
 			"type.shadow"
 		],
@@ -2502,6 +2597,7 @@
 			"personality.p038",
 			"personality.p063",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2528,6 +2624,7 @@
 			"personality.p038",
 			"personality.p063",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2556,6 +2653,7 @@
 			"personality.p038",
 			"personality.p063",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -2585,6 +2683,7 @@
 			"personality.p082",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2613,6 +2712,7 @@
 			"personality.p082",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -2644,6 +2744,7 @@
 			"personality.p082",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -2670,6 +2771,7 @@
 			"personality.p012",
 			"personality.p047",
 			"personality.p052",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2695,6 +2797,7 @@
 			"personality.p012",
 			"personality.p047",
 			"personality.p052",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2723,6 +2826,7 @@
 			"personality.p012",
 			"personality.p047",
 			"personality.p052",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -2748,6 +2852,7 @@
 			"personality.p012",
 			"personality.p061",
 			"personality.p066",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2772,6 +2877,7 @@
 			"personality.p012",
 			"personality.p061",
 			"personality.p066",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2799,6 +2905,7 @@
 			"personality.p007",
 			"personality.p012",
 			"personality.p072",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2822,6 +2929,7 @@
 			"personality.p007",
 			"personality.p012",
 			"personality.p072",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2851,6 +2959,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p056",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -2878,6 +2987,7 @@
 			"personality.p033",
 			"personality.p039",
 			"personality.p056",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -2902,6 +3012,7 @@
 			"personality.p020",
 			"personality.p065",
 			"personality.p067",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -2928,6 +3039,7 @@
 			"personality.p020",
 			"personality.p065",
 			"personality.p067",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -2957,6 +3069,7 @@
 			"personality.p020",
 			"personality.p065",
 			"personality.p067",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -2985,6 +3098,7 @@
 			"personality.p020",
 			"personality.p065",
 			"personality.p067",
+			"staralign.false",
 			"style.extra",
 			"type.shadow"
 		],
@@ -3013,6 +3127,7 @@
 			"personality.p043",
 			"personality.p056",
 			"personality.p073",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3039,6 +3154,7 @@
 			"personality.p043",
 			"personality.p056",
 			"personality.p073",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3067,6 +3183,7 @@
 			"personality.p043",
 			"personality.p056",
 			"personality.p073",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3093,6 +3210,7 @@
 			"personality.p038",
 			"personality.p045",
 			"personality.p087",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -3119,6 +3237,7 @@
 			"personality.p038",
 			"personality.p045",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -3148,6 +3267,7 @@
 			"personality.p038",
 			"personality.p045",
 			"personality.p087",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -3172,6 +3292,7 @@
 			"personality.p002",
 			"personality.p013",
 			"personality.p097",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3195,6 +3316,7 @@
 			"personality.p002",
 			"personality.p013",
 			"personality.p097",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3221,6 +3343,7 @@
 			"personality.p002",
 			"personality.p013",
 			"personality.p097",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3248,6 +3371,7 @@
 			"personality.p061",
 			"personality.p074",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3274,6 +3398,7 @@
 			"personality.p061",
 			"personality.p074",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3303,6 +3428,7 @@
 			"personality.p061",
 			"personality.p074",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3329,6 +3455,7 @@
 			"personality.p035",
 			"personality.p038",
 			"personality.p087",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -3354,6 +3481,7 @@
 			"personality.p035",
 			"personality.p038",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -3382,6 +3510,7 @@
 			"personality.p035",
 			"personality.p038",
 			"personality.p087",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -3408,6 +3537,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3433,6 +3563,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3460,6 +3591,7 @@
 			"personality.p006",
 			"personality.p013",
 			"personality.p032",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3484,6 +3616,7 @@
 			"personality.p006",
 			"personality.p013",
 			"personality.p032",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3512,6 +3645,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3539,6 +3673,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3571,6 +3706,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3598,6 +3734,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
+			"staralign.false",
 			"style.extra",
 			"type.light"
 		],
@@ -3625,6 +3762,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -3650,6 +3788,7 @@
 			"personality.p014",
 			"personality.p039",
 			"personality.p089",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3673,6 +3812,7 @@
 			"personality.p014",
 			"personality.p039",
 			"personality.p089",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3695,6 +3835,7 @@
 			"personality.p001",
 			"personality.p014",
 			"personality.p039",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -3717,6 +3858,7 @@
 			"personality.p001",
 			"personality.p014",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -3741,6 +3883,7 @@
 			"personality.p020",
 			"personality.p050",
 			"personality.p065",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3765,6 +3908,7 @@
 			"personality.p020",
 			"personality.p050",
 			"personality.p065",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3789,6 +3933,7 @@
 			"personality.p043",
 			"personality.p073",
 			"personality.p074",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3814,6 +3959,7 @@
 			"personality.p043",
 			"personality.p073",
 			"personality.p074",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3842,6 +3988,7 @@
 			"personality.p043",
 			"personality.p073",
 			"personality.p074",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3867,6 +4014,7 @@
 			"personality.p014",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3891,6 +4039,7 @@
 			"personality.p014",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3918,6 +4067,7 @@
 			"personality.p014",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -3942,6 +4092,7 @@
 			"personality.p002",
 			"personality.p014",
 			"personality.p039",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -3966,6 +4117,7 @@
 			"personality.p002",
 			"personality.p014",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -3993,6 +4145,7 @@
 			"personality.p002",
 			"personality.p014",
 			"personality.p039",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4018,6 +4171,7 @@
 			"personality.p014",
 			"personality.p037",
 			"personality.p056",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4042,6 +4196,7 @@
 			"personality.p014",
 			"personality.p037",
 			"personality.p056",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4069,6 +4224,7 @@
 			"personality.p014",
 			"personality.p037",
 			"personality.p056",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4096,6 +4252,7 @@
 			"personality.p028",
 			"personality.p042",
 			"personality.p050",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -4122,6 +4279,7 @@
 			"personality.p028",
 			"personality.p042",
 			"personality.p050",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -4155,6 +4313,7 @@
 			"personality.p028",
 			"personality.p042",
 			"personality.p050",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -4180,6 +4339,7 @@
 			"personality.p007",
 			"personality.p014",
 			"personality.p021",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4203,6 +4363,7 @@
 			"personality.p007",
 			"personality.p014",
 			"personality.p021",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4229,6 +4390,7 @@
 			"personality.p047",
 			"personality.p061",
 			"personality.p084",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4254,6 +4416,7 @@
 			"personality.p047",
 			"personality.p061",
 			"personality.p084",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4280,6 +4443,7 @@
 			"personality.p004",
 			"personality.p015",
 			"personality.p042",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4303,6 +4467,7 @@
 			"personality.p004",
 			"personality.p015",
 			"personality.p042",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4329,6 +4494,7 @@
 			"personality.p004",
 			"personality.p015",
 			"personality.p042",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4355,6 +4521,7 @@
 			"personality.p030",
 			"personality.p058",
 			"personality.p086",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4380,6 +4547,7 @@
 			"personality.p030",
 			"personality.p058",
 			"personality.p086",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4408,6 +4576,7 @@
 			"personality.p030",
 			"personality.p058",
 			"personality.p086",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4435,6 +4604,7 @@
 			"personality.p033",
 			"personality.p037",
 			"personality.p039",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4462,6 +4632,7 @@
 			"personality.p033",
 			"personality.p037",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4492,6 +4663,7 @@
 			"personality.p033",
 			"personality.p037",
 			"personality.p039",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4520,6 +4692,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p082",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4547,6 +4720,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p082",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4577,6 +4751,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p082",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4601,6 +4776,7 @@
 			"personality.p000",
 			"personality.p015",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4623,6 +4799,7 @@
 			"personality.p025",
 			"personality.p034",
 			"personality.p066",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4649,6 +4826,7 @@
 			"personality.p025",
 			"personality.p034",
 			"personality.p066",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4680,6 +4858,7 @@
 			"personality.p015",
 			"personality.p025",
 			"personality.p066",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -4708,6 +4887,7 @@
 			"personality.p033",
 			"personality.p042",
 			"personality.p076",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -4735,6 +4915,7 @@
 			"personality.p033",
 			"personality.p042",
 			"personality.p076",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -4769,6 +4950,7 @@
 			"personality.p033",
 			"personality.p042",
 			"personality.p076",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -4794,6 +4976,7 @@
 			"personality.p015",
 			"personality.p036",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4818,6 +5001,7 @@
 			"personality.p015",
 			"personality.p036",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4845,6 +5029,7 @@
 			"personality.p015",
 			"personality.p040",
 			"personality.p042",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4869,6 +5054,7 @@
 			"personality.p015",
 			"personality.p040",
 			"personality.p042",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4897,6 +5083,7 @@
 			"personality.p016",
 			"personality.p035",
 			"personality.p058",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4921,6 +5108,7 @@
 			"personality.p016",
 			"personality.p035",
 			"personality.p058",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -4948,6 +5136,7 @@
 			"personality.p016",
 			"personality.p035",
 			"personality.p058",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -4974,6 +5163,7 @@
 			"personality.p039",
 			"personality.p043",
 			"personality.p075",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -4999,6 +5189,7 @@
 			"personality.p039",
 			"personality.p043",
 			"personality.p075",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5028,6 +5219,7 @@
 			"personality.p041",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5055,6 +5247,7 @@
 			"personality.p041",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5085,6 +5278,7 @@
 			"personality.p041",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -5114,6 +5308,7 @@
 			"personality.p043",
 			"personality.p060",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5142,6 +5337,7 @@
 			"personality.p043",
 			"personality.p060",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5173,6 +5369,7 @@
 			"personality.p016",
 			"personality.p025",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5199,6 +5396,7 @@
 			"personality.p041",
 			"personality.p061",
 			"personality.p067",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5224,6 +5422,7 @@
 			"personality.p041",
 			"personality.p061",
 			"personality.p067",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5252,6 +5451,7 @@
 			"personality.p041",
 			"personality.p061",
 			"personality.p067",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -5278,6 +5478,7 @@
 			"personality.p034",
 			"personality.p076",
 			"personality.p079",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5303,6 +5504,7 @@
 			"personality.p034",
 			"personality.p076",
 			"personality.p079",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5334,6 +5536,7 @@
 			"personality.p059",
 			"personality.p075",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5362,6 +5565,7 @@
 			"personality.p059",
 			"personality.p075",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5393,6 +5597,7 @@
 			"personality.p059",
 			"personality.p075",
 			"personality.p083",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -5419,6 +5624,7 @@
 			"personality.p027",
 			"personality.p028",
 			"personality.p078",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5443,6 +5649,7 @@
 			"personality.p027",
 			"personality.p028",
 			"personality.p078",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5469,6 +5676,7 @@
 			"personality.p060",
 			"personality.p071",
 			"personality.p078",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5495,6 +5703,7 @@
 			"personality.p060",
 			"personality.p071",
 			"personality.p078",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5521,6 +5730,7 @@
 			"personality.p047",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5548,6 +5758,7 @@
 			"personality.p047",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5578,6 +5789,7 @@
 			"personality.p047",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -5607,6 +5819,7 @@
 			"personality.p042",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5636,6 +5849,7 @@
 			"personality.p042",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5672,6 +5886,7 @@
 			"personality.p042",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -5703,6 +5918,7 @@
 			"personality.p042",
 			"personality.p056",
 			"personality.p078",
+			"staralign.false",
 			"style.extra",
 			"type.shadow"
 		],
@@ -5731,6 +5947,7 @@
 			"personality.p075",
 			"personality.p083",
 			"personality.p096",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5757,6 +5974,7 @@
 			"personality.p075",
 			"personality.p083",
 			"personality.p096",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5785,6 +6003,7 @@
 			"personality.p023",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5811,6 +6030,7 @@
 			"personality.p023",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5840,6 +6060,7 @@
 			"personality.p023",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -5867,6 +6088,7 @@
 			"personality.p060",
 			"personality.p076",
 			"personality.p082",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -5893,6 +6115,7 @@
 			"personality.p060",
 			"personality.p076",
 			"personality.p082",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -5921,6 +6144,7 @@
 			"personality.p030",
 			"personality.p082",
 			"personality.p087",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -5945,6 +6169,7 @@
 			"personality.p030",
 			"personality.p082",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5969,6 +6194,7 @@
 			"personality.p003",
 			"personality.p017",
 			"personality.p024",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -5991,6 +6217,7 @@
 			"personality.p016",
 			"personality.p061",
 			"personality.p085",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6012,6 +6239,7 @@
 			"personality.p014",
 			"personality.p021",
 			"personality.p077",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6035,6 +6263,7 @@
 			"personality.p014",
 			"personality.p021",
 			"personality.p077",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6061,6 +6290,7 @@
 			"personality.p045",
 			"personality.p053",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6084,6 +6314,7 @@
 			"personality.p053",
 			"personality.p067",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6107,6 +6338,7 @@
 			"personality.p045",
 			"personality.p053",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6132,6 +6364,7 @@
 			"personality.p045",
 			"personality.p053",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6156,6 +6389,7 @@
 			"personality.p053",
 			"personality.p060",
 			"personality.p063",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6178,6 +6412,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6202,6 +6437,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6225,6 +6461,7 @@
 			"personality.p012",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6248,6 +6485,7 @@
 			"personality.p012",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6272,6 +6510,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6296,6 +6535,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6319,6 +6559,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6342,6 +6583,7 @@
 			"personality.p011",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6366,6 +6608,7 @@
 			"personality.p054",
 			"personality.p081",
 			"personality.p099",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6390,6 +6633,7 @@
 			"personality.p054",
 			"personality.p081",
 			"personality.p099",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6413,6 +6657,7 @@
 			"personality.p012",
 			"personality.p054",
 			"personality.p081",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6436,6 +6681,7 @@
 			"personality.p012",
 			"personality.p054",
 			"personality.p081",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6460,6 +6706,7 @@
 			"personality.p010",
 			"personality.p054",
 			"personality.p099",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6484,6 +6731,7 @@
 			"personality.p010",
 			"personality.p054",
 			"personality.p099",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6508,6 +6756,7 @@
 			"personality.p020",
 			"personality.p035",
 			"personality.p064",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6532,6 +6781,7 @@
 			"personality.p020",
 			"personality.p035",
 			"personality.p064",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6557,6 +6807,7 @@
 			"personality.p010",
 			"personality.p045",
 			"personality.p072",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6580,6 +6831,7 @@
 			"personality.p010",
 			"personality.p045",
 			"personality.p072",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6606,6 +6858,7 @@
 			"personality.p020",
 			"personality.p022",
 			"personality.p035",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6633,6 +6886,8 @@
 			"personality.p081",
 			"personality.p091",
 			"personality.p099",
+			"personality.p104",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6662,6 +6917,8 @@
 			"personality.p081",
 			"personality.p091",
 			"personality.p099",
+			"personality.p104",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -6690,6 +6947,7 @@
 			"personality.p052",
 			"personality.p088",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6715,6 +6973,7 @@
 			"personality.p052",
 			"personality.p088",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6741,6 +7000,7 @@
 			"personality.p046",
 			"personality.p047",
 			"personality.p061",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6765,6 +7025,7 @@
 			"personality.p046",
 			"personality.p047",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6793,6 +7054,7 @@
 			"personality.p029",
 			"personality.p059",
 			"personality.p090",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -6819,6 +7081,7 @@
 			"personality.p029",
 			"personality.p059",
 			"personality.p090",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -6844,6 +7107,7 @@
 			"personality.p055",
 			"personality.p058",
 			"personality.p071",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6869,6 +7133,7 @@
 			"personality.p055",
 			"personality.p058",
 			"personality.p071",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6896,6 +7161,7 @@
 			"personality.p078",
 			"personality.p093",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -6921,6 +7187,7 @@
 			"personality.p078",
 			"personality.p093",
 			"personality.p095",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6946,6 +7213,7 @@
 			"personality.p011",
 			"personality.p062",
 			"personality.p070",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -6970,6 +7238,7 @@
 			"personality.p007",
 			"personality.p010",
 			"personality.p054",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -6992,6 +7261,7 @@
 			"personality.p056",
 			"personality.p060",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7018,6 +7288,7 @@
 			"personality.p061",
 			"personality.p095",
 			"personality.p100",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7045,6 +7316,7 @@
 			"personality.p060",
 			"personality.p076",
 			"personality.p082",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7071,6 +7343,7 @@
 			"personality.p083",
 			"personality.p095",
 			"personality.p098",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7095,6 +7368,7 @@
 			"personality.p083",
 			"personality.p095",
 			"personality.p098",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7120,6 +7394,7 @@
 			"personality.p010",
 			"personality.p049",
 			"personality.p095",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -7143,6 +7418,7 @@
 			"personality.p010",
 			"personality.p049",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7166,6 +7442,7 @@
 			"personality.p015",
 			"personality.p036",
 			"personality.p061",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7189,6 +7466,7 @@
 			"manifest.step0",
 			"personality.p002",
 			"personality.p016",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7211,6 +7489,7 @@
 			"personality.p010",
 			"personality.p042",
 			"personality.p047",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -7235,6 +7514,7 @@
 			"personality.p010",
 			"personality.p042",
 			"personality.p047",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -7258,6 +7538,7 @@
 			"personality.p014",
 			"personality.p048",
 			"personality.p070",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -7281,6 +7562,7 @@
 			"personality.p014",
 			"personality.p048",
 			"personality.p070",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7306,6 +7588,7 @@
 			"personality.p033",
 			"personality.p037",
 			"personality.p039",
+			"staralign.false",
 			"style.extra",
 			"type.light"
 		],
@@ -7335,6 +7618,7 @@
 			"personality.p029",
 			"personality.p033",
 			"personality.p090",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7362,6 +7646,7 @@
 			"personality.p075",
 			"personality.p083",
 			"personality.p096",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -7388,6 +7673,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p095",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7415,6 +7701,7 @@
 			"personality.p020",
 			"personality.p038",
 			"personality.p063",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7440,6 +7727,7 @@
 			"personality.p020",
 			"personality.p038",
 			"personality.p063",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7467,6 +7755,7 @@
 			"personality.p033",
 			"personality.p036",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -7493,6 +7782,7 @@
 			"personality.p067",
 			"personality.p094",
 			"personality.p096",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7517,6 +7807,7 @@
 			"personality.p067",
 			"personality.p094",
 			"personality.p096",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7544,6 +7835,7 @@
 			"personality.p043",
 			"personality.p052",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -7566,6 +7858,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7592,6 +7885,7 @@
 			"personality.p047",
 			"personality.p061",
 			"personality.p084",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7617,6 +7911,7 @@
 			"personality.p012",
 			"personality.p061",
 			"personality.p066",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -7641,6 +7936,7 @@
 			"personality.p002",
 			"personality.p011",
 			"personality.p039",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7666,6 +7962,7 @@
 			"personality.p012",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -7689,6 +7986,7 @@
 			"personality.p012",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -7713,6 +8011,7 @@
 			"personality.p030",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -7737,6 +8036,7 @@
 			"personality.p030",
 			"personality.p044",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -7762,6 +8062,7 @@
 			"personality.p045",
 			"personality.p063",
 			"personality.p068",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7787,6 +8088,7 @@
 			"personality.p045",
 			"personality.p063",
 			"personality.p068",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7813,6 +8115,7 @@
 			"personality.p067",
 			"personality.p068",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7839,6 +8142,7 @@
 			"personality.p067",
 			"personality.p068",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7862,6 +8166,7 @@
 			"personality.p016",
 			"personality.p027",
 			"personality.p095",
+			"staralign.false",
 			"style.extra",
 			"type.light"
 		],
@@ -7890,6 +8195,7 @@
 			"personality.p036",
 			"personality.p061",
 			"personality.p082",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7918,6 +8224,7 @@
 			"personality.p043",
 			"personality.p060",
 			"personality.p083",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -7944,6 +8251,7 @@
 			"personality.p010",
 			"personality.p082",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -7968,6 +8276,7 @@
 			"personality.p010",
 			"personality.p082",
 			"personality.p083",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -7993,6 +8302,7 @@
 			"personality.p010",
 			"personality.p032",
 			"personality.p093",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -8016,6 +8326,7 @@
 			"personality.p010",
 			"personality.p032",
 			"personality.p093",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8042,6 +8353,7 @@
 			"personality.p039",
 			"personality.p043",
 			"personality.p075",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8067,6 +8379,7 @@
 			"personality.p030",
 			"personality.p063",
 			"personality.p093",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8093,6 +8406,7 @@
 			"personality.p034",
 			"personality.p076",
 			"personality.p079",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8120,6 +8434,7 @@
 			"personality.p055",
 			"personality.p076",
 			"personality.p080",
+			"staralign.false",
 			"style.extra",
 			"type.shadow"
 		],
@@ -8145,6 +8460,7 @@
 			"personality.p003",
 			"personality.p012",
 			"personality.p058",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -8167,6 +8483,7 @@
 			"personality.p003",
 			"personality.p012",
 			"personality.p058",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8194,6 +8511,7 @@
 			"personality.p020",
 			"personality.p038",
 			"personality.p063",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -8218,6 +8536,7 @@
 			"personality.p015",
 			"personality.p040",
 			"personality.p042",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8243,6 +8562,7 @@
 			"personality.p013",
 			"personality.p045",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8269,6 +8589,7 @@
 			"personality.p025",
 			"personality.p034",
 			"personality.p066",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8296,6 +8617,7 @@
 			"personality.p057",
 			"personality.p075",
 			"personality.p097",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -8321,6 +8643,7 @@
 			"personality.p057",
 			"personality.p075",
 			"personality.p097",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8344,6 +8667,7 @@
 			"personality.p002",
 			"personality.p011",
 			"personality.p033",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -8367,6 +8691,7 @@
 			"personality.p002",
 			"personality.p011",
 			"personality.p033",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -8394,6 +8719,7 @@
 			"personality.p041",
 			"personality.p070",
 			"personality.p075",
+			"staralign.false",
 			"style.extra",
 			"type.shadow"
 		],
@@ -8419,6 +8745,7 @@
 			"personality.p003",
 			"personality.p017",
 			"personality.p024",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -8442,6 +8769,7 @@
 			"personality.p010",
 			"personality.p032",
 			"personality.p039",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8469,6 +8797,7 @@
 			"personality.p042",
 			"personality.p082",
 			"personality.p087",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8494,6 +8823,7 @@
 			"personality.p015",
 			"personality.p042",
 			"personality.p047",
+			"staralign.false",
 			"style.four",
 			"type.shadow"
 		],
@@ -8517,6 +8847,7 @@
 			"personality.p015",
 			"personality.p042",
 			"personality.p047",
+			"staralign.false",
 			"style.another",
 			"type.shadow"
 		],
@@ -8542,6 +8873,7 @@
 			"personality.p101",
 			"personality.p102",
 			"personality.p103",
+			"staralign.false",
 			"style.normal",
 			"type.shadow"
 		],
@@ -8563,6 +8895,7 @@
 			"personality.p017",
 			"personality.p078",
 			"personality.p094",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -8586,6 +8919,7 @@
 			"personality.p017",
 			"personality.p078",
 			"personality.p094",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -8611,6 +8945,7 @@
 			"personality.p010",
 			"personality.p023",
 			"personality.p061",
+			"staralign.false",
 			"style.normal",
 			"type.light"
 		],
@@ -8636,6 +8971,7 @@
 			"personality.p006",
 			"personality.p013",
 			"personality.p032",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8662,6 +8998,7 @@
 			"personality.p024",
 			"personality.p057",
 			"personality.p083",
+			"staralign.false",
 			"style.four",
 			"type.light"
 		],
@@ -8686,6 +9023,7 @@
 			"personality.p024",
 			"personality.p057",
 			"personality.p083",
+			"staralign.false",
 			"style.another",
 			"type.light"
 		],
@@ -8697,6 +9035,58 @@
 		"year": "2023/10/05",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DD%A5%E0",
 		"aewiki": "https://anothereden.wiki/w/Pom_(Another_Style)"
+	},
+	{
+		"id": 337,
+		"code": 101050181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p082",
+			"personality.p086",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			338
+		],
+		"dungeon_drop": [],
+		"year": "2023/10/26",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 338,
+		"code": 101050181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p082",
+			"personality.p086",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			337
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2023/10/26",
+		"seesaa": null,
+		"aewiki": null
 	},
 	{
 		"id": 1000,
@@ -8943,6 +9333,17 @@
 			"personality.p066",
 			"personality.p075",
 			"personality.p096"
+		]
+	},
+	{
+		"id": 1024,
+		"code": 101040201,
+		"tags": [
+			"personality.p002",
+			"personality.p014",
+			"personality.p047",
+			"personality.p086",
+			"personality.p104"
 		]
 	}
 ]
