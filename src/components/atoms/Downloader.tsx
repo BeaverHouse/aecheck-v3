@@ -4,6 +4,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 import useTheme from '@mui/material/styles/useTheme';
 import useModalStore from '../../store/useModalStore';
 import Fab from '@mui/material/Fab';
+import saveAs from "file-saver";
+import { isIOS } from 'react-device-detect';
 
 interface DownloaderProps {
     tag: string;
@@ -27,19 +29,20 @@ const Downloader: React.FC<DownloaderProps> = ({ tag }) => {
         if (!element) return;
         setModal("LOADING")
         try {
-            await html2canvas(element, {
+            const canvas = await html2canvas(element, {
+                scale: 2,
                 allowTaint: true,
                 useCORS: true,
                 windowWidth: Math.max(element.clientWidth, 700),
                 backgroundColor: theme.palette.background.paper,
                 ignoreElements: (element) => element.id === "downloader",
-            }).then((canvas) => {
-                const dataUrl = canvas.toDataURL("image/jpeg")
-                const link = document.createElement('a');
-                link.download = `${Date.now().toString()}.jpg`;
-                link.href = dataUrl;
-                link.click();
             })
+            canvas.toBlob((blob) => {
+                if (!blob) {
+                    return window.alert("!!!")
+                }   
+                saveAs(blob, `${Date.now().toString()}${isIOS ? "" : ".jpg"}`)
+            })  
         } finally {
             hideModal()
         }
