@@ -6,6 +6,7 @@ interface CheckState {
     inven: Array<number>;
     manifest: Array<number>;
     grasta: Array<number>;
+    staralign: Array<number>;
     addInven: (id: number) => void;
     removeInven: (id: number) => void;
     setInven: (inven: Array<number>) => void;
@@ -15,6 +16,9 @@ interface CheckState {
     addGrasta: (code: number) => void;
     removeGrasta: (id: number) => void;
     setGrasta: (grasta: Array<number>) => void;
+    addAlign: (code: number) => void;
+    removeAlign: (id: number) => void;
+    setAlign: (staralign: Array<number>) => void;
     loadSaveData: (data: CheckValueState) => void;
 }
 
@@ -24,6 +28,7 @@ const useCheckStore = create(
             inven: [],
             manifest: [],
             grasta: [],
+            staralign: [],
             addInven: (id) => set((state) => ({
                 ...state,
                 inven: cleanNumArr([...state.inven, id])
@@ -59,6 +64,18 @@ const useCheckStore = create(
             setGrasta: (grasta) => set((state) => ({
                 ...state,
                 grasta: cleanNumArr(grasta)
+            })),
+            addAlign: (code) => set((state) => ({
+                ...state,
+                staralign: cleanNumArr([...state.staralign.filter((m) => m % 10000 !== code % 10000), code])
+            })),
+            removeAlign: (id) => set((state) => ({
+                ...state,
+                staralign: cleanNumArr(state.staralign.filter((m) => m % 10000 !== id))
+            })),
+            setAlign: (staralign) => set((state) => ({
+                ...state,
+                staralign: cleanNumArr(staralign)
             })),
             loadSaveData: (data) => {
                 set({

@@ -60,6 +60,11 @@ export const getGrastaStep = (info: CharacterInfo, grasta: Array<number>) => {
     if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000)
     else return 0
 }
+export const getAlignStep = (info: CharacterInfo, staralign: Array<number>) => {
+    const stepArr = staralign.filter((g) => g % 10000 === info.id)
+    if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000)
+    else return 0
+}
 
 export const getPaddedNumber = (num: number, padLength: number) => {
     return String(num).padStart(padLength, "0");

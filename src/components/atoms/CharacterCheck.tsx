@@ -1,7 +1,7 @@
 import React from 'react'
 import useCheckStore from '../../store/useCheckStore'
 import { useTranslation } from 'react-i18next';
-import { getGrastaStep, getManifestStep, getShortName } from '../../util/func';
+import { getAlignStep, getGrastaStep, getManifestStep, getShortName } from '../../util/func';
 import { pickups } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -17,7 +17,7 @@ interface CharacterCheckProps {
 // 캐릭터 체크 UI
 const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, disableBorder = false }) => {
 
-    const { addInven, removeInven, inven, grasta, manifest } = useCheckStore();
+    const { addInven, removeInven, inven, grasta, manifest, staralign } = useCheckStore();
     const {
         setModal
     } = useModalStore()
@@ -30,6 +30,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
     const manifestTag = info.id < 1000 ? info.tags.find((t) => t.startsWith("manifest.")) : "manifest.step0";
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
+    const currentAlignStep = getAlignStep(info, staralign)
 
     const manifestIcon = () => {
         const manifestConpleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", "")) && currentManifestStep > 0
@@ -118,22 +119,44 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             {statusIcon()}
             {manifestIcon()}
             <picture>
-                <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
-                <img
-                    src={`/image/data/${info.id}.png`}
-                    alt={`${name}_${info.id}`}
-                    width={80}
-                    height={80}
-                    className={checked ? "" : "gray"}
-                    style={{
-                        border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
-                        width: 75,
-                        height: 75,
-                        boxSizing: "border-box",
-                        borderRadius: "3px",
-                        pointerEvents: "none",
-                    }}
-                />
+                {currentAlignStep === 3 ? <>
+                    <source srcSet={`/image/data/${info.id}_awaken.webp`} type="image/webp" />
+                    <img
+                        src={`/image/data/${info.id}_awaken.png`}
+                        alt={`${name}_${info.id}`}
+                        width={120}
+                        height={120}
+                        className={checked ? "base" : "base gray"}
+                        style={{
+                            border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
+                            width: 105,
+                            height: 105,
+                            position: "absolute",
+                            top: -15,
+                            left: -15,
+                            boxSizing: "border-box",
+                            borderRadius: "3px",
+                            pointerEvents: "none",
+                        }}
+                    />
+                </> : <>
+                    <source srcSet={`/image/data/${info.id}.webp`} type="image/webp" />
+                    <img
+                        src={`/image/data/${info.id}.png`}
+                        alt={`${name}_${info.id}`}
+                        width={80}
+                        height={80}
+                        className={checked ? "" : "gray"}
+                        style={{
+                            border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
+                            width: 75,
+                            height: 75,
+                            boxSizing: "border-box",
+                            borderRadius: "3px",
+                            pointerEvents: "none",
+                        }}
+                    />
+                </>}
             </picture>
             <ImageListItemBar subtitle={getShortName(name, i18n.language)} sx={{
                 "& .MuiImageListItemBar-title": {

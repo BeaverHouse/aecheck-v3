@@ -11,6 +11,10 @@ export const checkMenuData: Array<TabInfo> = [
         labelTag: "frontend.tab.grasta",
         subpath: "grasta"
     },
+    {
+        labelTag: "frontend.filter.staralign",
+        subpath: "staralign"
+    },
 ]
 
 export const searchMenuData: Array<TabInfo> = [

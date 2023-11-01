@@ -15,6 +15,7 @@ import WhitekeyAnalyzePage from "./components/pages/WhitekeyAnalyzePage";
 import LegacyAnalyzePage from "./components/pages/LegacyAnalyzePage";
 import LinkPage from "./components/pages/LinkPage";
 import TopBar from "./components/organisms/TopBar";
+import AlignCheckPage from "./components/pages/AlignCheckPage";
 
 const router = createBrowserRouter([
     {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
                     {
                         path: "manifest",
                         element: <ManifestCheckPage />,
+                    },
+                    {
+                        path: "staralign",
+                        element: <AlignCheckPage />,
                     }
                 ]
             },
