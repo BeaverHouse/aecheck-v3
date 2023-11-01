@@ -39,6 +39,8 @@ const CharacterGrasta: React.FC<CharacterInfo> = (info) => {
             overflow: "unset",
             textAlign: "center",
             alignItems: "stretch",
+            pb: 0.5,
+            pt: 0.5,
             border: pickups.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
             boxSizing: "border-box"
         }}>

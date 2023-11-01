@@ -72,6 +72,8 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
             display: 'flex',
             overflow: "unset",
             textAlign: "center",
+            pb: 0.5,
+            pt: 0.5,
             border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
             boxSizing: "border-box"
         }}>

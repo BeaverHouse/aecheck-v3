@@ -152,7 +152,8 @@ function CharacterSearchPage() {
                             justifyContent: "center",
                             margin: 3,
                             gridTemplateColumns: "repeat(auto-fill, 75px)",
-                            gap: 2,
+                            columnGap: 2,
+                            rowGap: 3,
                         }}>
                             {arr.map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}
                         </Box> : null
@@ -170,7 +171,8 @@ function CharacterSearchPage() {
                             justifyContent: "center",
                             margin: 2.5,
                             gridTemplateColumns: "repeat(auto-fill, 75px)",
-                            gap: 2,
+                            columnGap: 2,
+                            rowGap: 3,
                         }}>
                             {fourCharacters
                                 .map((c) => <CharacterCheck key={c.id} info={c} isCheck={false} />)}

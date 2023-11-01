@@ -70,7 +70,8 @@ function CharacterCheckPage() {
                         justifyContent: "center",
                         margin: 3,
                         gridTemplateColumns: "repeat(auto-fill, 75px)",
-                        gap: 2,
+                        columnGap: 2,
+                        rowGap: 3,
                     }}>
                         {arr.map((c) => <CharacterCheck key={c.id} info={c} />)}
                     </Box> : null
