@@ -67,7 +67,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                     {filterChipOptions.style.map((option, idx) => {
                         if (["MANIFEST", "GRASTA"].includes(modalType) && option === "style.four") return null;
                         return <Chip clickable key={idx} label={t(option)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={styleTags.includes(option) ? "filled" : "outlined"}
                             onClick={() => toggleTag(option)}
                             color='secondary'
@@ -82,7 +82,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                     {filterChipOptions.manifest.map((option, idx) => {
                         if (modalType === "MANIFEST" && option === "manifest.step0") return null;
                         return <Chip clickable key={idx} label={t(option)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={manifestTags.includes(option) ? "filled" : "outlined"}
                             onClick={() => toggleTag(option)}
                             color='secondary'
@@ -95,7 +95,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Box sx={{ mb: 1, gridColumn: "span 2" }}>
                     {filterChipOptions.inven.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={invenTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
@@ -108,7 +108,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Box sx={{ mb: 1, gridColumn: "span 2" }}>
                     {filterChipOptions.staralign.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={staralignTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
@@ -124,7 +124,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Box sx={{ mb: 1 }}>
                     {filterChipOptions.type.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={typeTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
@@ -134,7 +134,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Box sx={{ mb: 1 }}>
                     {filterChipOptions.get.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={getTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
@@ -147,7 +147,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                 <Box sx={{ mb: 3, gridColumn: "span 2" }}>
                     {filterChipOptions.alter.map((options, idx) => (
                         <Chip clickable key={idx} label={t(options)}
-                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            sx={{ mr: 0.7, mb: 0.2, pl: 0.4, pr: 0.4 }}
                             variant={alterTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
