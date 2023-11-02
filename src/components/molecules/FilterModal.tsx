@@ -43,6 +43,7 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
         manifestTags,
         typeTags,
         invenTags,
+        staralignTags,
         dungeon,
         setDungeon,
         removeFilter
@@ -96,6 +97,19 @@ const FilterModal: React.FC<FilterModalInfo> = ({ modalType }) => {
                         <Chip clickable key={idx} label={t(options)}
                             sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
                             variant={invenTags.includes(options) ? "filled" : "outlined"}
+                            onClick={() => toggleTag(options)}
+                            color='secondary'
+                        />
+                    ))}
+                </Box>
+                <Typography variant="subtitle2">
+                    {t("frontend.filter.staralign")}
+                </Typography>
+                <Box sx={{ mb: 1, gridColumn: "span 2" }}>
+                    {filterChipOptions.staralign.map((options, idx) => (
+                        <Chip clickable key={idx} label={t(options)}
+                            sx={{ mr: 0.7, pl: 0.4, pr: 0.4 }}
+                            variant={staralignTags.includes(options) ? "filled" : "outlined"}
                             onClick={() => toggleTag(options)}
                             color='secondary'
                         />

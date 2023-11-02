@@ -28,6 +28,7 @@ function CharacterSearchPage() {
         invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags,
+        staralignTags,
         dungeon
     } = useFilterStore()
     const { inven } = useCheckStore();
@@ -50,7 +51,8 @@ function CharacterSearchPage() {
                 typeTags,
                 getTags,
                 choosePersonalityTags,
-                essenTialPersonalityTags
+                essenTialPersonalityTags,
+                staralignTags
             ) &&
             (t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase()) || t(`book.char${info.id}`).toLowerCase().includes(searchWord.toLowerCase())) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&

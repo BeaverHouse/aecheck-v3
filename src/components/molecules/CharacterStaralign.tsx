@@ -5,7 +5,7 @@ import CircularProgress, {
 } from '@mui/material/CircularProgress';
 import useCheckStore from '../../store/useCheckStore';
 import { useTranslation } from 'react-i18next';
-import { getAlignStep, getCharacterStatus, getManifestStatus, getManifestStep } from '../../util/func';
+import { getAlignStep, getCharacterStatus } from '../../util/func';
 import Typography from '@mui/material/Typography';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
@@ -13,8 +13,8 @@ import Box from '@mui/material/Box';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import CharacterCheck from '../atoms/CharacterCheck';
-import { new_manifests } from '../../constant/updates';
 import useTheme from '@mui/material/styles/useTheme';
+import { new_aligns } from '../../constant/updates';
 
 function CircularProgressWithLabel(
     props: CircularProgressProps & { value: number },
@@ -74,8 +74,7 @@ const CharacterStaralign: React.FC<CharacterInfo> = (info) => {
             textAlign: "center",
             pb: 0.5,
             pt: 0.5,
-            // border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
-            border: "3px solid transparent",
+            border: new_aligns.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
             boxSizing: "border-box"
         }}>
             <CharacterCheck info={info} isCheck={false} disableBorder={true}/>

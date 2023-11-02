@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import Filterbox from '../molecules/FilterBox';
 import { characters } from '../../constant/parseData';
-import { arrOverlap, filterVanilla } from '../../util/arrayUtil';
+import { filterVanilla } from '../../util/arrayUtil';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import useFilterStore from '../../store/useFilterStore';
@@ -23,7 +23,8 @@ function AlignCheckPage() {
         getTags,
         invenTags,
         choosePersonalityTags,
-        essenTialPersonalityTags
+        essenTialPersonalityTags,
+        staralignTags
     } = useFilterStore()
     const { inven } = useCheckStore();
     const { t, i18n } = useTranslation()
@@ -45,7 +46,8 @@ function AlignCheckPage() {
                 typeTags,
                 getTags,
                 choosePersonalityTags,
-                essenTialPersonalityTags
+                essenTialPersonalityTags,
+                staralignTags
             ) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&
             t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase())
@@ -60,7 +62,7 @@ function AlignCheckPage() {
             alignItems: "center",
             justifyContent: "center",
         }}>
-            <Filterbox type="MANIFEST" filteredInfo={filteredArr} label={t("frontend.search.char")} />
+            <Filterbox type="STARALIGN" filteredInfo={filteredArr} label={t("frontend.search.char")} />
             <Suspense fallback={<CircularProgress sx={{ margin: 10 }} />}>
                 <Box sx={{
                     width: "99%",

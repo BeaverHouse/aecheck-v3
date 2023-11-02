@@ -12,6 +12,7 @@ interface FilterState {
     essenTialPersonalityTags: Array<string>;
     choosePersonalityTags: Array<string>;
     invenTags: Array<string>;
+    staralignTags: Array<string>;
     dungeon: string | null;
     setSearch: (word: string) => void;
     toggleTag: (tag: string) => void;
@@ -52,6 +53,10 @@ const initialState = {
         "inven.classchange",
         "inven.have",
     ],
+    staralignTags: [
+        "staralign.false",
+        "staralign.true",
+    ],
     dungeon: null,
 }
 
@@ -84,6 +89,9 @@ const useFilterStore = create(
                         break
                     case "inven":
                         newState = { invenTags: addOrRemove(get().invenTags, tag) };
+                        break
+                    case "staralign":
+                        newState = { staralignTags: addOrRemove(get().staralignTags, tag) };
                         break
                     default:
                         return

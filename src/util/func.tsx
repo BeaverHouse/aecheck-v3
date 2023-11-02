@@ -79,8 +79,9 @@ export const commonFiltered = (
     getTags: Array<string>,
     choosePersonalityTags: Array<string>,
     essenTialPersonalityTags: Array<string>,
+    staralignTags: Array<string>,
 ) => {
-    for (const tags of [styleTags, alterTags, manifestTags, typeTags, getTags]) {
+    for (const tags of [styleTags, alterTags, manifestTags, typeTags, getTags, staralignTags]) {
         if (!arrOverlap(info.tags, tags)) return false
     }
     if (!arrAllIncludes(info.tags, essenTialPersonalityTags)) return false

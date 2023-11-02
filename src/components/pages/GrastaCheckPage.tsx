@@ -24,6 +24,7 @@ function GrastaCheckPage() {
         invenTags,
         choosePersonalityTags,
         essenTialPersonalityTags,
+        staralignTags,
         dungeon
     } = useFilterStore()
     const { inven } = useCheckStore();
@@ -46,7 +47,8 @@ function GrastaCheckPage() {
                 typeTags,
                 getTags,
                 choosePersonalityTags,
-                essenTialPersonalityTags
+                essenTialPersonalityTags,
+                staralignTags
             ) &&
             (t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase()) || t(`book.char${info.id}`).toLowerCase().includes(searchWord.toLowerCase())) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&

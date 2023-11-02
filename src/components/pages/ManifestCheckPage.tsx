@@ -23,7 +23,8 @@ function ManifestCheckPage() {
         getTags,
         invenTags,
         choosePersonalityTags,
-        essenTialPersonalityTags
+        essenTialPersonalityTags,
+        staralignTags
     } = useFilterStore()
     const { inven } = useCheckStore();
     const { t, i18n } = useTranslation()
@@ -45,7 +46,8 @@ function ManifestCheckPage() {
                 typeTags,
                 getTags,
                 choosePersonalityTags,
-                essenTialPersonalityTags
+                essenTialPersonalityTags,
+                staralignTags
             ) &&
             invenTags.includes(getCharacterStatus(info, inven)) &&
             t(`c${info.code}`).toLowerCase().includes(searchWord.toLowerCase())

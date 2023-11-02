@@ -72,6 +72,10 @@ export const filterChipOptions = {
         "inven.classchange",
         "inven.have",
     ],
+    staralign: [
+        "staralign.false",
+        "staralign.true",
+    ],
 }
 
 export const elements = [0, 1, 2, 3, 4, 5, 6, 7].map((a) => `personality.p00${a}`)
