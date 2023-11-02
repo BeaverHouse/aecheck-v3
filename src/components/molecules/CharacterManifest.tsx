@@ -77,7 +77,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
             border: new_manifests.includes(info.id) ? `3px solid ${theme.palette.secondary.main}` : "3px solid transparent",
             boxSizing: "border-box"
         }}>
-            <CharacterCheck info={info} isCheck={false} />
+            <CharacterCheck info={info} isCheck={false} disableBorder={true}/>
             {status === "manifest.available"
                 ? <Box sx={{ display: 'flex', alignItems: "center", pl: 1, pr: 1 }}>
                     <CircularProgressWithLabel value={100 * Math.min(currentStep, maxStep) / maxStep} />

@@ -109,6 +109,7 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             component={"div"}
             onClick={isCheck ? toggleInven : () => setModal(info)}
             sx={{
+                minHeight: 75,
                 maxHeight: 75,
                 minWidth: 75,
                 maxWidth: 75,
@@ -118,8 +119,13 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
             {styleIcon(info)}
             {statusIcon()}
             {manifestIcon()}
-            <picture>
-                {currentAlignStep === 3 ? <>
+            <picture style={{ 
+                maxHeight: 75, 
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center" 
+            }}>
+                {currentAlignStep === 3 && inven.includes(info.id) ? <>
                     <source srcSet={`/image/data/${info.id}_awaken.webp`} type="image/webp" />
                     <img
                         src={`/image/data/${info.id}_awaken.png`}
@@ -128,12 +134,8 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({ info, isCheck = true, d
                         height={120}
                         className={checked ? "base" : "base gray"}
                         style={{
-                            border: pickups.includes(info.id) && !disableBorder ? `3px solid ${theme.palette.secondary.main}` : "",
                             width: 105,
                             height: 105,
-                            position: "absolute",
-                            top: -15,
-                            left: -15,
                             boxSizing: "border-box",
                             borderRadius: "3px",
                             pointerEvents: "none",

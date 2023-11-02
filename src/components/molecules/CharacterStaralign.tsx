@@ -78,7 +78,7 @@ const CharacterStaralign: React.FC<CharacterInfo> = (info) => {
             border: "3px solid transparent",
             boxSizing: "border-box"
         }}>
-            <CharacterCheck info={info} isCheck={false} />
+            <CharacterCheck info={info} isCheck={false} disableBorder={true}/>
             {inven.includes(info.id)
                 ? <Box sx={{ display: 'flex', alignItems: "center", pl: 1, pr: 1 }}>
                     <CircularProgressWithLabel value={100 * Math.min(currentStep, maxStep) / maxStep} />
