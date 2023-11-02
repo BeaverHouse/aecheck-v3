@@ -111,7 +111,7 @@ function Sidebar() {
                             </Divider>
                             {searchMenuData.map((i) => (
                                 <ListItemButton sx={{ height: 30 }} onClick={() => handleSearchClick(i.subpath)}>
-                                    <ListItemText primary={t(i.labelTag)} />
+                                    <ListItemText primary={`${t(i.labelTag)} ${t("frontend.word.info")}`} />
                                 </ListItemButton>
                             ))}
                             <Divider sx={{ mt: 1.5 }}>
