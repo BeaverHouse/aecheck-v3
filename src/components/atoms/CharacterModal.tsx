@@ -10,7 +10,7 @@ import useModalStore from '../../store/useModalStore';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import ErrorIcon from '@mui/icons-material/Error';
 import CancelIcon from '@mui/icons-material/Cancel';
-import { getCharacterStatus, getGrastaStep, getManifestStep, getPaddedNumber } from '../../util/func';
+import { getAlignStep, getCharacterStatus, getGrastaStep, getManifestStep, getPaddedNumber } from '../../util/func';
 import IconButton from '@mui/material/IconButton';
 import { isMobile } from 'react-device-detect';
 import useCheckStore from '../../store/useCheckStore';
@@ -37,7 +37,7 @@ const style = {
 
 const CharacterModal: React.FC<CharacterInfo> = (info) => {
 
-    const { inven, grasta, manifest } = useCheckStore();
+    const { inven, grasta, manifest, staralign } = useCheckStore();
     const {
         modalInfo,
         hideModal
@@ -53,6 +53,7 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
     const currentInven = getCharacterStatus(info, inven)
     const currentGrastaStep = getGrastaStep(info, grasta)
     const currentManifestStep = getManifestStep(info, manifest)
+    const currentAlignStep = getAlignStep(info, staralign)
     const manifestCompleted = currentManifestStep >= parseInt(manifestTag!.replace("manifest.step", "")) && currentManifestStep > 0
 
     const invenIcon = () => {
@@ -147,6 +148,22 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
                     />
                     <Typography variant="subtitle2" component="h2">
                         {t(manifestTag!)} Complete
+                    </Typography>
+                </Box> : null}
+                {currentAlignStep === 3 && inven.includes(info.id) ? <Box sx={{
+                    display: "flex",
+                    width: "100%",
+                    alignItems: "center",
+                }}>
+                    <img src={`/image/data/${info.id}_awaken.png`} width={35} height={35} alt={`complete`}
+                        style={{
+                            width: 28,
+                            height: 28,
+                            marginRight: 8
+                        }}
+                    />
+                    <Typography variant="subtitle2" component="h2">
+                        {t("frontend.filter.staralign")} Complete
                     </Typography>
                 </Box> : null}
                 <Box sx={{
