@@ -344,6 +344,7 @@
 			"personality.p004",
 			"personality.p014",
 			"personality.p025",
+			"personality.p063",
 			"staralign.false",
 			"style.normal",
 			"type.shadow"
@@ -6886,6 +6887,7 @@
 			"personality.p081",
 			"personality.p091",
 			"personality.p099",
+			"personality.p100",
 			"personality.p104",
 			"staralign.false",
 			"style.four",
@@ -6917,6 +6919,7 @@
 			"personality.p081",
 			"personality.p091",
 			"personality.p099",
+			"personality.p100",
 			"personality.p104",
 			"staralign.true",
 			"style.normal",
@@ -9087,6 +9090,62 @@
 		"year": "2023/10/26",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EA%A5%A8%A5%B9",
 		"aewiki": "https://anothereden.wiki/w/Serius"
+	},
+	{
+		"id": 339,
+		"code": 101020171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p012",
+			"personality.p045",
+			"personality.p061",
+			"personality.p093",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			340
+		],
+		"dungeon_drop": [],
+		"year": "2023/11/09",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 340,
+		"code": 101020171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p012",
+			"personality.p045",
+			"personality.p061",
+			"personality.p093",
+			"personality.p095",
+			"personality.p100",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			339
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2023/11/09",
+		"seesaa": null,
+		"aewiki": null
 	},
 	{
 		"id": 1000,
