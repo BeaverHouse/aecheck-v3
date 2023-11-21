@@ -2495,7 +2495,7 @@
 		"tags": [
 			"alter.false",
 			"get.notfree",
-			"manifest.step1",
+			"manifest.step2",
 			"personality.p001",
 			"personality.p012",
 			"personality.p020",
@@ -2504,7 +2504,7 @@
 			"personality.p047",
 			"personality.p058",
 			"personality.p061",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.shadow"
 		],
@@ -3674,7 +3674,7 @@
 			"personality.p025",
 			"personality.p056",
 			"personality.p090",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -9062,7 +9062,7 @@
 		"dungeon_drop": [],
 		"year": "2023/10/26",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EA%A5%A8%A5%B9",
-		"aewiki": "https://anothereden.wiki/w/Serius"
+		"aewiki": "https://anothereden.wiki/w/Cerius"
 	},
 	{
 		"id": 338,
@@ -9089,7 +9089,7 @@
 		],
 		"year": "2023/10/26",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EA%A5%A8%A5%B9",
-		"aewiki": "https://anothereden.wiki/w/Serius"
+		"aewiki": "https://anothereden.wiki/w/Cerius"
 	},
 	{
 		"id": 339,
@@ -9101,6 +9101,7 @@
 			"personality.p006",
 			"personality.p012",
 			"personality.p045",
+			"personality.p060",
 			"personality.p061",
 			"personality.p093",
 			"personality.p095",
@@ -9115,8 +9116,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2023/11/09",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%DC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Oboro"
 	},
 	{
 		"id": 340,
@@ -9128,6 +9129,7 @@
 			"personality.p006",
 			"personality.p012",
 			"personality.p045",
+			"personality.p060",
 			"personality.p061",
 			"personality.p093",
 			"personality.p095",
@@ -9144,8 +9146,8 @@
 			5
 		],
 		"year": "2023/11/09",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%DC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Oboro"
 	},
 	{
 		"id": 1000,
