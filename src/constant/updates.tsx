@@ -3,7 +3,7 @@ export const new_manifests = [93];
 export const new_buddies = [2009, 2010];
 export const new_aligns = [93, 135];
 
-export const announceDate = "20231121";
+export const announceDate = "20231122";
 
 export const announceTitleKo = "사이트 테스트 중입니다.";
 export const announceContentKo = (
@@ -17,7 +17,7 @@ export const announceContentKo = (
     오류가 있다면, 꼭 제보 부탁드립니다.
     <br />
     <br />
-    231121 : 일판 3.4.20 버전 업데이트
+    231122 : 일판 3.4.20 버전 업데이트
     <br />
     <br />
     <a
@@ -49,7 +49,7 @@ export const announceContentEN = (
     Please contact if you find errors.
     <br />
     <br />
-    231121 : Update JAP 3.4.20
+    231122 : Update JAP 3.4.20
     <br />
     <br />
     <a
@@ -69,7 +69,7 @@ export const announceContentEN = (
     </a>
     <br />
     <a
-      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231121"
+      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231122"
       target="_blank"
       rel="noreferrer"
     >
