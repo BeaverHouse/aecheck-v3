@@ -29,5 +29,5 @@ td[class="odd"] {
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0.4;
+  opacity: 0.3;
 }
