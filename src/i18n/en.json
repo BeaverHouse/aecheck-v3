@@ -397,6 +397,7 @@
 	"frontend.analyze.stardream.level2": "YOU HAVE ALL CHARACTERS!",
 	"frontend.analyze.stardream.option": "Show recent style only",
 	"frontend.analyze.stardream.seven": "Exclude characters released within 3 month",
+	"frontend.analyze.table.description": "Table UI from legacy version.",
 	"frontend.analyze.whitekey.description": "Recommendation for Treatise, Codex and Opus.",
 	"frontend.analyze.whitekey.empty": "No characters to show",
 	"frontend.analyze.whitekey.option": "Show not owned characters too",
@@ -429,6 +430,7 @@
 	"frontend.tab.grasta": "Grasta",
 	"frontend.tab.legacy": "Result (Legacy ver.)",
 	"frontend.tab.stardream": "Star Dream Encounter",
+	"frontend.tab.table ": "Table (Legacy ver.)",
 	"frontend.tab.whitekey": "Treatise/Codex/Opus",
 	"frontend.word.element": "Element",
 	"frontend.word.info": "Info",
@@ -557,5 +559,11 @@
 	"style.four": "4☆",
 	"style.normal": "NS",
 	"type.light": "Light",
-	"type.shadow": "Shadow"
+	"type.shadow": "Shadow",
+	"personality.p105": "Traveler",
+	"c101450051": "Cyrus Albright",
+	"c101450061": "Partitio",
+	"c101450071": "Tithi",
+	"c101050191": "Wenefica",
+	"book.char348": "Wenefica"
 }

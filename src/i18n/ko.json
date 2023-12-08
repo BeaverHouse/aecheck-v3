@@ -397,6 +397,7 @@
 	"frontend.analyze.stardream.level2": "모든 캐릭터를 보유 중입니다!",
 	"frontend.analyze.stardream.option": "최신 스타일만 표시하기",
 	"frontend.analyze.stardream.seven": "3개월 이내 캐릭터 제외",
+	"frontend.analyze.table.description": "초기 버전의 속성/무기별 표입니다.",
 	"frontend.analyze.whitekey.description": "이절/개전/경전록 추천 목록입니다.",
 	"frontend.analyze.whitekey.empty": "표시할 캐릭터가 없습니다.",
 	"frontend.analyze.whitekey.option": "없는 캐릭터도 표시",
@@ -429,6 +430,7 @@
 	"frontend.tab.grasta": "글래스터",
 	"frontend.tab.legacy": "결과(이전 버전)",
 	"frontend.tab.stardream": "선택권",
+	"frontend.tab.table ": "표(이전 버전)",
 	"frontend.tab.whitekey": "이절/개전/경전록",
 	"frontend.word.element": "속성",
 	"frontend.word.info": "정보",
@@ -557,5 +559,11 @@
 	"style.four": "4☆",
 	"style.normal": "NS",
 	"type.light": "천",
-	"type.shadow": "명"
+	"type.shadow": "명",
+	"personality.p105": "인도의 트래블러",
+	"c101450051": "사이러스 (옥토패스)",
+	"c101450061": "파르티티오",
+	"c101450071": "티티",
+	"c101050191": "베네피카",
+	"book.char348": "베네피카"
 }

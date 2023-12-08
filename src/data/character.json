@@ -9150,6 +9150,202 @@
 		"aewiki": "https://anothereden.wiki/w/Oboro"
 	},
 	{
+		"id": 341,
+		"code": 101450051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			342
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/21",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 342,
+		"code": 101450051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			341
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2018/08/21",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 343,
+		"code": 101450061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p105",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			344
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 344,
+		"code": 101450061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p105",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			343
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 345,
+		"code": 101450071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p016",
+			"personality.p105",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			346
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 346,
+		"code": 101450071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p016",
+			"personality.p105",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			345
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 347,
+		"code": 101050191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p047",
+			"personality.p052",
+			"personality.p058",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			348
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 348,
+		"code": 101050191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p047",
+			"personality.p052",
+			"personality.p058",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			347
+		],
+		"change": [],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2023/12/07",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
