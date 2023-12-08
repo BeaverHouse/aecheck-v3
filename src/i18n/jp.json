@@ -397,6 +397,7 @@
 	"frontend.analyze.stardream.level2": "すべてのキャラを所持しています！",
 	"frontend.analyze.stardream.option": "最新スタイルのみを表示する",
 	"frontend.analyze.stardream.seven": "3ヶ月以内に以内に発売されたキャラは除く",
+	"frontend.analyze.table.description": "以前バージョンの 属性別/武具別 テーブルです。",
 	"frontend.analyze.whitekey.description": "異節/改典/典録 推薦リストです。",
 	"frontend.analyze.whitekey.empty": "表示するキャラがありません。",
 	"frontend.analyze.whitekey.option": "未所持キャラの情報も表示する",
@@ -427,8 +428,9 @@
 	"frontend.tab.buddy": "バディ",
 	"frontend.tab.character": "キャラ",
 	"frontend.tab.grasta": "グラスタ",
-	"frontend.tab.legacy": "以前バージョン",
+	"frontend.tab.legacy": "Result (以前バージョン)",
 	"frontend.tab.stardream": "星の夢の出逢い",
+	"frontend.tab.table ": "テーブル (以前バージョン)",
 	"frontend.tab.whitekey": "異節/改典/典録",
 	"frontend.word.element": "属性",
 	"frontend.word.info": "情報",
@@ -557,5 +559,11 @@
 	"style.four": "4☆",
 	"style.normal": "NS",
 	"type.light": "天",
-	"type.shadow": "冥"
+	"type.shadow": "冥",
+	"personality.p105": "導きのトラベラー",
+	"c101450051": "サイラス (オクトパス)",
+	"c101450061": "パルテティオ",
+	"c101450071": "ティティ",
+	"c101050191": "ウェネーフィカ",
+	"book.char348": "ウェネーフィカ"
 }

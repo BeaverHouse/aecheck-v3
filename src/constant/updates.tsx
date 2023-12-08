@@ -1,9 +1,9 @@
-export const pickups = [92, 93, 134, 135];
+export const pickups = [341, 342, 343, 344, 345, 346, 347, 348];
 export const new_manifests = [93];
 export const new_buddies = [2009, 2010];
-export const new_aligns = [93, 135];
+export const new_aligns = [342, 344, 346, 348];
 
-export const announceDate = "20231122";
+export const announceDate = "20231208";
 
 export const announceTitleKo = "사이트 테스트 중입니다.";
 export const announceContentKo = (
@@ -17,7 +17,7 @@ export const announceContentKo = (
     오류가 있다면, 꼭 제보 부탁드립니다.
     <br />
     <br />
-    231122 : 일판 3.4.20 버전 업데이트
+    231208 : 일판 3.5.0 버전 업데이트, 테이블 기능 추가
     <br />
     <br />
     <a
@@ -32,7 +32,7 @@ export const announceContentKo = (
       오류 제보
     </a>
     <br />
-    <a href="https://aecheck.tistory.com/47" target="_blank" rel="noreferrer">
+    <a href="https://aecheck.tistory.com/48" target="_blank" rel="noreferrer">
       패치 노트
     </a>
   </div>
@@ -49,7 +49,7 @@ export const announceContentEN = (
     Please contact if you find errors.
     <br />
     <br />
-    231122 : Update JAP 3.4.20
+    231208 : Update JAP 3.5.0, Add Table (on Legacy ver.)
     <br />
     <br />
     <a
@@ -69,7 +69,7 @@ export const announceContentEN = (
     </a>
     <br />
     <a
-      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231122"
+      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231208"
       target="_blank"
       rel="noreferrer"
     >
