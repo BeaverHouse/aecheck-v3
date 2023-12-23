@@ -1,9 +1,9 @@
-export const pickups = [341, 342, 343, 344, 345, 346, 347, 348];
+export const pickups = [349];
 export const new_manifests = [93];
 export const new_buddies = [2009, 2010];
-export const new_aligns = [342, 344, 346, 348];
+export const new_aligns = [349];
 
-export const announceDate = "20231208";
+export const announceDate = "20231223";
 
 export const announceTitleKo = "사이트 테스트 중입니다.";
 export const announceContentKo = (
@@ -17,7 +17,7 @@ export const announceContentKo = (
     오류가 있다면, 꼭 제보 부탁드립니다.
     <br />
     <br />
-    231208 : 일판 3.5.0 버전 업데이트, 테이블 기능 추가
+    231223 : 일판 3.5.10 버전 업데이트
     <br />
     <br />
     <a
@@ -49,7 +49,7 @@ export const announceContentEN = (
     Please contact if you find errors.
     <br />
     <br />
-    231208 : Update JAP 3.5.0, Add Table (on Legacy ver.)
+    231223 : Update JAP 3.5.10
     <br />
     <br />
     <a
@@ -69,7 +69,7 @@ export const announceContentEN = (
     </a>
     <br />
     <a
-      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231208"
+      href="https://github.com/BeaverHouse/aecheck-docs/blob/main/v3_docs/patch.md#231223"
       target="_blank"
       rel="noreferrer"
     >

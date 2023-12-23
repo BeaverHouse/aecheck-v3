@@ -7343,6 +7343,7 @@
 			"manifest.step0",
 			"personality.p007",
 			"personality.p015",
+			"personality.p043",
 			"personality.p083",
 			"personality.p095",
 			"personality.p098",
@@ -7352,7 +7353,8 @@
 		],
 		"from": [],
 		"change": [
-			272
+			272,
+			349
 		],
 		"dungeon_drop": [],
 		"year": "2022/06/09",
@@ -7368,6 +7370,7 @@
 			"manifest.step0",
 			"personality.p007",
 			"personality.p015",
+			"personality.p043",
 			"personality.p083",
 			"personality.p095",
 			"personality.p098",
@@ -7378,7 +7381,9 @@
 		"from": [
 			271
 		],
-		"change": [],
+		"change": [
+			349
+		],
 		"dungeon_drop": [
 			3
 		],
@@ -9172,8 +9177,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9%A1%A6%A5%AA%A5%EB%A5%D6%A5%E9%A5%A4%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Cyrus_Albright"
 	},
 	{
 		"id": 342,
@@ -9198,8 +9203,8 @@
 		"change": [],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9%A1%A6%A5%AA%A5%EB%A5%D6%A5%E9%A5%A4%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Cyrus_Albright"
 	},
 	{
 		"id": 343,
@@ -9221,8 +9226,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EB%A5%C6%A5%C6%A5%A3%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Partitio"
 	},
 	{
 		"id": 344,
@@ -9244,8 +9249,8 @@
 		"change": [],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EB%A5%C6%A5%C6%A5%A3%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Partitio"
 	},
 	{
 		"id": 345,
@@ -9267,8 +9272,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Tithi"
 	},
 	{
 		"id": 346,
@@ -9290,8 +9295,8 @@
 		"change": [],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Tithi"
 	},
 	{
 		"id": 347,
@@ -9316,8 +9321,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%A7%A5%CD%A1%BC%A5%D5%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Wenefica"
 	},
 	{
 		"id": 348,
@@ -9344,8 +9349,36 @@
 			0
 		],
 		"year": "2023/12/07",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%A7%A5%CD%A1%BC%A5%D5%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Wenefica"
+	},
+	{
+		"id": 349,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p043",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"staralign.true",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			272
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/12/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%DE%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Alma_(Another_Style)"
 	},
 	{
 		"id": 1000,
