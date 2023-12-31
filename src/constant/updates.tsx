@@ -1,9 +1,9 @@
-export const pickups = [349];
+export const pickups = [350];
 export const new_manifests = [93];
-export const new_buddies = [2009, 2010];
-export const new_aligns = [349];
+export const new_buddies = [2012];
+export const new_aligns = [350];
 
-export const announceDate = "20231223";
+export const announceDate = "20231231";
 
 export const announceTitleKo = "사이트 테스트 중입니다.";
 export const announceContentKo = (
@@ -17,7 +17,7 @@ export const announceContentKo = (
     오류가 있다면, 꼭 제보 부탁드립니다.
     <br />
     <br />
-    231223 : 일판 3.5.10 버전 업데이트
+    231231 : 일판 3.5.10 버전 업데이트
     <br />
     <br />
     <a
@@ -49,7 +49,7 @@ export const announceContentEN = (
     Please contact if you find errors.
     <br />
     <br />
-    231223 : Update JAP 3.5.10
+    231231 : Update JAP 3.5.10
     <br />
     <br />
     <a
