@@ -88,5 +88,15 @@
 		"get": "get.buddy2010",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%E5%A5%A6%A5%AC",
 		"aewiki": "https://anothereden.wiki/w/Hyuga"
+	},
+	{
+		"id": 2012,
+		"code": 2000000012,
+		"link": [
+			350
+		],
+		"get": "get.notfree",
+		"seesaa": null,
+		"aewiki": null
 	}
 ]

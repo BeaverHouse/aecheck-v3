@@ -1947,7 +1947,8 @@
 		"from": [],
 		"change": [
 			74,
-			75
+			75,
+			350
 		],
 		"dungeon_drop": [],
 		"year": "2020/04/12",
@@ -1975,7 +1976,8 @@
 			73
 		],
 		"change": [
-			75
+			75,
+			350
 		],
 		"dungeon_drop": [
 			2,
@@ -2007,7 +2009,8 @@
 		],
 		"from": [],
 		"change": [
-			74
+			74,
+			350
 		],
 		"dungeon_drop": [
 			1001
@@ -9379,6 +9382,34 @@
 		"year": "2023/12/21",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%DE%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
 		"aewiki": "https://anothereden.wiki/w/Alma_(Another_Style)"
+	},
+	{
+		"id": 350,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"staralign.true",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74,
+			75
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/12/31",
+		"seesaa": null,
+		"aewiki": null
 	},
 	{
 		"id": 1000,
