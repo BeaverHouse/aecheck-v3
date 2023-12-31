@@ -19,8 +19,8 @@ interface BuddyInfo {
   code: number;
   link: Array<number>;
   get: string;
-  seesaa: string;
-  aewiki: string;
+  seesaa?: string;
+  aewiki?: string;
 }
 
 // fixedData.ts의 탭 정보 파싱할 때 사용하는 interface
