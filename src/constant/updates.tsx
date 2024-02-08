@@ -1,12 +1,12 @@
-export const pickups = [352, 353, 354, 355];
+export const pickups = [356, 357];
 export const new_manifests = [108];
 export const new_buddies = [2011];
-export const new_aligns = [353];
-export const version = "3.5.50";
+export const new_aligns = [357];
+export const version = "3.5.60";
 
-export const announceDate = "20240203";
+export const announceDate = "20240208";
 
-export const announceTitleKo = announceDate + " 사이트 변경 완료";
+export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <h2>예고대로 사이트가 변경되었습니다!</h2>
@@ -24,11 +24,11 @@ export const announceContentKo = (
       오류 제보
     </a>
     <br />
-    연락 메일 : haulrest@gmail.com
+    이메일 : haulrest@gmail.com
   </div>
 );
 
-export const announceTitleEN = announceDate + " Site has been changed";
+export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
     <h2>Site has been changed as announced before!</h2>
@@ -39,7 +39,7 @@ export const announceContentEN = (
     <p>Version : {version}</p>
     <br />
     <a
-      href="https://github.com/BeaverHouse/aecheck-docs"
+      href="https://github.com/BeaverHouse/aecheck-v3/wiki"
       target="_blank"
       rel="noreferrer"
     >

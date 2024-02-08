@@ -9543,6 +9543,62 @@
 		"aewiki": "https://anothereden.wiki/w/Wryz"
 	},
 	{
+		"id": 356,
+		"code": 101030191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p013",
+			"personality.p061",
+			"personality.p062",
+			"personality.p067",
+			"personality.p086",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			357
+		],
+		"dungeon_drop": [],
+		"year": "2024/02/08",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 357,
+		"code": 101030191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p013",
+			"personality.p061",
+			"personality.p062",
+			"personality.p067",
+			"personality.p086",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			356
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2024/02/08",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
