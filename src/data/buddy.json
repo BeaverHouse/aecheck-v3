@@ -1,0 +1,112 @@
+[
+	{
+		"id": 2001,
+		"code": 2000000001,
+		"link": [
+			289
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%C8%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Tetra"
+	},
+	{
+		"id": 2002,
+		"code": 2000000002,
+		"link": [
+			290
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B3%A5%ED%A5%DC",
+		"aewiki": "https://anothereden.wiki/w/Korobo"
+	},
+	{
+		"id": 2003,
+		"code": 2000000003,
+		"link": [],
+		"get": "get.buddy2003",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%BF%A5%DE%A5%F3%A5%C0%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Minimander"
+	},
+	{
+		"id": 2004,
+		"code": 2000000004,
+		"link": [],
+		"get": "get.buddy2004",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%AF%A5%EC%A5%EC%CD%CD",
+		"aewiki": "https://anothereden.wiki/w/Lord_Ukulele"
+	},
+	{
+		"id": 2005,
+		"code": 2000000005,
+		"link": [],
+		"get": "get.buddy2005",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E2%A5%EB%A5%C7%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Mordy"
+	},
+	{
+		"id": 2006,
+		"code": 2000000006,
+		"link": [
+			309
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%E5%A5%E2%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Kumos"
+	},
+	{
+		"id": 2007,
+		"code": 2000000007,
+		"link": [],
+		"get": "get.buddy2007",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D4%A5%B9%A5%B1",
+		"aewiki": "https://anothereden.wiki/w/Pisce"
+	},
+	{
+		"id": 2008,
+		"code": 2000000008,
+		"link": [
+			318
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%EC%A1%BC%A5%CE",
+		"aewiki": "https://anothereden.wiki/w/Limil"
+	},
+	{
+		"id": 2009,
+		"code": 2000000009,
+		"link": [
+			332
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%F3%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Gunce"
+	},
+	{
+		"id": 2010,
+		"code": 2000000010,
+		"link": [],
+		"get": "get.buddy2010",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%E5%A5%A6%A5%AC",
+		"aewiki": "https://anothereden.wiki/w/Hyuga"
+	},
+	{
+		"id": 2012,
+		"code": 2000000012,
+		"link": [
+			350
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E2%A5%B1",
+		"aewiki": "https://anothereden.wiki/w/Moke"
+	},
+	{
+		"id": 2011,
+		"code": 2009000001,
+		"link": [
+			355
+		],
+		"get": "get.notfree",
+		"seesaa": "https://anothereden.game-info.wiki/d/%CE%B5%A4%CE%BB%D2",
+		"aewiki": "https://anothereden.wiki/w/Iridian"
+	}
+]

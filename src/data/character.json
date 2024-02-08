@@ -1,0 +1,9792 @@
+[
+	{
+		"id": 1,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			2,
+			3
+		],
+		"dungeon_drop": [],
+		"year": "2018/05/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A7%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Veina"
+	},
+	{
+		"id": 2,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			1
+		],
+		"change": [
+			3
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2018/05/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A7%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Veina"
+	},
+	{
+		"id": 3,
+		"code": 101000011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p021",
+			"personality.p033",
+			"personality.p057",
+			"personality.p059",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			2
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/01/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A7%A5%A4%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Veina_(Another_Style)"
+	},
+	{
+		"id": 4,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			6,
+			303
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%EA%A5%A8%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Mariel"
+	},
+	{
+		"id": 5,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			4
+		],
+		"change": [
+			6,
+			303
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%EA%A5%A8%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Mariel"
+	},
+	{
+		"id": 6,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			303
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%EA%A5%A8%A5%EB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Mariel_(Another_Style)"
+	},
+	{
+		"id": 7,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			8,
+			9
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%A4%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Mighty"
+	},
+	{
+		"id": 8,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			7
+		],
+		"change": [
+			9
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%A4%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Mighty"
+	},
+	{
+		"id": 9,
+		"code": 101000041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"personality.p048",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			8
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2017/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%A4%A5%C6%A5%A3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Mighty_(Another_Style)"
+	},
+	{
+		"id": 10,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			12,
+			13,
+			313
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C8%A5%A5%A1%BC%A5%F4%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Toova"
+	},
+	{
+		"id": 11,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			10
+		],
+		"change": [
+			12,
+			13,
+			313
+		],
+		"dungeon_drop": [
+			3,
+			204,
+			205
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C8%A5%A5%A1%BC%A5%F4%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Toova"
+	},
+	{
+		"id": 12,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p010",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			313
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C8%A5%A5%A1%BC%A5%F4%A5%A1%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Toova_(Another_Style)"
+	},
+	{
+		"id": 13,
+		"code": 101040171,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p025",
+			"personality.p063",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%BB%E7%C1%F5%A4%CE%C1%E4%BB%C8%A4%A4",
+		"aewiki": "https://anothereden.wiki/w/Toova_(Alter)"
+	},
+	{
+		"id": 14,
+		"code": 101000061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p022",
+			"personality.p049",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			15
+		],
+		"dungeon_drop": [],
+		"year": "2019/11/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D3%A5%F4%A5%A7%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Bivette"
+	},
+	{
+		"id": 15,
+		"code": 101000061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p022",
+			"personality.p049",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			14
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/11/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D3%A5%F4%A5%A7%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Bivette"
+	},
+	{
+		"id": 16,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			17,
+			18
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/04",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%EA%A5%E6",
+		"aewiki": "https://anothereden.wiki/w/Gariyu"
+	},
+	{
+		"id": 17,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			16
+		],
+		"change": [
+			18
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2017/07/04",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%EA%A5%E6",
+		"aewiki": "https://anothereden.wiki/w/Gariyu"
+	},
+	{
+		"id": 18,
+		"code": 101000081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p037",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			16,
+			17
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/06/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%EA%A5%E6%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Gariyu_(Another_Style)"
+	},
+	{
+		"id": 19,
+		"code": 101000111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p022",
+			"personality.p025",
+			"personality.p039",
+			"personality.p043",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			20
+		],
+		"dungeon_drop": [],
+		"year": "2022/02/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%F4%A5%A7%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Sevyn"
+	},
+	{
+		"id": 20,
+		"code": 101000111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p022",
+			"personality.p025",
+			"personality.p039",
+			"personality.p043",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			19
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/02/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%F4%A5%A7%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Sevyn"
+	},
+	{
+		"id": 21,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			22,
+			23
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/04",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Yuna"
+	},
+	{
+		"id": 22,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			21
+		],
+		"change": [
+			23
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2017/07/04",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Yuna"
+	},
+	{
+		"id": 23,
+		"code": 101000121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p032",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			22
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/06/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Yuna_(Another_Style)"
+	},
+	{
+		"id": 24,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			25,
+			326
+		],
+		"dungeon_drop": [],
+		"year": "2021/02/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%ED%A5%C7%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Melody"
+	},
+	{
+		"id": 25,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			24
+		],
+		"change": [
+			326
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2021/02/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%ED%A5%C7%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Melody"
+	},
+	{
+		"id": 26,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			27,
+			28
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Radica"
+	},
+	{
+		"id": 27,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			26
+		],
+		"change": [
+			28
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2018/08/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Radica"
+	},
+	{
+		"id": 28,
+		"code": 101000171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p021",
+			"personality.p060",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			27
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/11/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%AB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Radica_(Another_Style)"
+	},
+	{
+		"id": 29,
+		"code": 101000191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p065",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			30
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%E8",
+		"aewiki": "https://anothereden.wiki/w/Chiyo"
+	},
+	{
+		"id": 30,
+		"code": 101000191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p065",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/06/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%E8",
+		"aewiki": "https://anothereden.wiki/w/Chiyo_(Another_Style)"
+	},
+	{
+		"id": 31,
+		"code": 101000201,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p023",
+			"personality.p050",
+			"personality.p063",
+			"personality.p065",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			32
+		],
+		"dungeon_drop": [],
+		"year": "2017/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%F4%A5%A1%A5%A4%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Levia"
+	},
+	{
+		"id": 32,
+		"code": 101000201,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p023",
+			"personality.p050",
+			"personality.p063",
+			"personality.p065",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			31
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/08/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%F4%A5%A1%A5%A4%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Levia_(Another_Style)"
+	},
+	{
+		"id": 33,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			34,
+			35
+		],
+		"dungeon_drop": [],
+		"year": "2017/11/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%EB%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Myrus"
+	},
+	{
+		"id": 34,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			33
+		],
+		"change": [
+			35
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/11/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%EB%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Myrus"
+	},
+	{
+		"id": 35,
+		"code": 101000221,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p035",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			34
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%EB%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Myrus_(Another_Style)"
+	},
+	{
+		"id": 36,
+		"code": 101000231,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			37
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%AD",
+		"aewiki": "https://anothereden.wiki/w/Saki"
+	},
+	{
+		"id": 37,
+		"code": 101000231,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			36
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2018/03/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%AD",
+		"aewiki": "https://anothereden.wiki/w/Saki_(Another_Style)"
+	},
+	{
+		"id": 38,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			39,
+			40
+		],
+		"dungeon_drop": [],
+		"year": "2019/01/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%BC%A5%C3%A5%BF",
+		"aewiki": "https://anothereden.wiki/w/Rosetta"
+	},
+	{
+		"id": 39,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			38
+		],
+		"change": [
+			40
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2019/01/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%BC%A5%C3%A5%BF",
+		"aewiki": "https://anothereden.wiki/w/Rosetta"
+	},
+	{
+		"id": 40,
+		"code": 101000241,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p027",
+			"personality.p028",
+			"personality.p069",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			39
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/07/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%BC%A5%C3%A5%BF%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Rosetta_(Another_Style)"
+	},
+	{
+		"id": 41,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42,
+			43,
+			327
+		],
+		"dungeon_drop": [],
+		"year": "2019/05/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A5%CA%A5%EA%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Dunarith"
+	},
+	{
+		"id": 42,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			41
+		],
+		"change": [
+			43,
+			327
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2019/05/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A5%CA%A5%EA%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Dunarith"
+	},
+	{
+		"id": 43,
+		"code": 101000251,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p035",
+			"personality.p049",
+			"personality.p080",
+			"personality.p087",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A5%CA%A5%EA%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Dunarith_(Another_Style)"
+	},
+	{
+		"id": 44,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			45,
+			46
+		],
+		"dungeon_drop": [],
+		"year": "2020/09/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%E9%A5%EB%A5%C6",
+		"aewiki": "https://anothereden.wiki/w/Clarte"
+	},
+	{
+		"id": 45,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			44
+		],
+		"change": [
+			46
+		],
+		"dungeon_drop": [],
+		"year": "2020/09/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%E9%A5%EB%A5%C6",
+		"aewiki": "https://anothereden.wiki/w/Clarte"
+	},
+	{
+		"id": 46,
+		"code": 101000261,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p007",
+			"personality.p010",
+			"personality.p028",
+			"personality.p063",
+			"personality.p088",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			44,
+			45
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/03/11",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%E9%A5%EB%A5%C6%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Clarte_(Another_Style)"
+	},
+	{
+		"id": 47,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			48,
+			291
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%E9%A5%E0%A5%E9%A5%D4%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Flammelapis"
+	},
+	{
+		"id": 48,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			47
+		],
+		"change": [
+			291
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2021/12/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%E9%A5%E0%A5%E9%A5%D4%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Flammelapis"
+	},
+	{
+		"id": 49,
+		"code": 101000281,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p037",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			50
+		],
+		"dungeon_drop": [],
+		"year": "2022/02/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%F4%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Eva"
+	},
+	{
+		"id": 50,
+		"code": 101000281,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p037",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			49
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2022/02/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%F4%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Eva"
+	},
+	{
+		"id": 51,
+		"code": 101000291,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/01/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%E6",
+		"aewiki": "https://anothereden.wiki/w/Mayu"
+	},
+	{
+		"id": 52,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			53,
+			54
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%CA%A5%D9%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Anabel"
+	},
+	{
+		"id": 53,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			52
+		],
+		"change": [
+			54
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/05/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%CA%A5%D9%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Anabel"
+	},
+	{
+		"id": 54,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			53
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%CA%A5%D9%A5%EB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Anabel_(Another_Style)"
+	},
+	{
+		"id": 55,
+		"code": 101010031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p033",
+			"personality.p039",
+			"personality.p043",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			56
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EB%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Ruina"
+	},
+	{
+		"id": 56,
+		"code": 101010031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p033",
+			"personality.p039",
+			"personality.p043",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/04/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EB%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Ruina_(Another_Style)"
+	},
+	{
+		"id": 57,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			59,
+			60
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A1%BC%A5%E6",
+		"aewiki": "https://anothereden.wiki/w/Miyu"
+	},
+	{
+		"id": 58,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			57
+		],
+		"change": [
+			59,
+			60
+		],
+		"dungeon_drop": [
+			100
+		],
+		"year": "2017/12/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A1%BC%A5%E6",
+		"aewiki": "https://anothereden.wiki/w/Miyu"
+	},
+	{
+		"id": 59,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p070",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			60
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/11/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A1%BC%A5%E6%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Miyu_(Another_Style)"
+	},
+	{
+		"id": 60,
+		"code": 101010041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p006",
+			"personality.p014",
+			"personality.p020",
+			"personality.p070",
+			"staralign.false",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			58,
+			59
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A1%BC%A5%E6%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Miyu_(Extra_Style)"
+	},
+	{
+		"id": 61,
+		"code": 101010051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p063",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			62
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%A3%A5%A2%A5%C9%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Deirdre"
+	},
+	{
+		"id": 62,
+		"code": 101010051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p011",
+			"personality.p063",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			61
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%A3%A5%A2%A5%C9%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Deirdre"
+	},
+	{
+		"id": 63,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			64,
+			65
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%A4%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Shanie"
+	},
+	{
+		"id": 64,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			63
+		],
+		"change": [
+			65
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/10/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%A4%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Shanie"
+	},
+	{
+		"id": 65,
+		"code": 101010081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p047",
+			"personality.p060",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			64
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/05/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%A4%A5%CD%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Shanie_(Another_Style)"
+	},
+	{
+		"id": 66,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			67,
+			68,
+			311
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E3%A5%CE%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Shannon"
+	},
+	{
+		"id": 67,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			66
+		],
+		"change": [
+			68,
+			311
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E3%A5%CE%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Shannon"
+	},
+	{
+		"id": 68,
+		"code": 101010091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p029",
+			"personality.p093",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			67
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/02/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E3%A5%CE%A5%F3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Shannon_(Another_Style)"
+	},
+	{
+		"id": 69,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			70,
+			282
+		],
+		"dungeon_drop": [],
+		"year": "2020/02/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%F3%A5%B7%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Cynthia"
+	},
+	{
+		"id": 70,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			69
+		],
+		"change": [
+			282
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2020/02/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%F3%A5%B7%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Cynthia"
+	},
+	{
+		"id": 71,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			72,
+			266
+		],
+		"dungeon_drop": [],
+		"year": "2019/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%A2%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Radias"
+	},
+	{
+		"id": 72,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			71
+		],
+		"change": [
+			266
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2019/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%A2%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Radias"
+	},
+	{
+		"id": 73,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74,
+			75,
+			350
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%EB%A5%EA%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Thillelille"
+	},
+	{
+		"id": 74,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			73
+		],
+		"change": [
+			75,
+			350
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%EB%A5%EA%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Thillelille"
+	},
+	{
+		"id": 75,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74,
+			350
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/03/11",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%EB%A5%EA%A5%EB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Thillelille_(Another_Style)"
+	},
+	{
+		"id": 76,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			77
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%B6%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Azami"
+	},
+	{
+		"id": 77,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step2",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			76
+		],
+		"change": [
+			268
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/05/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%B6%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Azami"
+	},
+	{
+		"id": 78,
+		"code": 101020021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p061",
+			"personality.p075",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			79
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CB%A5%B1",
+		"aewiki": "https://anothereden.wiki/w/Nikeh"
+	},
+	{
+		"id": 79,
+		"code": 101020021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p061",
+			"personality.p075",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CB%A5%B1",
+		"aewiki": "https://anothereden.wiki/w/Nikeh_(Another_Style)"
+	},
+	{
+		"id": 80,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			81,
+			82,
+			269
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%AA%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Shion"
+	},
+	{
+		"id": 81,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			80
+		],
+		"change": [
+			82,
+			269
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%AA%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Shion"
+	},
+	{
+		"id": 82,
+		"code": 101020031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p001",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			81
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/06/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%AA%A5%F3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Shion_(Another_Style)"
+	},
+	{
+		"id": 83,
+		"code": 101020041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p059",
+			"personality.p061",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			84
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%C8%A5%CF",
+		"aewiki": "https://anothereden.wiki/w/Otoha"
+	},
+	{
+		"id": 84,
+		"code": 101020041,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p059",
+			"personality.p061",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/02/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%C8%A5%CF",
+		"aewiki": "https://anothereden.wiki/w/Otoha_(Another_Style)"
+	},
+	{
+		"id": 85,
+		"code": 101020051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			86,
+			351
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%AB%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Akane"
+	},
+	{
+		"id": 86,
+		"code": 101020051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p012",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/01/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%AB%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Akane_(Another_Style)"
+	},
+	{
+		"id": 87,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			89,
+			90,
+			91
+		],
+		"dungeon_drop": [],
+		"year": "2017/06/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%B9%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Isuka"
+	},
+	{
+		"id": 88,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			87
+		],
+		"change": [
+			89,
+			90,
+			91
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2017/06/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%B9%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Isuka"
+	},
+	{
+		"id": 89,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			90
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/03/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%B9%A5%AB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Isuka_(Another_Style)"
+	},
+	{
+		"id": 90,
+		"code": 101020071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p011",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p073",
+			"staralign.false",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			88,
+			89
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/10/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%B9%A5%AB%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Isuka_(Extra_Style)"
+	},
+	{
+		"id": 91,
+		"code": 101020141,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			88
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/10/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B9%F5%B0%E1%A4%CE%C5%E1%BB%C8%A4%A4",
+		"aewiki": "https://anothereden.wiki/w/Isuka_(Alter)"
+	},
+	{
+		"id": 92,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			94,
+			95,
+			287
+		],
+		"dungeon_drop": [],
+		"year": "2018/02/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AD%A5%CF",
+		"aewiki": "https://anothereden.wiki/w/Tsukiha"
+	},
+	{
+		"id": 93,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			92
+		],
+		"change": [
+			94,
+			95,
+			287
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2018/02/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AD%A5%CF",
+		"aewiki": "https://anothereden.wiki/w/Tsukiha"
+	},
+	{
+		"id": 94,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			95
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/05/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AD%A5%CF%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Tsukiha_(Another_Style)"
+	},
+	{
+		"id": 95,
+		"code": 101020081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p036",
+			"personality.p045",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"staralign.false",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			93,
+			94
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/04/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AD%A5%CF%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Tsukiha_(Extra_Style)"
+	},
+	{
+		"id": 96,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			97,
+			98
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%EB%A5%AC",
+		"aewiki": "https://anothereden.wiki/w/Elga"
+	},
+	{
+		"id": 97,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			96
+		],
+		"change": [
+			98
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2018/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%EB%A5%AC",
+		"aewiki": "https://anothereden.wiki/w/Elga"
+	},
+	{
+		"id": 98,
+		"code": 101020091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p038",
+			"personality.p063",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			97
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/10/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%EB%A5%AC%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Elga_(Another_Style)"
+	},
+	{
+		"id": 99,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			100,
+			101
+		],
+		"dungeon_drop": [],
+		"year": "2018/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%B0%A5%EC",
+		"aewiki": "https://anothereden.wiki/w/Shigure"
+	},
+	{
+		"id": 100,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			99
+		],
+		"change": [
+			101
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2018/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%B0%A5%EC",
+		"aewiki": "https://anothereden.wiki/w/Shigure"
+	},
+	{
+		"id": 101,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			100
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/01/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%B0%A5%EC%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Shigure_(Another_Style)"
+	},
+	{
+		"id": 102,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			103,
+			104
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%AF%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Victor"
+	},
+	{
+		"id": 103,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			102
+		],
+		"change": [
+			104
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2020/04/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%AF%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Victor"
+	},
+	{
+		"id": 104,
+		"code": 101020111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p006",
+			"personality.p012",
+			"personality.p047",
+			"personality.p052",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			103
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/06/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%AF%A5%C8%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Victor_(Another_Style)"
+	},
+	{
+		"id": 105,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			106,
+			293
+		],
+		"dungeon_drop": [],
+		"year": "2020/07/03",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Heena"
+	},
+	{
+		"id": 106,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			105
+		],
+		"change": [
+			293
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2020/07/03",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%A4%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Heena"
+	},
+	{
+		"id": 107,
+		"code": 101020131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p012",
+			"personality.p072",
+			"personality.p093",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			108
+		],
+		"dungeon_drop": [],
+		"year": "2021/02/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%C3%A5%B5",
+		"aewiki": "https://anothereden.wiki/w/Melissa"
+	},
+	{
+		"id": 108,
+		"code": 101020131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p007",
+			"personality.p012",
+			"personality.p072",
+			"personality.p093",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			107
+		],
+		"change": [],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2021/02/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%C3%A5%B5",
+		"aewiki": "https://anothereden.wiki/w/Melissa"
+	},
+	{
+		"id": 109,
+		"code": 101020151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p056",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			110
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%E5%A5%EA%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Curio"
+	},
+	{
+		"id": 110,
+		"code": 101020151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p005",
+			"personality.p012",
+			"personality.p025",
+			"personality.p026",
+			"personality.p033",
+			"personality.p039",
+			"personality.p056",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			109
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%E5%A5%EA%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Curio"
+	},
+	{
+		"id": 111,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			113,
+			114
+		],
+		"dungeon_drop": [],
+		"year": "2017/07/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CA%A5%AE",
+		"aewiki": "https://anothereden.wiki/w/Nagi"
+	},
+	{
+		"id": 112,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			111
+		],
+		"change": [
+			113,
+			114
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2017/07/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CA%A5%AE",
+		"aewiki": "https://anothereden.wiki/w/Nagi"
+	},
+	{
+		"id": 113,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p013",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			114
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/02/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CA%A5%AE%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Nagi_(Another_Style)"
+	},
+	{
+		"id": 114,
+		"code": 101030071,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p010",
+			"personality.p020",
+			"personality.p065",
+			"personality.p067",
+			"staralign.false",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			112,
+			113
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2021/08/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CA%A5%AE%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Nagi_(Extra_Style)"
+	},
+	{
+		"id": 115,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			116,
+			117
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EC%A5%F3%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Renri"
+	},
+	{
+		"id": 116,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p000",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			115
+		],
+		"change": [
+			117
+		],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2018/04/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EC%A5%F3%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Renri"
+	},
+	{
+		"id": 117,
+		"code": 101030091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p013",
+			"personality.p043",
+			"personality.p056",
+			"personality.p073",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			116
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/11/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EC%A5%F3%A5%EA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Renri_(Another_Style)"
+	},
+	{
+		"id": 118,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119,
+			120,
+			318
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%EB%A5%EB%A5%A5",
+		"aewiki": "https://anothereden.wiki/w/Ilulu"
+	},
+	{
+		"id": 119,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			118
+		],
+		"change": [
+			120,
+			318
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2018/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%EB%A5%EB%A5%A5",
+		"aewiki": "https://anothereden.wiki/w/Ilulu"
+	},
+	{
+		"id": 120,
+		"code": 101030101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p038",
+			"personality.p045",
+			"personality.p087",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/09/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%EB%A5%EB%A5%A5%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Ilulu_(Another_Style)"
+	},
+	{
+		"id": 121,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			122,
+			123
+		],
+		"dungeon_drop": [],
+		"year": "2019/02/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Philo"
+	},
+	{
+		"id": 122,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			121
+		],
+		"change": [
+			123
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2019/02/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Philo"
+	},
+	{
+		"id": 123,
+		"code": 101030111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p097",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			122
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/03/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A5%ED%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Philo_(Another_Style)"
+	},
+	{
+		"id": 124,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			125,
+			126
+		],
+		"dungeon_drop": [],
+		"year": "2019/07/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%AD%A5%E7%A5%A6",
+		"aewiki": "https://anothereden.wiki/w/Kikyo"
+	},
+	{
+		"id": 125,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			124
+		],
+		"change": [
+			126
+		],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2019/07/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%AD%A5%E7%A5%A6",
+		"aewiki": "https://anothereden.wiki/w/Kikyo"
+	},
+	{
+		"id": 126,
+		"code": 101030121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p058",
+			"personality.p061",
+			"personality.p074",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			125
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/08/19",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%AD%A5%E7%A5%A6%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Kikyo_(Another_Style)"
+	},
+	{
+		"id": 127,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			128,
+			129
+		],
+		"dungeon_drop": [],
+		"year": "2020/01/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BC%A5%F4%A5%A3%A1%BC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Zeviro"
+	},
+	{
+		"id": 128,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			127
+		],
+		"change": [
+			129
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2020/01/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BC%A5%F4%A5%A3%A1%BC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Zeviro"
+	},
+	{
+		"id": 129,
+		"code": 101030131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p035",
+			"personality.p038",
+			"personality.p087",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			128
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/09/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BC%A5%F4%A5%A3%A1%BC%A5%ED%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Zeviro_(Another_Style)"
+	},
+	{
+		"id": 130,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			131,
+			284
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A4%CD%A4%B3%A4%B3",
+		"aewiki": "https://anothereden.wiki/w/Necoco"
+	},
+	{
+		"id": 131,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			130
+		],
+		"change": [
+			284
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2021/04/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A4%CD%A4%B3%A4%B3",
+		"aewiki": "https://anothereden.wiki/w/Necoco"
+	},
+	{
+		"id": 132,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			133,
+			334
+		],
+		"dungeon_drop": [],
+		"year": "2022/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%EB%A5%EC%A5%A4%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Orleya"
+	},
+	{
+		"id": 133,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			132
+		],
+		"change": [
+			334
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2022/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%EB%A5%EC%A5%A4%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Orleya"
+	},
+	{
+		"id": 134,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			136,
+			137,
+			138
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E5%A5%BC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Suzette"
+	},
+	{
+		"id": 135,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			134
+		],
+		"change": [
+			136,
+			137,
+			138
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E5%A5%BC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Suzette"
+	},
+	{
+		"id": 136,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p014",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			137
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2017/11/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E5%A5%BC%A5%C3%A5%C8%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Suzette_(Another_Style)"
+	},
+	{
+		"id": 137,
+		"code": 101040031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"staralign.false",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			135,
+			136
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/01/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%E5%A5%BC%A5%C3%A5%C8%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Suzette_(Extra_Style)"
+	},
+	{
+		"id": 138,
+		"code": 101030161,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p013",
+			"personality.p025",
+			"personality.p056",
+			"personality.p090",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			135
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/11/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%CA%CB%B8%F7%A4%CE%B3%F9%BB%C8%A4%A4",
+		"aewiki": "https://anothereden.wiki/w/Suzette_(Alter)"
+	},
+	{
+		"id": 139,
+		"code": 101040051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"personality.p089",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			140
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A9%A5%E9%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Foran"
+	},
+	{
+		"id": 140,
+		"code": 101040051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"personality.p089",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A9%A5%E9%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Foran_(Another_Style)"
+	},
+	{
+		"id": 141,
+		"code": 101040071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p039",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			142
+		],
+		"dungeon_drop": [],
+		"year": "2020/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%A7%A5%A4%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Jade"
+	},
+	{
+		"id": 142,
+		"code": 101040071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			141
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%A7%A5%A4%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Jade"
+	},
+	{
+		"id": 143,
+		"code": 101040081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p020",
+			"personality.p050",
+			"personality.p065",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			144
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A1%BC%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Sheila"
+	},
+	{
+		"id": 144,
+		"code": 101040081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p020",
+			"personality.p050",
+			"personality.p065",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			143
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/07/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A1%BC%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Sheila_(Another_Style)"
+	},
+	{
+		"id": 145,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			146,
+			147
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/05",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%C6%A5%A3%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Cetie"
+	},
+	{
+		"id": 146,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			145
+		],
+		"change": [
+			147
+		],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2017/10/05",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%C6%A5%A3%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Cetie"
+	},
+	{
+		"id": 147,
+		"code": 101040091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p014",
+			"personality.p043",
+			"personality.p073",
+			"personality.p074",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			146
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/09/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%C6%A5%A3%A1%BC%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Cetie_(Another_Style)"
+	},
+	{
+		"id": 148,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			149,
+			150
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%EB%A5%C8%A5%E9%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Bertrand"
+	},
+	{
+		"id": 149,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			148
+		],
+		"change": [
+			150
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%EB%A5%C8%A5%E9%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Bertrand"
+	},
+	{
+		"id": 150,
+		"code": 101040101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			149
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/07/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%EB%A5%C8%A5%E9%A5%F3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Bertrand_(Another_Style)"
+	},
+	{
+		"id": 151,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			152,
+			153,
+			294
+		],
+		"dungeon_drop": [],
+		"year": "2019/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%B9%A5%E1%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Hismena"
+	},
+	{
+		"id": 152,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			151
+		],
+		"change": [
+			153,
+			294
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2019/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%B9%A5%E1%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Hismena"
+	},
+	{
+		"id": 153,
+		"code": 101040111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p039",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			152
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/10/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%B9%A5%E1%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Hismena_(Another_Style)"
+	},
+	{
+		"id": 154,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			155,
+			156
+		],
+		"dungeon_drop": [],
+		"year": "2019/11/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%E9%A5%DF%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Tiramisu"
+	},
+	{
+		"id": 155,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			154
+		],
+		"change": [
+			156
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2019/11/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%E9%A5%DF%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Tiramisu"
+	},
+	{
+		"id": 156,
+		"code": 101040121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p037",
+			"personality.p056",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			155
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/01/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%E9%A5%DF%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Tiramisu_(Another_Style)"
+	},
+	{
+		"id": 157,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			158,
+			159
+		],
+		"dungeon_drop": [],
+		"year": "2020/10/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%EB%A5%B7%A5%E3",
+		"aewiki": "https://anothereden.wiki/w/Milsha"
+	},
+	{
+		"id": 158,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			157
+		],
+		"change": [
+			159
+		],
+		"dungeon_drop": [
+			3,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/10/15",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%EB%A5%B7%A5%E3",
+		"aewiki": "https://anothereden.wiki/w/Milsha"
+	},
+	{
+		"id": 159,
+		"code": 101040131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p005",
+			"personality.p014",
+			"personality.p028",
+			"personality.p042",
+			"personality.p050",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			158
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/03/18",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%EB%A5%B7%A5%E3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Milsha_(Another_Style)"
+	},
+	{
+		"id": 160,
+		"code": 101040141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p014",
+			"personality.p021",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			161
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/03",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%A6%A5%A7%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Ewella"
+	},
+	{
+		"id": 161,
+		"code": 101040141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p014",
+			"personality.p021",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			160
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2020/12/03",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%A6%A5%A7%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Ewella"
+	},
+	{
+		"id": 162,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			163,
+			292
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%E9%A5%E0%A5%D0%A5%EC%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Garambarrel"
+	},
+	{
+		"id": 163,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			162
+		],
+		"change": [
+			292
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2021/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%E9%A5%E0%A5%D0%A5%EC%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Garambarrel"
+	},
+	{
+		"id": 164,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			165,
+			166
+		],
+		"dungeon_drop": [],
+		"year": "2018/03/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A8%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Ciel"
+	},
+	{
+		"id": 165,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			164
+		],
+		"change": [
+			166
+		],
+		"dungeon_drop": [
+			101
+		],
+		"year": "2018/03/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A8%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Ciel"
+	},
+	{
+		"id": 166,
+		"code": 101050021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p042",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			165
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/03/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A8%A5%EB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Ciel_(Another_Style)"
+	},
+	{
+		"id": 167,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			168,
+			169
+		],
+		"dungeon_drop": [],
+		"year": "2017/05/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%AF%A5%EC%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Laclair"
+	},
+	{
+		"id": 168,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			167
+		],
+		"change": [
+			169
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2017/05/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%AF%A5%EC%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Laclair"
+	},
+	{
+		"id": 169,
+		"code": 101050061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p015",
+			"personality.p030",
+			"personality.p058",
+			"personality.p086",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			168
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/09/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%AF%A5%EC%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Laclair_(Another_Style)"
+	},
+	{
+		"id": 170,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			172,
+			281
+		],
+		"dungeon_drop": [],
+		"year": "2018/01/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%ED%A1%BC%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Claude"
+	},
+	{
+		"id": 171,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			170
+		],
+		"change": [
+			172,
+			281
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2018/01/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%ED%A1%BC%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Claude"
+	},
+	{
+		"id": 172,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p015",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			281
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/07/01",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%ED%A1%BC%A5%C9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Claude_(Another_Style)"
+	},
+	{
+		"id": 173,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			174,
+			175,
+			304
+		],
+		"dungeon_drop": [],
+		"year": "2018/10/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DB%A5%AA%A5%BA%A5%AD",
+		"aewiki": "https://anothereden.wiki/w/Hozuki"
+	},
+	{
+		"id": 174,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			173
+		],
+		"change": [
+			175,
+			304
+		],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2018/10/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DB%A5%AA%A5%BA%A5%AD",
+		"aewiki": "https://anothereden.wiki/w/Hozuki"
+	},
+	{
+		"id": 175,
+		"code": 101050091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			174
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/08/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DB%A5%AA%A5%BA%A5%AD%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Hozuki_(Another_Style)"
+	},
+	{
+		"id": 176,
+		"code": 101050101,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p015",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Mana"
+	},
+	{
+		"id": 177,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			178,
+			179,
+			319
+		],
+		"dungeon_drop": [],
+		"year": "2019/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D7%A5%EC%A5%E1%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Premaya"
+	},
+	{
+		"id": 178,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			177
+		],
+		"change": [
+			179,
+			319
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			5
+		],
+		"year": "2019/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D7%A5%EC%A5%E1%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Premaya"
+	},
+	{
+		"id": 179,
+		"code": 101050151,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p006",
+			"personality.p015",
+			"personality.p025",
+			"personality.p066",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			178
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/01/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B6%E4%BF%A5%A4%CE%CD%EB%BB%C8%A4%A4",
+		"aewiki": "https://anothereden.wiki/w/Premaya_(Alter)"
+	},
+	{
+		"id": 180,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			181,
+			182
+		],
+		"dungeon_drop": [],
+		"year": "2020/05/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%B9%A5%C8%A5%EC%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Mistrare"
+	},
+	{
+		"id": 181,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			180
+		],
+		"change": [
+			182
+		],
+		"dungeon_drop": [
+			3,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2020/05/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%B9%A5%C8%A5%EC%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Mistrare"
+	},
+	{
+		"id": 182,
+		"code": 101050121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p007",
+			"personality.p015",
+			"personality.p028",
+			"personality.p033",
+			"personality.p042",
+			"personality.p076",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			181
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%B9%A5%C8%A5%EC%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Mistrare_(Another_Style)"
+	},
+	{
+		"id": 183,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			184,
+			275
+		],
+		"dungeon_drop": [],
+		"year": "2020/06/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%AD%A5%CE",
+		"aewiki": "https://anothereden.wiki/w/Yukino"
+	},
+	{
+		"id": 184,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			183
+		],
+		"change": [
+			275
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2020/06/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%AD%A5%CE",
+		"aewiki": "https://anothereden.wiki/w/Yukino"
+	},
+	{
+		"id": 185,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			186,
+			317
+		],
+		"dungeon_drop": [],
+		"year": "2021/07/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D4%A5%C1%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Pizzica"
+	},
+	{
+		"id": 186,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			185
+		],
+		"change": [
+			317
+		],
+		"dungeon_drop": [
+			2,
+			103
+		],
+		"year": "2021/07/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D4%A5%C1%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Pizzica"
+	},
+	{
+		"id": 187,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			188,
+			189
+		],
+		"dungeon_drop": [],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%AD%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Lokido"
+	},
+	{
+		"id": 188,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			187
+		],
+		"change": [
+			189
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2017/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%AD%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Lokido"
+	},
+	{
+		"id": 189,
+		"code": 101060031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p035",
+			"personality.p058",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			188
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/03/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%AD%A5%C9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Lokido_(Another_Style)"
+	},
+	{
+		"id": 190,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			191,
+			310
+		],
+		"dungeon_drop": [],
+		"year": "2017/10/05",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%EA%A1%BC%A5%CC",
+		"aewiki": "https://anothereden.wiki/w/Cerrine"
+	},
+	{
+		"id": 191,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			190
+		],
+		"change": [
+			310
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2017/10/05",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%EA%A1%BC%A5%CC",
+		"aewiki": "https://anothereden.wiki/w/Cerrine"
+	},
+	{
+		"id": 192,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			194,
+			324
+		],
+		"dungeon_drop": [],
+		"year": "2017/12/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A7%A5%EB%A5%DF%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Felmina"
+	},
+	{
+		"id": 193,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			192
+		],
+		"change": [
+			194,
+			324
+		],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2017/12/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A7%A5%EB%A5%DF%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Felmina"
+	},
+	{
+		"id": 194,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			324
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2019/10/01",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A7%A5%EB%A5%DF%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Felmina_(Another_Style)"
+	},
+	{
+		"id": 195,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			196,
+			197,
+			305
+		],
+		"dungeon_drop": [],
+		"year": "2018/07/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A1%BC%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/Dewey"
+	},
+	{
+		"id": 196,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			195
+		],
+		"change": [
+			197,
+			305
+		],
+		"dungeon_drop": [
+			205,
+			204,
+			9
+		],
+		"year": "2018/07/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A1%BC%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/Dewey"
+	},
+	{
+		"id": 197,
+		"code": 101060141,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p007",
+			"personality.p016",
+			"personality.p025",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			196
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2021/11/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%C0%D6%C5%E5%A4%CE%B1%EA%BB%C8%A4%A4",
+		"aewiki": "https://anothereden.wiki/w/Dewey_(Alter)"
+	},
+	{
+		"id": 198,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			199,
+			200
+		],
+		"dungeon_drop": [],
+		"year": "2018/12/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%D0%A5%E1",
+		"aewiki": "https://anothereden.wiki/w/Tsubame"
+	},
+	{
+		"id": 199,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			198
+		],
+		"change": [
+			200
+		],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2018/12/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%D0%A5%E1",
+		"aewiki": "https://anothereden.wiki/w/Tsubame"
+	},
+	{
+		"id": 200,
+		"code": 101060111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			199
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/03/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%D0%A5%E1%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Tsubame_(Another_Style)"
+	},
+	{
+		"id": 201,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			202,
+			312
+		],
+		"dungeon_drop": [],
+		"year": "2019/03/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%D6%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Lovely"
+	},
+	{
+		"id": 202,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			201
+		],
+		"change": [
+			312
+		],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2019/03/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%D6%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Lovely"
+	},
+	{
+		"id": 203,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			204,
+			205
+		],
+		"dungeon_drop": [],
+		"year": "2020/03/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CF%A1%BC%A5%C7%A5%A3%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Hardy"
+	},
+	{
+		"id": 204,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			203
+		],
+		"change": [
+			205
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2020/03/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CF%A1%BC%A5%C7%A5%A3%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Hardy"
+	},
+	{
+		"id": 205,
+		"code": 101060131,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p030",
+			"personality.p056",
+			"personality.p059",
+			"personality.p075",
+			"personality.p083",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			204
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/07/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CF%A1%BC%A5%C7%A5%A3%A1%BC%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Hardy_(Another_Style)"
+	},
+	{
+		"id": 206,
+		"code": 101070011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p027",
+			"personality.p028",
+			"personality.p078",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			207
+		],
+		"dungeon_drop": [],
+		"year": "2021/03/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D7%A5%E9%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/Prai"
+	},
+	{
+		"id": 207,
+		"code": 101070011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p027",
+			"personality.p028",
+			"personality.p078",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			206
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/03/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D7%A5%E9%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/Prai"
+	},
+	{
+		"id": 208,
+		"code": 101070031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p043",
+			"personality.p052",
+			"personality.p060",
+			"personality.p071",
+			"personality.p078",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			209
+		],
+		"dungeon_drop": [],
+		"year": "2021/06/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/May"
+	},
+	{
+		"id": 209,
+		"code": 101070031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p043",
+			"personality.p052",
+			"personality.p060",
+			"personality.p071",
+			"personality.p078",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			208
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/06/10",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%A4",
+		"aewiki": "https://anothereden.wiki/w/May"
+	},
+	{
+		"id": 210,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			211,
+			212
+		],
+		"dungeon_drop": [],
+		"year": "2017/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A1%BC%A5%A4%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Ewan"
+	},
+	{
+		"id": 211,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step2",
+			"personality.p001",
+			"personality.p017",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			210
+		],
+		"change": [
+			212
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2017/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A1%BC%A5%A4%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Ewan"
+	},
+	{
+		"id": 212,
+		"code": 101070051,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p017",
+			"personality.p043",
+			"personality.p047",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			211
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2020/09/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A1%BC%A5%A4%A5%F3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Ewan_(Another_Style)"
+	},
+	{
+		"id": 213,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			215,
+			216
+		],
+		"dungeon_drop": [],
+		"year": "2017/09/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Melina"
+	},
+	{
+		"id": 214,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			213
+		],
+		"change": [
+			215,
+			216
+		],
+		"dungeon_drop": [
+			2,
+			201,
+			203,
+			202,
+			200
+		],
+		"year": "2017/09/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Melina"
+	},
+	{
+		"id": 215,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p002",
+			"personality.p017",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			216
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2018/12/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Melina_(Another_Style)"
+	},
+	{
+		"id": 216,
+		"code": 101070061,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p006",
+			"personality.p016",
+			"personality.p020",
+			"personality.p027",
+			"personality.p028",
+			"personality.p042",
+			"personality.p056",
+			"personality.p078",
+			"staralign.false",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			214,
+			215
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2020/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EA%A5%CA%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Melina_(Extra_Style)"
+	},
+	{
+		"id": 217,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			218,
+			283
+		],
+		"dungeon_drop": [],
+		"year": "2018/11/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%A2%A5%C3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Biaka"
+	},
+	{
+		"id": 218,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step1",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			217
+		],
+		"change": [
+			283
+		],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2018/11/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%A2%A5%C3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Biaka"
+	},
+	{
+		"id": 219,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220,
+			221,
+			333
+		],
+		"dungeon_drop": [],
+		"year": "2019/09/18",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%F3%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Myunfa"
+	},
+	{
+		"id": 220,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			219
+		],
+		"change": [
+			221,
+			333
+		],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2019/09/18",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%F3%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Myunfa"
+	},
+	{
+		"id": 221,
+		"code": 101070091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p023",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2021/05/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E5%A5%F3%A5%D5%A5%A1%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Myunfa_(Another_Style)"
+	},
+	{
+		"id": 222,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			223,
+			270
+		],
+		"dungeon_drop": [],
+		"year": "2020/08/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A1%BC%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Yipha"
+	},
+	{
+		"id": 223,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			222
+		],
+		"change": [
+			270
+		],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2020/08/13",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A1%BC%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Yipha"
+	},
+	{
+		"id": 224,
+		"code": 101070111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p030",
+			"personality.p082",
+			"personality.p087",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			225
+		],
+		"dungeon_drop": [],
+		"year": "2021/09/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%CA%A5%AE%A5%AF",
+		"aewiki": "https://anothereden.wiki/w/Daisy"
+	},
+	{
+		"id": 225,
+		"code": 101070111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p030",
+			"personality.p082",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			224
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2021/09/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%CA%A5%AE%A5%AF",
+		"aewiki": "https://anothereden.wiki/w/Daisy"
+	},
+	{
+		"id": 226,
+		"code": 101070121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p024",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			325
+		],
+		"dungeon_drop": [],
+		"year": "2022/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CE%A5%AF%A5%B7%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Noahxis"
+	},
+	{
+		"id": 227,
+		"code": 101110041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p016",
+			"personality.p061",
+			"personality.p085",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A4%EF%A4%E9%CB%B7",
+		"aewiki": "https://anothereden.wiki/w/Strawboy"
+	},
+	{
+		"id": 228,
+		"code": 101140021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p021",
+			"personality.p077",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			229
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D6%A5%EA%A5%A2%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Bria"
+	},
+	{
+		"id": 229,
+		"code": 101140021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p021",
+			"personality.p077",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			228
+		],
+		"change": [],
+		"dungeon_drop": [
+			102
+		],
+		"year": "2020/12/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D6%A5%EA%A5%A2%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Bria"
+	},
+	{
+		"id": 230,
+		"code": 101400011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/10/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B9%A5%AB%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Skull"
+	},
+	{
+		"id": 231,
+		"code": 101400071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p045",
+			"personality.p053",
+			"personality.p067",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/10/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A1%A5%A4%A5%AA%A5%EC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Violet"
+	},
+	{
+		"id": 232,
+		"code": 101410011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p043",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			233
+		],
+		"dungeon_drop": [],
+		"year": "2019/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%E7%A1%BC%A5%AB%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Joker"
+	},
+	{
+		"id": 233,
+		"code": 101410011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p043",
+			"personality.p045",
+			"personality.p053",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			232
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%E7%A1%BC%A5%AB%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Joker"
+	},
+	{
+		"id": 234,
+		"code": 101420011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p053",
+			"personality.p060",
+			"personality.p063",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/12/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E2%A5%EB%A5%AC%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Morgana"
+	},
+	{
+		"id": 235,
+		"code": 101430011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			236
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%EC%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cress"
+	},
+	{
+		"id": 236,
+		"code": 101430011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			235
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%EC%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cress"
+	},
+	{
+		"id": 237,
+		"code": 101430021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			238
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A1%BC%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Yuri"
+	},
+	{
+		"id": 238,
+		"code": 101430021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			237
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A1%BC%A5%EA",
+		"aewiki": "https://anothereden.wiki/w/Yuri"
+	},
+	{
+		"id": 239,
+		"code": 101430031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p002",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			240
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Milla"
+	},
+	{
+		"id": 240,
+		"code": 101430031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p002",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			239
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Milla"
+	},
+	{
+		"id": 241,
+		"code": 101430041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			242
+		],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%EB%A5%D9%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Velvet"
+	},
+	{
+		"id": 242,
+		"code": 101430041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			241
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/12/17",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%EB%A5%D9%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Velvet"
+	},
+	{
+		"id": 243,
+		"code": 101440011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p054",
+			"personality.p081",
+			"personality.p099",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			244
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EB%A5%B8%A5%E5",
+		"aewiki": "https://anothereden.wiki/w/Serge"
+	},
+	{
+		"id": 244,
+		"code": 101440011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p011",
+			"personality.p054",
+			"personality.p081",
+			"personality.p099",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			243
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EB%A5%B8%A5%E5",
+		"aewiki": "https://anothereden.wiki/w/Serge"
+	},
+	{
+		"id": 245,
+		"code": 101440021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p054",
+			"personality.p081",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			246
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%C3%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Kid"
+	},
+	{
+		"id": 246,
+		"code": 101440021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p054",
+			"personality.p081",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			245
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AD%A5%C3%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Kid"
+	},
+	{
+		"id": 247,
+		"code": 101440031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p054",
+			"personality.p099",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			248
+		],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AF%A5%E8%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Harle"
+	},
+	{
+		"id": 248,
+		"code": 101440031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p054",
+			"personality.p099",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			247
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2021/12/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C4%A5%AF%A5%E8%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Harle"
+	},
+	{
+		"id": 249,
+		"code": 101800041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p035",
+			"personality.p064",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			250
+		],
+		"dungeon_drop": [],
+		"year": "2018/06/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AE%A5%EB%A5%C9%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Guildna"
+	},
+	{
+		"id": 250,
+		"code": 101800041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p020",
+			"personality.p035",
+			"personality.p064",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			249
+		],
+		"change": [],
+		"dungeon_drop": [
+			8
+		],
+		"year": "2018/06/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AE%A5%EB%A5%C9%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Guildna"
+	},
+	{
+		"id": 251,
+		"code": 101800052,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p045",
+			"personality.p072",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			252
+		],
+		"dungeon_drop": [],
+		"year": "2018/11/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D8%A5%EC%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Helena"
+	},
+	{
+		"id": 252,
+		"code": 101800052,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p045",
+			"personality.p072",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			251
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2018/11/29",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D8%A5%EC%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Helena"
+	},
+	{
+		"id": 253,
+		"code": 101800111,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p015",
+			"personality.p020",
+			"personality.p022",
+			"personality.p035",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2019/08/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%C6%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Altena"
+	},
+	{
+		"id": 254,
+		"code": 101910011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p037",
+			"personality.p044",
+			"personality.p046",
+			"personality.p052",
+			"personality.p057",
+			"personality.p081",
+			"personality.p091",
+			"personality.p099",
+			"personality.p100",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			255
+		],
+		"dungeon_drop": [],
+		"year": "2017/11/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Aldo"
+	},
+	{
+		"id": 255,
+		"code": 101910011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p037",
+			"personality.p044",
+			"personality.p046",
+			"personality.p052",
+			"personality.p057",
+			"personality.p081",
+			"personality.p091",
+			"personality.p099",
+			"personality.p100",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			254
+		],
+		"change": [],
+		"dungeon_drop": [
+			7,
+			300
+		],
+		"year": "2017/11/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Aldo"
+	},
+	{
+		"id": 256,
+		"code": 101900011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p034",
+			"personality.p052",
+			"personality.p088",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			257
+		],
+		"dungeon_drop": [],
+		"year": "2021/04/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A1%BC%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Feinne"
+	},
+	{
+		"id": 257,
+		"code": 101900011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p034",
+			"personality.p052",
+			"personality.p088",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			256
+		],
+		"change": [],
+		"dungeon_drop": [
+			300
+		],
+		"year": "2021/04/14",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A1%BC%A5%CD",
+		"aewiki": "https://anothereden.wiki/w/Feinne"
+	},
+	{
+		"id": 258,
+		"code": 101920011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			259
+		],
+		"dungeon_drop": [],
+		"year": "2018/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cyrus"
+	},
+	{
+		"id": 259,
+		"code": 101920011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p012",
+			"personality.p046",
+			"personality.p047",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			258
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2018/08/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cyrus"
+	},
+	{
+		"id": 260,
+		"code": 101030141,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p023",
+			"personality.p029",
+			"personality.p059",
+			"personality.p090",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			261
+		],
+		"dungeon_drop": [],
+		"year": "2020/03/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BD%A5%D5%A5%A3%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Sophia"
+	},
+	{
+		"id": 261,
+		"code": 101030141,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p023",
+			"personality.p029",
+			"personality.p059",
+			"personality.p090",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			260
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2020/03/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BD%A5%D5%A5%A3%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Sophia"
+	},
+	{
+		"id": 262,
+		"code": 101960011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p034",
+			"personality.p055",
+			"personality.p058",
+			"personality.p071",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			263
+		],
+		"dungeon_drop": [],
+		"year": "2018/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%A4%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Amy"
+	},
+	{
+		"id": 263,
+		"code": 101960011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p034",
+			"personality.p055",
+			"personality.p058",
+			"personality.p071",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			262
+		],
+		"change": [],
+		"dungeon_drop": [
+			9
+		],
+		"year": "2018/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%A4%A5%DF",
+		"aewiki": "https://anothereden.wiki/w/Amy"
+	},
+	{
+		"id": 264,
+		"code": 101970011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p066",
+			"personality.p078",
+			"personality.p093",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			265
+		],
+		"dungeon_drop": [],
+		"year": "2019/02/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Riica"
+	},
+	{
+		"id": 265,
+		"code": 101970011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p066",
+			"personality.p078",
+			"personality.p093",
+			"personality.p095",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			264
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2019/02/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Riica"
+	},
+	{
+		"id": 266,
+		"code": 101010111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p062",
+			"personality.p070",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			72
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%C7%A5%A3%A5%A2%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Radias_(Another_Style)"
+	},
+	{
+		"id": 267,
+		"code": 101440051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p010",
+			"personality.p054",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%C0%B1%A4%CE%BB%D2",
+		"aewiki": "https://anothereden.wiki/w/Starky"
+	},
+	{
+		"id": 268,
+		"code": 101020011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p056",
+			"personality.p060",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			76,
+			77
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/05/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%B6%A5%DF%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Azami_(Another_Style)"
+	},
+	{
+		"id": 269,
+		"code": 101000301,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p033",
+			"personality.p061",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			81
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/05/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%CB%CF%C0%F7%A4%CE%B7%B3%BB%D5",
+		"aewiki": "https://anothereden.wiki/w/Shion (Alter)"
+	},
+	{
+		"id": 270,
+		"code": 101070101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p027",
+			"personality.p060",
+			"personality.p076",
+			"personality.p082",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			223
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/05/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A1%BC%A5%D5%A5%A1%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Yipha_(Another_Style)"
+	},
+	{
+		"id": 271,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p043",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			272,
+			349
+		],
+		"dungeon_drop": [],
+		"year": "2022/06/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%DE",
+		"aewiki": "https://anothereden.wiki/w/Alma"
+	},
+	{
+		"id": 272,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p043",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			271
+		],
+		"change": [
+			349
+		],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2022/06/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%DE",
+		"aewiki": "https://anothereden.wiki/w/Alma"
+	},
+	{
+		"id": 273,
+		"code": 101000101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p049",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			274
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EC%A5%EC",
+		"aewiki": "https://anothereden.wiki/w/Lele"
+	},
+	{
+		"id": 274,
+		"code": 101000101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p049",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/06/23",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EC%A5%EC",
+		"aewiki": "https://anothereden.wiki/w/Lele_(Another_Style)"
+	},
+	{
+		"id": 275,
+		"code": 101050131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p015",
+			"personality.p036",
+			"personality.p061",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			184
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/07/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E6%A5%AD%A5%CE%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Yukino_(Another_Style)"
+	},
+	{
+		"id": 276,
+		"code": 101060151,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/07/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%AF%A5%A2%A1%BC%A5%B8",
+		"aewiki": "https://anothereden.wiki/w/Uquaji"
+	},
+	{
+		"id": 277,
+		"code": 101000311,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p010",
+			"personality.p042",
+			"personality.p047",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			278
+		],
+		"dungeon_drop": [],
+		"year": "2022/07/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%A3%A5%B7%A5%E3",
+		"aewiki": "https://anothereden.wiki/w/Aisha"
+	},
+	{
+		"id": 278,
+		"code": 101000311,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p010",
+			"personality.p042",
+			"personality.p047",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			277
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/07/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%A3%A5%B7%A5%E3",
+		"aewiki": "https://anothereden.wiki/w/Aisha"
+	},
+	{
+		"id": 279,
+		"code": 101040021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p048",
+			"personality.p070",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			280
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BD%A5%A4%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Soira"
+	},
+	{
+		"id": 280,
+		"code": 101040021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p048",
+			"personality.p070",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/07/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BD%A5%A4%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Soira_(Another_Style)"
+	},
+	{
+		"id": 281,
+		"code": 101050081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p020",
+			"personality.p033",
+			"personality.p037",
+			"personality.p039",
+			"staralign.false",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			171,
+			172
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/08/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%ED%A1%BC%A5%C9%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Claude_(Extra_Style)"
+	},
+	{
+		"id": 282,
+		"code": 101010101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p020",
+			"personality.p023",
+			"personality.p029",
+			"personality.p033",
+			"personality.p090",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			70
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/08/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%F3%A5%B7%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Cynthia_(Another_Style)"
+	},
+	{
+		"id": 283,
+		"code": 101070081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p045",
+			"personality.p075",
+			"personality.p083",
+			"personality.p096",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			218
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/09/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A3%A5%A2%A5%C3%A5%AB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Biaka_(Another_Style)"
+	},
+	{
+		"id": 284,
+		"code": 101030151,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p036",
+			"personality.p061",
+			"personality.p095",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			131
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/09/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A4%CD%A4%B3%A4%B3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Necoco_(Another_Style)"
+	},
+	{
+		"id": 285,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			286
+		],
+		"dungeon_drop": [],
+		"year": "2022/10/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CE%A1%BC%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Nona"
+	},
+	{
+		"id": 286,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			285
+		],
+		"change": [
+			316
+		],
+		"dungeon_drop": [],
+		"year": "2022/10/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CE%A1%BC%A5%CA",
+		"aewiki": "https://anothereden.wiki/w/Nona"
+	},
+	{
+		"id": 287,
+		"code": 101040181,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p020",
+			"personality.p033",
+			"personality.p036",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			93
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/10/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B2%D6%BA%E9%A4%CE%C9%B1%B7%AF",
+		"aewiki": "https://anothereden.wiki/w/Tsukiha_(Alter)"
+	},
+	{
+		"id": 288,
+		"code": 101010131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p067",
+			"personality.p094",
+			"personality.p096",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			289
+		],
+		"dungeon_drop": [],
+		"year": "2022/11/01",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%CA%A5%EB%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Minalca"
+	},
+	{
+		"id": 289,
+		"code": 101010131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p067",
+			"personality.p094",
+			"personality.p096",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			288
+		],
+		"change": [],
+		"dungeon_drop": [
+			6
+		],
+		"year": "2022/11/01",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%CA%A5%EB%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Minalca"
+	},
+	{
+		"id": 290,
+		"code": 101060161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p024",
+			"personality.p043",
+			"personality.p052",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/11/01",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%B7%A5%E5%A5%C6%A5%A3%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Ashtear"
+	},
+	{
+		"id": 291,
+		"code": 101000271,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p027",
+			"personality.p067",
+			"personality.p084",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			48
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/11/11",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%E9%A5%E0%A5%E9%A5%D4%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Flammelapis_(Another_Style)"
+	},
+	{
+		"id": 292,
+		"code": 101040161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p014",
+			"personality.p047",
+			"personality.p061",
+			"personality.p084",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			163
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/11/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%E9%A5%E0%A5%D0%A5%EC%A5%EB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Garambarrel_(Another_Style)"
+	},
+	{
+		"id": 293,
+		"code": 101020121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p061",
+			"personality.p066",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			106
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2022/12/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%A4%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Heena_(Another_Style)"
+	},
+	{
+		"id": 294,
+		"code": 101010141,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p039",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			152
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B7%EE%B2%DA%A4%CE%CE%E1%BE%EE",
+		"aewiki": "https://anothereden.wiki/w/Hismena_(Alter)"
+	},
+	{
+		"id": 295,
+		"code": 101450011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			296
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%A4%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Lloyd"
+	},
+	{
+		"id": 296,
+		"code": 101450011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p012",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			295
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%ED%A5%A4%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Lloyd"
+	},
+	{
+		"id": 297,
+		"code": 101450021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p030",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			298
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B3%A5%EC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Colette"
+	},
+	{
+		"id": 298,
+		"code": 101450021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p030",
+			"personality.p044",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			297
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B3%A5%EC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Colette"
+	},
+	{
+		"id": 299,
+		"code": 101450031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p045",
+			"personality.p063",
+			"personality.p068",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			300
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%D5%A5%A7%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Alphen"
+	},
+	{
+		"id": 300,
+		"code": 101450031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p011",
+			"personality.p044",
+			"personality.p045",
+			"personality.p063",
+			"personality.p068",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			299
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%D5%A5%A7%A5%F3",
+		"aewiki": "https://anothereden.wiki/w/Alphen"
+	},
+	{
+		"id": 301,
+		"code": 101450041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p044",
+			"personality.p047",
+			"personality.p067",
+			"personality.p068",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			302
+		],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%AA%A5%F3%28%A5%C6%A5%A4%A5%EB%A5%BA%29",
+		"aewiki": "https://anothereden.wiki/w/Shionne"
+	},
+	{
+		"id": 302,
+		"code": 101450041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p044",
+			"personality.p047",
+			"personality.p067",
+			"personality.p068",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			301
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2022/12/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%AA%A5%F3%28%A5%C6%A5%A4%A5%EB%A5%BA%29",
+		"aewiki": "https://anothereden.wiki/w/Shionne"
+	},
+	{
+		"id": 303,
+		"code": 101000031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p016",
+			"personality.p027",
+			"personality.p095",
+			"staralign.false",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			5,
+			6
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2022/12/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%EA%A5%A8%A5%EB%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Mariel_(Extra_Style)"
+	},
+	{
+		"id": 304,
+		"code": 101040191,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p034",
+			"personality.p036",
+			"personality.p061",
+			"personality.p082",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			174
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/01/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B6%E4%BC%EB%A4%CE%B6%E5%C8%F8",
+		"aewiki": "https://anothereden.wiki/w/Hozuki_(Alter)"
+	},
+	{
+		"id": 305,
+		"code": 101060101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p025",
+			"personality.p033",
+			"personality.p043",
+			"personality.p060",
+			"personality.p083",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			196
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/01/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C7%A5%E5%A1%BC%A5%A4%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Dewey_(Another_Style)"
+	},
+	{
+		"id": 306,
+		"code": 101000321,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p082",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			307
+		],
+		"dungeon_drop": [],
+		"year": "2023/02/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%CB",
+		"aewiki": "https://anothereden.wiki/w/Iphi"
+	},
+	{
+		"id": 307,
+		"code": 101000321,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p010",
+			"personality.p082",
+			"personality.p083",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			306
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2023/02/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%CB",
+		"aewiki": "https://anothereden.wiki/w/Iphi"
+	},
+	{
+		"id": 308,
+		"code": 101000331,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p005",
+			"personality.p010",
+			"personality.p032",
+			"personality.p093",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			309
+		],
+		"dungeon_drop": [],
+		"year": "2023/02/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E4%A5%AF%A5%E2",
+		"aewiki": "https://anothereden.wiki/w/Yakumo"
+	},
+	{
+		"id": 309,
+		"code": 101000331,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p005",
+			"personality.p010",
+			"personality.p032",
+			"personality.p093",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			308
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2023/02/28",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E4%A5%AF%A5%E2",
+		"aewiki": "https://anothereden.wiki/w/Yakumo"
+	},
+	{
+		"id": 310,
+		"code": 101060081,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p039",
+			"personality.p043",
+			"personality.p075",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [
+			190,
+			191
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/03/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%EA%A1%BC%A5%CC%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Cerrine_(Another_Style)"
+	},
+	{
+		"id": 311,
+		"code": 101010151,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p011",
+			"personality.p030",
+			"personality.p063",
+			"personality.p093",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			67
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/03/16",
+		"seesaa": "https://anothereden.game-info.wiki/d/%BB%C4%B1%C6%A4%CE%B2%C2%BF%CD",
+		"aewiki": "https://anothereden.wiki/w/Shannon_(Alter)"
+	},
+	{
+		"id": 312,
+		"code": 101060121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p076",
+			"personality.p079",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			202
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/03/30",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E9%A5%D6%A5%EA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Lovely_(Another_Style)"
+	},
+	{
+		"id": 313,
+		"code": 101000051,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p017",
+			"personality.p055",
+			"personality.p076",
+			"personality.p080",
+			"staralign.false",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			11,
+			12
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C8%A5%A5%A1%BC%A5%F4%A5%A1%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Toova_(Extra_Style)"
+	},
+	{
+		"id": 314,
+		"code": 101020161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p058",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			315
+		],
+		"dungeon_drop": [],
+		"year": "2023/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%B9%A5%BF",
+		"aewiki": "https://anothereden.wiki/w/Sesta"
+	},
+	{
+		"id": 315,
+		"code": 101020161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p058",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			314
+		],
+		"change": [],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2023/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%B9%A5%BF",
+		"aewiki": "https://anothereden.wiki/w/Sesta"
+	},
+	{
+		"id": 316,
+		"code": 101050161,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p020",
+			"personality.p038",
+			"personality.p063",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			285,
+			286
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CE%A1%BC%A5%CA%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Nona_(Another_Style)"
+	},
+	{
+		"id": 317,
+		"code": 101050141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p040",
+			"personality.p042",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			186
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/04/27",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D4%A5%C1%A5%AB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Pizzica_(Another_Style)"
+	},
+	{
+		"id": 318,
+		"code": 101030181,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p045",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			119
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/05/11",
+		"seesaa": "https://anothereden.game-info.wiki/d/%BF%BC%C8%EC%A4%CE%B4%A2%BF%CD",
+		"aewiki": "https://anothereden.wiki/w/Ilulu_(Alter)"
+	},
+	{
+		"id": 319,
+		"code": 101050111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p025",
+			"personality.p034",
+			"personality.p066",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			178
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/05/25",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D7%A5%EC%A5%E1%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Premaya_(Another_Style)"
+	},
+	{
+		"id": 320,
+		"code": 101030021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p003",
+			"personality.p013",
+			"personality.p057",
+			"personality.p075",
+			"personality.p097",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			321
+		],
+		"dungeon_drop": [],
+		"year": "2023/06/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%CD%A5%C7%A5%A3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Benedict"
+	},
+	{
+		"id": 321,
+		"code": 101030021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p003",
+			"personality.p013",
+			"personality.p057",
+			"personality.p075",
+			"personality.p097",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			320
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/06/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D9%A5%CD%A5%C7%A5%A3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Benedict"
+	},
+	{
+		"id": 322,
+		"code": 101010161,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p033",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			323
+		],
+		"dungeon_drop": [],
+		"year": "2023/06/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%EB%A5%B7%A1%BC%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Elseal"
+	},
+	{
+		"id": 323,
+		"code": 101010161,
+		"tags": [
+			"alter.false",
+			"frontend.word.weapon",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p011",
+			"personality.p033",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			322
+		],
+		"change": [],
+		"dungeon_drop": [
+			4
+		],
+		"year": "2023/06/08",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A8%A5%EB%A5%B7%A1%BC%A5%EB",
+		"aewiki": "https://anothereden.wiki/w/Elseal"
+	},
+	{
+		"id": 324,
+		"code": 101060091,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p038",
+			"personality.p041",
+			"personality.p070",
+			"personality.p075",
+			"staralign.false",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			193,
+			194
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/06/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A7%A5%EB%A5%DF%A5%CA%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Felmina_(Extra_Style)"
+	},
+	{
+		"id": 325,
+		"code": 101070121,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p017",
+			"personality.p024",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			226
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/07/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%CE%A5%AF%A5%B7%A5%B9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Noahxis_(Another_Style)"
+	},
+	{
+		"id": 326,
+		"code": 101000141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p010",
+			"personality.p032",
+			"personality.p039",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			25
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/07/06",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%ED%A5%C7%A5%A3%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Melody_(Another_Style)"
+	},
+	{
+		"id": 327,
+		"code": 101000351,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p010",
+			"personality.p035",
+			"personality.p042",
+			"personality.p082",
+			"personality.p087",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			42
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/07/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%CC%B4%B6%E3%A4%CE%BB%ED%BF%CD",
+		"aewiki": "https://anothereden.wiki/w/Dunarith_(Alter)"
+	},
+	{
+		"id": 328,
+		"code": 101050031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p042",
+			"personality.p047",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			329
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EA%A5%B5",
+		"aewiki": "https://anothereden.wiki/w/Parisa"
+	},
+	{
+		"id": 329,
+		"code": 101050031,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p042",
+			"personality.p047",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/08/03",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EA%A5%B5",
+		"aewiki": "https://anothereden.wiki/w/Parisa_(Another_Style)"
+	},
+	{
+		"id": 330,
+		"code": 101000341,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p010",
+			"personality.p094",
+			"personality.p101",
+			"personality.p102",
+			"personality.p103",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/08/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AB%A5%E0%A5%E9%A5%CA%A1%BC%A5%B8%A5%E5",
+		"aewiki": "https://anothereden.wiki/w/Kamlanage"
+	},
+	{
+		"id": 331,
+		"code": 101070131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p078",
+			"personality.p094",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			332
+		],
+		"dungeon_drop": [],
+		"year": "2023/08/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A7%A5%EC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Velette"
+	},
+	{
+		"id": 332,
+		"code": 101070131,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p017",
+			"personality.p078",
+			"personality.p094",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			331
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2023/08/24",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%F4%A5%A7%A5%EC%A5%C3%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Velette"
+	},
+	{
+		"id": 333,
+		"code": 101000361,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p023",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			220
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2023/09/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%C7%F2%BC%A7%A4%CE%CB%E2%BF%CD",
+		"aewiki": "https://anothereden.wiki/w/Myunfa_(Alter)"
+	},
+	{
+		"id": 334,
+		"code": 101030171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p006",
+			"personality.p013",
+			"personality.p032",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			133
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/09/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%EB%A5%EC%A5%A4%A5%A2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Orleya_(Another_Style)"
+	},
+	{
+		"id": 335,
+		"code": 101000161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p057",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			336
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DD%A5%E0",
+		"aewiki": "https://anothereden.wiki/w/Pom"
+	},
+	{
+		"id": 336,
+		"code": 101000161,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p010",
+			"personality.p024",
+			"personality.p057",
+			"personality.p083",
+			"staralign.false",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/10/05",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DD%A5%E0",
+		"aewiki": "https://anothereden.wiki/w/Pom_(Another_Style)"
+	},
+	{
+		"id": 337,
+		"code": 101050181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p082",
+			"personality.p086",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			338
+		],
+		"dungeon_drop": [],
+		"year": "2023/10/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EA%A5%A8%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cerius"
+	},
+	{
+		"id": 338,
+		"code": 101050181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p015",
+			"personality.p082",
+			"personality.p086",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			337
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2023/10/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%BB%A5%EA%A5%A8%A5%B9",
+		"aewiki": "https://anothereden.wiki/w/Cerius"
+	},
+	{
+		"id": 339,
+		"code": 101020171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p012",
+			"personality.p045",
+			"personality.p060",
+			"personality.p061",
+			"personality.p093",
+			"personality.p095",
+			"personality.p100",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			340
+		],
+		"dungeon_drop": [],
+		"year": "2023/11/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%DC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Oboro"
+	},
+	{
+		"id": 340,
+		"code": 101020171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p012",
+			"personality.p045",
+			"personality.p060",
+			"personality.p061",
+			"personality.p093",
+			"personality.p095",
+			"personality.p100",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			339
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2023/11/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AA%A5%DC%A5%ED",
+		"aewiki": "https://anothereden.wiki/w/Oboro"
+	},
+	{
+		"id": 341,
+		"code": 101450051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p006",
+			"personality.p010",
+			"personality.p033",
+			"personality.p105",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			342
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9%A1%A6%A5%AA%A5%EB%A5%D6%A5%E9%A5%A4%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Cyrus_Albright"
+	},
+	{
+		"id": 342,
+		"code": 101450051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p002",
+			"personality.p006",
+			"personality.p010",
+			"personality.p033",
+			"personality.p105",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			341
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%A4%A5%E9%A5%B9%A1%A6%A5%AA%A5%EB%A5%D6%A5%E9%A5%A4%A5%C8",
+		"aewiki": "https://anothereden.wiki/w/Cyrus_Albright"
+	},
+	{
+		"id": 343,
+		"code": 101450061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p105",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			344
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EB%A5%C6%A5%C6%A5%A3%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Partitio"
+	},
+	{
+		"id": 344,
+		"code": 101450061,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p015",
+			"personality.p105",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			343
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D1%A5%EB%A5%C6%A5%C6%A5%A3%A5%AA",
+		"aewiki": "https://anothereden.wiki/w/Partitio"
+	},
+	{
+		"id": 345,
+		"code": 101450071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p016",
+			"personality.p105",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			346
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Tithi"
+	},
+	{
+		"id": 346,
+		"code": 101450071,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p016",
+			"personality.p105",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			345
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C6%A5%A3%A5%C6%A5%A3",
+		"aewiki": "https://anothereden.wiki/w/Tithi"
+	},
+	{
+		"id": 347,
+		"code": 101050191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p047",
+			"personality.p052",
+			"personality.p058",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			348
+		],
+		"dungeon_drop": [],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%A7%A5%CD%A1%BC%A5%D5%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Wenefica"
+	},
+	{
+		"id": 348,
+		"code": 101050191,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p005",
+			"personality.p015",
+			"personality.p047",
+			"personality.p052",
+			"personality.p058",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			347
+		],
+		"change": [],
+		"dungeon_drop": [
+			0
+		],
+		"year": "2023/12/07",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%A7%A5%CD%A1%BC%A5%D5%A5%A3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Wenefica"
+	},
+	{
+		"id": 349,
+		"code": 101050171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p015",
+			"personality.p043",
+			"personality.p083",
+			"personality.p095",
+			"personality.p098",
+			"staralign.true",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			272
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2023/12/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%EB%A5%DE%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Alma_(Another_Style)"
+	},
+	{
+		"id": 350,
+		"code": 101010121,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p007",
+			"personality.p011",
+			"personality.p027",
+			"personality.p028",
+			"personality.p056",
+			"staralign.true",
+			"style.extra",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			74,
+			75
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2023/12/31",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%C1%A5%EB%A5%EA%A5%EB%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Thillelille_(Extra_Style)"
+	},
+	{
+		"id": 351,
+		"code": 101020181,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p012",
+			"personality.p061",
+			"personality.p100",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2024/01/11",
+		"seesaa": "https://anothereden.game-info.wiki/d/%B5%C6%B2%D6%A4%CE%B7%F5%B5%D2",
+		"aewiki": "https://anothereden.wiki/w/Akane_(Alter)"
+	},
+	{
+		"id": 352,
+		"code": 101010171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p076",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			353
+		],
+		"dungeon_drop": [],
+		"year": "2024/01/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EB%A5%D4%A5%D4%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Melpiphia"
+	},
+	{
+		"id": 353,
+		"code": 101010171,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p011",
+			"personality.p021",
+			"personality.p076",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			352
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2024/01/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E1%A5%EB%A5%D4%A5%D4%A5%A2",
+		"aewiki": "https://anothereden.wiki/w/Melpiphia"
+	},
+	{
+		"id": 354,
+		"code": 101040201,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p037",
+			"personality.p047",
+			"personality.p086",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			355
+		],
+		"dungeon_drop": [],
+		"year": "2023/10/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%E5%A5%BC",
+		"aewiki": "https://anothereden.wiki/w/Wryz"
+	},
+	{
+		"id": 355,
+		"code": 101040201,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p014",
+			"personality.p037",
+			"personality.p047",
+			"personality.p086",
+			"personality.p104",
+			"staralign.false",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			354
+		],
+		"change": [],
+		"dungeon_drop": [],
+		"year": "2023/10/26",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%EA%A5%E5%A5%BC",
+		"aewiki": "https://anothereden.wiki/w/Wryz"
+	},
+	{
+		"id": 1000,
+		"code": 101060061,
+		"tags": [
+			"personality.p003",
+			"personality.p016",
+			"personality.p056",
+			"personality.p089"
+		]
+	},
+	{
+		"id": 1001,
+		"code": 101030011,
+		"tags": [
+			"personality.p004",
+			"personality.p013",
+			"personality.p086"
+		]
+	},
+	{
+		"id": 1002,
+		"code": 101000151,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p055"
+		]
+	},
+	{
+		"id": 1003,
+		"code": 101800063,
+		"tags": [
+			"personality.p004",
+			"personality.p014",
+			"personality.p072",
+			"personality.p074",
+			"personality.p075",
+			"personality.p083"
+		]
+	},
+	{
+		"id": 1004,
+		"code": 101030051,
+		"tags": [
+			"personality.p003",
+			"personality.p013",
+			"personality.p045",
+			"personality.p075",
+			"personality.p082"
+		]
+	},
+	{
+		"id": 1005,
+		"code": 101000071,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p043",
+			"personality.p057",
+			"personality.p093"
+		]
+	},
+	{
+		"id": 1006,
+		"code": 101040011,
+		"tags": [
+			"personality.p004",
+			"personality.p014",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1007,
+		"code": 101070021,
+		"tags": [
+			"personality.p001",
+			"personality.p017",
+			"personality.p034",
+			"personality.p078",
+			"personality.p079",
+			"personality.p090"
+		]
+	},
+	{
+		"id": 1008,
+		"code": 101030081,
+		"tags": [
+			"personality.p004",
+			"personality.p013",
+			"personality.p029",
+			"personality.p057"
+		]
+	},
+	{
+		"id": 1009,
+		"code": 101050041,
+		"tags": [
+			"personality.p003",
+			"personality.p015",
+			"personality.p052",
+			"personality.p057"
+		]
+	},
+	{
+		"id": 1010,
+		"code": 101030031,
+		"tags": [
+			"personality.p002",
+			"personality.p013",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1011,
+		"code": 101060071,
+		"tags": [
+			"personality.p002",
+			"personality.p016",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1012,
+		"code": 101000211,
+		"tags": [
+			"personality.p000",
+			"personality.p010",
+			"personality.p024",
+			"personality.p057",
+			"personality.p093"
+		]
+	},
+	{
+		"id": 1013,
+		"code": 101070071,
+		"tags": [
+			"personality.p003",
+			"personality.p017",
+			"personality.p038",
+			"personality.p071",
+			"personality.p078"
+		]
+	},
+	{
+		"id": 1014,
+		"code": 101040041,
+		"tags": [
+			"frontend.word.weapon",
+			"personality.p002",
+			"personality.p014",
+			"personality.p052",
+			"personality.p078"
+		]
+	},
+	{
+		"id": 1015,
+		"code": 101010021,
+		"tags": [
+			"personality.p004",
+			"personality.p011",
+			"personality.p021",
+			"personality.p070"
+		]
+	},
+	{
+		"id": 1016,
+		"code": 101010061,
+		"tags": [
+			"personality.p004",
+			"personality.p011",
+			"personality.p027"
+		]
+	},
+	{
+		"id": 1017,
+		"code": 101030041,
+		"tags": [
+			"personality.p001",
+			"personality.p013",
+			"personality.p082",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1018,
+		"code": 101030061,
+		"tags": [
+			"personality.p003",
+			"personality.p013",
+			"personality.p043",
+			"personality.p075",
+			"personality.p092"
+		]
+	},
+	{
+		"id": 1019,
+		"code": 101050071,
+		"tags": [
+			"personality.p003",
+			"personality.p015",
+			"personality.p022",
+			"personality.p042"
+		]
+	},
+	{
+		"id": 1020,
+		"code": 101060021,
+		"tags": [
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p061"
+		]
+	},
+	{
+		"id": 1021,
+		"code": 101060051,
+		"tags": [
+			"personality.p001",
+			"personality.p016",
+			"personality.p033"
+		]
+	},
+	{
+		"id": 1022,
+		"code": 101000021,
+		"tags": [
+			"personality.p004",
+			"personality.p010",
+			"personality.p038",
+			"personality.p045",
+			"personality.p063"
+		]
+	},
+	{
+		"id": 1023,
+		"code": 101050051,
+		"tags": [
+			"personality.p002",
+			"personality.p015",
+			"personality.p025",
+			"personality.p066",
+			"personality.p075",
+			"personality.p096"
+		]
+	}
+]
