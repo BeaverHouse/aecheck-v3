@@ -4,15 +4,12 @@ export const new_buddies = [2011];
 export const new_aligns = [357];
 export const version = "3.5.60";
 
-export const announceDate = "20240208";
+export const announceDate = "20240213";
 
-export const announceTitleKo = announceDate + " 업데이트";
+export const announceTitleKo = announceDate + " 오류 수정";
 export const announceContentKo = (
   <div className="announce">
-    <h2>예고대로 사이트가 변경되었습니다!</h2>
-    <span>1. 문제가 있다면 캐시를 삭제하고 다시 접속해 보세요.</span>
-    <br />
-    <span>2. 그래도 해결되지 않는다면 제보 부탁드립니다.</span>
+    <span>1. 멜리사의 성도각성 이미지가 누락되어 추가했습니다.</span>
     <br />
     <p>Version : {version}</p>
     <br />
@@ -28,13 +25,10 @@ export const announceContentKo = (
   </div>
 );
 
-export const announceTitleEN = announceDate + " Update";
+export const announceTitleEN = announceDate + " Error fix";
 export const announceContentEN = (
   <div className="announce">
-    <h2>Site has been changed as announced before!</h2>
-    <span>1. Delete the cache if you have some problems.</span>
-    <br />
-    <span>2. If you still have an issue, please let me know.</span>
+    <span>1. Melissa's stellar panel image was missing so it was added.</span>
     <br />
     <p>Version : {version}</p>
     <br />
