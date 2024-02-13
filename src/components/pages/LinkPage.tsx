@@ -3,8 +3,6 @@ import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import useConfigStore from "../../store/useConfigStore";
-import ArticleIcon from "@mui/icons-material/Article";
 
 const LinkData = [
   {
@@ -30,18 +28,11 @@ const LinkData = [
   {
     link: "https://github.com/BeaverHouse/aecheck-v3",
     label: "github",
-    desc: "Site GitHub",
+    desc: "GitHub",
   },
 ];
 
 function LinkPage() {
-  const { lang } = useConfigStore();
-
-  const guideLink =
-    lang === "ko"
-      ? "https://aecheck.tistory.com/category/%EC%A0%95%EB%B3%B4%2C%EB%AC%B8%EC%9D%98"
-      : "https://github.com/BeaverHouse/aecheck-docs";
-
   return (
     <Box
       sx={{
@@ -72,29 +63,6 @@ function LinkPage() {
           </Typography>
         </Button>
       ))}
-      <Button
-        variant="outlined"
-        color="secondary"
-        sx={{ width: 250, mb: 1.5, display: "flex" }}
-        aria-label="guide"
-        href={guideLink}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Avatar
-          sx={{
-            width: 50,
-            height: 50,
-            mr: 1,
-            bgcolor: (theme) => theme.palette.secondary.main,
-          }}
-        >
-          <ArticleIcon />
-        </Avatar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          DOCS
-        </Typography>
-      </Button>
       <Typography variant="subtitle1">e-mail : haulrest@gmail.com</Typography>
     </Box>
   );

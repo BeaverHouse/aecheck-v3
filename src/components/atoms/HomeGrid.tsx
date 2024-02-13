@@ -33,9 +33,14 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function HomeGrid() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const { checkPath, analyzePath } = useConfigStore();
+  const { checkPath, analyzePath, lang } = useConfigStore();
   const { removeFilter } = useFilterStore();
   const { setModal } = useModalStore();
+
+  const guideLink =
+    lang === "ko"
+      ? "https://aecheck.tistory.com/category/%EC%A0%95%EB%B3%B4%2C%EB%AC%B8%EC%9D%98"
+      : "https://github.com/BeaverHouse/aecheck-v3/wiki";
 
   const checkRedirect = [
     "/check/character",
@@ -95,6 +100,16 @@ export default function HomeGrid() {
           <Item onClick={() => handleclick(`/link`)}>
             <LinkIcon fontSize="large" />
             {t("frontend.menu.link")}
+          </Item>
+        </Grid>
+        <Grid xs={12}>
+          <Item
+            onClick={() => window.open(guideLink, "_blank")}
+            sx={{
+              height: 50,
+            }}
+          >
+            About AE Check
           </Item>
         </Grid>
         <Grid xs={12}>
