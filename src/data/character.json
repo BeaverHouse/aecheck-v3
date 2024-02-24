@@ -9599,6 +9599,32 @@
 		"aewiki": null
 	},
 	{
+		"id": 358,
+		"code": 101040141,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p014",
+			"personality.p021",
+			"staralign.true",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			161
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2024/02/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
