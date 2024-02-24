@@ -1,16 +1,14 @@
-export const pickups = [356, 357];
+export const pickups = [358];
 export const new_manifests = [108];
 export const new_buddies = [2011];
-export const new_aligns = [357];
-export const version = "3.5.60";
+export const new_aligns = [358];
+export const version = "3.5.70";
 
-export const announceDate = "20240213";
+export const announceDate = "20240224";
 
-export const announceTitleKo = announceDate + " 오류 수정";
+export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
-    <span>1. 멜리사의 성도각성 이미지가 누락되어 추가했습니다.</span>
-    <br />
     <p>Version : {version}</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
@@ -25,11 +23,9 @@ export const announceContentKo = (
   </div>
 );
 
-export const announceTitleEN = announceDate + " Error fix";
+export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
-    <span>1. Melissa's stellar panel image was missing so it was added.</span>
-    <br />
     <p>Version : {version}</p>
     <br />
     <a
