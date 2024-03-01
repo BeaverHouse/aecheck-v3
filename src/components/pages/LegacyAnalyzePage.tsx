@@ -149,7 +149,30 @@ function LegacyAnalyzePage() {
                 );
                 return filtered.length > 0 ? (
                   <>
-                    <Typography variant="h6" sx={{ mt: 2, mb: 0.5 }}>
+                    <Typography
+                      variant="h6"
+                      sx={{
+                        mt: 2,
+                        mb: 0.5,
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
+                      {p.startsWith("personality") ? (
+                        <img
+                          src={`/image/icon/${p}.png`}
+                          alt={p}
+                          width={30}
+                          height={30}
+                          style={{
+                            width: 30,
+                            height: 30,
+                            marginRight: 10,
+                            pointerEvents: "none",
+                          }}
+                        />
+                      ) : null}
                       {t(p)} ({filtered.length})
                     </Typography>
                     <Suspense
