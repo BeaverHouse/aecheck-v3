@@ -55,7 +55,9 @@ const TopMenuSelect: React.FC = () => {
     >
       {getOptions()!.map((menu) => (
         <MenuItem key={menu.subpath} value={`/${category}/${menu.subpath}`}>
-          {t(menu.labelTag)}
+          {menu.labelTag == "frontend.tab.grasta"
+            ? `VC ${t(menu.labelTag)}`
+            : t(menu.labelTag)}
         </MenuItem>
       ))}
     </Select>
