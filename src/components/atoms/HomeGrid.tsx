@@ -46,6 +46,7 @@ export default function HomeGrid() {
     "/check/character",
     "/check/manifest",
     "/check/grasta",
+    "/check/staralign",
   ].includes(checkPath)
     ? checkPath
     : "/check/character";
@@ -53,6 +54,7 @@ export default function HomeGrid() {
     "/analyze/stardream",
     "/analyze/whitekey",
     "/analyze/legacy",
+    "/analyze/table",
   ].includes(analyzePath)
     ? analyzePath
     : "/analyze/stardream";

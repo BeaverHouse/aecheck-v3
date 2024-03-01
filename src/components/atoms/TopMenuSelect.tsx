@@ -10,15 +10,35 @@ import {
   checkMenuData,
   searchMenuData,
 } from "../../constant/fixedData";
+import { Divider } from "@mui/material";
 
 const TopMenuSelect: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const { changeCheckPath, changeAnalyzePath } = useConfigStore();
+  const { changeCheckPath, changeAnalyzePath, analyzePath, checkPath } =
+    useConfigStore();
   const { removeFilter } = useFilterStore();
 
   const path = window.location.pathname;
   const category = path.split("/")[1];
+
+  const analyzeRedirect = [
+    "/analyze/stardream",
+    "/analyze/whitekey",
+    "/analyze/legacy",
+    "/analyze/table",
+  ].includes(analyzePath)
+    ? analyzePath
+    : "/analyze/stardream";
+  const checkRedirect = [
+    "/check/character",
+    "/check/manifest",
+    "/check/grasta",
+    "/check/staralign",
+  ].includes(checkPath)
+    ? checkPath
+    : "/check/character";
+  const searchRedirect = `/search/character`;
 
   const getOptions = () => {
     switch (category) {
@@ -35,8 +55,8 @@ const TopMenuSelect: React.FC = () => {
 
   const handleChange = (e: SelectChangeEvent) => {
     const value = e.target.value;
-    if (path.startsWith("/check")) changeCheckPath(value);
-    else if (path.startsWith("/analyze")) changeAnalyzePath(value);
+    if (value.startsWith("/check")) changeCheckPath(value);
+    else if (value.startsWith("/analyze")) changeAnalyzePath(value);
     if (!path.startsWith("/check") && window.location.pathname !== value)
       removeFilter();
     navigate(value);
@@ -60,6 +80,22 @@ const TopMenuSelect: React.FC = () => {
             : t(menu.labelTag)}
         </MenuItem>
       ))}
+      <Divider />
+      {category !== "analyze" ? (
+        <MenuItem key={analyzeRedirect} value={analyzeRedirect}>
+          <b>{t("frontend.menu.analyze")}</b>
+        </MenuItem>
+      ) : null}
+      {category !== "check" ? (
+        <MenuItem key={checkRedirect} value={checkRedirect}>
+          <b>{t("frontend.menu.check")}</b>
+        </MenuItem>
+      ) : null}
+      {category !== "search" ? (
+        <MenuItem key={searchRedirect} value={searchRedirect}>
+          <b>{t("frontend.menu.search")}</b>
+        </MenuItem>
+      ) : null}
     </Select>
   );
 };
