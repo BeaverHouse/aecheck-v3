@@ -4,12 +4,12 @@ export const new_buddies = [2011];
 export const new_aligns = [358];
 export const version = "3.5.70";
 
-export const announceDate = "20240225";
+export const announceDate = "20240301";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
-    <span>1. 이벨라(AS)의 클래스 체인지 정보가 누락되어 수정했습니다.</span>
+    <span>1. 배포 캐릭터의 VC 글래스터를 추가했습니다.</span>
     <br />
     <p>Version : {version}</p>
     <br />
@@ -28,7 +28,9 @@ export const announceContentKo = (
 export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
-    <span>1. Fixed missing class change info of Ewella(AS).</span>
+    <span>1. Added VC Grasta for free characters</span>
+    <br />
+    <span>2. Fixed some translations</span>
     <br />
     <p>Version : {version}</p>
     <br />
