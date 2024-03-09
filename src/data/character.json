@@ -4223,7 +4223,7 @@
 			"personality.p014",
 			"personality.p037",
 			"personality.p056",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -6184,7 +6184,8 @@
 		],
 		"from": [],
 		"change": [
-			225
+			225,
+			359
 		],
 		"dungeon_drop": [],
 		"year": "2021/09/30",
@@ -6210,7 +6211,9 @@
 		"from": [
 			224
 		],
-		"change": [],
+		"change": [
+			359
+		],
 		"dungeon_drop": [
 			3
 		],
@@ -9651,8 +9654,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2024/02/08",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%B6%A5%F3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Sazanca"
 	},
 	{
 		"id": 357,
@@ -9680,8 +9683,8 @@
 			3
 		],
 		"year": "2024/02/08",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B5%A5%B6%A5%F3%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Sazanca"
 	},
 	{
 		"id": 358,
@@ -9706,6 +9709,33 @@
 			1001
 		],
 		"year": "2024/02/22",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A4%A5%A6%A5%A7%A5%E9%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Ewella_(Another_Style)"
+	},
+	{
+		"id": 359,
+		"code": 101070111,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p017",
+			"personality.p030",
+			"personality.p082",
+			"personality.p087",
+			"staralign.true",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			225
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2024/03/08",
 		"seesaa": null,
 		"aewiki": null
 	},
