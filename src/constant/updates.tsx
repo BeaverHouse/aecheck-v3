@@ -1,4 +1,4 @@
-export const pickups = [361];
+export const pickups = [360, 361];
 export const new_manifests = [108];
 export const new_buddies = [2011];
 export const new_aligns = [361];
