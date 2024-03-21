@@ -7368,7 +7368,7 @@
 		],
 		"year": "2022/05/12",
 		"seesaa": "https://anothereden.game-info.wiki/d/%CB%CF%C0%F7%A4%CE%B7%B3%BB%D5",
-		"aewiki": "https://anothereden.wiki/w/Shion (Alter)"
+		"aewiki": "https://anothereden.wiki/w/Shion_(Alter)"
 	},
 	{
 		"id": 270,
@@ -9615,7 +9615,7 @@
 			"personality.p047",
 			"personality.p086",
 			"personality.p104",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -9736,6 +9736,54 @@
 			1001
 		],
 		"year": "2024/03/08",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 360,
+		"code": 101000371,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			361
+		],
+		"dungeon_drop": [],
+		"year": "2024/03/21",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 361,
+		"code": 101000371,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p010",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			360
+		],
+		"change": [],
+		"dungeon_drop": [
+			3
+		],
+		"year": "2024/03/21",
 		"seesaa": null,
 		"aewiki": null
 	},

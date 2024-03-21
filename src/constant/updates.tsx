@@ -1,17 +1,17 @@
-export const pickups = [359];
+export const pickups = [361];
 export const new_manifests = [108];
 export const new_buddies = [2011];
-export const new_aligns = [359];
-export const version = "3.5.70";
+export const new_aligns = [361];
+export const version = "3.6.0";
 
-export const announceDate = "20240312";
+export const announceDate = "20240321";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <p>Version : {version}</p>
     <br />
-    <p>* 3/12 티라미수의 현현 데이터를 추가했습니다.</p>
+    <p>+ 일부 표기 수정</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
       사이트 안내용 블로그
@@ -30,7 +30,7 @@ export const announceContentEN = (
   <div className="announce">
     <p>Version : {version}</p>
     <br />
-    <p>* 3/12 Added Tiramisu's manifest data.</p>
+    <p>+ Fixed some expressions</p>
     <br />
     <a
       href="https://github.com/BeaverHouse/aecheck-v3/wiki"
