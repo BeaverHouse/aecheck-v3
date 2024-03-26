@@ -8,7 +8,7 @@ const tags = Object.keys(kojson);
 export const personalities = tags.filter((t) => t.startsWith("personality."));
 
 export const dungeons = tags
-  .filter((t) => t.startsWith("drop.dungeon") && !t.endsWith("000"))
+  .filter((t) => t.startsWith("drop.dungeon"))
   .sort(
     (a, b) =>
       parseInt(a.replace("drop.dungeon", "")) -
