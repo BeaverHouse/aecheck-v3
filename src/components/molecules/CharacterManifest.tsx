@@ -5,7 +5,7 @@ import CircularProgress, {
 } from "@mui/material/CircularProgress";
 import useCheckStore from "../../store/useCheckStore";
 import { useTranslation } from "react-i18next";
-import { getManifestStatus, getManifestStep } from "../../util/func";
+import { getManifestStatus, getStep } from "../../util/func";
 import Typography from "@mui/material/Typography";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
@@ -58,7 +58,7 @@ const CharacterManifest: React.FC<CharacterInfo> = (info) => {
   const stepArr = info.tags.includes("manifest.step2") ? [0, 1, 2] : [0, 1];
   const maxStep = stepArr[stepArr.length - 1];
 
-  const currentStep = getManifestStep(info, manifest);
+  const currentStep = getStep(info, manifest);
 
   const changeManifest = (step: number) => {
     const changedStep = Math.min(currentStep, maxStep) + step;

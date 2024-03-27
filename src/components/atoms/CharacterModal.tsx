@@ -10,13 +10,7 @@ import useModalStore from "../../store/useModalStore";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import ErrorIcon from "@mui/icons-material/Error";
 import CancelIcon from "@mui/icons-material/Cancel";
-import {
-  getAlignStep,
-  getCharacterStatus,
-  getGrastaStep,
-  getManifestStep,
-  getPaddedNumber,
-} from "../../util/func";
+import { getCharacterStatus, getPaddedNumber, getStep } from "../../util/func";
 import IconButton from "@mui/material/IconButton";
 import { isMobile } from "react-device-detect";
 import useCheckStore from "../../store/useCheckStore";
@@ -59,9 +53,9 @@ const CharacterModal: React.FC<CharacterInfo> = (info) => {
   const bookName = t(`book.char${info.id}`, "N/A");
 
   const currentInven = getCharacterStatus(info, inven);
-  const currentGrastaStep = getGrastaStep(info, grasta);
-  const currentManifestStep = getManifestStep(info, manifest);
-  const currentAlignStep = getAlignStep(info, staralign);
+  const currentGrastaStep = getStep(info, grasta);
+  const currentManifestStep = getStep(info, manifest);
+  const currentAlignStep = getStep(info, staralign);
   const manifestCompleted =
     currentManifestStep >=
       parseInt(manifestTag!.replace("manifest.step", "")) &&

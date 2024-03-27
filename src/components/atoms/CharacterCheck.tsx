@@ -1,12 +1,7 @@
 import React from "react";
 import useCheckStore from "../../store/useCheckStore";
 import { useTranslation } from "react-i18next";
-import {
-  getAlignStep,
-  getGrastaStep,
-  getManifestStep,
-  getShortName,
-} from "../../util/func";
+import { getShortName, getStep } from "../../util/func";
 import { pickups } from "../../constant/updates";
 import useTheme from "@mui/material/styles/useTheme";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -40,9 +35,9 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({
     info.id < 1000
       ? info.tags.find((t) => t.startsWith("manifest."))
       : "manifest.step0";
-  const currentGrastaStep = getGrastaStep(info, grasta);
-  const currentManifestStep = getManifestStep(info, manifest);
-  const currentAlignStep = getAlignStep(info, staralign);
+  const currentGrastaStep = getStep(info, grasta);
+  const currentManifestStep = getStep(info, manifest);
+  const currentAlignStep = getStep(info, staralign);
 
   const manifestIcon = () => {
     const manifestConpleted =
