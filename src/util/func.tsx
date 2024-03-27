@@ -65,25 +65,6 @@ export const getManifestStatus = (
   }
 };
 
-export const getManifestStep = (
-  info: CharacterInfo,
-  manifest: Array<number>
-) => {
-  const stepArr = manifest.filter((m) => m % 10000 === info.id);
-  if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000);
-  else return 0;
-};
-export const getGrastaStep = (info: CharacterInfo, grasta: Array<number>) => {
-  const stepArr = grasta.filter((g) => g % 10000 === info.id);
-  if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000);
-  else return 0;
-};
-export const getAlignStep = (info: CharacterInfo, staralign: Array<number>) => {
-  const stepArr = staralign.filter((g) => g % 10000 === info.id);
-  if (stepArr.length > 0) return Math.floor(stepArr[0] / 10000);
-  else return 0;
-};
-
 export const getStep = (info: CharacterInfo, arr: Array<number>) => {
   const stepList = arr.filter((x) => x % 10000 === info.id);
   return stepList.length > 0 ? Math.floor(stepList[0] / 10000) : 0;
