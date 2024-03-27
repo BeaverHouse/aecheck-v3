@@ -84,6 +84,11 @@ export const getAlignStep = (info: CharacterInfo, staralign: Array<number>) => {
   else return 0;
 };
 
+export const getStep = (info: CharacterInfo, arr: Array<number>) => {
+  const stepList = arr.filter((x) => x % 10000 === info.id);
+  return stepList.length > 0 ? Math.floor(stepList[0] / 10000) : 0;
+};
+
 export const getPaddedNumber = (num: number, padLength: number) => {
   return String(num).padStart(padLength, "0");
 };

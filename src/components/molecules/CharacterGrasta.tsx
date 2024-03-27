@@ -2,7 +2,7 @@ import Card from "@mui/material/Card";
 import React from "react";
 import useCheckStore from "../../store/useCheckStore";
 import { useTranslation } from "react-i18next";
-import { getGrastaStep } from "../../util/func";
+import { getStep } from "../../util/func";
 import Typography from "@mui/material/Typography";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
@@ -25,7 +25,7 @@ const CharacterGrasta: React.FC<CharacterInfo> = (info) => {
 
   const stepArr = [0, 1, 2];
 
-  const currentStep = getGrastaStep(info, grasta);
+  const currentStep = getStep(info, grasta);
 
   const changeGrasta = (step: number) => {
     if (step === 0) removeGrasta(info.id);
