@@ -1387,7 +1387,8 @@
 		"from": [],
 		"change": [
 			53,
-			54
+			54,
+			362
 		],
 		"dungeon_drop": [],
 		"year": "2017/05/10",
@@ -1415,7 +1416,8 @@
 			52
 		],
 		"change": [
-			54
+			54,
+			362
 		],
 		"dungeon_drop": [
 			4
@@ -1443,7 +1445,8 @@
 		],
 		"from": [],
 		"change": [
-			53
+			53,
+			362
 		],
 		"dungeon_drop": [
 			1001
@@ -6890,7 +6893,7 @@
 			"personality.p010",
 			"personality.p045",
 			"personality.p072",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.shadow"
 		],
@@ -9736,8 +9739,8 @@
 			1001
 		],
 		"year": "2024/03/08",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D2%A5%CA%A5%AE%A5%AF%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Daisy_(Another_Style)"
 	},
 	{
 		"id": 360,
@@ -9759,8 +9762,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2024/03/21",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%C1%A5%CA%A5%EF",
+		"aewiki": "https://anothereden.wiki/w/Kuchinawa"
 	},
 	{
 		"id": 361,
@@ -9784,6 +9787,139 @@
 			3
 		],
 		"year": "2024/03/21",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AF%A5%C1%A5%CA%A5%EF",
+		"aewiki": "https://anothereden.wiki/w/Kuchinawa"
+	},
+	{
+		"id": 362,
+		"code": 101010011,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p014",
+			"personality.p056",
+			"personality.p062",
+			"personality.p070",
+			"personality.p074",
+			"staralign.true",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			53,
+			54
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2024/04/12",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 363,
+		"code": 101800063,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p072",
+			"personality.p074",
+			"personality.p075",
+			"personality.p083",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			364
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 364,
+		"code": 101800063,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p014",
+			"personality.p072",
+			"personality.p074",
+			"personality.p075",
+			"personality.p083",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			363
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": null,
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 365,
+		"code": 101000381,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p010",
+			"personality.p024",
+			"personality.p061",
+			"personality.p093",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			366
+		],
+		"dungeon_drop": [],
+		"year": "2024/04/12",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 366,
+		"code": 101000381,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p010",
+			"personality.p024",
+			"personality.p061",
+			"personality.p093",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			365
+		],
+		"change": [],
+		"dungeon_drop": [
+			1
+		],
+		"year": "2024/04/12",
 		"seesaa": null,
 		"aewiki": null
 	},
@@ -9817,18 +9953,6 @@
 	},
 	{
 		"id": 1003,
-		"code": 101800063,
-		"tags": [
-			"personality.p004",
-			"personality.p014",
-			"personality.p072",
-			"personality.p074",
-			"personality.p075",
-			"personality.p083"
-		]
-	},
-	{
-		"id": 1004,
 		"code": 101030051,
 		"tags": [
 			"personality.p003",
@@ -9839,7 +9963,7 @@
 		]
 	},
 	{
-		"id": 1005,
+		"id": 1004,
 		"code": 101000071,
 		"tags": [
 			"personality.p000",
@@ -9851,7 +9975,7 @@
 		]
 	},
 	{
-		"id": 1006,
+		"id": 1005,
 		"code": 101040011,
 		"tags": [
 			"personality.p004",
@@ -9860,7 +9984,7 @@
 		]
 	},
 	{
-		"id": 1007,
+		"id": 1006,
 		"code": 101070021,
 		"tags": [
 			"personality.p001",
@@ -9872,7 +9996,7 @@
 		]
 	},
 	{
-		"id": 1008,
+		"id": 1007,
 		"code": 101030081,
 		"tags": [
 			"personality.p004",
@@ -9882,7 +10006,7 @@
 		]
 	},
 	{
-		"id": 1009,
+		"id": 1008,
 		"code": 101050041,
 		"tags": [
 			"personality.p003",
@@ -9892,7 +10016,7 @@
 		]
 	},
 	{
-		"id": 1010,
+		"id": 1009,
 		"code": 101030031,
 		"tags": [
 			"personality.p002",
@@ -9901,7 +10025,7 @@
 		]
 	},
 	{
-		"id": 1011,
+		"id": 1010,
 		"code": 101060071,
 		"tags": [
 			"personality.p002",
@@ -9910,7 +10034,7 @@
 		]
 	},
 	{
-		"id": 1012,
+		"id": 1011,
 		"code": 101000211,
 		"tags": [
 			"personality.p000",
@@ -9921,7 +10045,7 @@
 		]
 	},
 	{
-		"id": 1013,
+		"id": 1012,
 		"code": 101070071,
 		"tags": [
 			"personality.p003",
@@ -9932,7 +10056,7 @@
 		]
 	},
 	{
-		"id": 1014,
+		"id": 1013,
 		"code": 101040041,
 		"tags": [
 			"frontend.word.weapon",
@@ -9943,7 +10067,7 @@
 		]
 	},
 	{
-		"id": 1015,
+		"id": 1014,
 		"code": 101010021,
 		"tags": [
 			"personality.p004",
@@ -9953,7 +10077,7 @@
 		]
 	},
 	{
-		"id": 1016,
+		"id": 1015,
 		"code": 101010061,
 		"tags": [
 			"personality.p004",
@@ -9962,7 +10086,7 @@
 		]
 	},
 	{
-		"id": 1017,
+		"id": 1016,
 		"code": 101030041,
 		"tags": [
 			"personality.p001",
@@ -9972,7 +10096,7 @@
 		]
 	},
 	{
-		"id": 1018,
+		"id": 1017,
 		"code": 101030061,
 		"tags": [
 			"personality.p003",
@@ -9983,7 +10107,7 @@
 		]
 	},
 	{
-		"id": 1019,
+		"id": 1018,
 		"code": 101050071,
 		"tags": [
 			"personality.p003",
@@ -9993,7 +10117,7 @@
 		]
 	},
 	{
-		"id": 1020,
+		"id": 1019,
 		"code": 101060021,
 		"tags": [
 			"personality.p001",
@@ -10003,7 +10127,7 @@
 		]
 	},
 	{
-		"id": 1021,
+		"id": 1020,
 		"code": 101060051,
 		"tags": [
 			"personality.p001",
@@ -10012,7 +10136,7 @@
 		]
 	},
 	{
-		"id": 1022,
+		"id": 1021,
 		"code": 101000021,
 		"tags": [
 			"personality.p004",
@@ -10023,7 +10147,7 @@
 		]
 	},
 	{
-		"id": 1023,
+		"id": 1022,
 		"code": 101050051,
 		"tags": [
 			"personality.p002",

@@ -1,17 +1,15 @@
-export const pickups = [360, 361];
+export const pickups = [362, 363, 364, 365, 366];
 export const new_manifests = [108];
 export const new_buddies = [2011];
-export const new_aligns = [361];
-export const version = "3.6.0";
+export const new_aligns = [362, 366, 364, 252];
+export const version = "3.6.50";
 
-export const announceDate = "20240327";
+export const announceDate = "20240412";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <p>Version : {version}</p>
-    <br />
-    <p>240327: 기억의 서 필터 누락 수정</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
       사이트 안내용 블로그
@@ -29,8 +27,6 @@ export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
     <p>Version : {version}</p>
-    <br />
-    <p>240327: Fixed the memoir filter options</p>
     <br />
     <a
       href="https://github.com/BeaverHouse/aecheck-v3/wiki"
