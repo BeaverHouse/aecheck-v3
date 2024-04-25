@@ -4483,7 +4483,8 @@
 		"from": [],
 		"change": [
 			165,
-			166
+			166,
+			367
 		],
 		"dungeon_drop": [],
 		"year": "2018/03/30",
@@ -4508,7 +4509,8 @@
 			164
 		],
 		"change": [
-			166
+			166,
+			367
 		],
 		"dungeon_drop": [
 			101
@@ -9816,8 +9818,8 @@
 			1002
 		],
 		"year": "2024/04/12",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A2%A5%CA%A5%D9%A5%EB%28%A5%A8%A5%AF%A5%B9%A5%C8%A5%E9%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Anabel_(Extra_Style)"
 	},
 	{
 		"id": 363,
@@ -9842,8 +9844,8 @@
 		],
 		"dungeon_drop": [],
 		"year": null,
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%EA%A5%A2%A1%BC%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Galliard"
 	},
 	{
 		"id": 364,
@@ -9870,8 +9872,8 @@
 			1004
 		],
 		"year": null,
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%AC%A5%EA%A5%A2%A1%BC%A5%C9",
+		"aewiki": "https://anothereden.wiki/w/Galliard"
 	},
 	{
 		"id": 365,
@@ -9880,9 +9882,11 @@
 			"alter.false",
 			"get.notfree",
 			"manifest.step0",
+			"personality.p000",
 			"personality.p010",
 			"personality.p024",
 			"personality.p061",
+			"personality.p072",
 			"personality.p093",
 			"staralign.false",
 			"style.four",
@@ -9894,8 +9898,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2024/04/12",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%F3%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Xianhua"
 	},
 	{
 		"id": 366,
@@ -9904,9 +9908,11 @@
 			"alter.false",
 			"get.notfree",
 			"manifest.step0",
+			"personality.p000",
 			"personality.p010",
 			"personality.p024",
 			"personality.p061",
+			"personality.p072",
 			"personality.p093",
 			"staralign.true",
 			"style.normal",
@@ -9920,6 +9926,34 @@
 			1
 		],
 		"year": "2024/04/12",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B7%A5%A7%A5%F3%A5%D5%A5%A1",
+		"aewiki": "https://anothereden.wiki/w/Xianhua"
+	},
+	{
+		"id": 367,
+		"code": 101070141,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p006",
+			"personality.p017",
+			"personality.p038",
+			"personality.p045",
+			"personality.p056",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			165
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2024/04/25",
 		"seesaa": null,
 		"aewiki": null
 	},
