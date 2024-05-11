@@ -1,10 +1,10 @@
-export const pickups = [367];
+export const pickups = [368];
 export const new_manifests = [108];
-export const new_buddies = [2011];
-export const new_aligns = [367];
-export const version = "3.7.0";
+export const new_buddies = [2013];
+export const new_aligns = [368];
+export const version = "3.7.10";
 
-export const announceDate = "20240425";
+export const announceDate = "20240511";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
