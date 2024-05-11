@@ -16,7 +16,7 @@ interface CharacterInfo {
 // buddy.json을 파싱할 때 사용하는 interface
 interface BuddyInfo {
   id: number;
-  code: number;
+  code: number | string;
   link: Array<number>;
   get: string;
   seesaa?: string | null;
