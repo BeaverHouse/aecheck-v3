@@ -108,5 +108,15 @@
 		"get": "get.notfree",
 		"seesaa": "https://anothereden.game-info.wiki/d/%CE%B5%A4%CE%BB%D2",
 		"aewiki": "https://anothereden.wiki/w/Iridian"
+	},
+	{
+		"id": 2013,
+		"code": "2000000006_s2",
+		"link": [
+			368
+		],
+		"get": "get.notfree",
+		"seesaa": null,
+		"aewiki": null
 	}
 ]

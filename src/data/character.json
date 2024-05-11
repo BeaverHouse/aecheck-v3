@@ -8397,7 +8397,8 @@
 		],
 		"from": [],
 		"change": [
-			309
+			309,
+			368
 		],
 		"dungeon_drop": [],
 		"year": "2023/02/28",
@@ -8422,7 +8423,9 @@
 		"from": [
 			308
 		],
-		"change": [],
+		"change": [
+			368
+		],
 		"dungeon_drop": [
 			5
 		],
@@ -9644,6 +9647,7 @@
 			"manifest.step0",
 			"personality.p001",
 			"personality.p013",
+			"personality.p057",
 			"personality.p061",
 			"personality.p062",
 			"personality.p067",
@@ -9671,6 +9675,7 @@
 			"manifest.step0",
 			"personality.p001",
 			"personality.p013",
+			"personality.p057",
 			"personality.p061",
 			"personality.p062",
 			"personality.p067",
@@ -9954,8 +9959,35 @@
 			1003
 		],
 		"year": "2024/04/25",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%C5%C5%B1%C6%A4%CE%CC%C0%C0%B1",
+		"aewiki": "https://anothereden.wiki/w/Ciel_(Alter)"
+	},
+	{
+		"id": 368,
+		"code": 101000331,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p005",
+			"personality.p010",
+			"personality.p032",
+			"personality.p043",
+			"personality.p093",
+			"staralign.true",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			309
+		],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2024/05/09",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E4%A5%AF%A5%E2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Yakumo_(Another_Style)"
 	},
 	{
 		"id": 1000,
