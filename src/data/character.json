@@ -4064,12 +4064,12 @@
 		"tags": [
 			"alter.false",
 			"get.notfree",
-			"manifest.step1",
+			"manifest.step2",
 			"personality.p004",
 			"personality.p014",
 			"personality.p062",
 			"personality.p070",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -9988,6 +9988,60 @@
 		"year": "2024/05/09",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%E4%A5%AF%A5%E2%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
 		"aewiki": "https://anothereden.wiki/w/Yakumo_(Another_Style)"
+	},
+	{
+		"id": 369,
+		"code": 101030201,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p038",
+			"personality.p048",
+			"personality.p056",
+			"personality.p087",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			370
+		],
+		"dungeon_drop": [],
+		"year": "2024/05/23",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%C4%A5%EA%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Mazrika"
+	},
+	{
+		"id": 370,
+		"code": 101030201,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p013",
+			"personality.p038",
+			"personality.p048",
+			"personality.p056",
+			"personality.p087",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			369
+		],
+		"change": [],
+		"dungeon_drop": [
+			7
+		],
+		"year": "2024/05/23",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%C4%A5%EA%A5%AB",
+		"aewiki": "https://anothereden.wiki/w/Mazrika"
 	},
 	{
 		"id": 1000,
