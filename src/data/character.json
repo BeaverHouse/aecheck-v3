@@ -1251,6 +1251,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"personality.p106",
 			"staralign.false",
 			"style.four",
 			"type.light"
@@ -1277,6 +1278,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"personality.p106",
 			"staralign.false",
 			"style.normal",
 			"type.light"
@@ -1629,6 +1631,7 @@
 			"personality.p063",
 			"personality.p070",
 			"personality.p075",
+			"personality.p106",
 			"staralign.false",
 			"style.four",
 			"type.shadow"
@@ -1654,6 +1657,7 @@
 			"personality.p063",
 			"personality.p070",
 			"personality.p075",
+			"personality.p106",
 			"staralign.false",
 			"style.normal",
 			"type.shadow"
@@ -6922,6 +6926,7 @@
 			"personality.p020",
 			"personality.p022",
 			"personality.p035",
+			"personality.p106",
 			"staralign.false",
 			"style.normal",
 			"type.shadow"
@@ -6952,6 +6957,7 @@
 			"personality.p099",
 			"personality.p100",
 			"personality.p104",
+			"personality.p106",
 			"staralign.false",
 			"style.four",
 			"type.light"
@@ -6984,6 +6990,7 @@
 			"personality.p099",
 			"personality.p100",
 			"personality.p104",
+			"personality.p106",
 			"staralign.true",
 			"style.normal",
 			"type.light"
@@ -7013,6 +7020,7 @@
 			"personality.p052",
 			"personality.p088",
 			"personality.p095",
+			"personality.p106",
 			"staralign.false",
 			"style.four",
 			"type.shadow"
@@ -7039,6 +7047,7 @@
 			"personality.p052",
 			"personality.p088",
 			"personality.p095",
+			"personality.p106",
 			"staralign.false",
 			"style.normal",
 			"type.shadow"
@@ -7939,6 +7948,7 @@
 			"personality.p027",
 			"personality.p067",
 			"personality.p084",
+			"personality.p106",
 			"staralign.false",
 			"style.another",
 			"type.light"
@@ -9998,6 +10008,7 @@
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
+			"personality.p035",
 			"personality.p038",
 			"personality.p048",
 			"personality.p056",
@@ -10024,6 +10035,7 @@
 			"manifest.step0",
 			"personality.p002",
 			"personality.p013",
+			"personality.p035",
 			"personality.p038",
 			"personality.p048",
 			"personality.p056",
@@ -10042,6 +10054,88 @@
 		"year": "2024/05/23",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DE%A5%C4%A5%EA%A5%AB",
 		"aewiki": "https://anothereden.wiki/w/Mazrika"
+	},
+	{
+		"id": 371,
+		"code": 101010181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p011",
+			"personality.p038",
+			"personality.p095",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			372
+		],
+		"dungeon_drop": [],
+		"year": "2024/06/06",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 372,
+		"code": 101010181,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p007",
+			"personality.p011",
+			"personality.p038",
+			"personality.p095",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [
+			371
+		],
+		"change": [],
+		"dungeon_drop": [
+			5
+		],
+		"year": "2024/06/06",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 373,
+		"code": 101900011,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p010",
+			"personality.p034",
+			"personality.p052",
+			"personality.p088",
+			"personality.p095",
+			"personality.p106",
+			"staralign.false",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [
+			256,
+			257
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/06/06",
+		"seesaa": null,
+		"aewiki": null
 	},
 	{
 		"id": 1000,

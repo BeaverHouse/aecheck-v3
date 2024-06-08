@@ -118,5 +118,23 @@
 		"get": "get.notfree",
 		"seesaa": null,
 		"aewiki": null
+	},
+	{
+		"id": 2014,
+		"code": 2000000013,
+		"link": [
+			372
+		],
+		"get": "get.notfree",
+		"seesaa": null,
+		"aewiki": "https://anothereden.wiki/w/Pyggie"
+	},
+	{
+		"id": 2015,
+		"code": 2000000014,
+		"link": [],
+		"get": "get.buddy2015",
+		"seesaa": null,
+		"aewiki": null
 	}
 ]
