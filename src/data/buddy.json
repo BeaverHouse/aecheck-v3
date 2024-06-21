@@ -117,7 +117,7 @@
 		],
 		"get": "get.notfree",
 		"seesaa": null,
-		"aewiki": null
+		"aewiki": "https://anothereden.wiki/w/Kumos_(Another_Style)"
 	},
 	{
 		"id": 2014,
@@ -126,7 +126,7 @@
 			372
 		],
 		"get": "get.notfree",
-		"seesaa": null,
+		"seesaa": "https://anothereden.game-info.wiki/d/%A4%D4%A1%BC%A4%BF%A4%F3",
 		"aewiki": "https://anothereden.wiki/w/Pyggie"
 	},
 	{
@@ -134,6 +134,16 @@
 		"code": 2000000014,
 		"link": [],
 		"get": "get.buddy2015",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 2016,
+		"code": "2000000001_s2",
+		"link": [
+			374
+		],
+		"get": "get.notfree",
 		"seesaa": null,
 		"aewiki": null
 	}
