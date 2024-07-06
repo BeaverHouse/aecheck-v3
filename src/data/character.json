@@ -3164,7 +3164,8 @@
 		"from": [],
 		"change": [
 			116,
-			117
+			117,
+			375
 		],
 		"dungeon_drop": [],
 		"year": "2018/04/06",
@@ -3192,7 +3193,8 @@
 			115
 		],
 		"change": [
-			117
+			117,
+			375
 		],
 		"dungeon_drop": [
 			5
@@ -7868,6 +7870,7 @@
 			"personality.p001",
 			"personality.p011",
 			"personality.p067",
+			"personality.p075",
 			"personality.p094",
 			"personality.p096",
 			"staralign.false",
@@ -7894,6 +7897,7 @@
 			"personality.p001",
 			"personality.p011",
 			"personality.p067",
+			"personality.p075",
 			"personality.p094",
 			"personality.p096",
 			"staralign.false",
@@ -10081,8 +10085,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2024/06/06",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%EB%A5%D5%A5%A1%A5%CB%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Jillfunny"
 	},
 	{
 		"id": 372,
@@ -10109,8 +10113,8 @@
 			5
 		],
 		"year": "2024/06/06",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%EB%A5%D5%A5%A1%A5%CB%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Jillfunny"
 	},
 	{
 		"id": 373,
@@ -10126,7 +10130,7 @@
 			"personality.p088",
 			"personality.p095",
 			"personality.p106",
-			"staralign.false",
+			"staralign.true",
 			"style.another",
 			"type.shadow"
 		],
@@ -10139,8 +10143,8 @@
 			1004
 		],
 		"year": "2024/06/06",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%D5%A5%A3%A1%BC%A5%CD%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Feinne_(Another_Style)"
 	},
 	{
 		"id": 374,
@@ -10152,6 +10156,7 @@
 			"personality.p001",
 			"personality.p011",
 			"personality.p067",
+			"personality.p075",
 			"personality.p094",
 			"personality.p096",
 			"staralign.true",
@@ -10166,6 +10171,34 @@
 			1001
 		],
 		"year": "2024/06/20",
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%DF%A5%CA%A5%EB%A5%AB%28%A5%A2%A5%CA%A5%B6%A1%BC%A5%B9%A5%BF%A5%A4%A5%EB%29",
+		"aewiki": "https://anothereden.wiki/w/Minalca_(Another_Style)"
+	},
+	{
+		"id": 375,
+		"code": 101060171,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p033",
+			"personality.p075",
+			"personality.p082",
+			"personality.p083",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			116
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2024/07/04",
 		"seesaa": null,
 		"aewiki": null
 	},
