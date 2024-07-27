@@ -10203,6 +10203,60 @@
 		"aewiki": null
 	},
 	{
+		"id": 376,
+		"code": 101030211,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p013",
+			"personality.p037",
+			"personality.p086",
+			"personality.p087",
+			"personality.p104",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			377
+		],
+		"dungeon_drop": [],
+		"year": "2024/07/25",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 377,
+		"code": 101030211,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p006",
+			"personality.p013",
+			"personality.p037",
+			"personality.p086",
+			"personality.p087",
+			"personality.p104",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			376
+		],
+		"change": [],
+		"dungeon_drop": [
+			2
+		],
+		"year": "2024/07/25",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
