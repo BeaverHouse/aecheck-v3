@@ -73,12 +73,12 @@ const CharacterCheck: React.FC<CharacterCheckProps> = ({
       return (
         <img
           src={`/image/icon/check.png`}
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           alt="check"
           style={{
-            width: 21,
-            height: 21,
+            width: 25,
+            height: 25,
             position: "absolute",
             right: -5,
             top: -5,

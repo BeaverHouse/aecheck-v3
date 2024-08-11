@@ -3,17 +3,17 @@ import { PaletteOptions } from "@mui/material";
 export const darkPalette: PaletteOptions = {
   mode: "dark",
   primary: {
-    main: "#29633c",
+    main: "#0072b2",
   },
   secondary: {
-    main: "#FFD700",
+    main: "#ffc107",
   },
   success: {
-    main: "#50C878",
+    main: "#56b4e9",
   },
   background: {
-    paper: "#1e2a21",
-    default: "#172119",
+    paper: "#273336",
+    default: "#273336",
   },
   info: {
     main: "#FFFFFF",
@@ -24,17 +24,17 @@ export const darkPalette: PaletteOptions = {
 export const lightPalette: PaletteOptions = {
   mode: "light",
   primary: {
-    main: "#9ae3bf",
+    main: "#56b4e9",
   },
   secondary: {
-    main: "#bd3ed6",
+    main: "#ffc107",
   },
   success: {
-    main: "#50C878",
+    main: "#009e73",
   },
   background: {
-    default: "#e9efea",
-    paper: "#eef3ef",
+    default: "#fafafa",
+    paper: "#fafafa",
   },
   info: {
     main: "#000000",

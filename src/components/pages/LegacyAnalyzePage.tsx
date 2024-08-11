@@ -18,7 +18,7 @@ import { arrOverlap } from "../../util/arrayUtil";
 
 function LegacyAnalyzePage() {
   const [Opened, setOpened] = React.useState([0, 1, 2, 3]);
-  const [WeaponSort, setWeaponSort] = React.useState(true);
+  const [WeaponSort, setWeaponSort] = React.useState(false);
   const { inven } = useCheckStore();
   const { t, i18n } = useTranslation();
 

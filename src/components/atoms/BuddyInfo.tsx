@@ -45,8 +45,8 @@ const BuddyInfo: React.FC<BuddyInfo> = (info) => {
       return (
         <img
           src={`/image/icon/check.png`}
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           alt="check"
           style={{
             width: 25,
