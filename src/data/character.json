@@ -5885,7 +5885,7 @@
 		"tags": [
 			"alter.false",
 			"get.notfree",
-			"manifest.step1",
+			"manifest.step2",
 			"personality.p002",
 			"personality.p017",
 			"personality.p020",
@@ -10257,6 +10257,56 @@
 		"aewiki": null
 	},
 	{
+		"id": 378,
+		"code": 101030081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p013",
+			"personality.p029",
+			"personality.p057",
+			"staralign.false",
+			"style.four",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			379
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 379,
+		"code": 101030081,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p000",
+			"personality.p004",
+			"personality.p013",
+			"personality.p029",
+			"personality.p057",
+			"personality.p075",
+			"staralign.true",
+			"style.another",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2024/08/08",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
@@ -10330,16 +10380,6 @@
 	},
 	{
 		"id": 1007,
-		"code": 101030081,
-		"tags": [
-			"personality.p004",
-			"personality.p013",
-			"personality.p029",
-			"personality.p057"
-		]
-	},
-	{
-		"id": 1008,
 		"code": 101050041,
 		"tags": [
 			"personality.p003",
@@ -10349,7 +10389,7 @@
 		]
 	},
 	{
-		"id": 1009,
+		"id": 1008,
 		"code": 101030031,
 		"tags": [
 			"personality.p002",
@@ -10358,7 +10398,7 @@
 		]
 	},
 	{
-		"id": 1010,
+		"id": 1009,
 		"code": 101060071,
 		"tags": [
 			"personality.p002",
@@ -10367,7 +10407,7 @@
 		]
 	},
 	{
-		"id": 1011,
+		"id": 1010,
 		"code": 101000211,
 		"tags": [
 			"personality.p000",
@@ -10378,7 +10418,7 @@
 		]
 	},
 	{
-		"id": 1012,
+		"id": 1011,
 		"code": 101070071,
 		"tags": [
 			"personality.p003",
@@ -10389,7 +10429,7 @@
 		]
 	},
 	{
-		"id": 1013,
+		"id": 1012,
 		"code": 101040041,
 		"tags": [
 			"frontend.word.weapon",
@@ -10400,7 +10440,7 @@
 		]
 	},
 	{
-		"id": 1014,
+		"id": 1013,
 		"code": 101010021,
 		"tags": [
 			"personality.p004",
@@ -10410,7 +10450,7 @@
 		]
 	},
 	{
-		"id": 1015,
+		"id": 1014,
 		"code": 101010061,
 		"tags": [
 			"personality.p004",
@@ -10419,7 +10459,7 @@
 		]
 	},
 	{
-		"id": 1016,
+		"id": 1015,
 		"code": 101030041,
 		"tags": [
 			"personality.p001",
@@ -10429,7 +10469,7 @@
 		]
 	},
 	{
-		"id": 1017,
+		"id": 1016,
 		"code": 101030061,
 		"tags": [
 			"personality.p003",
@@ -10440,7 +10480,7 @@
 		]
 	},
 	{
-		"id": 1018,
+		"id": 1017,
 		"code": 101050071,
 		"tags": [
 			"personality.p003",
@@ -10450,7 +10490,7 @@
 		]
 	},
 	{
-		"id": 1019,
+		"id": 1018,
 		"code": 101060021,
 		"tags": [
 			"personality.p001",
@@ -10460,7 +10500,7 @@
 		]
 	},
 	{
-		"id": 1020,
+		"id": 1019,
 		"code": 101060051,
 		"tags": [
 			"personality.p001",
@@ -10469,7 +10509,7 @@
 		]
 	},
 	{
-		"id": 1021,
+		"id": 1020,
 		"code": 101000021,
 		"tags": [
 			"personality.p004",
@@ -10480,7 +10520,7 @@
 		]
 	},
 	{
-		"id": 1022,
+		"id": 1021,
 		"code": 101050051,
 		"tags": [
 			"personality.p002",
