@@ -5894,7 +5894,7 @@
 			"personality.p042",
 			"personality.p056",
 			"personality.p078",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.shadow"
 		],
@@ -10199,8 +10199,8 @@
 			1003
 		],
 		"year": "2024/07/04",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%F0%EB%B3%A2%A4%CE%C6%A4%BC%EA",
+		"aewiki": "https://anothereden.wiki/w/Renri_(Alter)"
 	},
 	{
 		"id": 376,
@@ -10225,8 +10225,8 @@
 		],
 		"dungeon_drop": [],
 		"year": "2024/07/25",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%C4%A5%CF%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Utpalaka"
 	},
 	{
 		"id": 377,
@@ -10253,8 +10253,8 @@
 			2
 		],
 		"year": "2024/07/25",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%A6%A5%C4%A5%CF%A5%E9",
+		"aewiki": "https://anothereden.wiki/w/Utpalaka"
 	},
 	{
 		"id": 378,
@@ -10277,8 +10277,8 @@
 		],
 		"dungeon_drop": [],
 		"year": null,
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%EB%A5%D0%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Zilva"
 	},
 	{
 		"id": 379,
@@ -10303,8 +10303,8 @@
 			1001
 		],
 		"year": "2024/08/08",
-		"seesaa": null,
-		"aewiki": null
+		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%EB%A5%D0%A1%BC",
+		"aewiki": "https://anothereden.wiki/w/Zilva_(Another_Style)"
 	},
 	{
 		"id": 1000,
