@@ -1,17 +1,15 @@
-export const pickups = [379];
+export const pickups = [380, 381, 382, 383, 384, 385, 386, 387, 388];
 export const new_manifests = [214];
 export const new_buddies = [2016];
-export const new_aligns = [379];
-export const version = "3.8.30";
+export const new_aligns = [381, 383, 385, 387, 388];
+export const version = "3.8.50";
 
-export const announceDate = "20240816";
+export const announceDate = "20240825";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <p>Version : {version}</p>
-    <br />
-    <p>누락된 데이터 추가</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
       사이트 안내용 블로그
@@ -29,8 +27,6 @@ export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
     <p>Version : {version}</p>
-    <br />
-    <p>Add some missing data</p>
     <br />
     <a
       href="https://github.com/BeaverHouse/aecheck-v3/wiki"
