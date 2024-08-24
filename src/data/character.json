@@ -1691,7 +1691,8 @@
 		"from": [],
 		"change": [
 			64,
-			65
+			65,
+			388
 		],
 		"dungeon_drop": [],
 		"year": "2017/10/20",
@@ -1717,7 +1718,8 @@
 			63
 		],
 		"change": [
-			65
+			65,
+			388
 		],
 		"dungeon_drop": [
 			6
@@ -10305,6 +10307,235 @@
 		"year": "2024/08/08",
 		"seesaa": "https://anothereden.game-info.wiki/d/%A5%B8%A5%EB%A5%D0%A1%BC",
 		"aewiki": "https://anothereden.wiki/w/Zilva_(Another_Style)"
+	},
+	{
+		"id": 380,
+		"code": 101460021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p074",
+			"personality.p107",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			381
+		],
+		"dungeon_drop": [],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 381,
+		"code": 101460021,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p074",
+			"personality.p107",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			380
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 382,
+		"code": 101460031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p107",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			383
+		],
+		"dungeon_drop": [],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 383,
+		"code": 101460031,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p004",
+			"personality.p016",
+			"personality.p107",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			382
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 384,
+		"code": 101460041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p041",
+			"personality.p060",
+			"personality.p107",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			385
+		],
+		"dungeon_drop": [],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 385,
+		"code": 101460041,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p041",
+			"personality.p060",
+			"personality.p107",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			384
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 386,
+		"code": 101460051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p056",
+			"personality.p107",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			387
+		],
+		"dungeon_drop": [],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 387,
+		"code": 101460051,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p002",
+			"personality.p016",
+			"personality.p056",
+			"personality.p107",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [
+			386
+		],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 388,
+		"code": 101070151,
+		"tags": [
+			"alter.true",
+			"get.free",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p005",
+			"personality.p017",
+			"personality.p038",
+			"personality.p047",
+			"personality.p060",
+			"personality.p095",
+			"staralign.true",
+			"style.normal",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			64
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2024/08/22",
+		"seesaa": null,
+		"aewiki": null
 	},
 	{
 		"id": 1000,
