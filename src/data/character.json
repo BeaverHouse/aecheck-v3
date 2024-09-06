@@ -10538,6 +10538,54 @@
 		"aewiki": null
 	},
 	{
+		"id": 389,
+		"code": 101060021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p061",
+			"staralign.false",
+			"style.four",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			390
+		],
+		"dungeon_drop": [],
+		"year": null,
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 390,
+		"code": 101060021,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p016",
+			"personality.p034",
+			"personality.p061",
+			"staralign.true",
+			"style.another",
+			"type.light"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1001
+		],
+		"year": "2024/09/05",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
@@ -10722,16 +10770,6 @@
 	},
 	{
 		"id": 1018,
-		"code": 101060021,
-		"tags": [
-			"personality.p001",
-			"personality.p016",
-			"personality.p034",
-			"personality.p061"
-		]
-	},
-	{
-		"id": 1019,
 		"code": 101060051,
 		"tags": [
 			"personality.p001",
@@ -10740,7 +10778,7 @@
 		]
 	},
 	{
-		"id": 1020,
+		"id": 1019,
 		"code": 101000021,
 		"tags": [
 			"personality.p004",
@@ -10751,7 +10789,7 @@
 		]
 	},
 	{
-		"id": 1021,
+		"id": 1020,
 		"code": 101050051,
 		"tags": [
 			"personality.p002",
