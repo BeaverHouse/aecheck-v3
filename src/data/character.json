@@ -2187,7 +2187,7 @@
 			"personality.p074",
 			"personality.p095",
 			"personality.p100",
-			"staralign.false",
+			"staralign.true",
 			"style.normal",
 			"type.light"
 		],
@@ -2718,7 +2718,8 @@
 		"from": [],
 		"change": [
 			100,
-			101
+			101,
+			392
 		],
 		"dungeon_drop": [],
 		"year": "2018/12/31",
@@ -2748,7 +2749,8 @@
 			99
 		],
 		"change": [
-			101
+			101,
+			392
 		],
 		"dungeon_drop": [
 			4
@@ -2778,7 +2780,8 @@
 		],
 		"from": [],
 		"change": [
-			100
+			100,
+			392
 		],
 		"dungeon_drop": [
 			1001
@@ -10582,6 +10585,63 @@
 			1001
 		],
 		"year": "2024/09/05",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 391,
+		"code": 101020191,
+		"tags": [
+			"alter.false",
+			"get.free",
+			"manifest.step0",
+			"personality.p001",
+			"personality.p005",
+			"personality.p012",
+			"personality.p047",
+			"personality.p058",
+			"personality.p061",
+			"staralign.false",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [],
+		"dungeon_drop": [
+			1004
+		],
+		"year": "2024/09/19",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
+		"id": 392,
+		"code": 101020101,
+		"tags": [
+			"alter.false",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p012",
+			"personality.p051",
+			"personality.p061",
+			"personality.p074",
+			"personality.p082",
+			"personality.p095",
+			"personality.p100",
+			"staralign.true",
+			"style.extra",
+			"type.light"
+		],
+		"from": [],
+		"change": [
+			100,
+			101
+		],
+		"dungeon_drop": [
+			1002
+		],
+		"year": "2024/09/19",
 		"seesaa": null,
 		"aewiki": null
 	},
