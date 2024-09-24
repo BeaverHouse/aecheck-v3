@@ -4,12 +4,14 @@ export const new_buddies = [2016];
 export const new_aligns = [81, 392];
 export const version = "3.9.0";
 
-export const announceDate = "20240919";
+export const announceDate = "20240925";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <p>Version : {version}</p>
+    <br />
+    <p>이시층 셰이네 데이터 오류 수정</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
       사이트 안내용 블로그
@@ -27,6 +29,8 @@ export const announceTitleEN = announceDate + " Update";
 export const announceContentEN = (
   <div className="announce">
     <p>Version : {version}</p>
+    <br />
+    <p>Fix the data error (Shanie AC)</p>
     <br />
     <a
       href="https://github.com/BeaverHouse/aecheck-v3/wiki"
