@@ -10516,7 +10516,7 @@
 		"code": 101070151,
 		"tags": [
 			"alter.true",
-			"get.free",
+			"get.notfree",
 			"manifest.step0",
 			"personality.p003",
 			"personality.p005",
@@ -10527,7 +10527,7 @@
 			"personality.p095",
 			"staralign.true",
 			"style.normal",
-			"type.light"
+			"type.shadow"
 		],
 		"from": [],
 		"change": [
