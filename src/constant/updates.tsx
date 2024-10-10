@@ -1,17 +1,17 @@
-export const pickups = [391,392];
+export const pickups = [393];
 export const new_manifests = [214];
 export const new_buddies = [2016];
-export const new_aligns = [81, 392];
-export const version = "3.9.0";
+export const new_aligns = [393];
+export const version = "3.9.10";
 
-export const announceDate = "20240925";
+export const announceDate = "20241010";
 
 export const announceTitleKo = announceDate + " 업데이트";
 export const announceContentKo = (
   <div className="announce">
     <p>Version : {version}</p>
     <br />
-    <p>이시층 셰이네 데이터 오류 수정</p>
+    <p>알테나 기억의 서 데이터 추가</p>
     <br />
     <a href="https://aecheck.tistory.com/" target="_blank" rel="noreferrer">
       사이트 안내용 블로그
@@ -30,7 +30,7 @@ export const announceContentEN = (
   <div className="announce">
     <p>Version : {version}</p>
     <br />
-    <p>Fix the data error (Shanie AC)</p>
+    <p>Add missing data for Altena</p>
     <br />
     <a
       href="https://github.com/BeaverHouse/aecheck-v3/wiki"
