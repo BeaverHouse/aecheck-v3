@@ -35,8 +35,8 @@ function App() {
 
   useEffect(() => {
     i18n.changeLanguage(lang);
-    const checkDay = window.localStorage.getItem("AE_INFO");
-    if (checkDay !== announceDate + "_" + lang) {
+    // const checkDay = window.localStorage.getItem("AE_INFO");
+    // if (checkDay !== announceDate + "_" + lang) {
       AnnounceSwal.fire({
         title: lang === "ko" ? announceTitleKo : announceTitleEN,
         html: lang === "ko" ? announceContentKo : announceContentEN,
@@ -44,7 +44,7 @@ function App() {
       }).then(() => {
         window.localStorage.setItem("AE_INFO", announceDate + "_" + lang);
       });
-    }
+    // }
   }, [lang]);
 
   return (
