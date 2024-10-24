@@ -10676,6 +10676,34 @@
 		"aewiki": null
 	},
 	{
+		"id": 394,
+		"code": 101060181,
+		"tags": [
+			"alter.true",
+			"get.notfree",
+			"manifest.step0",
+			"personality.p003",
+			"personality.p016",
+			"personality.p041",
+			"personality.p061",
+			"personality.p067",
+			"personality.p095",
+			"staralign.true",
+			"style.normal",
+			"type.shadow"
+		],
+		"from": [],
+		"change": [
+			199
+		],
+		"dungeon_drop": [
+			1003
+		],
+		"year": "2024/10/24",
+		"seesaa": null,
+		"aewiki": null
+	},
+	{
 		"id": 1000,
 		"code": 101060061,
 		"tags": [
