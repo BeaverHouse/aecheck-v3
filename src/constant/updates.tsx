@@ -1,8 +1,8 @@
-export const pickups = [393];
+export const pickups = [394];
 export const new_manifests = [214];
 export const new_buddies = [2016];
-export const new_aligns = [393];
-export const version = "3.9.10";
+export const new_aligns = [394];
+export const version = "3.9.20";
 
 export const announceDate = "20241014";
 
