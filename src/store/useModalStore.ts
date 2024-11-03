@@ -1,20 +1,21 @@
 import { create } from "zustand";
+import { ModalType } from "../constants/enum";
 
 interface ModalState {
-  modalInfo: string | CharacterInfo | null;
-  setModal: (modalInfo: string | CharacterInfo) => void;
+  modalType?: ModalType;
+  characterID: string | null;
+  setModal: (type: ModalType, info?: string) => void;
   hideModal: () => void;
 }
 
 const useModalStore = create<ModalState>((set) => ({
-  modalInfo: null,
-  setModal: (modalInfo) =>
-    set({
-      modalInfo: modalInfo,
-    }),
+  modalType: undefined,
+  characterID: null,
+  setModal: (type, info) => set({ modalType: type, characterID: info }),
   hideModal: () =>
     set({
-      modalInfo: null,
+      modalType: undefined,
+      characterID: null,
     }),
 }));
 

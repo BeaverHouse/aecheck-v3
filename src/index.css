@@ -1,27 +1,9 @@
-.swal2-container {
-  z-index: 3000;
+* {
+  box-sizing: border-box;
 }
 
-.MuiAccordion-root {
-  border: 1px solid lightgray;
-  box-shadow: none !important;
-}
-
-#wrapper .MuiSwitch-root * {
-  box-shadow: none !important;
-}
-
-.announce {
-  font-size: 14px;
-  text-align: left;
-}
-
-.swal2-icon {
-  font-size: 0.7rem;
-}
-
-td[class="odd"] {
-  background-color: rgb(241, 241, 241);
+a {
+  text-decoration: none;
 }
 
 .gray {
@@ -30,4 +12,17 @@ td[class="odd"] {
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.3;
+}
+
+.shadow {
+  box-shadow: 0px 0px 5px 5px #56b4e9 !important;
+  transition: border-radius 1s !important;
+}
+
+td[class="odd"] {
+  background-color: rgb(241, 241, 241);
+}
+
+.swal2-container {
+  z-index: 3000;
 }
