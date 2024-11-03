@@ -81,7 +81,8 @@ function CharacterSearch() {
           choosePersonalityTags
         )) &&
       (!dungeon || char.dungeons.map((d) => d.id).includes(dungeon)) &&
-      t(char.code).toLowerCase().includes(searchWord.toLowerCase())
+      (t(char.code).toLowerCase().includes(searchWord.toLowerCase()) ||
+        t(`book.${char.id}`).toLowerCase().includes(searchWord.toLowerCase()))
   );
 
   return (
