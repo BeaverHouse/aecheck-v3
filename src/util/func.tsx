@@ -1,5 +1,5 @@
-import { characters } from "../constant/parseData";
-import { arrAllIncludes, arrOverlap } from "./arrayUtil";
+import { AECharacterStyles, InvenStatus, ManifestStatus } from "../constants/enum";
+import dayjs from "dayjs";
 
 export const getShortName = (name: string, lang: string) => {
   const arr = name.split(" ");
@@ -14,90 +14,93 @@ export const getShortName = (name: string, lang: string) => {
       return name;
   }
 };
-
-export const getCharacterStatus = (
-  info: CharacterInfo,
-  inven: Array<number>
-) => {
-  // 1. 목록에 있으면 보유중
-  if (inven.includes(info.id)) return "inven.have";
-
-  // 2. 클체 목록 중에 있는지에 따라 분기처리
-  const ccList = characters
-    .filter((c) => inven.includes(c.id))
-    .map((c) => c.change)
-    .flat();
-
-  if (ccList.includes(info.id)) return "inven.classchange";
-  else return "inven.nothave";
+export const getNumber = (info: CharacterSummary | CharacterDetail | BuddyDetail | IDInfo) => {
+  return Number(info.id.replace(/[^\d-]/g, ''));
 };
 
-export const getManifestStatus = (
-  info: CharacterInfo,
-  inven: Array<number>
-) => {
-  // 1. 목록에 있으면 현현 가능
-  if (inven.includes(info.id)) return "manifest.available";
-
-  // 2. AS/ES면 클체가능 여부에 따라 판정
-  const styleTags = ["style.another", "style.extra"];
-  if (arrOverlap(info.tags, styleTags))
-    return getCharacterStatus(info, inven) === "inven.classchange"
-      ? "manifest.classchange"
-      : "manifest.unavailable";
-  else {
-    // 3. NS면 스타일을 다 봐야 함
-    const currentStyles = characters
-      .filter((c) => c.code === info.code && inven.includes(c.id))
-      .map((c) => c.tags)
-      .flat()
-      .filter((tag) => tag.startsWith("style."));
-    if (currentStyles.includes("style.four"))
-      // 4.5가 있으면 추가로 스타일이 있으면 가능, 아니면 클체
-      return currentStyles.length > 1
-        ? "manifest.available"
-        : "manifest.classchange";
-    // 4.5가 없으면 추가로 스타일이 있으면 클체, 아니면 불가
-    else
-      return currentStyles.length > 0
-        ? "manifest.classchange"
-        : "manifest.unavailable";
-  }
-};
-
-export const getStep = (info: CharacterInfo, arr: Array<number>) => {
-  const stepList = arr.filter((x) => x % 10000 === info.id);
+export const getStep = (id: number, arr: Array<number>) => {
+  const stepList = arr.filter((x) => x % 10000 === id);
   return stepList.length > 0 ? Math.floor(stepList[0] / 10000) : 0;
 };
 
-export const getPaddedNumber = (num: number, padLength: number) => {
-  return String(num).padStart(padLength, "0");
+/**
+ * Get inventory state for character
+ *
+ * 1. If it is included in player's inventory, return `InvenStatus.owned`
+ * 2-1. If AC class change is possible, return `InvenStatus.ccRequired`
+ * 2-2. If other class change is possible, return `InvenStatus.ccRequired`
+ * 3. Otherwise, return `InvenStatus.notOwned`
+ *
+ * @param {Array<CharacterSummary>} relatedCharacters Information of related characters.
+ * @param {CharacterSummary} character Information of specific character.
+ * @param {Array<number>} inven The player's inventory data.
+ * @return {InvenStatus} A state of specified character.
+ */
+export const getInvenStatus = (
+  relatedCharacters: Array<CharacterSummary>,
+  character: CharacterSummary,
+  inven: Array<number>
+): InvenStatus => {
+  const id = getNumber(character);
+  if (inven.includes(id)) return InvenStatus.owned;
+  else if (character.style === AECharacterStyles.four) return InvenStatus.notOwned;
+  const related = character.style === AECharacterStyles.normal ? relatedCharacters.filter(
+    (c) => c.code === character.code || c.alterCharacter === character.code
+  ) : relatedCharacters.filter((c) => c.code === character.code);
+
+  const changable = related.filter((c) => inven.includes(getNumber(c)));
+  return changable.length > 0 ? InvenStatus.ccRequired : InvenStatus.notOwned;
 };
 
-export const commonFiltered = (
-  info: CharacterInfo,
-  styleTags: Array<string>,
-  alterTags: Array<string>,
-  manifestTags: Array<string>,
-  typeTags: Array<string>,
-  getTags: Array<string>,
-  choosePersonalityTags: Array<string>,
-  essenTialPersonalityTags: Array<string>,
-  staralignTags: Array<string>
-) => {
-  for (const tags of [
-    styleTags,
-    alterTags,
-    manifestTags,
-    typeTags,
-    getTags,
-    staralignTags,
-  ]) {
-    if (!arrOverlap(info.tags, tags)) return false;
+/**
+ * Get manifest state for character
+ *
+ * 1. If it is not owned, return `ManifestStatus.notOwned`
+ * 2. If it is owned, return completed state based on current step
+ * 3. If class change is possible:
+ *
+ *    - If its style is not NS, class change is required
+ *    - Otherwise, manifest may be possible if player has 4-star character and other style.
+ * 
+ * @param {Array<CharacterSummary>} relatedCharacters Information of related characters.
+ * @param {CharacterSummary} character Information of specific character.
+ * @param {Array<number>} inven The player's inventory data.
+ * @param {Array<number>} manifest The player's manifest data.
+ * @return {ManifestStatus} A state of specified character.
+ */
+export const getManifestStatus = (
+  relatedCharacters: Array<CharacterSummary>,
+  character: CharacterSummary,
+  inven: Array<number>,
+  manifest: Array<number>
+): ManifestStatus => {
+  const id = getNumber(character);
+  const step = getStep(id, manifest);
+  const invenState = getInvenStatus(relatedCharacters, character, inven);
+  if (invenState === InvenStatus.notOwned) return ManifestStatus.notOwned;
+  else if (invenState === InvenStatus.owned) {
+    return step === character.maxManifest ? ManifestStatus.completed : ManifestStatus.incompleted;
+  } else {
+    if (character.style !== AECharacterStyles.normal) return ManifestStatus.ccRequired;
+    else {
+      const sameCodes = relatedCharacters
+        .filter((c) => c.code === character.code && inven.includes(getNumber(c)))
+        .map((c) => c.style);
+
+      if (sameCodes.includes(AECharacterStyles.four) && sameCodes.length > 1) return ManifestStatus.incompleted;
+      else return ManifestStatus.ccRequired;
+    }
   }
-  if (!arrAllIncludes(info.tags, essenTialPersonalityTags)) return false;
-  return (
-    choosePersonalityTags.length <= 0 ||
-    arrOverlap(info.tags, choosePersonalityTags)
-  );
+}
+
+/**
+ * 대상 날짜가 최근에 해당되는지 확인합니다.
+ * 
+ * @param {Date | undefined} date 확인 대상 날짜
+ * @param {number} weeks 최근으로 간주할 주 수 (기본값: 3)
+ * @return {boolean} 최근 업데이트 여부
+ */
+export const isUpdatedInWeeks = (date: Date | undefined, weeks: number = 3): boolean => {
+  if (!date) return false;
+  return dayjs().subtract(weeks, "week").isBefore(dayjs(date));
 };

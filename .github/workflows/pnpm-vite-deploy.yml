@@ -1,0 +1,60 @@
+# https://ko.vitejs.dev/guide/static-deploy
+name: Deploy Vite to GitHub Pages (pnpm)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm action
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+      - name: Setup Node.js environment (pnpm cache)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+      - name: Lint check
+        run: pnpm lint
+      - name: Build the project
+        run: pnpm build
+        env:
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+          VITE_CDN_URL: ${{ secrets.VITE_CDN_URL }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3.0.0
+        with:
+          path: "./dist"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

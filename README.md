@@ -1,54 +1,50 @@
-<p align="center">
-  <a href="https://github.com/BeaverHouse/aecheck-v3">
-    <img src="logo.png" alt="Logo">
-  </a>
+# React + TypeScript + Vite
 
-  <p align="center">
-    AE Check : Another Eden Collection Tracker
-    <br>
-    <br>
-    <a href="https://aecheck.com/"><strong>View the website »</strong></a>
-    <br>
-    <br>
-    <a href="https://github.com/BeaverHouse/aecheck-v3/issues">Bug Report</a>
-    |
-    <a href="https://github.com/BeaverHouse/aecheck-v3/issues">Request to HU-Lee</a>
-  </p>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-  <p align="center">
-    <a href="https://react.dev/">
-      <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
-    </a>
-    <a href="https://www.typescriptlang.org/">
-      <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
-    </a>
-    <a href="https://eslint.org/">
-      <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat" alt="ESLint">
-    </a>
-    <a href="https://yarnpkg.com/">
-      <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=flat" alt="Yarn">
-    </a>
-    <a href="./LICENSE">
-      <img src="https://img.shields.io/github/license/BeaverHouse/aecheck-v3" alt="License">
-    </a>
-  </p>
-</p>
+Currently, two official plugins are available:
 
-<!-- Content -->
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<br>
+## Expanding the ESLint configuration
 
-## Description
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-AE Check's latest code.  
-See more information on [Wiki][wiki]
+- Configure the top-level `parserOptions` property like this:
 
-[wiki]: https://github.com/BeaverHouse/aecheck-v3/wiki
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-<br>
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-## Contributing
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
 
-See the [CONTRIBUTING.md][contributing].
-
-[contributing]: ./CONTRIBUTING.md
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```

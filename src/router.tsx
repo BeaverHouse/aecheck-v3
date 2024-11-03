@@ -1,30 +1,26 @@
 import { Outlet, createBrowserRouter } from "react-router-dom";
-import HomePage from "./components/pages/HomePage";
-import CharacterCheckPage from "./components/pages/CharacterCheckPage";
-import { CssBaseline } from "@mui/material";
-import ScrollTop from "./components/atoms/ScrollToTop";
+import ScrollTop from "./components/atoms/button/ScrollTop";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Toolbar from "@mui/material/Toolbar";
-import ManifestCheckPage from "./components/pages/ManifestCheckPage";
-import GrastaCheckPage from "./components/pages/GrastaCheckPage";
-import CharacterSearchPage from "./components/pages/CharacterSearchPage";
-import BuddySearchPage from "./components/pages/BuddySearchPage";
-import StardreamAnalyzePage from "./components/pages/StardreamAnalyzePage";
-import WhitekeyAnalyzePage from "./components/pages/WhitekeyAnalyzePage";
-import LegacyAnalyzePage from "./components/pages/LegacyAnalyzePage";
-import LinkPage from "./components/pages/LinkPage";
-import TopBar from "./components/organisms/TopBar";
-import AlignCheckPage from "./components/pages/AlignCheckPage";
-import V1TablePage from "./components/pages/V1TablePage";
+import AECheckMenu from "./components/organisms/Menu";
+import HomePage from "./components/pages/Home";
+import CheckPage from "./components/pages/Check";
+import SearchPage from "./components/pages/Search";
+import AnalysisPage from "./components/pages/Analysis";
+import LinkPage from "./components/pages/Link";
+import CssBaseline from "@mui/material/CssBaseline";
+import ErrorPage from "./components/pages/Error";
+import NormalAnnounce from "./components/atoms/button/NormalAnnounce";
 
 const router = createBrowserRouter([
   {
     element: (
       <>
         <CssBaseline />
-        <TopBar />
-        <Toolbar id="back-to-top-anchor" sx={{ height: 95 }} />
+        <AECheckMenu />
+        <Toolbar id="back-to-top-anchor" sx={{ height: { xs: 105, sm: 60 } }} />
+        <NormalAnnounce />
         <Outlet />
         <ScrollTop>
           <Fab size="small" color="secondary" aria-label="scroll back to top">
@@ -37,65 +33,27 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/check",
-        children: [
-          {
-            path: "character",
-            element: <CharacterCheckPage />,
-          },
-          {
-            path: "grasta",
-            element: <GrastaCheckPage />,
-          },
-          {
-            path: "manifest",
-            element: <ManifestCheckPage />,
-          },
-          {
-            path: "staralign",
-            element: <AlignCheckPage />,
-          },
-        ],
+        element: <CheckPage />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/search",
-        children: [
-          {
-            path: "character",
-            element: <CharacterSearchPage />,
-          },
-          {
-            path: "buddy",
-            element: <BuddySearchPage />,
-          },
-        ],
+        element: <SearchPage />,
+        errorElement: <ErrorPage />,
       },
       {
-        path: "/analyze",
-        children: [
-          {
-            path: "stardream",
-            element: <StardreamAnalyzePage />,
-          },
-          {
-            path: "whitekey",
-            element: <WhitekeyAnalyzePage />,
-          },
-          {
-            path: "legacy",
-            element: <LegacyAnalyzePage />,
-          },
-          {
-            path: "table",
-            element: <V1TablePage />,
-          },
-        ],
+        path: "/analysis",
+        element: <AnalysisPage />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/link",
         element: <LinkPage />,
+        errorElement: <ErrorPage />,
       },
     ],
   },

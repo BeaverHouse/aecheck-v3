@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Swal from "sweetalert2";
+import { getNumber } from "../../util/func";
 
 const style = {
   position: "absolute" as const,
@@ -23,8 +24,9 @@ const style = {
 };
 
 function DataLoaderModal() {
-  const { modalInfo, hideModal } = useModalStore();
-  const { inven, grasta, manifest, staralign, loadSaveData } = useCheckStore();
+  const { hideModal } = useModalStore();
+  const { inven, grasta, manifest, staralign, buddy, loadSaveData } =
+    useCheckStore();
   const { t } = useTranslation();
 
   const [Text, setText] = React.useState(() =>
@@ -33,12 +35,36 @@ function DataLoaderModal() {
       grasta: grasta,
       manifest: manifest,
       staralign: staralign,
+      buddy: buddy,
     })
   );
 
-  const loadData = () => {
+  const loadData = async () => {
     try {
-      const newData: CheckValueState = JSON.parse(Text.trim());
+      const newData: CheckStateV4 = JSON.parse(Text.trim());
+      if (!newData.buddy) {
+        const charIds = newData.inven.map(
+          (i) => `char${String(i).padStart(4, "0")}`
+        );
+        const body = {
+          characterIds: charIds,
+        };
+        const res = await fetch(
+          `${import.meta.env.VITE_API_URL}/buddy/partners`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(body),
+          }
+        );
+        const buddyList = (
+          (await res.json()) as APIResponse<IDInfo[]>
+        ).data.map((i) => getNumber(i));
+
+        newData.buddy = buddyList;
+      }
       loadSaveData(newData);
       Swal.fire({
         text: "Data Load Success",
@@ -52,8 +78,7 @@ function DataLoaderModal() {
       }).then(() => {
         window.location.reload();
       });
-    } catch (error) {
-      console.log(error);
+    } catch {
       Swal.fire({
         text: "Data Load Error",
         width: 280,
@@ -68,7 +93,7 @@ function DataLoaderModal() {
   };
 
   return (
-    <Modal open={modalInfo === "DATALOADER"} onClose={hideModal}>
+    <Modal open={true} onClose={hideModal}>
       <Box sx={style}>
         <Typography variant="h6" component="h2" sx={{ textAlign: "center" }}>
           {t("frontend.menu.loader")}
@@ -87,7 +112,7 @@ function DataLoaderModal() {
           variant="contained"
           color="warning"
           sx={{ width: "100%", mt: 1, mb: 1 }}
-          onClick={loadData}
+          onClick={() => loadData()}
         >
           LOAD
         </Button>

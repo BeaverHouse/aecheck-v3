@@ -1,21 +1,42 @@
 import { create } from "zustand";
-import { addOrRemove } from "../util/arrayUtil";
 import { persist, createJSONStorage } from "zustand/middleware";
+import {
+  AEAlterStatus,
+  AEAwakenStatus,
+  AECategories,
+  AECharacterStyles,
+  AELightShadow,
+  AEManifestLevels,
+  InvenStatus,
+  ManifestStatus,
+} from "../constants/enum";
 
 interface FilterState {
   searchWord: string;
-  styleTags: Array<string>;
-  alterTags: Array<string>;
-  getTags: Array<string>;
-  manifestTags: Array<string>;
-  typeTags: Array<string>;
+  invenStatusFilter: Array<InvenStatus>;
+  manifestStatusFilter: Array<ManifestStatus>;
+  grastaStatusFilter: Array<number>;
+  staralignStatusFilter: Array<number>;
+  styleFilter: Array<AECharacterStyles>;
+  manifestFilter: Array<AEManifestLevels>;
+  categoryFilter: Array<AECategories>;
+  alterFilter: Array<AEAlterStatus>;
+  lightShadowFilter: Array<AELightShadow>;
+  staralignFilter: Array<AEAwakenStatus>;
   essenTialPersonalityTags: Array<string>;
   choosePersonalityTags: Array<string>;
-  invenTags: Array<string>;
-  staralignTags: Array<string>;
   dungeon: string | null;
   setSearch: (word: string) => void;
-  toggleTag: (tag: string) => void;
+  setInvenStatusFilter: (inven: Array<InvenStatus>) => void;
+  setManifestStatusFilter: (manifest: Array<ManifestStatus>) => void;
+  setGrastaStatusFilter: (grasta: Array<number>) => void;
+  setStaralignStatusFilter: (staralign: Array<number>) => void;
+  setStyleFilter: (style: Array<AECharacterStyles>) => void;
+  setManifestFilter: (manifest: Array<AEManifestLevels>) => void;
+  setCategoryFilter: (category: Array<AECategories>) => void;
+  setAlterFilter: (alter: Array<AEAlterStatus>) => void;
+  setLightShadowFilter: (lightShadow: Array<AELightShadow>) => void;
+  setStaralignFilter: (staralign: Array<AEAwakenStatus>) => void;
   setPersonalities: (tags: Array<string>, essential: boolean) => void;
   removeFilter: () => void;
   setDungeon: (word: string | null) => void;
@@ -23,60 +44,84 @@ interface FilterState {
 
 const initialState = {
   searchWord: "",
-  styleTags: ["style.another", "style.extra", "style.four", "style.normal"],
-  alterTags: ["alter.false", "alter.true"],
-  getTags: ["get.free", "get.notfree"],
-  manifestTags: ["manifest.step0", "manifest.step1", "manifest.step2"],
-  typeTags: ["type.light", "type.shadow"],
+  invenStatusFilter: [InvenStatus.notOwned, InvenStatus.ccRequired],
+  manifestStatusFilter: [
+    ManifestStatus.notOwned,
+    ManifestStatus.ccRequired,
+    ManifestStatus.incompleted,
+  ],
+  grastaStatusFilter: [0, 1],
+  staralignStatusFilter: [0, 1, 2],
+  styleFilter: Object.values(AECharacterStyles),
+  manifestFilter: Object.values(AEManifestLevels),
+  categoryFilter: Object.values(AECategories),
+  alterFilter: Object.values(AEAlterStatus),
+  lightShadowFilter: Object.values(AELightShadow),
+  staralignFilter: Object.values(AEAwakenStatus),
   essenTialPersonalityTags: [],
   choosePersonalityTags: [],
-  invenTags: ["inven.nothave", "inven.classchange", "inven.have"],
-  staralignTags: ["staralign.false", "staralign.true"],
   dungeon: null,
 };
 
 const useFilterStore = create(
   persist<FilterState>(
-    (set, get) => ({
+    (set) => ({
       ...initialState,
       setSearch: (word) =>
         set((state) => ({
           ...state,
           searchWord: word,
         })),
-      toggleTag: (tag) => {
-        const category = tag.split(".")[0];
-        let newState: FilterState | Partial<FilterState>;
-        switch (category) {
-          case "style":
-            newState = { styleTags: addOrRemove(get().styleTags, tag) };
-            break;
-          case "alter":
-            newState = { alterTags: addOrRemove(get().alterTags, tag) };
-            break;
-          case "get":
-            newState = { getTags: addOrRemove(get().getTags, tag) };
-            break;
-          case "manifest":
-            newState = { manifestTags: addOrRemove(get().manifestTags, tag) };
-            break;
-          case "type":
-            newState = { typeTags: addOrRemove(get().typeTags, tag) };
-            break;
-          case "inven":
-            newState = { invenTags: addOrRemove(get().invenTags, tag) };
-            break;
-          case "staralign":
-            newState = { staralignTags: addOrRemove(get().staralignTags, tag) };
-            break;
-          default:
-            return;
-        }
+      setInvenStatusFilter: (newFilter) =>
         set((state) => ({
           ...state,
-          ...newState,
-        }));
-      },
+          invenStatusFilter: newFilter,
+        })),
+      setManifestStatusFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          manifestStatusFilter: newFilter,
+        })),
+      setGrastaStatusFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          grastaStatusFilter: newFilter,
+        })),
+      setStaralignStatusFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          staralignStatusFilter: newFilter,
+        })),
+      setStyleFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          styleFilter: newFilter,
+        })),
+      setManifestFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          manifestFilter: newFilter,
+        })),
+      setCategoryFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          categoryFilter: newFilter,
+        })),
+      setAlterFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          alterFilter: newFilter,
+        })),
+      setLightShadowFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          lightShadowFilter: newFilter,
+        })),
+      setStaralignFilter: (newFilter) =>
+        set((state) => ({
+          ...state,
+          staralignFilter: newFilter,
+        })),
       setPersonalities: (tags, essential) => {
         if (essential)
           set((state) => ({
@@ -94,6 +139,10 @@ const useFilterStore = create(
           (state) => ({
             ...state,
             ...initialState,
+            invenStatusFilter: state.invenStatusFilter,
+            manifestStatusFilter: state.manifestStatusFilter,
+            grastaStatusFilter: state.grastaStatusFilter,
+            staralignStatusFilter: state.staralignStatusFilter,
           }),
           true
         );
@@ -105,7 +154,7 @@ const useFilterStore = create(
         })),
     }),
     {
-      name: "AE_FILTER",
+      name: "AE_FILTER_V3_1",
       storage: createJSONStorage(() => localStorage),
     }
   )
