@@ -35,8 +35,8 @@ function GrastaDashboard({
         invenStatusFilter.includes(getInvenStatus(allCharacters, char, inven))
     )
     .sort((a, b) => {
-      const aIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(a.updateDate));
-      const bIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(b.updateDate));
+      const aIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(a.lastUpdated));
+      const bIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(b.lastUpdated));
       
       if (aIsRecent && !bIsRecent) return -1;
       if (!aIsRecent && bIsRecent) return 1;
