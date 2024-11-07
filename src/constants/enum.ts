@@ -85,7 +85,7 @@ export type ManifestStatus =
 // AE Data enums
 
 export const AECharacterStyles = {
-  four: "4☆",
+  four: "☆4",
   normal: "NS",
   another: "AS",
   extra: "ES",
