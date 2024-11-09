@@ -10,21 +10,18 @@ import {
   PopupOnCheckOptions,
 } from "../../../constants/enum";
 import CharacterAvatar from "../../atoms/character/Avatar";
-import {
-  DashboardWrapperSx,
-  FlexCenter,
-  GridList,
-  VirtuosoGridStyle,
-} from "../../../constants/style";
+import { DashboardWrapperSx, FlexCenter } from "../../../constants/style";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import { VirtuosoGrid } from "react-virtuoso";
 import PopupConfigButton from "../../atoms/button/PopupConfig";
 import Typography from "@mui/material/Typography";
 import useModalStore from "../../../store/useModalStore";
 import useConfigStore from "../../../store/useConfigStore";
 import Swal from "sweetalert2";
 import dayjs from "dayjs";
+import Grid from "@mui/material/Grid2";
+import Pagination from "@mui/material/Pagination";
+import { useState, useEffect } from "react";
 
 function CharacterDashboard({
   allCharacters,
@@ -36,6 +33,8 @@ function CharacterDashboard({
   const { popupOnCheck } = useConfigStore();
   const { setModal } = useModalStore();
 
+  const [page, setPage] = useState(1);
+
   const targetCharacters = filteredCharacters
     .filter(
       (char) =>
@@ -43,16 +42,24 @@ function CharacterDashboard({
         invenStatusFilter.includes(getInvenStatus(allCharacters, char, inven))
     )
     .sort((a, b) => {
-      const aIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(a.updateDate));
-      const bIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(b.updateDate));
-      
+      const aIsRecent = dayjs()
+        .subtract(3, "week")
+        .isBefore(dayjs(a.updateDate));
+      const bIsRecent = dayjs()
+        .subtract(3, "week")
+        .isBefore(dayjs(b.updateDate));
+
       if (aIsRecent && !bIsRecent) return -1;
       if (!aIsRecent && bIsRecent) return 1;
-      
+
       return getShortName(t(a.code), i18n.language).localeCompare(
         getShortName(t(b.code), i18n.language)
       );
     });
+
+  useEffect(() => {
+    setPage(1);
+  }, [filteredCharacters, invenStatusFilter]);
 
   /**
    * 1. Add character
@@ -190,6 +197,22 @@ function CharacterDashboard({
     }
   };
 
+  const getItemsPerPage = () => {
+    const width = window.innerWidth;
+    if (width >= 1200) return 72; // lg
+    if (width >= 900) return 48; // md
+    if (width >= 600) return 36; // sm
+    return 20; // xs
+  };
+
+  const itemsPerPage = getItemsPerPage();
+  const totalPages = Math.ceil(targetCharacters.length / itemsPerPage);
+
+  const currentCharacters = targetCharacters.slice(
+    (page - 1) * itemsPerPage,
+    page * itemsPerPage
+  );
+
   return (
     <Container sx={DashboardWrapperSx}>
       <Box sx={{ ...FlexCenter, flexWrap: "wrap" }}>
@@ -219,21 +242,31 @@ function CharacterDashboard({
           </Button>
         </Box>
       </Box>
-      <VirtuosoGrid
-        style={VirtuosoGridStyle}
-        components={{
-          List: GridList,
-        }}
-        data={targetCharacters}
-        itemContent={(_, char) => (
-          <CharacterAvatar
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 2, mb: 2 }}>
+        <Pagination
+          count={totalPages}
+          page={page}
+          onChange={(_, newPage) => setPage(newPage)}
+          color="primary"
+          size="small"
+        />
+      </Box>
+      <Grid container spacing={1} columns={48}>
+        {currentCharacters.map((char) => (
+          <Grid
+            size={{ xs: 12, sm: 8, md: 6, lg: 4 }}
             key={`char-${char.id}`}
-            info={char}
-            disableShadow={false}
-            onClick={() => toggleSingleInven(char)}
-          />
-        )}
-      />
+            display="flex"
+            justifyContent="center"
+          >
+            <CharacterAvatar
+              info={char}
+              disableShadow={false}
+              onClick={() => toggleSingleInven(char)}
+            />
+          </Grid>
+        ))}
+      </Grid>
     </Container>
   );
 }
