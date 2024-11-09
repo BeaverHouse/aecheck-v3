@@ -8,14 +8,14 @@ import Box from "@mui/material/Box";
 import {
   DashboardWrapperSx,
   FlexCenter,
-  GridList,
-  VirtuosoGridStyle,
 } from "../../../constants/style";
 import ManifestFilterButton from "../../atoms/button/ManifestFilter";
 import Button from "@mui/material/Button";
-import { VirtuosoGrid } from "react-virtuoso";
 import Swal from "sweetalert2";
 import dayjs from "dayjs";
+import Grid from "@mui/material/Grid2";
+import Pagination from "@mui/material/Pagination";
+import { useState, useEffect } from "react";
 
 function ManifestDashboard({
   allCharacters,
@@ -33,12 +33,16 @@ function ManifestDashboard({
       )
     )
     .sort((a, b) => {
-      const aIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(a.lastUpdated));
-      const bIsRecent = dayjs().subtract(3, "week").isBefore(dayjs(b.lastUpdated));
-      
+      const aIsRecent = dayjs()
+        .subtract(3, "week")
+        .isBefore(dayjs(a.lastUpdated));
+      const bIsRecent = dayjs()
+        .subtract(3, "week")
+        .isBefore(dayjs(b.lastUpdated));
+
       if (aIsRecent && !bIsRecent) return -1;
       if (!aIsRecent && bIsRecent) return 1;
-      
+
       return getShortName(t(a.code), i18n.language).localeCompare(
         getShortName(t(b.code), i18n.language)
       );
@@ -89,6 +93,29 @@ function ManifestDashboard({
     });
   };
 
+  // pagination 관련 state 추가
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [filteredCharacters, manifestStatusFilter]);
+
+  const getItemsPerPage = () => {
+    const width = window.innerWidth;
+    if (width >= 1200) return 24; // lg
+    if (width >= 900) return 18; // md
+    if (width >= 600) return 12; // sm
+    return 6; // xs
+  };
+
+  const itemsPerPage = getItemsPerPage();
+  const totalPages = Math.ceil(targetCharacters.length / itemsPerPage);
+
+  const currentCharacters = targetCharacters.slice(
+    (page - 1) * itemsPerPage,
+    page * itemsPerPage
+  );
+
   return (
     <Container sx={DashboardWrapperSx}>
       <Box sx={{ ...FlexCenter, flexWrap: "wrap" }}>
@@ -110,20 +137,32 @@ function ManifestDashboard({
           CHECK ALL
         </Button>
       </Box>
-      <VirtuosoGrid
-        style={VirtuosoGridStyle}
-        components={{
-          List: GridList,
-        }}
-        data={targetCharacters}
-        itemContent={(_, char) => (
-          <CharacterManifest
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 2, mb: 2 }}>
+        <Pagination
+          count={totalPages}
+          page={page}
+          onChange={(_, newPage) => setPage(newPage)}
+          color="primary"
+          size="small"
+        />
+      </Box>
+
+      <Grid container spacing={1} columns={24}>
+        {currentCharacters.map((char) => (
+          <Grid
+            size={{ xs: 24, sm: 12, md: 8, lg: 6 }}
             key={`manifest-${char.id}`}
-            info={char}
-            status={getManifestStatus(allCharacters, char, inven, manifest)}
-          />
-        )}
-      />
+            display="flex"
+            justifyContent="center"
+          >
+            <CharacterManifest
+              key={`manifest-${char.id}`}
+              info={char}
+              status={getManifestStatus(allCharacters, char, inven, manifest)}
+            />
+          </Grid>
+        ))}
+      </Grid>
     </Container>
   );
 }

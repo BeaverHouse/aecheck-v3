@@ -18,10 +18,11 @@ import GlobalFilter from "../../molecules/GlobalFilter";
 import useFilterStore from "../../../store/useFilterStore";
 import Loading from "../../atoms/Loading";
 import { arrAllIncludes, arrOverlap } from "../../../util/arrayUtil";
-import { VirtuosoGrid } from "react-virtuoso";
-import { GridList } from "../../../constants/style";
-import dayjs from "dayjs";
+import Grid from "@mui/material/Grid2";
+import Pagination from "@mui/material/Pagination";
+import { useState, useEffect } from "react";
 import { fetchAPI } from "../../../util/api";
+import dayjs from "dayjs";
 
 function CharacterSearch() {
   const { t, i18n } = useTranslation();
@@ -43,6 +44,23 @@ function CharacterSearch() {
     queryFn: () => fetchAPI("character"),
     throwOnError: true,
   });
+
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [
+    styleFilter,
+    manifestFilter,
+    categoryFilter,
+    alterFilter,
+    lightShadowFilter,
+    staralignFilter,
+    essenTialPersonalityTags,
+    choosePersonalityTags,
+    dungeon,
+    searchWord,
+  ]);
 
   if (isPending) return <Loading />;
 
@@ -85,27 +103,51 @@ function CharacterSearch() {
         t(`book.${char.id}`).toLowerCase().includes(searchWord.toLowerCase()))
   );
 
+  const getItemsPerPage = () => {
+    const width = window.innerWidth;
+    if (width >= 1200) return 72; // lg
+    if (width >= 900) return 48; // md
+    if (width >= 600) return 36; // sm
+    return 20; // xs
+  };
+
+  const itemsPerPage = getItemsPerPage();
+  const totalPages = Math.ceil(filteredCharacters.length / itemsPerPage);
+
+  const currentCharacters = filteredCharacters.slice(
+    (page - 1) * itemsPerPage,
+    page * itemsPerPage
+  );
+
   return (
     <Box sx={{ flexGrow: 1, pt: 1.5 }}>
       <GlobalFilter type={CheckMenuOptions.characters} />
-      <VirtuosoGrid
-        style={{
-          flexGrow: 1,
-          width: "100%",
-          height: 600,
-        }}
-        components={{
-          List: GridList,
-        }}
-        data={filteredCharacters}
-        itemContent={(_, char) => (
-          <CharacterAvatar
-            info={char}
-            disableShadow={false}
-            onClick={() => setModal(ModalType.character, char.id)}
-          />
-        )}
-      />
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 2, mb: 2 }}>
+        <Pagination
+          count={totalPages}
+          page={page}
+          onChange={(_, newPage) => setPage(newPage)}
+          color="primary"
+          size="small"
+        />
+      </Box>
+
+      <Grid container spacing={1} columns={60}>
+        {currentCharacters.map((char) => (
+          <Grid
+            size={{ xs: 15, sm: 10, md: 6 }}
+            key={`search-${char.id}`}
+            display="flex"
+            justifyContent="center"
+          >
+            <CharacterAvatar
+              info={char}
+              disableShadow={false}
+              onClick={() => setModal(ModalType.character, char.id)}
+            />
+          </Grid>
+        ))}
+      </Grid>
     </Box>
   );
 }

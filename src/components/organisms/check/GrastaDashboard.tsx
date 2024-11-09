@@ -8,16 +8,18 @@ import {
   getShortName,
   getStep,
 } from "../../../util/func";
-import { DashboardWrapperSx, FlexCenter, GridList, VirtuosoGridStyle } from "../../../constants/style";
+import { DashboardWrapperSx, FlexCenter } from "../../../constants/style";
 import CharacterGrasta from "../../molecules/character/Grasta";
 import GrastaFilterButton from "../../atoms/button/GrastaFilter";
-import { VirtuosoGrid } from "react-virtuoso";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import InvenFilterButton from "../../atoms/button/InvenFilter";
 import Swal from "sweetalert2";
 import { AECharacterStyles } from "../../../constants/enum";
 import dayjs from "dayjs";
+import Grid from "@mui/material/Grid2";
+import Pagination from "@mui/material/Pagination";
+import { useState, useEffect } from "react";
 
 function GrastaDashboard({
   allCharacters,
@@ -69,6 +71,28 @@ function GrastaDashboard({
     });
   };
 
+  const [page, setPage] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [filteredCharacters, invenStatusFilter, grastaStatusFilter]);
+
+  const getItemsPerPage = () => {
+    const width = window.innerWidth;
+    if (width >= 1200) return 24; // lg
+    if (width >= 900) return 18; // md
+    if (width >= 600) return 12; // sm
+    return 6; // xs
+  };
+
+  const itemsPerPage = getItemsPerPage();
+  const totalPages = Math.ceil(targetCharacters.length / itemsPerPage);
+
+  const currentCharacters = targetCharacters.slice(
+    (page - 1) * itemsPerPage,
+    page * itemsPerPage
+  );
+
   return (
     <Container sx={DashboardWrapperSx}>
       <Box sx={{ ...FlexCenter, flexWrap: "wrap" }}>
@@ -94,16 +118,27 @@ function GrastaDashboard({
           </Button>
         ))}
       </Box>
-      <VirtuosoGrid
-        style={VirtuosoGridStyle}
-        components={{
-          List: GridList,
-        }}
-        data={targetCharacters}
-        itemContent={(_, char) => (
-          <CharacterGrasta key={`grasta-${char.id}`} {...char} />
-        )}
-      />
+      <Box sx={{ display: "flex", justifyContent: "center", mt: 2, mb: 2 }}>
+        <Pagination
+          count={totalPages}
+          page={page}
+          onChange={(_, newPage) => setPage(newPage)}
+          color="primary"
+          size="small"
+        />
+      </Box>
+      <Grid container spacing={1} columns={24}>
+        {currentCharacters.map((char) => (
+          <Grid
+            size={{ xs: 24, sm: 12, md: 8, lg: 6 }}
+            key={`grasta-${char.id}`}
+            display="flex"
+            justifyContent="center"
+          >
+            <CharacterGrasta key={`grasta-${char.id}`} {...char} />
+          </Grid>
+        ))}
+      </Grid>
     </Container>
   );
 }
