@@ -1,6 +1,5 @@
 import { SxProps, Theme } from "@mui/material/styles";
-import React, { DetailedHTMLProps, HTMLAttributes } from "react";
-import { GridComponents } from "react-virtuoso";
+import React from "react";
 
 export const FlexCenter: React.CSSProperties = {
   display: "flex",
@@ -22,42 +21,3 @@ export const DashboardWrapperSx: SxProps<Theme> = {
   padding: "2px",
   textAlign: "center",
 };
-
-export const VirtuosoGridStyle: React.CSSProperties = {
-  flexGrow: 1,
-  width: "100%",
-  height: 500,
-  marginTop: 10,
-};
-
-const GridList: GridComponents["List"] = React.forwardRef(
-  (
-    {
-      style,
-      children,
-    }: Pick<
-      DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
-      "style" | "children" | "className"
-    >,
-    ref
-  ) => {
-    return (
-      <div
-        ref={ref}
-        style={{
-          ...FlexCenter,
-          flexWrap: "wrap",
-          gap: "10px",
-          margin: "5px",
-          ...style,
-        }}
-      >
-        {children}
-      </div>
-    );
-  }
-);
-
-GridList.displayName = "GridList";
-
-export { GridList };
