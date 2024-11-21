@@ -127,7 +127,7 @@ function GrastaDashboard({
           size="small"
         />
       </Box>
-      <Grid container spacing={1} columns={24}>
+      <Grid container spacing={1} columns={24} sx={{ width: "100%" }}>
         {currentCharacters.map((char) => (
           <Grid
             size={{ xs: 24, sm: 12, md: 8, lg: 6 }}

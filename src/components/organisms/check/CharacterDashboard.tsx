@@ -251,7 +251,7 @@ function CharacterDashboard({
           size="small"
         />
       </Box>
-      <Grid container spacing={1} columns={48}>
+      <Grid container spacing={1} columns={48} sx={{ width: "100%" }}>
         {currentCharacters.map((char) => (
           <Grid
             size={{ xs: 12, sm: 8, md: 6, lg: 4 }}
