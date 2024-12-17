@@ -7,6 +7,9 @@ import Fab from "@mui/material/Fab";
 import { ModalType } from "../../../constants/enum";
 import withReactContent from "sweetalert2-react-content";
 import Swal from "sweetalert2";
+import { useTranslation } from "react-i18next";
+import saveAs from "file-saver";
+import { isIOS } from "react-device-detect";
 
 const AnnounceSwal = withReactContent(Swal);
 
@@ -23,6 +26,7 @@ interface DownloadProps {
  * @param tag
  */
 const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
+  const { i18n } = useTranslation();
   const theme = useTheme();
   const { setModal, hideModal } = useModalStore();
 
@@ -40,30 +44,52 @@ const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
         ignoreElements: (element) => element.id === "downloader",
       });
 
-      const body = {
-        file: canvas.toDataURL("image/jpeg"),
-      };
-
-      const uploadURL = `https://api.haulrest.me/file/aecheck`;
-      const res = await fetch(uploadURL, {
-        method: "POST",
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
-        },
-        body: JSON.stringify(body),
-        signal: AbortSignal.timeout(15000),
-      });
-      const url = ((await res.json()) as APIResponse<string>).data;
-      const link = document.createElement("a");
-
-      document.body.appendChild(link);
-
-      link.href = url;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.click();
+      if (navigator.userAgent.match(/NAVER|KAKAOTALK/i)) {
+        Swal.fire({
+          title: "Data Migration",
+          html: `<p style="font-size: 14px;">${
+            i18n.language === "ko"
+              ? "인앱 브라우저는 서버에 파일을 업로드합니다."
+              : "Image will be downloaded after uploading to the server."
+          }</p>`,
+          width: 300,
+          showCancelButton: true,
+        }).then(async (result) => {
+          if (result.isConfirmed) {
+            const body = {
+              file: canvas.toDataURL("image/jpeg"),
+            };
+    
+            const uploadURL = `https://api.haulrest.me/file/aecheck`;
+            const res = await fetch(uploadURL, {
+              method: "POST",
+              headers: {
+                "Access-Control-Allow-Origin": "*",
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
+              },
+              body: JSON.stringify(body),
+              signal: AbortSignal.timeout(15000),
+            });
+            const url = ((await res.json()) as APIResponse<string>).data;
+            const link = document.createElement("a");
+    
+            document.body.appendChild(link);
+    
+            link.href = url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.click();
+          }
+        });
+      } else {
+        canvas.toBlob((blob) => {
+          if (!blob) {
+            return window.alert("!!!");
+          }
+          saveAs(blob, `${Date.now().toString()}${isIOS ? "" : ".jpg"}`);
+        });
+      }
     } catch {
       AnnounceSwal.fire({
         icon: "error",
