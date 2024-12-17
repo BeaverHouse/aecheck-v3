@@ -32,13 +32,14 @@ const StardreamAnalysis: React.FC<AnalysisProps> = ({ allCharacters }) => {
   const { t, i18n } = useTranslation();
 
   const baseCharacters = allCharacters
+    .concat()
     .filter(
       (char, idx) =>
         char.category === AECategories.encounter &&
         char.style !== AECharacterStyles.four &&
         (!ShowRecentStyles ||
           !allCharacters
-            .slice(idx+1)
+            .slice(idx + 1)
             .map((c) => c.code)
             .includes(char.code)) &&
         (!ShowSevenPiece ||

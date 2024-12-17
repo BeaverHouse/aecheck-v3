@@ -29,6 +29,7 @@ const LegacyAnalysis: React.FC<AnalysisProps> = ({ allCharacters }) => {
   const { t } = useTranslation();
 
   const baseCharacters = allCharacters
+    .concat()
     .filter((char) => getNumber(char) < 1000)
     .sort((a, b) => a.id.localeCompare(b.id));
 
