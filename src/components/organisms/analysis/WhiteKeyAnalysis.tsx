@@ -31,6 +31,7 @@ const WhiteKeyAnalysis: React.FC<AnalysisProps> = ({ allCharacters }) => {
   const { t, i18n } = useTranslation();
 
   const baseCharacters = allCharacters
+    .concat()
     .filter(
       (char) =>
         char.category === AECategories.encounter &&

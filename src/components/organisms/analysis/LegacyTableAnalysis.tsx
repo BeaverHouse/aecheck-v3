@@ -12,11 +12,13 @@ import DownloadButton from "../../atoms/button/Download";
 const LegacyTableAnalysis: React.FC<AnalysisProps> = ({ allCharacters }) => {
   const { t, i18n } = useTranslation();
   const { setModal } = useModalStore();
-  const baseCharacters = allCharacters.sort((a, b) =>
-    getShortName(t(a.code), i18n.language).localeCompare(
-      getShortName(t(b.code), i18n.language)
-    )
-  );
+  const baseCharacters = allCharacters
+    .concat()
+    .sort((a, b) =>
+      getShortName(t(a.code), i18n.language).localeCompare(
+        getShortName(t(b.code), i18n.language)
+      )
+    );
 
   return (
     <>
