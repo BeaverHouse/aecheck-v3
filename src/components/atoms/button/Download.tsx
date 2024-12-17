@@ -52,7 +52,7 @@ const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
         element.classList.remove("temporary");
         element.classList.add("shadow");
       });
-
+      
       if (navigator.userAgent.match(/NAVER|KAKAOTALK/i)) {
         Swal.fire({
           title: "Data Migration",
