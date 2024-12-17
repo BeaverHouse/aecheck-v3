@@ -35,6 +35,10 @@ const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
     if (!element) return;
     setModal(ModalType.loading);
     try {
+      element.querySelectorAll(".shadow").forEach((element) => {
+        element.classList.remove("shadow");
+        element.classList.add("temporary");
+      });
       const canvas = await html2canvas(element, {
         scale: 1.1,
         allowTaint: true,
@@ -42,6 +46,11 @@ const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
         windowWidth: tag === "ae-wrapper" ? 1200 : element.clientWidth,
         backgroundColor: theme.palette.background.paper,
         ignoreElements: (element) => element.id === "downloader",
+      });
+
+      element.querySelectorAll(".temporary").forEach((element) => {
+        element.classList.remove("temporary");
+        element.classList.add("shadow");
       });
 
       if (navigator.userAgent.match(/NAVER|KAKAOTALK/i)) {
