@@ -55,7 +55,7 @@ const DownloadButton: React.FC<DownloadProps> = ({ tag }) => {
       
       if (navigator.userAgent.match(/NAVER|KAKAOTALK/i)) {
         Swal.fire({
-          title: "Data Migration",
+          title: "File Upload",
           html: `<p style="font-size: 14px;">${
             i18n.language === "ko"
               ? "인앱 브라우저는 서버에 파일을 업로드합니다."
